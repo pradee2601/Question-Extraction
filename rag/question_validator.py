@@ -349,19 +349,19 @@ CHECK-LIST:
 5. EXPLANATION — If the web source has a better explanation, provide it.
 
 RESPONSE (strict JSON — NO markdown fences, NO extra text):
-{
+{{
   "status": "verified | corrected | unverified",
   "is_real_exam_question": true/false,
   "answer_verified": true/false,
   "answer_from_source": "the correct answer letter or value from web source (e.g. 'B' or the answer text)",
-  "corrections": {
+  "corrections": {{
     // Include ONLY fields that need fixing. Examples:
     // "answer": "C",
     // "question": "fixed question text",
-    // "option": {"A": "fixed A", "C": "fixed C"},
+    // "option": {{"A": "fixed A", "C": "fixed C"}},
     // "explanation": "better explanation from web"
-    // Leave as empty object {} if everything is already correct
-  },
+    // Leave as empty object {{}} if everything is already correct
+  }},
   "notes": "Provide a verification summary. Explain exactly which source was used to verify. If not verified, explain why (e.g., 'question not found in web', 'found in web but options do not match', etc.). Specify if this confirms the question is a real government exam question and which year."
 }}
 

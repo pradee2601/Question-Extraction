@@ -10,6 +10,9 @@ if sys.platform == 'win32':
 import streamlit as st
 import os
 import json
+import time
+import subprocess
+import psutil
 
 from config import Config
 from utils.logger import setup_logger
@@ -719,8 +722,8 @@ def main():
     num_questions = st.sidebar.slider("Number of Questions", 1, 10, 3)
 
     # -------------------------------------------------------------- Main tabs
-    tab_generate, tab_extract, tab_bank = st.tabs(
-        ["🤖 Generate MCQs (RAG)", "📥 Extract from Exam PDF", "🗄️ Question Bank"]
+    tab_generate, tab_extract, tab_bank, tab_monitor = st.tabs(
+        ["🤖 Generate MCQs (RAG)", "📥 Extract from Exam PDF", "🗄️ Question Bank", "📊 Automation Monitor"]
     )
 
     # ============================= TAB 1 – RAG Generator ====================
@@ -950,7 +953,6 @@ def main():
                         st.session_state['validated_result'] = validated_qs
                         
                         try:
-                            import os, time
                             val_out_dir = os.path.join("e:\\", "govtexam", "docs", "valitedquestionsfolder")
                             os.makedirs(val_out_dir, exist_ok=True)
                             val_out_file = os.path.join(val_out_dir, f"validated_{int(time.time())}.json")
@@ -1011,7 +1013,6 @@ def main():
                     st.session_state['validated_result'] = validated_qs
                     
                     try:
-                        import os, time
                         val_out_dir = os.path.join("e:\\", "govtexam", "docs", "valitedquestionsfolder")
                         os.makedirs(val_out_dir, exist_ok=True)
                         val_out_file = os.path.join(val_out_dir, f"validated_{int(time.time())}.json")
@@ -1257,6 +1258,123 @@ def main():
                     save_questions(browse_slug, [])
                     st.success(f"✅ {cat_label} question bank cleared.")
                     st.rerun()
+
+    # ============================= TAB 4 – Automation Monitor =================
+    with tab_monitor:
+        st.markdown("### 🤖 Automation Controls")
+        
+        # --- Control Form ---
+        with st.expander("⚙️ Set Up Automation", expanded=not os.path.exists(os.path.join("docs", "automation_status.json"))):
+            auto_path = st.text_input("Folder to Watch:", value=st.session_state.get('auto_path', ""), placeholder="C:\\Users\\...\\JEE Main")
+            auto_fallback = st.selectbox("Fallback Category:", options=SLUG_ORDER, index=SLUG_ORDER.index("jee_main") if "jee_main" in SLUG_ORDER else 0)
+            
+            c1, c2 = st.columns(2)
+            
+            # Use a file to track PID so it survives refresh
+            pid_file = os.path.join("docs", "automation_pid.txt")
+            is_running = False
+            if os.path.exists(pid_file):
+                try:
+                    with open(pid_file, "r") as f:
+                        old_pid = int(f.read().strip())
+                    # Check if process is actually alive
+                    if psutil.pid_exists(old_pid):
+                        is_running = True
+                except Exception:
+                    pass
+
+            if c1.button("🚀 Start Automation", disabled=is_running, type="primary"):
+                if not auto_path or not os.path.isdir(auto_path):
+                    st.error("Invalid folder path!")
+                else:
+                    cmd = [sys.executable, "-u", "automate_batch_extractor.py", auto_path, "--fallback", auto_fallback]
+                    proc = subprocess.Popen(
+                        cmd, 
+                        stdout=None,
+                        stderr=None
+                    )
+                    with open(pid_file, "w") as f:
+                        f.write(str(proc.pid))
+                    st.success(f"Started automation (PID: {proc.pid})")
+                    st.session_state['auto_path'] = auto_path
+                    st.rerun()
+
+            if c2.button("🛑 Stop Automation", disabled=not is_running):
+                try:
+                    with open(pid_file, "r") as f:
+                        pid_to_kill = int(f.read().strip())
+                    parent = psutil.Process(pid_to_kill)
+                    for child in parent.children(recursive=True):
+                        child.kill()
+                    parent.kill()
+                    os.remove(pid_file)
+                    if os.path.exists(os.path.join("docs", "automation_status.json")):
+                        os.remove(os.path.join("docs", "automation_status.json"))
+                    st.warning("Automation stopped.")
+                    st.rerun()
+                except Exception as e:
+                    st.error(f"Failed to stop: {e}")
+
+        st.markdown("---")
+        st.markdown("### 📊 Live Progress")
+
+        status_file = os.path.join("docs", "automation_status.json")
+        if not os.path.exists(status_file):
+            st.info("No automation process currently reporting status. Run `python automate_batch_extractor.py \"FOLDER_PATH\"` to start.")
+        else:
+            try:
+                with open(status_file, "r", encoding="utf-8") as f:
+                    status = json.load(f)
+                
+                col1, col2, col3, col4 = st.columns(4)
+                col1.metric("📁 Current Folder", status.get("current_folder", "N/A"))
+                col2.metric("📄 Current PDF", (status.get("current_pdf") or "Scanning...")[:20] + "...")
+                col3.metric("✅ PDFs Processed", status.get("processed_count", 0))
+                col4.metric("📝 Questions Saved", status.get("questions_added", 0))
+
+                st.markdown("---")
+                
+                folders = status.get("folders", [])
+                if folders:
+                    st.markdown("#### 📂 Processing Queue")
+                    for f in folders:
+                        name = f.get("name")
+                        stat = f.get("status", "pending")
+                        icon = "⏳" if stat == "pending" else "⚙️" if "processing" in stat else "✅"
+                        color = "gray" if stat == "pending" else "orange" if "processing" in stat else "green"
+                        
+                        st.markdown(
+                            f"""<div style="padding:10px; border-radius:5px; border-left: 5px solid {color}; background:#262730; margin-bottom:5px;">
+                                {icon} <b>{name}</b> — <small>{stat.upper()}</small>
+                            </div>""", 
+                            unsafe_allow_html=True
+                        )
+                
+                st.caption(f"Last updated: {status.get('last_update', 'Unknown')}")
+                
+                with st.expander("📜 Show Live Tracking Logs (Terminal Output)", expanded=False):
+                    try:
+                        if os.path.exists(Config.LOG_FILE):
+                            with open(Config.LOG_FILE, "r", encoding="utf-8", errors="replace") as lf:
+                                lines = lf.readlines()
+                                recent_logs = "".join(lines[-35:])
+                                st.code(recent_logs, language="text")
+                        else:
+                            st.info("No logs generated yet.")
+                    except Exception as err:
+                        st.error(f"Cannot load logs: {err}")
+                
+                if st.button("🔄 Refresh Status", key="btn_refresh_status_auto"):
+                    st.rerun()
+
+                # Auto-refresh if active or recently updated
+                is_active = is_running or (time.time() - os.path.getmtime(status_file) < 30)
+                if is_active:
+                    time.sleep(3)
+                    st.rerun()
+                    
+            except Exception as e:
+                st.error(f"Error reading status: {e}")
 
 
 if __name__ == "__main__":

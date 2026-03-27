@@ -203,10 +203,10 @@ def _normalize_question_text(text: str) -> str:
 
 # -- Read / Write --------------------------------------------------------------
 
-def _load_raw(slug: str) -> list:
-    """Load the raw JSON array from disk. Returns [] if missing or corrupt."""
+def _load_raw_file(filename: str) -> list:
+    """Load from a specific file in docs/."""
     _ensure_docs_dir()
-    fpath = _file_path(slug)
+    fpath = DOCS_DIR / filename
     if not fpath.exists():
         return []
     try:
@@ -214,23 +214,35 @@ def _load_raw(slug: str) -> list:
             data = json.load(f)
         if isinstance(data, list):
             return data
-        logger.warning(f"{fpath} did not contain a JSON array; resetting.")
         return []
     except Exception as e:
         logger.error(f"Failed to load {fpath}: {e}")
         return []
 
 
-def _save_raw(slug: str, records: list) -> None:
+def _save_raw_file(filename: str, records: list) -> None:
     _ensure_docs_dir()
-    fpath = _file_path(slug)
+    fpath = DOCS_DIR / filename
+    temp_fpath = DOCS_DIR / f"{filename}.tmp"
     try:
-        with open(fpath, "w", encoding="utf-8") as f:
+        with open(temp_fpath, "w", encoding="utf-8") as f:
             json.dump(records, f, indent=2, ensure_ascii=False)
+        temp_fpath.replace(fpath) # Atomic replacement
         logger.info(f"Saved {len(records)} record(s) to {fpath}")
     except Exception as e:
         logger.error(f"Failed to save {fpath}: {e}")
+        if temp_fpath.exists():
+            temp_fpath.unlink() # Cleanup on error
         raise
+
+
+def _load_raw(slug: str) -> list:
+    """Load the raw JSON array from disk. Returns [] if missing or corrupt."""
+    return _load_raw_file(EXAM_CATEGORIES[slug]["file"])
+
+
+def _save_raw(slug: str, records: list) -> None:
+    _save_raw_file(EXAM_CATEGORIES[slug]["file"], records)
 
 
 def load_questions(slug: str) -> list[dict]:
@@ -292,43 +304,51 @@ def append_questions(slug: str, new_questions: list[dict]) -> tuple[int, int]:
     return added, skipped
 
 
-def append_passage_exam(slug: str, exam_obj: dict) -> tuple[bool, str]:
-    """
-    Save a passage-based exam object into the slug's JSON file.
-    Deduplicates by (exam + date).
+def append_questions_to_file(filename: str, new_questions: list[dict]) -> tuple[int, int]:
+    """Append questions to a specific file with deduplication."""
+    existing = _load_raw_file(filename)
+    existing_texts = {
+        _normalize_question_text(q.get("question", "")) for q in existing 
+        if q.get("type") != "passage_exam"
+    }
+    added = skipped = 0
+    for q in new_questions:
+        q_text = _normalize_question_text(q.get("question", ""))
+        if not q_text or q_text in existing_texts:
+            skipped += 1
+        else:
+            existing.append(q)
+            existing_texts.add(q_text)
+            added += 1
+    _save_raw_file(filename, existing)
+    return added, skipped
 
-    Returns (was_new: bool, message: str).
-    """
-    records = _load_raw(slug)
+
+def append_passage_exam_to_file(filename: str, exam_obj: dict) -> tuple[bool, str]:
+    """Append passage exam to a specific file with deduplication."""
+    records = _load_raw_file(filename)
     exam_key = (
-        str(exam_obj.get("exam_type") or exam_obj.get("Exam Type") or exam_obj.get("exam") or "").strip().lower(),
-        str(exam_obj.get("year") or exam_obj.get("date") or "").strip().lower(),
+        str(exam_obj.get("exam_type") or exam_obj.get("exam") or "").strip().lower(),
+        str(exam_obj.get("year") or exam_obj.get("date") or "").strip().lower()
     )
-
     for r in records:
         if r.get("type") == "passage_exam":
-            existing_key = (
-                str(r.get("exam_type") or r.get("Exam Type") or r.get("exam") or "").strip().lower(),
-                str(r.get("year") or r.get("date") or "").strip().lower(),
+            ek = (
+                str(r.get("exam_type") or r.get("exam") or "").strip().lower(),
+                str(r.get("year") or r.get("date") or "").strip().lower()
             )
-            if existing_key == exam_key:
-                return False, f"Duplicate: '{exam_obj.get('exam_type') or exam_obj.get('exam')}' ({exam_obj.get('year') or exam_obj.get('date')}) already stored."
-
+            if ek == exam_key:
+                return False, f"Duplicate passage exam already in {filename}"
+                
     tagged = dict(exam_obj)
     tagged["type"] = "passage_exam"
     records.append(tagged)
-    _save_raw(slug, records)
+    _save_raw_file(filename, records)
+    return True, f"Saved to {filename}"
 
-    # Free memory after save
-    del records
-    gc.collect()
 
-    q_count = len(exam_obj.get("questions", []))
-    p_count = len(exam_obj.get("passages", []))
-    return True, (
-        f"Saved passage exam '{exam_obj.get('exam_type') or exam_obj.get('exam')}': "
-        f"{p_count} passage(s), {q_count} question(s)."
-    )
+def append_passage_exam(slug: str, exam_obj: dict) -> tuple[bool, str]:
+    return append_passage_exam_to_file(EXAM_CATEGORIES[slug]["file"], exam_obj)
 
 
 # -- Counts -------------------------------------------------------------------

@@ -9,3 +9,5 @@ python-dotenv
 pandas
 numpy
 requests
+psutil
+PyMuPDF
