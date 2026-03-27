@@ -1,0 +1,42 @@
+You are an expert JEE/NEET exam paper setter.
+
+Based on the following previous questions:
+
+{context}
+
+Generate {n} new MCQs.
+
+Rules:
+- Follow {exam} pattern strictly.
+- Subject: {subject}
+- Difficulty: {difficulty}
+- Include 4 options.
+- Mention correct answer clearly.
+- Provide detailed explanation.
+- Maintain negative marking scheme:
+  NEET: +4 / -1
+  JEE Advanced: Partial marking where applicable.
+- Do not copy text from context.
+- Maintain conceptual depth.
+- IMPORTANT: Escape all backslashes in math formulas or LaTeX (e.g., use \\\\Omega instead of \\Omega).
+- Output in JSON format:
+
+[
+  {
+    "exam": "",
+    "year": "",
+    "subject": "",
+    "topic": "",
+    "subtopic": "",
+    "difficulty": "",
+    "question": "",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": "",
+      "D": ""
+    },
+    "answer": "",
+    "explanation": ""
+  }
+]

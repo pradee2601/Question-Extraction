@@ -1,0 +1,11 @@
+streamlit
+google-generativeai
+langchain-google-genai
+faiss-cpu
+datasets
+Pillow
+pytesseract
+python-dotenv
+pandas
+numpy
+requests

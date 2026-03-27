@@ -1,0 +1,2216 @@
+[
+  {
+    "Exam Type": "UPSC",
+    "Department": "Civil Services Examination (CSE)",
+    "level": "National",
+    "Eligibility": "Graduate"
+  },
+  {
+    "Exam Type": "UPSC",
+    "Department": "Indian Forest Service (IFoS)",
+    "level": "National",
+    "Eligibility": "Graduate"
+  },
+  {
+    "Exam Type": "UPSC",
+    "Department": "Engineering Services Examination (ESE/IES)",
+    "level": "National",
+    "Eligibility": "Engineering Degree"
+  },
+  {
+    "Exam Type": "UPSC",
+    "Department": "Combined Defence Services (CDS)",
+    "level": "National",
+    "Eligibility": "Graduate/12th"
+  },
+  {
+    "Exam Type": "UPSC",
+    "Department": "National Defence Academy (NDA) & NA",
+    "level": "National",
+    "Eligibility": "12th"
+  },
+  {
+    "Exam Type": "UPSC",
+    "Department": "Combined Medical Services (CMS)",
+    "level": "National",
+    "Eligibility": "Graduate (Medical)"
+  },
+  {
+    "Exam Type": "UPSC",
+    "Department": "Indian Economic Service / Indian Statistical Service (IES/ISS)",
+    "level": "National",
+    "Eligibility": "Postgraduate"
+  },
+  {
+    "Exam Type": "UPSC",
+    "Department": "Combined Geo-Scientist Examination",
+    "level": "National",
+    "Eligibility": "Graduate"
+  },
+  {
+    "Exam Type": "UPSC",
+    "Department": "EPFO Enforcement Officer/Accounts Officer",
+    "level": "National",
+    "Eligibility": "Graduate"
+  },
+  {
+    "Exam Type": "UPSC",
+    "Department": "Central Armed Police Forces (Assistant Commandant - CAPF AC)",
+    "level": "National",
+    "Eligibility": "Graduate"
+  },
+  {
+    "Exam Type": "Staff Selection Commission (SSC)",
+    "Department": "SSC Combined Graduate Level (CGL)",
+    "level": "National",
+    "Eligibility": "Graduate"
+  },
+  {
+    "Exam Type": "SSC",
+    "Department": "SSC Combined Higher Secondary Level (CHSL)",
+    "level": "National",
+    "Eligibility": "12th"
+  },
+  {
+    "Exam Type": "SSC",
+    "Department": "SSC Multi Tasking Staff (MTS)",
+    "level": "National",
+    "Eligibility": "10th"
+  },
+  {
+    "Exam Type": "SSC",
+    "Department": "SSC GD Constable",
+    "level": "National",
+    "Eligibility": "10th"
+  },
+  {
+    "Exam Type": "SSC",
+    "Department": "SSC Junior Engineer (JE)",
+    "level": "National",
+    "Eligibility": "Diploma/Engineering"
+  },
+  {
+    "Exam Type": "SSC",
+    "Department": "SSC CPO (SI)",
+    "level": "National",
+    "Eligibility": "Graduate"
+  },
+  {
+    "Exam Type": "SSC",
+    "Department": "SSC Stenographer Grade C & D",
+    "level": "National",
+    "Eligibility": "12th/10th"
+  },
+  {
+    "Exam Type": "SSC",
+    "Department": "SSC Selection Post (Phase-wise)",
+    "level": "National",
+    "Eligibility": "10th/12th/Graduate"
+  },
+  {
+    "Exam Type": "SSC",
+    "Department": "SSC CHSL DEO (Data Entry Operator)",
+    "level": "National",
+    "Eligibility": "12th"
+  },
+  {
+    "Exam Type": "IBPS",
+    "Department": "IBPS PO",
+    "level": "National",
+    "Eligibility": "Graduate"
+  },
+  {
+    "Exam Type": "IBPS",
+    "Department": "IBPS Clerk",
+    "level": "National",
+    "Eligibility": "Graduate"
+  },
+  {
+    "Exam Type": "IBPS",
+    "Department": "IBPS RRB Officer Scale I (PO)",
+    "level": "National",
+    "Eligibility": "Graduate"
+  },
+  {
+    "Exam Type": "IBPS",
+    "Department": "IBPS RRB Office Assistant (Clerk)",
+    "level": "National",
+    "Eligibility": "12th/Graduate"
+  },
+  {
+    "Exam Type": "IBPS",
+    "Department": "IBPS Specialist Officer (SO)",
+    "level": "National",
+    "Eligibility": "Graduate"
+  },
+  {
+    "Exam Type": "State Bank of India (SBI)",
+    "Department": "SBI PO",
+    "level": "National",
+    "Eligibility": "Graduate"
+  },
+  {
+    "Exam Type": "SBI",
+    "Department": "SBI Clerk",
+    "level": "National",
+    "Eligibility": "Graduate"
+  },
+  {
+    "Exam Type": "Reserve Bank of India (RBI)",
+    "Department": "RBI Grade B",
+    "level": "National",
+    "Eligibility": "Graduate"
+  },
+  {
+    "Exam Type": "RBI",
+    "Department": "RBI Assistant",
+    "level": "National",
+    "Eligibility": "Graduate"
+  },
+  {
+    "Exam Type": "NABARD",
+    "Department": "NABARD Grade A",
+    "level": "National",
+    "Eligibility": "Graduate"
+  },
+  {
+    "Exam Type": "NABARD",
+    "Department": "NABARD Grade B",
+    "level": "National",
+    "Eligibility": "Postgraduate"
+  },
+  {
+    "Exam Type": "SIDBI",
+    "Department": "SIDBI Grade A",
+    "level": "National",
+    "Eligibility": "Graduate"
+  },
+  {
+    "Exam Type": "EXIM Bank",
+    "Department": "EXIM Bank Recruitment",
+    "level": "National",
+    "Eligibility": "Graduate"
+  },
+  {
+    "Exam Type": "IPPB / RRBs",
+    "Department": "IPPB / Regional Rural Bank (RBI-linked) Recruitment - Variant 4",
+    "level": "National/Regional",
+    "Eligibility": "Graduate"
+  },
+  {
+    "Exam Type": "IPPB / RRBs",
+    "Department": "IPPB / Regional Rural Bank (RBI-linked) Recruitment - Variant 1",
+    "level": "National/Regional",
+    "Eligibility": "Graduate"
+  },
+  {
+    "Exam Type": "IPPB / RRBs",
+    "Department": "IPPB / Regional Rural Bank (RBI-linked) Recruitment - Variant 5",
+    "level": "National/Regional",
+    "Eligibility": "Graduate"
+  },
+  {
+    "Exam Type": "IPPB / RRBs",
+    "Department": "IPPB / Regional Rural Bank (RBI-linked) Recruitment - Variant 2",
+    "level": "National/Regional",
+    "Eligibility": "Graduate"
+  },
+  {
+    "Exam Type": "LIC",
+    "Department": "LIC AAO",
+    "level": "National",
+    "Eligibility": "Graduate"
+  },
+  {
+    "Exam Type": "LIC",
+    "Department": "LIC ADO",
+    "level": "National",
+    "Eligibility": "Graduate"
+  },
+  {
+    "Exam Type": "New India Assurance",
+    "Department": "NIACL AO",
+    "level": "National",
+    "Eligibility": "Graduate"
+  },
+  {
+    "Exam Type": "New India Assurance",
+    "Department": "NIACL Assistant",
+    "level": "National",
+    "Eligibility": "Graduate"
+  },
+  {
+    "Exam Type": "United India Insurance Company",
+    "Department": "UIIC AO",
+    "level": "National",
+    "Eligibility": "Graduate"
+  },
+  {
+    "Exam Type": "GIC",
+    "Department": "GIC Assistant Manager (AM)",
+    "level": "National",
+    "Eligibility": "Graduate"
+  },
+  {
+    "Exam Type": "Agriculture Insurance Company",
+    "Department": "AIC Management Trainee (MTS)",
+    "level": "National",
+    "Eligibility": "Graduate"
+  },
+  {
+    "Exam Type": "Insurance Companies",
+    "Department": "Specialized Insurance Officer Exams (various) - Variant 1",
+    "level": "National",
+    "Eligibility": "Graduate"
+  },
+  {
+    "Exam Type": "Insurance Companies",
+    "Department": "Specialized Insurance Officer Exams (various) - Variant 2",
+    "level": "National",
+    "Eligibility": "Graduate"
+  },
+  {
+    "Exam Type": "Insurance Companies",
+    "Department": "Specialized Insurance Officer Exams (various) - Variant 3",
+    "level": "National",
+    "Eligibility": "Graduate"
+  },
+  {
+    "Exam Type": "Insurance Companies",
+    "Department": "Specialized Insurance Officer Exams (various) - Variant 4",
+    "level": "National",
+    "Eligibility": "Graduate"
+  },
+  {
+    "Exam Type": "Insurance Companies",
+    "Department": "Specialized Insurance Officer Exams (various) - Variant 5",
+    "level": "National",
+    "Eligibility": "Graduate"
+  },
+  {
+    "Exam Type": "Railway Recruitment Board (RRB)",
+    "Department": "RRB NTPC",
+    "level": "National",
+    "Eligibility": "12th/Graduate"
+  },
+  {
+    "Exam Type": "RRB",
+    "Department": "RRB JE",
+    "level": "National",
+    "Eligibility": "Diploma/Engineering"
+  },
+  {
+    "Exam Type": "RRB",
+    "Department": "RRB Group D",
+    "level": "National",
+    "Eligibility": "10th"
+  },
+  {
+    "Exam Type": "RRB",
+    "Department": "RRB ALP",
+    "level": "National",
+    "Eligibility": "12th/Diploma"
+  },
+  {
+    "Exam Type": "RRB",
+    "Department": "RRB Technician",
+    "level": "National",
+    "Eligibility": "ITI/Diploma"
+  },
+  {
+    "Exam Type": "Railway Protection Force (RPF)",
+    "Department": "RPF Constable",
+    "level": "National",
+    "Eligibility": "10th/12th"
+  },
+  {
+    "Exam Type": "RPF",
+    "Department": "RPF Sub-Inspector (SI)",
+    "level": "National",
+    "Eligibility": "12th/Graduate"
+  },
+  {
+    "Exam Type": "Railway Zone",
+    "Department": "Railway Zone-specific Technician/Technical Assistant (Zone variant) - Variant 3",
+    "level": "National",
+    "Eligibility": "Diploma/Graduate"
+  },
+  {
+    "Exam Type": "Railway Zone",
+    "Department": "Railway Zone-specific Technician/Technical Assistant (Zone variant) - Variant 4",
+    "level": "National",
+    "Eligibility": "Diploma/Graduate"
+  },
+  {
+    "Exam Type": "Railway Zone",
+    "Department": "Railway Zone-specific Technician/Technical Assistant (Zone variant) - Variant 5",
+    "level": "National",
+    "Eligibility": "Diploma/Graduate"
+  },
+  {
+    "Exam Type": "IPPB / RRBs",
+    "Department": "IPPB / Regional Rural Bank (RBI-linked) Recruitment - Variant 3",
+    "level": "National/Regional",
+    "Eligibility": "Graduate"
+  },
+  {
+    "Exam Type": "Railway Zone",
+    "Department": "Railway Zone-specific Technician/Technical Assistant (Zone variant) - Variant 1",
+    "level": "National",
+    "Eligibility": "Diploma/Graduate"
+  },
+  {
+    "Exam Type": "Railway Zone",
+    "Department": "Railway Zone-specific Technician/Technical Assistant (Zone variant) - Variant 2",
+    "level": "National",
+    "Eligibility": "Diploma/Graduate"
+  },
+  {
+    "Exam Type": "Indian Air Force",
+    "Department": "AFCAT",
+    "level": "National",
+    "Eligibility": "Graduate/12th"
+  },
+  {
+    "Exam Type": "Indian Navy",
+    "Department": "Indian Navy SSR",
+    "level": "National",
+    "Eligibility": "12th"
+  },
+  {
+    "Exam Type": "Indian Navy",
+    "Department": "Indian Navy AA",
+    "level": "National",
+    "Eligibility": "12th"
+  },
+  {
+    "Exam Type": "Indian Army",
+    "Department": "Indian Army Agniveer",
+    "level": "National",
+    "Eligibility": "10th/12th"
+  },
+  {
+    "Exam Type": "Indian Army",
+    "Department": "Territorial Army Officer",
+    "level": "National",
+    "Eligibility": "Graduate"
+  },
+  {
+    "Exam Type": "Indian Coast Guard",
+    "Department": "Coast Guard Navik / Yantrik",
+    "level": "National",
+    "Eligibility": "10th/12th/Graduate"
+  },
+  {
+    "Exam Type": "DGMS / Armed Forces",
+    "Department": "Military Nursing Service (MNS)",
+    "level": "National",
+    "Eligibility": "Nursing Qualification"
+  },
+  {
+    "Exam Type": "CBSE",
+    "Department": "CTET",
+    "level": "National",
+    "Eligibility": "Graduate/12th"
+  },
+  {
+    "Exam Type": "UGC / NTA",
+    "Department": "UGC NET",
+    "level": "National",
+    "Eligibility": "Postgraduate"
+  },
+  {
+    "Exam Type": "KVS",
+    "Department": "KVS Recruitment PRT/TGT/PGT",
+    "level": "National",
+    "Eligibility": "Graduate/B.Ed"
+  },
+  {
+    "Exam Type": "NVS",
+    "Department": "NVS Recruitment",
+    "level": "National",
+    "Eligibility": "Graduate/B.Ed"
+  },
+  {
+    "Exam Type": "DSSSB",
+    "Department": "DSSSB Teaching Posts",
+    "level": "State/National",
+    "Eligibility": "Graduate"
+  },
+  {
+    "Exam Type": "State Education Boards",
+    "Department": "State TET (All States Individual)",
+    "level": "State",
+    "Eligibility": "12th/Graduate"
+  },
+  {
+    "Exam Type": "State High Courts / PSC",
+    "Department": "State Judicial Services (Civil Judge)",
+    "level": "State",
+    "Eligibility": "Law Graduate"
+  },
+  {
+    "Exam Type": "State High Courts",
+    "Department": "District Judge Recruitment",
+    "level": "State",
+    "Eligibility": "Law Graduate"
+  },
+  {
+    "Exam Type": "State High Courts",
+    "Department": "High Court Clerk / Junior Assistant",
+    "level": "State",
+    "Eligibility": "12th/Graduate"
+  },
+  {
+    "Exam Type": "State Judiciary",
+    "Department": "Lower Judiciary (Judicial Magistrate)",
+    "level": "State",
+    "Eligibility": "Law Graduate"
+  },
+  {
+    "Exam Type": "ONGC",
+    "Department": "ONGC Graduate Trainee / GATE-based Recruitment",
+    "level": "National",
+    "Eligibility": "Engineering/Graduate"
+  },
+  {
+    "Exam Type": "IOCL",
+    "Department": "IOCL Recruitment (Executive / Technical)",
+    "level": "National",
+    "Eligibility": "Engineering/Graduate"
+  },
+  {
+    "Exam Type": "BHEL",
+    "Department": "BHEL Recruitment (Executive / Technician)",
+    "level": "National",
+    "Eligibility": "Engineering/ITI"
+  },
+  {
+    "Exam Type": "SAIL",
+    "Department": "SAIL Recruitment",
+    "level": "National",
+    "Eligibility": "Graduate/ITI/Engineering"
+  },
+  {
+    "Exam Type": "NTPC",
+    "Department": "NTPC Executive Trainee",
+    "level": "National",
+    "Eligibility": "Engineering/Graduate"
+  },
+  {
+    "Exam Type": "BEL",
+    "Department": "BEL Recruitment",
+    "level": "National",
+    "Eligibility": "Engineering/Graduate"
+  },
+  {
+    "Exam Type": "DRDO",
+    "Department": "DRDO Scientist / Technician Recruitment",
+    "level": "National",
+    "Eligibility": "Engineering/Science"
+  },
+  {
+    "Exam Type": "ISRO",
+    "Department": "ISRO Scientist / Technical Recruitment",
+    "level": "National",
+    "Eligibility": "Engineering/Science"
+  },
+  {
+    "Exam Type": "HAL",
+    "Department": "HAL Recruitment",
+    "level": "National",
+    "Eligibility": "Engineering/ITI"
+  },
+  {
+    "Exam Type": "Coal India",
+    "Department": "Coal India Recruitment",
+    "level": "National",
+    "Eligibility": "Graduate/Engineering"
+  },
+  {
+    "Exam Type": "Power Grid",
+    "Department": "Power Grid Recruitment",
+    "level": "National",
+    "Eligibility": "Graduate/Engineering"
+  },
+  {
+    "Exam Type": "NPCIL",
+    "Department": "NPCIL Recruitment",
+    "level": "National",
+    "Eligibility": "Engineering/Science"
+  },
+  {
+    "Exam Type": "GAIL",
+    "Department": "GAIL Executive Trainee Recruitment - Variant 1",
+    "level": "National",
+    "Eligibility": "Engineering/Graduate"
+  },
+  {
+    "Exam Type": "BEML",
+    "Department": "BEML Recruitment (Technical / Management) - Variant 1",
+    "level": "National",
+    "Eligibility": "Graduate/ITI"
+  },
+  {
+    "Exam Type": "Various PSUs",
+    "Department": "MRPL / ONGC / IOCL - Additional Specific Notices - Variant 1",
+    "level": "National",
+    "Eligibility": "Graduate/Engineering"
+  },
+  {
+    "Exam Type": "BEML",
+    "Department": "BEML Recruitment (Technical / Management) - Variant 2",
+    "level": "National",
+    "Eligibility": "Graduate/ITI"
+  },
+  {
+    "Exam Type": "GAIL",
+    "Department": "GAIL Executive Trainee Recruitment - Variant 2",
+    "level": "National",
+    "Eligibility": "Engineering/Graduate"
+  },
+  {
+    "Exam Type": "Various PSUs",
+    "Department": "MRPL / ONGC / IOCL - Additional Specific Notices - Variant 2",
+    "level": "National",
+    "Eligibility": "Graduate/Engineering"
+  },
+  {
+    "Exam Type": "GAIL",
+    "Department": "GAIL Executive Trainee Recruitment - Variant 3",
+    "level": "National",
+    "Eligibility": "Engineering/Graduate"
+  },
+  {
+    "Exam Type": "BEML",
+    "Department": "BEML Recruitment (Technical / Management) - Variant 3",
+    "level": "National",
+    "Eligibility": "Graduate/ITI"
+  },
+  {
+    "Exam Type": "Various PSUs",
+    "Department": "MRPL / ONGC / IOCL - Additional Specific Notices - Variant 3",
+    "level": "National",
+    "Eligibility": "Graduate/Engineering"
+  },
+  {
+    "Exam Type": "GAIL",
+    "Department": "GAIL Executive Trainee Recruitment - Variant 4",
+    "level": "National",
+    "Eligibility": "Engineering/Graduate"
+  },
+  {
+    "Exam Type": "BEML",
+    "Department": "BEML Recruitment (Technical / Management) - Variant 4",
+    "level": "National",
+    "Eligibility": "Graduate/ITI"
+  },
+  {
+    "Exam Type": "Various PSUs",
+    "Department": "MRPL / ONGC / IOCL - Additional Specific Notices - Variant 4",
+    "level": "National",
+    "Eligibility": "Graduate/Engineering"
+  },
+  {
+    "Exam Type": "GAIL",
+    "Department": "GAIL Executive Trainee Recruitment - Variant 5",
+    "level": "National",
+    "Eligibility": "Engineering/Graduate"
+  },
+  {
+    "Exam Type": "BEML",
+    "Department": "BEML Recruitment (Technical / Management) - Variant 5",
+    "level": "National",
+    "Eligibility": "Graduate/ITI"
+  },
+  {
+    "Exam Type": "Various PSUs",
+    "Department": "MRPL / ONGC / IOCL - Additional Specific Notices - Variant 5",
+    "level": "National",
+    "Eligibility": "Graduate/Engineering"
+  },
+  {
+    "Exam Type": "AIIMS / NTA",
+    "Department": "AIIMS Nursing / Paramedical Recruitment",
+    "level": "National",
+    "Eligibility": "Nursing/Paramedical"
+  },
+  {
+    "Exam Type": "ESIC",
+    "Department": "ESIC Staff Nurse / Paramedical",
+    "level": "National/State",
+    "Eligibility": "Nursing/Paramedical"
+  },
+  {
+    "Exam Type": "State Health Dept.",
+    "Department": "State Medical Officer / Medical Officer (State Recruits)",
+    "level": "State",
+    "Eligibility": "MBBS/Medical"
+  },
+  {
+    "Exam Type": "State Health Dept.",
+    "Department": "ANM / GNM / Staff Nurse State Exams",
+    "level": "State",
+    "Eligibility": "Diploma/Nursing"
+  },
+  {
+    "Exam Type": "State/Central Boards",
+    "Department": "Pharmacist / Lab Technician Recruitment",
+    "level": "State/National",
+    "Eligibility": "Diploma/Graduate"
+  },
+  {
+    "Exam Type": "Central Medical Institutes",
+    "Department": "Central Government Medical College / Hospital Recruitment - Variant 1",
+    "level": "National",
+    "Eligibility": "Medical"
+  },
+  {
+    "Exam Type": "Central Medical Institutes",
+    "Department": "Central Government Medical College / Hospital Recruitment - Variant 2",
+    "level": "National",
+    "Eligibility": "Medical"
+  },
+  {
+    "Exam Type": "Central Medical Institutes",
+    "Department": "Central Government Medical College / Hospital Recruitment - Variant 3",
+    "level": "National",
+    "Eligibility": "Medical"
+  },
+  {
+    "Exam Type": "Central Medical Institutes",
+    "Department": "Central Government Medical College / Hospital Recruitment - Variant 4",
+    "level": "National",
+    "Eligibility": "Medical"
+  },
+  {
+    "Exam Type": "Central Medical Institutes",
+    "Department": "Central Government Medical College / Hospital Recruitment - Variant 5",
+    "level": "National",
+    "Eligibility": "Medical"
+  },
+  {
+    "Exam Type": "CPWD",
+    "Department": "CPWD JE / AE",
+    "level": "Central",
+    "Eligibility": "Diploma/Engineering"
+  },
+  {
+    "Exam Type": "DMRC",
+    "Department": "DMRC (Delhi Metro) Technician / JE",
+    "level": "Urban/State",
+    "Eligibility": "ITI/Diploma"
+  },
+  {
+    "Exam Type": "BSNL/MTNL",
+    "Department": "BSNL / MTNL Technical Recruitment",
+    "level": "National/State",
+    "Eligibility": "Engineering/Graduate"
+  },
+  {
+    "Exam Type": "National Informatics Centre (NIC)",
+    "Department": "NIC / MeitY Technical Hiring",
+    "level": "National",
+    "Eligibility": "Graduate/Engineering"
+  },
+  {
+    "Exam Type": "BSF",
+    "Department": "BSF Recruitment (Constable / SI)",
+    "level": "National",
+    "Eligibility": "10th/12th/Graduate"
+  },
+  {
+    "Exam Type": "CRPF",
+    "Department": "CRPF Recruitment (Constable / SI)",
+    "level": "National",
+    "Eligibility": "10th/12th/Graduate"
+  },
+  {
+    "Exam Type": "CISF",
+    "Department": "CISF Recruitment (Assistants / SI)",
+    "level": "National",
+    "Eligibility": "10th/12th/Graduate"
+  },
+  {
+    "Exam Type": "ITBP",
+    "Department": "ITBP Recruitment",
+    "level": "National",
+    "Eligibility": "10th/12th/Graduate"
+  },
+  {
+    "Exam Type": "SSB / Assam Rifles",
+    "Department": "SSB / Assam Rifles Recruitment",
+    "level": "National",
+    "Eligibility": "10th/12th/Graduate"
+  },
+  {
+    "Exam Type": "India Post",
+    "Department": "India Post GDS / Postman / Mail Guard Recruitment",
+    "level": "National",
+    "Eligibility": "10th/12th"
+  },
+  {
+    "Exam Type": "Cantonment Boards",
+    "Department": "Cantonment Board Recruitment (Clerk / Skilled Posts)",
+    "level": "Local/National",
+    "Eligibility": "10th/12th/Graduate"
+  },
+  {
+    "Exam Type": "Apprenticeship Boards / PSUs",
+    "Department": "Apprenticeship Vacancies (Railways / PSUs / Industry)",
+    "level": "National/State",
+    "Eligibility": "ITI/Diploma/Graduate"
+  },
+  {
+    "Exam Type": "Municipal Corporations",
+    "Department": "Municipal Corporation / Urban Local Body Recruitments",
+    "level": "Local/State",
+    "Eligibility": "10th/12th/Graduate"
+  },
+  {
+    "Exam Type": "State Cooperative Banks",
+    "Department": "State Cooperative Bank Recruitment (clerical / officer) - Variant 1",
+    "level": "State",
+    "Eligibility": "Graduate/12th"
+  },
+  {
+    "Exam Type": "Supreme Court / NJA",
+    "Department": "Supreme Court / National Judicial Service Office - Junior Assistant - Variant 1",
+    "level": "National",
+    "Eligibility": "Graduate"
+  },
+  {
+    "Exam Type": "State Cooperative Banks",
+    "Department": "State Cooperative Bank Recruitment (clerical / officer) - Variant 2",
+    "level": "State",
+    "Eligibility": "Graduate/12th"
+  },
+  {
+    "Exam Type": "SAI / NCC",
+    "Department": "National Cadet Corps (NCC) / Sports Authority recruitments - Variant 1",
+    "level": "National/State",
+    "Eligibility": "Varies"
+  },
+  {
+    "Exam Type": "Supreme Court / NJA",
+    "Department": "Supreme Court / National Judicial Service Office - Junior Assistant - Variant 2",
+    "level": "National",
+    "Eligibility": "Graduate"
+  },
+  {
+    "Exam Type": "SAI / NCC",
+    "Department": "National Cadet Corps (NCC) / Sports Authority recruitments - Variant 2",
+    "level": "National/State",
+    "Eligibility": "Varies"
+  },
+  {
+    "Exam Type": "State Cooperative Banks",
+    "Department": "State Cooperative Bank Recruitment (clerical / officer) - Variant 3",
+    "level": "State",
+    "Eligibility": "Graduate/12th"
+  },
+  {
+    "Exam Type": "Supreme Court / NJA",
+    "Department": "Supreme Court / National Judicial Service Office - Junior Assistant - Variant 3",
+    "level": "National",
+    "Eligibility": "Graduate"
+  },
+  {
+    "Exam Type": "SAI / NCC",
+    "Department": "National Cadet Corps (NCC) / Sports Authority recruitments - Variant 3",
+    "level": "National/State",
+    "Eligibility": "Varies"
+  },
+  {
+    "Exam Type": "State Cooperative Banks",
+    "Department": "State Cooperative Bank Recruitment (clerical / officer) - Variant 4",
+    "level": "State",
+    "Eligibility": "Graduate/12th"
+  },
+  {
+    "Exam Type": "Supreme Court / NJA",
+    "Department": "Supreme Court / National Judicial Service Office - Junior Assistant - Variant 4",
+    "level": "National",
+    "Eligibility": "Graduate"
+  },
+  {
+    "Exam Type": "SAI / NCC",
+    "Department": "National Cadet Corps (NCC) / Sports Authority recruitments - Variant 4",
+    "level": "National/State",
+    "Eligibility": "Varies"
+  },
+  {
+    "Exam Type": "State Cooperative Banks",
+    "Department": "State Cooperative Bank Recruitment (clerical / officer) - Variant 5",
+    "level": "State",
+    "Eligibility": "Graduate/12th"
+  },
+  {
+    "Exam Type": "Supreme Court / NJA",
+    "Department": "Supreme Court / National Judicial Service Office - Junior Assistant - Variant 5",
+    "level": "National",
+    "Eligibility": "Graduate"
+  },
+  {
+    "Exam Type": "State Higher Education Department",
+    "Department": "State Lecturer / Assistant Professor Recruitment (All States)",
+    "level": "State",
+    "Eligibility": "Postgraduate / PhD"
+  },
+  {
+    "Exam Type": "State Agriculture Dept.",
+    "Department": "State Fisheries / Agriculture Department Recruitment (All States)",
+    "level": "State",
+    "Eligibility": "Graduate/Diploma"
+  },
+  {
+    "Exam Type": "State Forest Dept.",
+    "Department": "State Forest Guard / Ranger Recruitment (All States)",
+    "level": "State",
+    "Eligibility": "10th/12th/Graduate"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Andhra Pradesh)",
+    "Department": "Andhra Pradesh - State PSC Civil Services (State)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Andhra Pradesh)",
+    "Department": "Andhra Pradesh - State PSC Combined Services",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Andhra Pradesh)",
+    "Department": "Andhra Pradesh - State PSC Assistant Engineer (AE/JE)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission / State Police (Andhra Pradesh)",
+    "Department": "Andhra Pradesh - State PSC Police Services / SI",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Andhra Pradesh)",
+    "Department": "Andhra Pradesh - State PSC Group 2 / Group B Posts",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Education Board (Andhra Pradesh)",
+    "Department": "Andhra Pradesh - State TET (Teacher Eligibility Test)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Police Department (Andhra Pradesh)",
+    "Department": "Andhra Pradesh - State Police Constable Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State High Court (Andhra Pradesh)",
+    "Department": "Andhra Pradesh - State Judiciary / Civil Judge Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Arunachal Pradesh)",
+    "Department": "Arunachal Pradesh - State PSC Civil Services (State)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Arunachal Pradesh)",
+    "Department": "Arunachal Pradesh - State PSC Combined Services",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Arunachal Pradesh)",
+    "Department": "Arunachal Pradesh - State PSC Assistant Engineer (AE/JE)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission / State Police (Arunachal Pradesh)",
+    "Department": "Arunachal Pradesh - State PSC Police Services / SI",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Arunachal Pradesh)",
+    "Department": "Arunachal Pradesh - State PSC Group 2 / Group B Posts",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Education Board (Arunachal Pradesh)",
+    "Department": "Arunachal Pradesh - State TET (Teacher Eligibility Test)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Police Department (Arunachal Pradesh)",
+    "Department": "Arunachal Pradesh - State Police Constable Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State High Court (Arunachal Pradesh)",
+    "Department": "Arunachal Pradesh - State Judiciary / Civil Judge Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Assam)",
+    "Department": "Assam - State PSC Civil Services (State)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Assam)",
+    "Department": "Assam - State PSC Combined Services",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Assam)",
+    "Department": "Assam - State PSC Assistant Engineer (AE/JE)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission / State Police (Assam)",
+    "Department": "Assam - State PSC Police Services / SI",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Assam)",
+    "Department": "Assam - State PSC Group 2 / Group B Posts",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Education Board (Assam)",
+    "Department": "Assam - State TET (Teacher Eligibility Test)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Police Department (Assam)",
+    "Department": "Assam - State Police Constable Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State High Court (Assam)",
+    "Department": "Assam - State Judiciary / Civil Judge Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Bihar)",
+    "Department": "Bihar - State PSC Civil Services (State)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Bihar)",
+    "Department": "Bihar - State PSC Combined Services",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Bihar)",
+    "Department": "Bihar - State PSC Assistant Engineer (AE/JE)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission / State Police (Bihar)",
+    "Department": "Bihar - State PSC Police Services / SI",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Bihar)",
+    "Department": "Bihar - State PSC Group 2 / Group B Posts",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Education Board (Bihar)",
+    "Department": "Bihar - State TET (Teacher Eligibility Test)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Police Department (Bihar)",
+    "Department": "Bihar - State Police Constable Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State High Court (Bihar)",
+    "Department": "Bihar - State Judiciary / Civil Judge Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Chhattisgarh)",
+    "Department": "Chhattisgarh - State PSC Civil Services (State)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Chhattisgarh)",
+    "Department": "Chhattisgarh - State PSC Combined Services",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Chhattisgarh)",
+    "Department": "Chhattisgarh - State PSC Assistant Engineer (AE/JE)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission / State Police (Chhattisgarh)",
+    "Department": "Chhattisgarh - State PSC Police Services / SI",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Chhattisgarh)",
+    "Department": "Chhattisgarh - State PSC Group 2 / Group B Posts",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Education Board (Chhattisgarh)",
+    "Department": "Chhattisgarh - State TET (Teacher Eligibility Test)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Police Department (Chhattisgarh)",
+    "Department": "Chhattisgarh - State Police Constable Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State High Court (Chhattisgarh)",
+    "Department": "Chhattisgarh - State Judiciary / Civil Judge Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Goa)",
+    "Department": "Goa - State PSC Civil Services (State)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Goa)",
+    "Department": "Goa - State PSC Combined Services",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Goa)",
+    "Department": "Goa - State PSC Assistant Engineer (AE/JE)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission / State Police (Goa)",
+    "Department": "Goa - State PSC Police Services / SI",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Goa)",
+    "Department": "Goa - State PSC Group 2 / Group B Posts",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Education Board (Goa)",
+    "Department": "Goa - State TET (Teacher Eligibility Test)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Police Department (Goa)",
+    "Department": "Goa - State Police Constable Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State High Court (Goa)",
+    "Department": "Goa - State Judiciary / Civil Judge Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Gujarat)",
+    "Department": "Gujarat - State PSC Civil Services (State)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Gujarat)",
+    "Department": "Gujarat - State PSC Combined Services",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Gujarat)",
+    "Department": "Gujarat - State PSC Assistant Engineer (AE/JE)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission / State Police (Gujarat)",
+    "Department": "Gujarat - State PSC Police Services / SI",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Gujarat)",
+    "Department": "Gujarat - State PSC Group 2 / Group B Posts",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Education Board (Gujarat)",
+    "Department": "Gujarat - State TET (Teacher Eligibility Test)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Police Department (Gujarat)",
+    "Department": "Gujarat - State Police Constable Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State High Court (Gujarat)",
+    "Department": "Gujarat - State Judiciary / Civil Judge Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Haryana)",
+    "Department": "Haryana - State PSC Civil Services (State)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Haryana)",
+    "Department": "Haryana - State PSC Combined Services",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Haryana)",
+    "Department": "Haryana - State PSC Assistant Engineer (AE/JE)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission / State Police (Haryana)",
+    "Department": "Haryana - State PSC Police Services / SI",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Haryana)",
+    "Department": "Haryana - State PSC Group 2 / Group B Posts",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Education Board (Haryana)",
+    "Department": "Haryana - State TET (Teacher Eligibility Test)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Police Department (Haryana)",
+    "Department": "Haryana - State Police Constable Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State High Court (Haryana)",
+    "Department": "Haryana - State Judiciary / Civil Judge Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Himachal Pradesh)",
+    "Department": "Himachal Pradesh - State PSC Civil Services (State)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Himachal Pradesh)",
+    "Department": "Himachal Pradesh - State PSC Combined Services",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Himachal Pradesh)",
+    "Department": "Himachal Pradesh - State PSC Assistant Engineer (AE/JE)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission / State Police (Himachal Pradesh)",
+    "Department": "Himachal Pradesh - State PSC Police Services / SI",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Himachal Pradesh)",
+    "Department": "Himachal Pradesh - State PSC Group 2 / Group B Posts",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Education Board (Himachal Pradesh)",
+    "Department": "Himachal Pradesh - State TET (Teacher Eligibility Test)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Police Department (Himachal Pradesh)",
+    "Department": "Himachal Pradesh - State Police Constable Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State High Court (Himachal Pradesh)",
+    "Department": "Himachal Pradesh - State Judiciary / Civil Judge Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Jharkhand)",
+    "Department": "Jharkhand - State PSC Civil Services (State)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Jharkhand)",
+    "Department": "Jharkhand - State PSC Combined Services",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Jharkhand)",
+    "Department": "Jharkhand - State PSC Assistant Engineer (AE/JE)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission / State Police (Jharkhand)",
+    "Department": "Jharkhand - State PSC Police Services / SI",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Jharkhand)",
+    "Department": "Jharkhand - State PSC Group 2 / Group B Posts",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Education Board (Jharkhand)",
+    "Department": "Jharkhand - State TET (Teacher Eligibility Test)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Police Department (Jharkhand)",
+    "Department": "Jharkhand - State Police Constable Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State High Court (Jharkhand)",
+    "Department": "Jharkhand - State Judiciary / Civil Judge Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Karnataka)",
+    "Department": "Karnataka - State PSC Civil Services (State)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Karnataka)",
+    "Department": "Karnataka - State PSC Combined Services",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Karnataka)",
+    "Department": "Karnataka - State PSC Assistant Engineer (AE/JE)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission / State Police (Karnataka)",
+    "Department": "Karnataka - State PSC Police Services / SI",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Karnataka)",
+    "Department": "Karnataka - State PSC Group 2 / Group B Posts",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Education Board (Karnataka)",
+    "Department": "Karnataka - State TET (Teacher Eligibility Test)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Police Department (Karnataka)",
+    "Department": "Karnataka - State Police Constable Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State High Court (Karnataka)",
+    "Department": "Karnataka - State Judiciary / Civil Judge Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Kerala)",
+    "Department": "Kerala - State PSC Civil Services (State)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Kerala)",
+    "Department": "Kerala - State PSC Combined Services",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Kerala)",
+    "Department": "Kerala - State PSC Assistant Engineer (AE/JE)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission / State Police (Kerala)",
+    "Department": "Kerala - State PSC Police Services / SI",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Kerala)",
+    "Department": "Kerala - State PSC Group 2 / Group B Posts",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Education Board (Kerala)",
+    "Department": "Kerala - State TET (Teacher Eligibility Test)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Police Department (Kerala)",
+    "Department": "Kerala - State Police Constable Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State High Court (Kerala)",
+    "Department": "Kerala - State Judiciary / Civil Judge Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Madhya Pradesh)",
+    "Department": "Madhya Pradesh - State PSC Civil Services (State)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Madhya Pradesh)",
+    "Department": "Madhya Pradesh - State PSC Combined Services",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Madhya Pradesh)",
+    "Department": "Madhya Pradesh - State PSC Assistant Engineer (AE/JE)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission / State Police (Madhya Pradesh)",
+    "Department": "Madhya Pradesh - State PSC Police Services / SI",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Madhya Pradesh)",
+    "Department": "Madhya Pradesh - State PSC Group 2 / Group B Posts",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Education Board (Madhya Pradesh)",
+    "Department": "Madhya Pradesh - State TET (Teacher Eligibility Test)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Police Department (Madhya Pradesh)",
+    "Department": "Madhya Pradesh - State Police Constable Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State High Court (Madhya Pradesh)",
+    "Department": "Madhya Pradesh - State Judiciary / Civil Judge Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Maharashtra)",
+    "Department": "Maharashtra - State PSC Civil Services (State)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Maharashtra)",
+    "Department": "Maharashtra - State PSC Combined Services",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Maharashtra)",
+    "Department": "Maharashtra - State PSC Assistant Engineer (AE/JE)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission / State Police (Maharashtra)",
+    "Department": "Maharashtra - State PSC Police Services / SI",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Maharashtra)",
+    "Department": "Maharashtra - State PSC Group 2 / Group B Posts",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Education Board (Maharashtra)",
+    "Department": "Maharashtra - State TET (Teacher Eligibility Test)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Police Department (Maharashtra)",
+    "Department": "Maharashtra - State Police Constable Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State High Court (Maharashtra)",
+    "Department": "Maharashtra - State Judiciary / Civil Judge Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Manipur)",
+    "Department": "Manipur - State PSC Civil Services (State)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Manipur)",
+    "Department": "Manipur - State PSC Combined Services",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Manipur)",
+    "Department": "Manipur - State PSC Assistant Engineer (AE/JE)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission / State Police (Manipur)",
+    "Department": "Manipur - State PSC Police Services / SI",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Manipur)",
+    "Department": "Manipur - State PSC Group 2 / Group B Posts",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Education Board (Manipur)",
+    "Department": "Manipur - State TET (Teacher Eligibility Test)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Police Department (Manipur)",
+    "Department": "Manipur - State Police Constable Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State High Court (Manipur)",
+    "Department": "Manipur - State Judiciary / Civil Judge Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Meghalaya)",
+    "Department": "Meghalaya - State PSC Civil Services (State)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Meghalaya)",
+    "Department": "Meghalaya - State PSC Combined Services",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Meghalaya)",
+    "Department": "Meghalaya - State PSC Assistant Engineer (AE/JE)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission / State Police (Meghalaya)",
+    "Department": "Meghalaya - State PSC Police Services / SI",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Meghalaya)",
+    "Department": "Meghalaya - State PSC Group 2 / Group B Posts",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Education Board (Meghalaya)",
+    "Department": "Meghalaya - State TET (Teacher Eligibility Test)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Police Department (Meghalaya)",
+    "Department": "Meghalaya - State Police Constable Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State High Court (Meghalaya)",
+    "Department": "Meghalaya - State Judiciary / Civil Judge Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Mizoram)",
+    "Department": "Mizoram - State PSC Civil Services (State)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Mizoram)",
+    "Department": "Mizoram - State PSC Combined Services",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Mizoram)",
+    "Department": "Mizoram - State PSC Assistant Engineer (AE/JE)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission / State Police (Mizoram)",
+    "Department": "Mizoram - State PSC Police Services / SI",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Mizoram)",
+    "Department": "Mizoram - State PSC Group 2 / Group B Posts",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Education Board (Mizoram)",
+    "Department": "Mizoram - State TET (Teacher Eligibility Test)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Police Department (Mizoram)",
+    "Department": "Mizoram - State Police Constable Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State High Court (Mizoram)",
+    "Department": "Mizoram - State Judiciary / Civil Judge Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Nagaland)",
+    "Department": "Nagaland - State PSC Civil Services (State)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Nagaland)",
+    "Department": "Nagaland - State PSC Combined Services",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Nagaland)",
+    "Department": "Nagaland - State PSC Assistant Engineer (AE/JE)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission / State Police (Nagaland)",
+    "Department": "Nagaland - State PSC Police Services / SI",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Nagaland)",
+    "Department": "Nagaland - State PSC Group 2 / Group B Posts",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Education Board (Nagaland)",
+    "Department": "Nagaland - State TET (Teacher Eligibility Test)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Police Department (Nagaland)",
+    "Department": "Nagaland - State Police Constable Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State High Court (Nagaland)",
+    "Department": "Nagaland - State Judiciary / Civil Judge Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Odisha)",
+    "Department": "Odisha - State PSC Civil Services (State)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Odisha)",
+    "Department": "Odisha - State PSC Combined Services",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Odisha)",
+    "Department": "Odisha - State PSC Assistant Engineer (AE/JE)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission / State Police (Odisha)",
+    "Department": "Odisha - State PSC Police Services / SI",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Odisha)",
+    "Department": "Odisha - State PSC Group 2 / Group B Posts",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Education Board (Odisha)",
+    "Department": "Odisha - State TET (Teacher Eligibility Test)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Police Department (Odisha)",
+    "Department": "Odisha - State Police Constable Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State High Court (Odisha)",
+    "Department": "Odisha - State Judiciary / Civil Judge Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Punjab)",
+    "Department": "Punjab - State PSC Civil Services (State)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Punjab)",
+    "Department": "Punjab - State PSC Combined Services",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Punjab)",
+    "Department": "Punjab - State PSC Assistant Engineer (AE/JE)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission / State Police (Punjab)",
+    "Department": "Punjab - State PSC Police Services / SI",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Punjab)",
+    "Department": "Punjab - State PSC Group 2 / Group B Posts",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Education Board (Punjab)",
+    "Department": "Punjab - State TET (Teacher Eligibility Test)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Police Department (Punjab)",
+    "Department": "Punjab - State Police Constable Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State High Court (Punjab)",
+    "Department": "Punjab - State Judiciary / Civil Judge Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Rajasthan)",
+    "Department": "Rajasthan - State PSC Civil Services (State)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Rajasthan)",
+    "Department": "Rajasthan - State PSC Combined Services",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Rajasthan)",
+    "Department": "Rajasthan - State PSC Assistant Engineer (AE/JE)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission / State Police (Rajasthan)",
+    "Department": "Rajasthan - State PSC Police Services / SI",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Rajasthan)",
+    "Department": "Rajasthan - State PSC Group 2 / Group B Posts",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Education Board (Rajasthan)",
+    "Department": "Rajasthan - State TET (Teacher Eligibility Test)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Police Department (Rajasthan)",
+    "Department": "Rajasthan - State Police Constable Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State High Court (Rajasthan)",
+    "Department": "Rajasthan - State Judiciary / Civil Judge Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Sikkim)",
+    "Department": "Sikkim - State PSC Civil Services (State)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Sikkim)",
+    "Department": "Sikkim - State PSC Combined Services",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Sikkim)",
+    "Department": "Sikkim - State PSC Assistant Engineer (AE/JE)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission / State Police (Sikkim)",
+    "Department": "Sikkim - State PSC Police Services / SI",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Sikkim)",
+    "Department": "Sikkim - State PSC Group 2 / Group B Posts",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Education Board (Sikkim)",
+    "Department": "Sikkim - State TET (Teacher Eligibility Test)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Police Department (Sikkim)",
+    "Department": "Sikkim - State Police Constable Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State High Court (Sikkim)",
+    "Department": "Sikkim - State Judiciary / Civil Judge Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Tamil Nadu)",
+    "Department": "Tamil Nadu - State PSC Civil Services (State)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Tamil Nadu)",
+    "Department": "Tamil Nadu - State PSC Combined Services",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Tamil Nadu)",
+    "Department": "Tamil Nadu - State PSC Assistant Engineer (AE/JE)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission / State Police (Tamil Nadu)",
+    "Department": "Tamil Nadu - State PSC Police Services / SI",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Tamil Nadu)",
+    "Department": "Tamil Nadu - State PSC Group 2 / Group B Posts",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Education Board (Tamil Nadu)",
+    "Department": "Tamil Nadu - State TET (Teacher Eligibility Test)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Police Department (Tamil Nadu)",
+    "Department": "Tamil Nadu - State Police Constable Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State High Court (Tamil Nadu)",
+    "Department": "Tamil Nadu - State Judiciary / Civil Judge Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Telangana)",
+    "Department": "Telangana - State PSC Civil Services (State)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Telangana)",
+    "Department": "Telangana - State PSC Combined Services",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Telangana)",
+    "Department": "Telangana - State PSC Assistant Engineer (AE/JE)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission / State Police (Telangana)",
+    "Department": "Telangana - State PSC Police Services / SI",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Telangana)",
+    "Department": "Telangana - State PSC Group 2 / Group B Posts",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Education Board (Telangana)",
+    "Department": "Telangana - State TET (Teacher Eligibility Test)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Police Department (Telangana)",
+    "Department": "Telangana - State Police Constable Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State High Court (Telangana)",
+    "Department": "Telangana - State Judiciary / Civil Judge Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Tripura)",
+    "Department": "Tripura - State PSC Civil Services (State)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Tripura)",
+    "Department": "Tripura - State PSC Combined Services",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Tripura)",
+    "Department": "Tripura - State PSC Assistant Engineer (AE/JE)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission / State Police (Tripura)",
+    "Department": "Tripura - State PSC Police Services / SI",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Tripura)",
+    "Department": "Tripura - State PSC Group 2 / Group B Posts",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Education Board (Tripura)",
+    "Department": "Tripura - State TET (Teacher Eligibility Test)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Police Department (Tripura)",
+    "Department": "Tripura - State Police Constable Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State High Court (Tripura)",
+    "Department": "Tripura - State Judiciary / Civil Judge Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Uttar Pradesh)",
+    "Department": "Uttar Pradesh - State PSC Civil Services (State)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Uttar Pradesh)",
+    "Department": "Uttar Pradesh - State PSC Combined Services",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Uttar Pradesh)",
+    "Department": "Uttar Pradesh - State PSC Assistant Engineer (AE/JE)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission / State Police (Uttar Pradesh)",
+    "Department": "Uttar Pradesh - State PSC Police Services / SI",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Uttar Pradesh)",
+    "Department": "Uttar Pradesh - State PSC Group 2 / Group B Posts",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Education Board (Uttar Pradesh)",
+    "Department": "Uttar Pradesh - State TET (Teacher Eligibility Test)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Police Department (Uttar Pradesh)",
+    "Department": "Uttar Pradesh - State Police Constable Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State High Court (Uttar Pradesh)",
+    "Department": "Uttar Pradesh - State Judiciary / Civil Judge Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Uttarakhand)",
+    "Department": "Uttarakhand - State PSC Civil Services (State)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Uttarakhand)",
+    "Department": "Uttarakhand - State PSC Combined Services",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Uttarakhand)",
+    "Department": "Uttarakhand - State PSC Assistant Engineer (AE/JE)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission / State Police (Uttarakhand)",
+    "Department": "Uttarakhand - State PSC Police Services / SI",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (Uttarakhand)",
+    "Department": "Uttarakhand - State PSC Group 2 / Group B Posts",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Education Board (Uttarakhand)",
+    "Department": "Uttarakhand - State TET (Teacher Eligibility Test)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Police Department (Uttarakhand)",
+    "Department": "Uttarakhand - State Police Constable Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State High Court (Uttarakhand)",
+    "Department": "Uttarakhand - State Judiciary / Civil Judge Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (West Bengal)",
+    "Department": "West Bengal - State PSC Civil Services (State)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (West Bengal)",
+    "Department": "West Bengal - State PSC Combined Services",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (West Bengal)",
+    "Department": "West Bengal - State PSC Assistant Engineer (AE/JE)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission / State Police (West Bengal)",
+    "Department": "West Bengal - State PSC Police Services / SI",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Public Service Commission (West Bengal)",
+    "Department": "West Bengal - State PSC Group 2 / Group B Posts",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Education Board (West Bengal)",
+    "Department": "West Bengal - State TET (Teacher Eligibility Test)",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State Police Department (West Bengal)",
+    "Department": "West Bengal - State Police Constable Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  },
+  {
+    "Exam Type": "State High Court (West Bengal)",
+    "Department": "West Bengal - State Judiciary / Civil Judge Recruitment",
+    "level": "State",
+    "Eligibility": "Varies (10th/12th/Graduate/Law/Engineering)"
+  }
+]

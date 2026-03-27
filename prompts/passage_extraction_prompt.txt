@@ -1,0 +1,136 @@
+You are an expert MCQ data processor working with OCR-extracted text from exam papers
+that contain READING COMPREHENSION PASSAGES followed by questions.
+
+The text was produced by an OCR engine scanning printed exam sheets.
+It may contain OCR artefacts (garbled characters, merged words, misread letters).
+
+The current processing mode is: {mode}
+The PDF file name is: {pdf_name}
+
+CRITICAL LANGUAGE RULE:
+- Extract ONLY content written in ENGLISH.
+- Skip Hindi, Marathi, Tamil, Telugu, Bengali, Gujarati, Urdu, or any non-English language.
+- Do NOT translate. Simply ignore non-English text.
+
+==================================================
+FORMULA / LATEX RULE (CRITICAL)
+==================================================
+
+If a question, any option, or the explanation contains mathematical formulas,
+chemical equations, physics equations, or any scientific notation:
+
+1. You MUST represent them in LaTeX notation enclosed in dollar signs.
+   - Inline math: $...$    (e.g. $E = mc^2$, $\frac{1}{2}mv^2$)
+   - Display math: $$...$$ (e.g. $$\int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2}$$)
+
+2. Examples:
+   - "x² + y² = r²"    → "$x^2 + y^2 = r^2$"
+   - "H2SO4"            → "$H_2SO_4$"
+   - "√(a² + b²)"       → "$\sqrt{a^2 + b^2}$"
+   - Greek: α → $\alpha$, β → $\beta$, θ → $\theta$
+
+3. If text is purely verbal (no formulas), do NOT add LaTeX.
+4. Apply LaTeX to ALL fields: "question", option values, "answer", and "explanation".
+
+==================================================
+OUTPUT FORMAT (STRICT JSON ARRAY)
+==================================================
+
+Return a JSON ARRAY of flat question objects. Each object must follow EXACTLY this schema:
+
+[
+  {
+    "exam_type": "string (SPECIFIC exam name, e.g. 'Combined Medical Services (CMS)')",
+    "department": "string (CONDUCTING BODY, e.g. 'UPSC')",
+    "subject": "string",
+    "topic": "string",
+    "subtopic": "string",
+    "difficulty": "Easy | Medium | Hard",
+    "question": "string (FULL PASSAGE TEXT + \\n\\n + question text; use LaTeX for formulas)",
+    "option": {
+      "A": "string (use LaTeX for formulas)",
+      "B": "string (use LaTeX for formulas)",
+      "C": "string (use LaTeX for formulas)",
+      "D": "string (use LaTeX for formulas)"
+    }, // NOTE: If it is a Numerical Answer Type (NAT) question with no options, leave this as an empty dictionary: {}
+    "answer": "string",
+    "explanation": "string (use LaTeX for formulas)",
+    "level": "National Exam | State exam",
+    "eligibility": "10th | 12th | graduate",
+    "year": "string",
+    "pdf_name": "{pdf_name}"
+  }
+]
+
+==================================================
+EXTRACTION RULES
+==================================================
+
+QUESTION FIELD (CRITICAL):
+1. For passage-based questions: combine the FULL passage text with the individual question text.
+   Format:
+     "<Full passage text here>\n\n<Question number and question text here>"
+   
+   Example:
+     "We often hear about conflicts among different States in India over river waters. Of the 20 major river systems, 14 are already water-stressed...\n\nQ1. Which one of the following statements best reflects the most rational, practical and immediate action required?"
+
+2. If multiple questions share the same passage, REPEAT the full passage in each question's "question" field.
+   Do NOT create separate passage objects. Every question must be self-contained.
+
+3. For standalone questions (no passage): just use the question text directly.
+
+PASSAGE & QUESTION HANDLING:
+1. Extract ALL questions (MCQs, Descriptive, etc.) from the OCR text.
+2. Clean OCR errors in passage and question text (fix merged words, wrong characters).
+3. Preserve the full passage text — do NOT truncate or summarise the passage.
+4. If the question has numbered sub-statements (1., 2., 3. ...), include them in the question field as part of the question text.
+5. If the question has an instruction line like "Select the correct answer using the code given below.", include it in the question field.
+6. EXTREMELY IMPORTANT: Do NOT generate, invent, or hallucinate any questions that are not present in the text. ONLY extract questions that explicitly exist in the provided OCR text.
+7. If a question or passage is incomplete or cut off at the edges of the OCR text, extract what you can but DO NOT invent the missing parts.
+
+METADATA:
+1. Lookup the closest matching exam for this PDF from the following table, and apply its corresponding values directly into the JSON.
+   - "exam_type" = the SPECIFIC EXAM NAME (e.g. "Combined Medical Services (CMS)", "SSC Combined Graduate Level (CGL)", "IBPS PO")
+   - "department" = the OVERALL CONDUCTING BODY (e.g. "UPSC", "SSC", "IBPS", "RRB")
+
+{exam_mapping}
+
+2. "subject": For CSAT papers use "CSAT". For GS papers infer the subject.
+3. "topic": For passage questions use "Reading Comprehension". For math/reasoning use the appropriate topic.
+4. "subtopic": For passage questions, describe the passage theme.
+5. "difficulty": Infer from question complexity — MUST be exactly one of: "Easy", "Medium", or "Hard".
+6. YEAR EXTRACTION (CRITICAL — NEVER LEAVE BLANK OR UNKNOWN):
+   - FIRST, look for the year printed on the exam paper itself (header, footer, title page).
+   - SECOND, if not found in the text, extract the year from the PDF file name: "{pdf_name}".
+     Common patterns: "2019", "2020-21", "Paper_2018", "UPSC_Prelims_2022", etc.
+     Extract any 4-digit number between 1990 and 2030.
+   - The "year" field MUST be a valid 4-digit year string like "2019", "2020", etc.
+   - NEVER set year to: "unknown", "Unknown", "not specified", "Not Specified", "N/A", "n/a", "NA", "null", "None", "", or any non-year text.
+   - If you truly cannot determine the year from EITHER the paper content OR the file name, set year to null (JSON null, not the string "null").
+
+7. FIELD VALIDATION (CRITICAL):
+   - NONE of these fields should EVER contain the values: "unknown", "Unknown", "not specified", "Not Specified", "N/A", "n/a", "NA", "none", "None".
+   - Fields affected: exam_type, department, subject, topic, subtopic, level, eligibility, year, difficulty.
+   - If you cannot determine a field value, use the exam mapping table above to infer it from the pdf filename and exam content.
+   - For "level": ALWAYS set to one of exactly: "National" or "State".
+   - For "eligibility": Infer from the exam type (e.g., UPSC = "Graduate", SSC MTS = "10th", NEET = "12th").
+
+ANSWERS AND EXPLANATIONS:
+1. If the correct answer is not in the paper, infer it logically and fill it in.
+2. If an explanation is not in the paper, generate a clear, structured, exam-level explanation.
+3. NEVER leave "answer" or "explanation" empty.
+4. Use uppercase letters (A, B, C, D) for options and answer if it is an MCQ. Otherwise, use descriptive text.
+
+MODE BEHAVIOR:
+- extract: Keep question and passage wording as close to the original as possible, BUT you MUST fix OCR spelling mistakes, garbled characters, and gibberish (e.g. correct "Aaiied" to "Asian"). CONVERT all formulas to LaTeX.
+- refine:  Improve grammar and clarity while preserving meaning and the correct answer. CONVERT all formulas to LaTeX.
+
+==================================================
+IMPORTANT:
+- Return ONLY the JSON array. No markdown. No commentary. No code fences.
+- The array must include ALL questions found (both passage-based and standalone).
+- Each question must be a completely self-contained flat object.
+==================================================
+
+--- OCR TEXT TO PROCESS ---
+{pdf_text}

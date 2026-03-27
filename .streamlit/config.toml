@@ -1,0 +1,4 @@
+[server]
+# Disable the file watcher for torch internals to suppress the
+# "torch.classes RuntimeError" warning at startup (harmless Streamlit bug).
+fileWatcherType = "none"

@@ -1,0 +1,370 @@
+department | exam_type | level | eligibility
+UPSC|Civil Services Examination (CSE)|National|Graduate
+UPSC|Indian Forest Service (IFoS)|National|Graduate
+UPSC|Engineering Services Examination (ESE/IES)|National|Engineering Degree
+UPSC|Combined Defence Services (CDS)|National|Graduate/12th
+UPSC|National Defence Academy (NDA) & NA|National|12th
+UPSC|Combined Medical Services (CMS)|National|Graduate (Medical)
+UPSC|Indian Economic Service / Indian Statistical Service (IES/ISS)|National|Postgraduate
+UPSC|Combined Geo-Scientist Examination|National|Graduate
+UPSC|EPFO Enforcement Officer/Accounts Officer|National|Graduate
+UPSC|Central Armed Police Forces (Assistant Commandant - CAPF AC)|National|Graduate
+Staff Selection Commission (SSC)|SSC Combined Graduate Level (CGL)|National|Graduate
+SSC|SSC Combined Higher Secondary Level (CHSL)|National|12th
+SSC|SSC Multi Tasking Staff (MTS)|National|10th
+SSC|SSC GD Constable|National|10th
+SSC|SSC Junior Engineer (JE)|National|Diploma/Engineering
+SSC|SSC CPO (SI)|National|Graduate
+SSC|SSC Stenographer Grade C & D|National|12th/10th
+SSC|SSC Selection Post (Phase-wise)|National|10th/12th/Graduate
+SSC|SSC CHSL DEO (Data Entry Operator)|National|12th
+IBPS|IBPS PO|National|Graduate
+IBPS|IBPS Clerk|National|Graduate
+IBPS|IBPS RRB Officer Scale I (PO)|National|Graduate
+IBPS|IBPS RRB Office Assistant (Clerk)|National|12th/Graduate
+IBPS|IBPS Specialist Officer (SO)|National|Graduate
+State Bank of India (SBI)|SBI PO|National|Graduate
+SBI|SBI Clerk|National|Graduate
+Reserve Bank of India (RBI)|RBI Grade B|National|Graduate
+RBI|RBI Assistant|National|Graduate
+NABARD|NABARD Grade A|National|Graduate
+NABARD|NABARD Grade B|National|Postgraduate
+SIDBI|SIDBI Grade A|National|Graduate
+EXIM Bank|EXIM Bank Recruitment|National|Graduate
+IPPB / RRBs|IPPB / Regional Rural Bank (RBI-linked) Recruitment - Variant 4|National/Regional|Graduate
+IPPB / RRBs|IPPB / Regional Rural Bank (RBI-linked) Recruitment - Variant 1|National/Regional|Graduate
+IPPB / RRBs|IPPB / Regional Rural Bank (RBI-linked) Recruitment - Variant 5|National/Regional|Graduate
+IPPB / RRBs|IPPB / Regional Rural Bank (RBI-linked) Recruitment - Variant 2|National/Regional|Graduate
+LIC|LIC AAO|National|Graduate
+LIC|LIC ADO|National|Graduate
+New India Assurance|NIACL AO|National|Graduate
+New India Assurance|NIACL Assistant|National|Graduate
+United India Insurance Company|UIIC AO|National|Graduate
+GIC|GIC Assistant Manager (AM)|National|Graduate
+Agriculture Insurance Company|AIC Management Trainee (MTS)|National|Graduate
+Insurance Companies|Specialized Insurance Officer Exams (various) - Variant 1|National|Graduate
+Insurance Companies|Specialized Insurance Officer Exams (various) - Variant 2|National|Graduate
+Insurance Companies|Specialized Insurance Officer Exams (various) - Variant 3|National|Graduate
+Insurance Companies|Specialized Insurance Officer Exams (various) - Variant 4|National|Graduate
+Insurance Companies|Specialized Insurance Officer Exams (various) - Variant 5|National|Graduate
+Railway Recruitment Board (RRB)|RRB NTPC|National|12th/Graduate
+RRB|RRB JE|National|Diploma/Engineering
+RRB|RRB Group D|National|10th
+RRB|RRB ALP|National|12th/Diploma
+RRB|RRB Technician|National|ITI/Diploma
+Railway Protection Force (RPF)|RPF Constable|National|10th/12th
+RPF|RPF Sub-Inspector (SI)|National|12th/Graduate
+Railway Zone|Railway Zone-specific Technician/Technical Assistant (Zone variant) - Variant 3|National|Diploma/Graduate
+Railway Zone|Railway Zone-specific Technician/Technical Assistant (Zone variant) - Variant 4|National|Diploma/Graduate
+Railway Zone|Railway Zone-specific Technician/Technical Assistant (Zone variant) - Variant 5|National|Diploma/Graduate
+IPPB / RRBs|IPPB / Regional Rural Bank (RBI-linked) Recruitment - Variant 3|National/Regional|Graduate
+Railway Zone|Railway Zone-specific Technician/Technical Assistant (Zone variant) - Variant 1|National|Diploma/Graduate
+Railway Zone|Railway Zone-specific Technician/Technical Assistant (Zone variant) - Variant 2|National|Diploma/Graduate
+Indian Air Force|AFCAT|National|Graduate/12th
+Indian Navy|Indian Navy SSR|National|12th
+Indian Navy|Indian Navy AA|National|12th
+Indian Army|Indian Army Agniveer|National|10th/12th
+Indian Army|Territorial Army Officer|National|Graduate
+Indian Coast Guard|Coast Guard Navik / Yantrik|National|10th/12th/Graduate
+DGMS / Armed Forces|Military Nursing Service (MNS)|National|Nursing Qualification
+CBSE|CTET|National|Graduate/12th
+UGC / NTA|UGC NET|National|Postgraduate
+KVS|KVS Recruitment PRT/TGT/PGT|National|Graduate/B.Ed
+NVS|NVS Recruitment|National|Graduate/B.Ed
+DSSSB|DSSSB Teaching Posts|State/National|Graduate
+State Education Boards|State TET (All States Individual)|State|12th/Graduate
+State High Courts / PSC|State Judicial Services (Civil Judge)|State|Law Graduate
+State High Courts|District Judge Recruitment|State|Law Graduate
+State High Courts|High Court Clerk / Junior Assistant|State|12th/Graduate
+State Judiciary|Lower Judiciary (Judicial Magistrate)|State|Law Graduate
+ONGC|ONGC Graduate Trainee / GATE-based Recruitment|National|Engineering/Graduate
+IOCL|IOCL Recruitment (Executive / Technical)|National|Engineering/Graduate
+BHEL|BHEL Recruitment (Executive / Technician)|National|Engineering/ITI
+SAIL|SAIL Recruitment|National|Graduate/ITI/Engineering
+NTPC|NTPC Executive Trainee|National|Engineering/Graduate
+BEL|BEL Recruitment|National|Engineering/Graduate
+DRDO|DRDO Scientist / Technician Recruitment|National|Engineering/Science
+ISRO|ISRO Scientist / Technical Recruitment|National|Engineering/Science
+HAL|HAL Recruitment|National|Engineering/ITI
+Coal India|Coal India Recruitment|National|Graduate/Engineering
+Power Grid|Power Grid Recruitment|National|Graduate/Engineering
+NPCIL|NPCIL Recruitment|National|Engineering/Science
+GAIL|GAIL Executive Trainee Recruitment - Variant 1|National|Engineering/Graduate
+BEML|BEML Recruitment (Technical / Management) - Variant 1|National|Graduate/ITI
+Various PSUs|MRPL / ONGC / IOCL - Additional Specific Notices - Variant 1|National|Graduate/Engineering
+BEML|BEML Recruitment (Technical / Management) - Variant 2|National|Graduate/ITI
+GAIL|GAIL Executive Trainee Recruitment - Variant 2|National|Engineering/Graduate
+Various PSUs|MRPL / ONGC / IOCL - Additional Specific Notices - Variant 2|National|Graduate/Engineering
+GAIL|GAIL Executive Trainee Recruitment - Variant 3|National|Engineering/Graduate
+BEML|BEML Recruitment (Technical / Management) - Variant 3|National|Graduate/ITI
+Various PSUs|MRPL / ONGC / IOCL - Additional Specific Notices - Variant 3|National|Graduate/Engineering
+GAIL|GAIL Executive Trainee Recruitment - Variant 4|National|Engineering/Graduate
+BEML|BEML Recruitment (Technical / Management) - Variant 4|National|Graduate/ITI
+Various PSUs|MRPL / ONGC / IOCL - Additional Specific Notices - Variant 4|National|Graduate/Engineering
+GAIL|GAIL Executive Trainee Recruitment - Variant 5|National|Engineering/Graduate
+BEML|BEML Recruitment (Technical / Management) - Variant 5|National|Graduate/ITI
+Various PSUs|MRPL / ONGC / IOCL - Additional Specific Notices - Variant 5|National|Graduate/Engineering
+AIIMS / NTA|AIIMS Nursing / Paramedical Recruitment|National|Nursing/Paramedical
+ESIC|ESIC Staff Nurse / Paramedical|National/State|Nursing/Paramedical
+State Health Dept.|State Medical Officer / Medical Officer (State Recruits)|State|MBBS/Medical
+State Health Dept.|ANM / GNM / Staff Nurse State Exams|State|Diploma/Nursing
+State/Central Boards|Pharmacist / Lab Technician Recruitment|State/National|Diploma/Graduate
+Central Medical Institutes|Central Government Medical College / Hospital Recruitment - Variant 1|National|Medical
+Central Medical Institutes|Central Government Medical College / Hospital Recruitment - Variant 2|National|Medical
+Central Medical Institutes|Central Government Medical College / Hospital Recruitment - Variant 3|National|Medical
+Central Medical Institutes|Central Government Medical College / Hospital Recruitment - Variant 4|National|Medical
+Central Medical Institutes|Central Government Medical College / Hospital Recruitment - Variant 5|National|Medical
+CPWD|CPWD JE / AE|Central|Diploma/Engineering
+DMRC|DMRC (Delhi Metro) Technician / JE|Urban/State|ITI/Diploma
+BSNL/MTNL|BSNL / MTNL Technical Recruitment|National/State|Engineering/Graduate
+National Informatics Centre (NIC)|NIC / MeitY Technical Hiring|National|Graduate/Engineering
+BSF|BSF Recruitment (Constable / SI)|National|10th/12th/Graduate
+CRPF|CRPF Recruitment (Constable / SI)|National|10th/12th/Graduate
+CISF|CISF Recruitment (Assistants / SI)|National|10th/12th/Graduate
+ITBP|ITBP Recruitment|National|10th/12th/Graduate
+SSB / Assam Rifles|SSB / Assam Rifles Recruitment|National|10th/12th/Graduate
+India Post|India Post GDS / Postman / Mail Guard Recruitment|National|10th/12th
+Cantonment Boards|Cantonment Board Recruitment (Clerk / Skilled Posts)|Local/National|10th/12th/Graduate
+Apprenticeship Boards / PSUs|Apprenticeship Vacancies (Railways / PSUs / Industry)|National/State|ITI/Diploma/Graduate
+Municipal Corporations|Municipal Corporation / Urban Local Body Recruitments|Local/State|10th/12th/Graduate
+State Cooperative Banks|State Cooperative Bank Recruitment (clerical / officer) - Variant 1|State|Graduate/12th
+Supreme Court / NJA|Supreme Court / National Judicial Service Office - Junior Assistant - Variant 1|National|Graduate
+State Cooperative Banks|State Cooperative Bank Recruitment (clerical / officer) - Variant 2|State|Graduate/12th
+SAI / NCC|National Cadet Corps (NCC) / Sports Authority recruitments - Variant 1|National/State|Varies
+Supreme Court / NJA|Supreme Court / National Judicial Service Office - Junior Assistant - Variant 2|National|Graduate
+SAI / NCC|National Cadet Corps (NCC) / Sports Authority recruitments - Variant 2|National/State|Varies
+State Cooperative Banks|State Cooperative Bank Recruitment (clerical / officer) - Variant 3|State|Graduate/12th
+Supreme Court / NJA|Supreme Court / National Judicial Service Office - Junior Assistant - Variant 3|National|Graduate
+SAI / NCC|National Cadet Corps (NCC) / Sports Authority recruitments - Variant 3|National/State|Varies
+State Cooperative Banks|State Cooperative Bank Recruitment (clerical / officer) - Variant 4|State|Graduate/12th
+Supreme Court / NJA|Supreme Court / National Judicial Service Office - Junior Assistant - Variant 4|National|Graduate
+SAI / NCC|National Cadet Corps (NCC) / Sports Authority recruitments - Variant 4|National/State|Varies
+State Cooperative Banks|State Cooperative Bank Recruitment (clerical / officer) - Variant 5|State|Graduate/12th
+Supreme Court / NJA|Supreme Court / National Judicial Service Office - Junior Assistant - Variant 5|National|Graduate
+State Higher Education Department|State Lecturer / Assistant Professor Recruitment (All States)|State|Postgraduate / PhD
+State Agriculture Dept.|State Fisheries / Agriculture Department Recruitment (All States)|State|Graduate/Diploma
+State Forest Dept.|State Forest Guard / Ranger Recruitment (All States)|State|10th/12th/Graduate
+State Public Service Commission (Andhra Pradesh)|Andhra Pradesh - State PSC Civil Services (State)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Andhra Pradesh)|Andhra Pradesh - State PSC Combined Services|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Andhra Pradesh)|Andhra Pradesh - State PSC Assistant Engineer (AE/JE)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission / State Police (Andhra Pradesh)|Andhra Pradesh - State PSC Police Services / SI|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Andhra Pradesh)|Andhra Pradesh - State PSC Group 2 / Group B Posts|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Education Board (Andhra Pradesh)|Andhra Pradesh - State TET (Teacher Eligibility Test)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Police Department (Andhra Pradesh)|Andhra Pradesh - State Police Constable Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State High Court (Andhra Pradesh)|Andhra Pradesh - State Judiciary / Civil Judge Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Arunachal Pradesh)|Arunachal Pradesh - State PSC Civil Services (State)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Arunachal Pradesh)|Arunachal Pradesh - State PSC Combined Services|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Arunachal Pradesh)|Arunachal Pradesh - State PSC Assistant Engineer (AE/JE)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission / State Police (Arunachal Pradesh)|Arunachal Pradesh - State PSC Police Services / SI|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Arunachal Pradesh)|Arunachal Pradesh - State PSC Group 2 / Group B Posts|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Education Board (Arunachal Pradesh)|Arunachal Pradesh - State TET (Teacher Eligibility Test)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Police Department (Arunachal Pradesh)|Arunachal Pradesh - State Police Constable Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State High Court (Arunachal Pradesh)|Arunachal Pradesh - State Judiciary / Civil Judge Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Assam)|Assam - State PSC Civil Services (State)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Assam)|Assam - State PSC Combined Services|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Assam)|Assam - State PSC Assistant Engineer (AE/JE)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission / State Police (Assam)|Assam - State PSC Police Services / SI|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Assam)|Assam - State PSC Group 2 / Group B Posts|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Education Board (Assam)|Assam - State TET (Teacher Eligibility Test)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Police Department (Assam)|Assam - State Police Constable Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State High Court (Assam)|Assam - State Judiciary / Civil Judge Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Bihar)|Bihar - State PSC Civil Services (State)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Bihar)|Bihar - State PSC Combined Services|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Bihar)|Bihar - State PSC Assistant Engineer (AE/JE)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission / State Police (Bihar)|Bihar - State PSC Police Services / SI|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Bihar)|Bihar - State PSC Group 2 / Group B Posts|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Education Board (Bihar)|Bihar - State TET (Teacher Eligibility Test)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Police Department (Bihar)|Bihar - State Police Constable Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State High Court (Bihar)|Bihar - State Judiciary / Civil Judge Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Chhattisgarh)|Chhattisgarh - State PSC Civil Services (State)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Chhattisgarh)|Chhattisgarh - State PSC Combined Services|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Chhattisgarh)|Chhattisgarh - State PSC Assistant Engineer (AE/JE)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission / State Police (Chhattisgarh)|Chhattisgarh - State PSC Police Services / SI|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Chhattisgarh)|Chhattisgarh - State PSC Group 2 / Group B Posts|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Education Board (Chhattisgarh)|Chhattisgarh - State TET (Teacher Eligibility Test)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Police Department (Chhattisgarh)|Chhattisgarh - State Police Constable Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State High Court (Chhattisgarh)|Chhattisgarh - State Judiciary / Civil Judge Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Goa)|Goa - State PSC Civil Services (State)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Goa)|Goa - State PSC Combined Services|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Goa)|Goa - State PSC Assistant Engineer (AE/JE)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission / State Police (Goa)|Goa - State PSC Police Services / SI|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Goa)|Goa - State PSC Group 2 / Group B Posts|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Education Board (Goa)|Goa - State TET (Teacher Eligibility Test)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Police Department (Goa)|Goa - State Police Constable Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State High Court (Goa)|Goa - State Judiciary / Civil Judge Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Gujarat)|Gujarat - State PSC Civil Services (State)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Gujarat)|Gujarat - State PSC Combined Services|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Gujarat)|Gujarat - State PSC Assistant Engineer (AE/JE)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission / State Police (Gujarat)|Gujarat - State PSC Police Services / SI|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Gujarat)|Gujarat - State PSC Group 2 / Group B Posts|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Education Board (Gujarat)|Gujarat - State TET (Teacher Eligibility Test)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Police Department (Gujarat)|Gujarat - State Police Constable Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State High Court (Gujarat)|Gujarat - State Judiciary / Civil Judge Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Haryana)|Haryana - State PSC Civil Services (State)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Haryana)|Haryana - State PSC Combined Services|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Haryana)|Haryana - State PSC Assistant Engineer (AE/JE)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission / State Police (Haryana)|Haryana - State PSC Police Services / SI|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Haryana)|Haryana - State PSC Group 2 / Group B Posts|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Education Board (Haryana)|Haryana - State TET (Teacher Eligibility Test)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Police Department (Haryana)|Haryana - State Police Constable Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State High Court (Haryana)|Haryana - State Judiciary / Civil Judge Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Himachal Pradesh)|Himachal Pradesh - State PSC Civil Services (State)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Himachal Pradesh)|Himachal Pradesh - State PSC Combined Services|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Himachal Pradesh)|Himachal Pradesh - State PSC Assistant Engineer (AE/JE)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission / State Police (Himachal Pradesh)|Himachal Pradesh - State PSC Police Services / SI|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Himachal Pradesh)|Himachal Pradesh - State PSC Group 2 / Group B Posts|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Education Board (Himachal Pradesh)|Himachal Pradesh - State TET (Teacher Eligibility Test)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Police Department (Himachal Pradesh)|Himachal Pradesh - State Police Constable Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State High Court (Himachal Pradesh)|Himachal Pradesh - State Judiciary / Civil Judge Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Jharkhand)|Jharkhand - State PSC Civil Services (State)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Jharkhand)|Jharkhand - State PSC Combined Services|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Jharkhand)|Jharkhand - State PSC Assistant Engineer (AE/JE)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission / State Police (Jharkhand)|Jharkhand - State PSC Police Services / SI|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Jharkhand)|Jharkhand - State PSC Group 2 / Group B Posts|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Education Board (Jharkhand)|Jharkhand - State TET (Teacher Eligibility Test)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Police Department (Jharkhand)|Jharkhand - State Police Constable Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State High Court (Jharkhand)|Jharkhand - State Judiciary / Civil Judge Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Karnataka)|Karnataka - State PSC Civil Services (State)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Karnataka)|Karnataka - State PSC Combined Services|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Karnataka)|Karnataka - State PSC Assistant Engineer (AE/JE)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission / State Police (Karnataka)|Karnataka - State PSC Police Services / SI|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Karnataka)|Karnataka - State PSC Group 2 / Group B Posts|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Education Board (Karnataka)|Karnataka - State TET (Teacher Eligibility Test)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Police Department (Karnataka)|Karnataka - State Police Constable Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State High Court (Karnataka)|Karnataka - State Judiciary / Civil Judge Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Kerala)|Kerala - State PSC Civil Services (State)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Kerala)|Kerala - State PSC Combined Services|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Kerala)|Kerala - State PSC Assistant Engineer (AE/JE)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission / State Police (Kerala)|Kerala - State PSC Police Services / SI|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Kerala)|Kerala - State PSC Group 2 / Group B Posts|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Education Board (Kerala)|Kerala - State TET (Teacher Eligibility Test)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Police Department (Kerala)|Kerala - State Police Constable Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State High Court (Kerala)|Kerala - State Judiciary / Civil Judge Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Madhya Pradesh)|Madhya Pradesh - State PSC Civil Services (State)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Madhya Pradesh)|Madhya Pradesh - State PSC Combined Services|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Madhya Pradesh)|Madhya Pradesh - State PSC Assistant Engineer (AE/JE)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission / State Police (Madhya Pradesh)|Madhya Pradesh - State PSC Police Services / SI|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Madhya Pradesh)|Madhya Pradesh - State PSC Group 2 / Group B Posts|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Education Board (Madhya Pradesh)|Madhya Pradesh - State TET (Teacher Eligibility Test)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Police Department (Madhya Pradesh)|Madhya Pradesh - State Police Constable Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State High Court (Madhya Pradesh)|Madhya Pradesh - State Judiciary / Civil Judge Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Maharashtra)|Maharashtra - State PSC Civil Services (State)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Maharashtra)|Maharashtra - State PSC Combined Services|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Maharashtra)|Maharashtra - State PSC Assistant Engineer (AE/JE)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission / State Police (Maharashtra)|Maharashtra - State PSC Police Services / SI|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Maharashtra)|Maharashtra - State PSC Group 2 / Group B Posts|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Education Board (Maharashtra)|Maharashtra - State TET (Teacher Eligibility Test)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Police Department (Maharashtra)|Maharashtra - State Police Constable Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State High Court (Maharashtra)|Maharashtra - State Judiciary / Civil Judge Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Manipur)|Manipur - State PSC Civil Services (State)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Manipur)|Manipur - State PSC Combined Services|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Manipur)|Manipur - State PSC Assistant Engineer (AE/JE)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission / State Police (Manipur)|Manipur - State PSC Police Services / SI|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Manipur)|Manipur - State PSC Group 2 / Group B Posts|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Education Board (Manipur)|Manipur - State TET (Teacher Eligibility Test)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Police Department (Manipur)|Manipur - State Police Constable Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State High Court (Manipur)|Manipur - State Judiciary / Civil Judge Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Meghalaya)|Meghalaya - State PSC Civil Services (State)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Meghalaya)|Meghalaya - State PSC Combined Services|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Meghalaya)|Meghalaya - State PSC Assistant Engineer (AE/JE)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission / State Police (Meghalaya)|Meghalaya - State PSC Police Services / SI|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Meghalaya)|Meghalaya - State PSC Group 2 / Group B Posts|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Education Board (Meghalaya)|Meghalaya - State TET (Teacher Eligibility Test)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Police Department (Meghalaya)|Meghalaya - State Police Constable Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State High Court (Meghalaya)|Meghalaya - State Judiciary / Civil Judge Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Mizoram)|Mizoram - State PSC Civil Services (State)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Mizoram)|Mizoram - State PSC Combined Services|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Mizoram)|Mizoram - State PSC Assistant Engineer (AE/JE)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission / State Police (Mizoram)|Mizoram - State PSC Police Services / SI|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Mizoram)|Mizoram - State PSC Group 2 / Group B Posts|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Education Board (Mizoram)|Mizoram - State TET (Teacher Eligibility Test)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Police Department (Mizoram)|Mizoram - State Police Constable Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State High Court (Mizoram)|Mizoram - State Judiciary / Civil Judge Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Nagaland)|Nagaland - State PSC Civil Services (State)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Nagaland)|Nagaland - State PSC Combined Services|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Nagaland)|Nagaland - State PSC Assistant Engineer (AE/JE)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission / State Police (Nagaland)|Nagaland - State PSC Police Services / SI|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Nagaland)|Nagaland - State PSC Group 2 / Group B Posts|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Education Board (Nagaland)|Nagaland - State TET (Teacher Eligibility Test)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Police Department (Nagaland)|Nagaland - State Police Constable Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State High Court (Nagaland)|Nagaland - State Judiciary / Civil Judge Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Odisha)|Odisha - State PSC Civil Services (State)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Odisha)|Odisha - State PSC Combined Services|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Odisha)|Odisha - State PSC Assistant Engineer (AE/JE)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission / State Police (Odisha)|Odisha - State PSC Police Services / SI|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Odisha)|Odisha - State PSC Group 2 / Group B Posts|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Education Board (Odisha)|Odisha - State TET (Teacher Eligibility Test)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Police Department (Odisha)|Odisha - State Police Constable Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State High Court (Odisha)|Odisha - State Judiciary / Civil Judge Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Punjab)|Punjab - State PSC Civil Services (State)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Punjab)|Punjab - State PSC Combined Services|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Punjab)|Punjab - State PSC Assistant Engineer (AE/JE)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission / State Police (Punjab)|Punjab - State PSC Police Services / SI|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Punjab)|Punjab - State PSC Group 2 / Group B Posts|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Education Board (Punjab)|Punjab - State TET (Teacher Eligibility Test)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Police Department (Punjab)|Punjab - State Police Constable Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State High Court (Punjab)|Punjab - State Judiciary / Civil Judge Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Rajasthan)|Rajasthan - State PSC Civil Services (State)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Rajasthan)|Rajasthan - State PSC Combined Services|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Rajasthan)|Rajasthan - State PSC Assistant Engineer (AE/JE)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission / State Police (Rajasthan)|Rajasthan - State PSC Police Services / SI|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Rajasthan)|Rajasthan - State PSC Group 2 / Group B Posts|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Education Board (Rajasthan)|Rajasthan - State TET (Teacher Eligibility Test)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Police Department (Rajasthan)|Rajasthan - State Police Constable Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State High Court (Rajasthan)|Rajasthan - State Judiciary / Civil Judge Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Sikkim)|Sikkim - State PSC Civil Services (State)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Sikkim)|Sikkim - State PSC Combined Services|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Sikkim)|Sikkim - State PSC Assistant Engineer (AE/JE)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission / State Police (Sikkim)|Sikkim - State PSC Police Services / SI|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Sikkim)|Sikkim - State PSC Group 2 / Group B Posts|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Education Board (Sikkim)|Sikkim - State TET (Teacher Eligibility Test)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Police Department (Sikkim)|Sikkim - State Police Constable Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State High Court (Sikkim)|Sikkim - State Judiciary / Civil Judge Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Tamil Nadu)|Tamil Nadu - State PSC Civil Services (State)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Tamil Nadu)|Tamil Nadu - State PSC Combined Services|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Tamil Nadu)|Tamil Nadu - State PSC Assistant Engineer (AE/JE)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission / State Police (Tamil Nadu)|Tamil Nadu - State PSC Police Services / SI|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Tamil Nadu)|Tamil Nadu - State PSC Group 2 / Group B Posts|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Education Board (Tamil Nadu)|Tamil Nadu - State TET (Teacher Eligibility Test)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Police Department (Tamil Nadu)|Tamil Nadu - State Police Constable Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State High Court (Tamil Nadu)|Tamil Nadu - State Judiciary / Civil Judge Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Telangana)|Telangana - State PSC Civil Services (State)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Telangana)|Telangana - State PSC Combined Services|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Telangana)|Telangana - State PSC Assistant Engineer (AE/JE)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission / State Police (Telangana)|Telangana - State PSC Police Services / SI|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Telangana)|Telangana - State PSC Group 2 / Group B Posts|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Education Board (Telangana)|Telangana - State TET (Teacher Eligibility Test)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Police Department (Telangana)|Telangana - State Police Constable Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State High Court (Telangana)|Telangana - State Judiciary / Civil Judge Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Tripura)|Tripura - State PSC Civil Services (State)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Tripura)|Tripura - State PSC Combined Services|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Tripura)|Tripura - State PSC Assistant Engineer (AE/JE)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission / State Police (Tripura)|Tripura - State PSC Police Services / SI|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Tripura)|Tripura - State PSC Group 2 / Group B Posts|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Education Board (Tripura)|Tripura - State TET (Teacher Eligibility Test)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Police Department (Tripura)|Tripura - State Police Constable Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State High Court (Tripura)|Tripura - State Judiciary / Civil Judge Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Uttar Pradesh)|Uttar Pradesh - State PSC Civil Services (State)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Uttar Pradesh)|Uttar Pradesh - State PSC Combined Services|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Uttar Pradesh)|Uttar Pradesh - State PSC Assistant Engineer (AE/JE)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission / State Police (Uttar Pradesh)|Uttar Pradesh - State PSC Police Services / SI|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Uttar Pradesh)|Uttar Pradesh - State PSC Group 2 / Group B Posts|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Education Board (Uttar Pradesh)|Uttar Pradesh - State TET (Teacher Eligibility Test)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Police Department (Uttar Pradesh)|Uttar Pradesh - State Police Constable Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State High Court (Uttar Pradesh)|Uttar Pradesh - State Judiciary / Civil Judge Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Uttarakhand)|Uttarakhand - State PSC Civil Services (State)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Uttarakhand)|Uttarakhand - State PSC Combined Services|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Uttarakhand)|Uttarakhand - State PSC Assistant Engineer (AE/JE)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission / State Police (Uttarakhand)|Uttarakhand - State PSC Police Services / SI|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (Uttarakhand)|Uttarakhand - State PSC Group 2 / Group B Posts|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Education Board (Uttarakhand)|Uttarakhand - State TET (Teacher Eligibility Test)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Police Department (Uttarakhand)|Uttarakhand - State Police Constable Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State High Court (Uttarakhand)|Uttarakhand - State Judiciary / Civil Judge Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (West Bengal)|West Bengal - State PSC Civil Services (State)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (West Bengal)|West Bengal - State PSC Combined Services|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (West Bengal)|West Bengal - State PSC Assistant Engineer (AE/JE)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission / State Police (West Bengal)|West Bengal - State PSC Police Services / SI|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Public Service Commission (West Bengal)|West Bengal - State PSC Group 2 / Group B Posts|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Education Board (West Bengal)|West Bengal - State TET (Teacher Eligibility Test)|State|Varies (10th/12th/Graduate/Law/Engineering)
+State Police Department (West Bengal)|West Bengal - State Police Constable Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
+State High Court (West Bengal)|West Bengal - State Judiciary / Civil Judge Recruitment|State|Varies (10th/12th/Graduate/Law/Engineering)
