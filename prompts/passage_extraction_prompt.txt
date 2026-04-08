@@ -80,13 +80,20 @@ QUESTION FIELD (CRITICAL):
 3. For standalone questions (no passage): just use the question text directly.
 
 PASSAGE & QUESTION HANDLING:
-1. Extract ALL questions (MCQs, Descriptive, etc.) from the OCR text.
+1. Extract ALL actual questions (MCQs, Descriptive, etc.) from the OCR text. DO NOT extract administrative text or instructions as questions.
 2. Clean OCR errors in passage and question text (fix merged words, wrong characters).
 3. Preserve the full passage text — do NOT truncate or summarise the passage.
 4. If the question has numbered sub-statements (1., 2., 3. ...), include them in the question field as part of the question text.
 5. If the question has an instruction line like "Select the correct answer using the code given below.", include it in the question field.
 6. EXTREMELY IMPORTANT: Do NOT generate, invent, or hallucinate any questions that are not present in the text. ONLY extract questions that explicitly exist in the provided OCR text.
 7. If a question or passage is incomplete or cut off at the edges of the OCR text, extract what you can but DO NOT invent the missing parts.
+
+8. WHAT NOT TO EXTRACT (CRITICAL):
+   - Do NOT extract general exam instructions (e.g., "All questions are objective type", "Read instructions carefully").
+   - Do NOT extract marking scheme information (each correct answer carries 1 mark, etc.).
+   - Do NOT extract prohibited items notices (calculators, mobile phones, etc.).
+   - Do NOT extract metadata headers, footers, page numbers, or "Space for Rough Work".
+   - ONLY extract content that constitutes a question to be answered by the student.
 
 METADATA:
 1. Lookup the closest matching exam for this PDF from the following table, and apply its corresponding values directly into the JSON.

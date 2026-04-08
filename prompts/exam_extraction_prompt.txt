@@ -50,7 +50,7 @@ chemical equations, physics equations, or any scientific notation:
 GENERAL INSTRUCTIONS (APPLIES TO BOTH MODES)
 ==================================================
 
-1. Extract ALL questions (MCQs, Descriptive, etc.) from the PDF content (text or images).
+1. Extract ALL actual questions (MCQs, Descriptive, etc.) that test knowledge from the PDF content (text or images). DO NOT extract administrative text or instructions as questions.
 2. Identify and remove duplicate questions.
    - Duplicate detection must be based ONLY on exact question text comparison.
    - Keep only one copy of identical questions.
@@ -97,6 +97,15 @@ GENERAL INSTRUCTIONS (APPLIES TO BOTH MODES)
     - For "difficulty": ALWAYS set to one of exactly: "Easy", "Medium", or "Hard".
     - For "level": ALWAYS set to one of exactly: "National" or "State".
     - For "eligibility": Infer from the exam type (e.g., UPSC = "Graduate", SSC MTS = "10th", NEET = "12th").
+
+18. WHAT NOT TO EXTRACT (CRITICAL):
+    - Do NOT extract general exam instructions (e.g., "All questions are objective type", "Read the instructions carefully").
+    - Do NOT extract marking scheme information (e.g., "Each correct answer carries 1 mark", "There is no negative marking").
+    - Do NOT extract prohibited items notices (e.g., "Calculators are not allowed", "Mobile phones are prohibited").
+    - Do NOT extract metadata headers, footers, page numbers, or "Space for Rough Work".
+    - If the text specifies exam rules, administrative procedures, or candidate conduct, SKIP it entirely.
+    - ONLY extract content that constitutes a question to be answered by the student.
+
 ==================================================
 MODE-SPECIFIC BEHAVIOR
 ==================================================

@@ -20,7 +20,7 @@ class Config:
     
     # Models
     EMBEDDING_MODEL = "models/gemini-embedding-001"
-    GENERATION_MODEL = "gemini-3.1-flash-lite-preview"
+    GENERATION_MODEL = "gemini-2.5-flash-lite"
     
     # Logging
     LOG_FILE = os.path.join(BASE_DIR, "app.log")
