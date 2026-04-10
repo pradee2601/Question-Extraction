@@ -510,6 +510,34 @@ class ExamExtractor:
     # Step 3 - Gemini calls
     # ------------------------------------------------------------------
 
+    def _filter_mapping_table(self, pdf_name: str) -> str:
+        """Return only the relevant rows from the exam mapping table to save prompt tokens."""
+        if not self.exam_mapping_text:
+            return ""
+        
+        pdf_name_lower = pdf_name.lower()
+        # FindConducting Body (UPSC, SSC, IBPS, RRB, SBI, RBI, LIC, JEE, NEET, etc.)
+        keywords = ["upsc", "ssc", "ibps", "rrb", "sbi", "rbi", "lic", "nabard", "ctet", "ugc", "jee", "neet", "nda", "cds", "psc"]
+        relevant_keywords = [k for k in keywords if k in pdf_name_lower]
+        
+        if not relevant_keywords:
+            return self.exam_mapping_text # fallback to full if no keyword matches
+
+        lines = self.exam_mapping_text.splitlines()
+        header = lines[0] if lines else ""
+        filtered_lines = [header]
+        
+        for line in lines[1:]:
+            line_lower = line.lower()
+            if any(k in line_lower for k in relevant_keywords):
+                filtered_lines.append(line)
+        
+        # If we filtered too aggressively, keep the full table (e.g. less than 5 rows)
+        if len(filtered_lines) < 5:
+            return self.exam_mapping_text
+            
+        return "\n".join(filtered_lines)
+
     def _build_prompt(self, mode: str, text_block: str, passage_mode: bool, pdf_name: str) -> str:
         """Fill prompt template placeholders."""
         template = self.passage_prompt_template if passage_mode else self.mcq_prompt_template
@@ -518,9 +546,13 @@ class ExamExtractor:
                 text_block[:MAX_TEXT_CHARS]
                 + "\n\n[... content truncated - process questions found so far ...]"
             )
+        
+        # Only include relevant part of mapping table to save prompt and reasoning tokens
+        relevant_mapping = self._filter_mapping_table(pdf_name)
+        
         prompt = template.replace("{mode}", mode)
         prompt = prompt.replace("{pdf_name}", pdf_name)
-        prompt = prompt.replace("{exam_mapping}", self.exam_mapping_text)
+        prompt = prompt.replace("{exam_mapping}", relevant_mapping)
         return prompt.replace("{pdf_text}", text_block)
 
     def _raw_gemini_call(self, prompt: str, label: str) -> str:
@@ -737,11 +769,14 @@ class ExamExtractor:
                     pass  # fall through to array search
 
         # --- Plain array extraction ---
-        if arr_start == -1 or arr_end == -1:
-            logger.warning("No JSON array found in response.")
-            # Last resort: log snippet for debugging
-            logger.debug(f"Response snippet: {text[:300]}")
+        if arr_start == -1:
+            logger.warning("No JSON array start '[' found in response.")
             return []
+        
+        if arr_end == -1:
+            logger.warning("JSON array truncated (missing closing ']'). Attempting salvage...")
+            return self._salvage_objects(text)
+
         text = self._fix_backslashes(text[arr_start:arr_end + 1])
         try:
             data = json.loads(text, strict=False)

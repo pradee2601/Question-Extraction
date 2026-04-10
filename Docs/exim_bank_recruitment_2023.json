@@ -1,0 +1,361 @@
+[
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Professional Knowledge",
+    "subtopic": "General",
+    "difficulty": "Medium",
+    "question": "Which of the following is NOT a direct export promotion scheme of India?",
+    "option": {
+      "A": "Export Credit Guarantee Corporation (ECGC) Scheme",
+      "B": "Duty Drawback Scheme",
+      "C": "Export House Certificate Scheme",
+      "D": "Export-Import Bank of India (EXIM Bank) Financing Schemes"
+    },
+    "answer": "D",
+    "explanation": "EXIM Bank financing schemes are primarily for facilitating exports and imports, not a direct promotion scheme like ECGC, Duty Drawback, or Export House Certificates.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2023",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885d73f691abe1420c206"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Accounting",
+    "subtopic": "Financial Ratios",
+    "difficulty": "Medium",
+    "question": "A trial balance was given with multiple figures. Pre and post incorporation expenses were also mentioned in the Trial Balance. Using the given information, the following values had to be calculated:\\na) Current Assets\\nb) Current Liabilities\\nc) Current Ratio\\nd) Debt Equity Ratio\\ne) TOL/TNW\\nf) Net worth\\ng) Fixed assets\\nh) Intangible Assets\\ni) Debtors",
+    "option": {},
+    "answer": "The question requires calculation of various financial metrics based on a provided trial balance and information on pre and post-incorporation expenses.",
+    "explanation": "This question assesses the ability to analyze a trial balance and calculate key financial ratios and asset/liability components.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2023",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885d79f726fc377d661c0"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Financial Statement Analysis",
+    "subtopic": "Ratios",
+    "difficulty": "Medium",
+    "question": "A Balance Sheet and Profit & Loss statement was given from which the following were to be calculated:\\na) NP ratio\\nb) Operating ratio\\nc) Debt Equity ratio\\nd) Net worth\\ne) Capital\\nf) Net worth",
+    "option": {},
+    "answer": "Requires Balance Sheet and P&L data to calculate.",
+    "explanation": "These are standard financial ratios and metrics derived from a company's financial statements.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2023",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885d7ba0f42e53c3cbf6f"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Financial Statement Analysis",
+    "subtopic": "Net Worth and Assets",
+    "difficulty": "Medium",
+    "question": "Co. XYZ having a loan of Rs. 450crore and total assets of Rs.1000 crore (including goodwill and copywrites worth Rs.50 crores). Some more information was given. Find the following:\\na) Intangible assets\\nb) Tangible net worth\\nc) Net worth\\nd) Total liabilities\\ne) Current Assets",
+    "option": {},
+    "answer": "Requires additional information to calculate.",
+    "explanation": "The question asks for specific financial calculations based on provided data and additional implicit information.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2023",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885d73897e02ca20dcf9f"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Banking Operations",
+    "subtopic": "Financial Terms",
+    "difficulty": "Easy",
+    "question": "Describe the following terms:\\na) Nostro account\\nb) Vostro account\\nc) Escrow\\nd) IRR\\ne) CRAR",
+    "option": {},
+    "answer": "Requires definitions of the given financial terms.",
+    "explanation": "This question tests the understanding of fundamental banking and financial terminology.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2023",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885d7a2c74cd8aa826a3e"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Banking Operations",
+    "subtopic": "Financial Instruments",
+    "difficulty": "Easy",
+    "question": "Short notes on:\\na. Financial Scheme regarding export credit\\nb. Letter of credit\\nc. Bank guarantee",
+    "option": {},
+    "answer": "Requires brief explanations of the listed banking instruments.",
+    "explanation": "This question assesses knowledge of common financial instruments used in trade finance.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2023",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885d71bbc74e1b9b785c6"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Financial Projections",
+    "subtopic": "Time Value of Money",
+    "difficulty": "Easy",
+    "question": "What does NPV stand for in the context of financial projections?",
+    "option": {
+      "A": "Net Present Value",
+      "B": "New Project Valuation",
+      "C": "Nominal Profit Value",
+      "D": "National Project Venture"
+    },
+    "answer": "A",
+    "explanation": "NPV stands for Net Present Value, a metric used to evaluate the profitability of an investment.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885d7fbce08c9d3306a5f"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Financial Management & Forex Markets",
+    "subtopic": "Derivatives",
+    "difficulty": "Easy",
+    "question": "Which of the following is a type of derivative contract?",
+    "option": {
+      "A": "Swap",
+      "B": "Bond",
+      "C": "Equity",
+      "D": "Letter of Credit"
+    },
+    "answer": "A",
+    "explanation": "Swaps are a type of derivative contract where two parties exchange financial instruments or cash flows.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885d743b6e606a3f4ebc0"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Trade Finance",
+    "subtopic": "Letters of Credit",
+    "difficulty": "Easy",
+    "question": "What does UCPDC stand for in relation to Letters of Credit?",
+    "option": {
+      "A": "Uniform Customs and Practice for Documentary Credits",
+      "B": "Universal Commercial Procedures for Direct Collections",
+      "C": "United Commercial Practices for Documentary Collections",
+      "D": "Uniform Currency Practices for Documentary Credits"
+    },
+    "answer": "A",
+    "explanation": "UCPDC stands for Uniform Customs and Practice for Documentary Credits, a set of rules widely used in international banking for Letters of Credit.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885d70480c2af44be0942"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "KYC & Compliance",
+    "subtopic": "AML/CFT",
+    "difficulty": "Easy",
+    "question": "What does AML/CFT refer to in the context of banking compliance?",
+    "option": {
+      "A": "Anti-Money Laundering / Counter-Financing of Terrorism",
+      "B": "Asset Management and Capital Flow Tracking",
+      "C": "Account Monitoring and Credit Flow Technology",
+      "D": "Advanced Market Liquidity and Customer Fund Trust"
+    },
+    "answer": "A",
+    "explanation": "AML/CFT stands for Anti-Money Laundering and Counter-Financing of Terrorism, crucial aspects of banking compliance.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885d748e8db425e66c652"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Stressed Accounts, NPA & Recovery Process",
+    "subtopic": "NPA Norms",
+    "difficulty": "Easy",
+    "question": "What does NPA stand for in banking?",
+    "option": {
+      "A": "Non-Performing Asset",
+      "B": "New Payment Arrangement",
+      "C": "Net Profitability Analysis",
+      "D": "Non-Pledged Account"
+    },
+    "answer": "A",
+    "explanation": "NPA stands for Non-Performing Asset, an asset that no longer generates income for the bank.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885d75111dbfe02a250dc"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Risks Management & Audit",
+    "subtopic": "Basel Norms",
+    "difficulty": "Easy",
+    "question": "Which set of norms aims to strengthen the regulation, supervision, and risk management of banks?",
+    "option": {
+      "A": "Basel III",
+      "B": "Solvency II",
+      "C": "IFRS",
+      "D": "GAAP"
+    },
+    "answer": "A",
+    "explanation": "Basel III norms are international banking regulations designed to strengthen the resilience of the banking sector.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885d7384903d094dd86ef"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Indian & Global Economy",
+    "subtopic": "International Trade",
+    "difficulty": "Easy",
+    "question": "Which of the following is a key aspect of India's International Trade & Services?",
+    "option": {
+      "A": "Top Export & Import Sectors",
+      "B": "Domestic Monetary Policy",
+      "C": "Agricultural Subsidies",
+      "D": "Infrastructure Development"
+    },
+    "answer": "A",
+    "explanation": "Identifying top export and import sectors is crucial for understanding India's international trade patterns.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885d78f081170efb5c6f9"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Indian Financial System",
+    "subtopic": "Regulatory Bodies",
+    "difficulty": "Easy",
+    "question": "Which of the following is a key regulatory body in the Indian Financial System?",
+    "option": {
+      "A": "SEBI",
+      "B": "IRDAI",
+      "C": "PFRDA",
+      "D": "All of the above"
+    },
+    "answer": "D",
+    "explanation": "SEBI (Securities and Exchange Board of India) is a key regulatory body for the securities market.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885d70641a7aed53afd58"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Taxation",
+    "subtopic": "Direct Taxation",
+    "difficulty": "Easy",
+    "question": "Which of the following is an example of direct taxation?",
+    "option": {
+      "A": "Income Tax",
+      "B": "Goods and Services Tax (GST)",
+      "C": "Customs Duty",
+      "D": "Excise Duty"
+    },
+    "answer": "A",
+    "explanation": "Income Tax is a direct tax levied on the income of individuals and entities.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885d7c45afed0cda0c61e"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Legal and Regulatory Framework",
+    "subtopic": "FEMA",
+    "difficulty": "Easy",
+    "question": "What does FEMA regulate in India?",
+    "option": {
+      "A": "Foreign Exchange Management",
+      "B": "Financial Equity Market Analysis",
+      "C": "Federal Economic Monetary Authority",
+      "D": "Foreign Exchange and Monetary Affairs"
+    },
+    "answer": "A",
+    "explanation": "FEMA stands for Foreign Exchange Management Act, which regulates foreign exchange transactions in India.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885d729aa060655f14887"
+    }
+  }
+]

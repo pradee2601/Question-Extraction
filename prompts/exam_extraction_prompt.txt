@@ -64,7 +64,7 @@ GENERAL INSTRUCTIONS (APPLIES TO BOTH MODES)
 6. If the explanation is missing in the PDF:
    - Generate a clear, structured, and exam-level explanation.
    - The explanation must justify why the assigned answer is correct.
-   - CRITICAL: Keep explanations extremely brief (1-2 short sentences maximum) to prevent output length limits from cutting off the remaining questions.
+   - CRITICAL: Keep explanations extremely brief (1 SHORT SENTENCE maximum). Do NOT elaborate. This is essential to prevent output length limits from cutting off questions.
 7. NEVER leave "answer" or "explanation" empty.
 8. Do NOT include markdown formatting.
 9. Do NOT include any text outside the JSON output.

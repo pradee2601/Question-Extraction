@@ -1,0 +1,891 @@
+[
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Banking Awareness",
+    "topic": "International Organizations",
+    "subtopic": "IMF",
+    "difficulty": "Medium",
+    "question": "Which of the following is the primary objective of the International Monetary Fund (IMF)?",
+    "option": {
+      "A": "To provide short-term loans to countries facing balance of payments problems.",
+      "B": "To promote global economic growth through trade agreements.",
+      "C": "To manage the world's gold reserves.",
+      "D": "To provide long-term development loans to developing countries."
+    },
+    "answer": "A",
+    "explanation": "The IMF's primary objective is to ensure the stability of the international monetary system, which includes providing temporary financial assistance to countries experiencing balance of payments difficulties.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c2e277b67afc4326fa"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Quantitative Aptitude",
+    "topic": "Percentage",
+    "subtopic": "Profit and Loss",
+    "difficulty": "Easy",
+    "question": "A shopkeeper bought an article for $500 and sold it for $600. What is the profit percentage?",
+    "option": {
+      "A": "15%",
+      "B": "20%",
+      "C": "25%",
+      "D": "30%"
+    },
+    "answer": "B",
+    "explanation": "Profit = Selling Price - Cost Price = $600 - $500 = $100. Profit Percentage = (Profit / Cost Price) * 100 = ($100 / $500) * 100 = 20%.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c2d59f2a2fba23c69a"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Reasoning Ability",
+    "topic": "Blood Relations",
+    "subtopic": "Family Tree",
+    "difficulty": "Medium",
+    "question": "Pointing to a photograph, a man said, \"I have no brother or sister, but that man's father is my father's son.\" Who is in the photograph?",
+    "option": {
+      "A": "His son",
+      "B": "His nephew",
+      "C": "His father",
+      "D": "His uncle"
+    },
+    "answer": "A",
+    "explanation": "My father's son (since I have no brother or sister) is me. So, 'that man's father is me'. Therefore, the man in the photograph is my son.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c245c527bd562c91fd"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "English Language",
+    "topic": "Vocabulary",
+    "subtopic": "Synonyms",
+    "difficulty": "Easy",
+    "question": "Choose the word that is most nearly the SAME in meaning as the word given below:\n\\nABUNDANT",
+    "option": {
+      "A": "Scarce",
+      "B": "Meager",
+      "C": "Plentiful",
+      "D": "Limited"
+    },
+    "answer": "C",
+    "explanation": "Abundant means existing or available in large quantities; plentiful. Scarce, meager, and limited are antonyms.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c2a90add2210df0563"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Quantitative Aptitude",
+    "topic": "Averages",
+    "subtopic": "Weightage Average",
+    "difficulty": "Hard",
+    "question": "The average weight of a class of 30 students is 45 kg. If the weight of the teacher is included, the average weight increases by 1 kg. What is the weight of the teacher?",
+    "option": {
+      "A": "75 kg",
+      "B": "76 kg",
+      "C": "77 kg",
+      "D": "78 kg"
+    },
+    "answer": "B",
+    "explanation": "Total weight of 30 students = 30 * 45 kg = 1350 kg. New average weight (including teacher) = 45 + 1 = 46 kg. Total weight of 31 people (students + teacher) = 31 * 46 kg = 1426 kg. Weight of the teacher = 1426 kg - 1350 kg = 76 kg.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c2f303e0b4e8c7a1ab"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Accounting",
+    "subtopic": "Financial Statement Analysis",
+    "difficulty": "Medium",
+    "question": "Users of balance sheet, horizontal and vertical analysis of balance sheet",
+    "option": {},
+    "answer": "Users of balance sheet include investors, creditors, management, and regulatory bodies. Horizontal analysis involves comparing financial data over several periods to identify trends, while vertical analysis involves expressing each line item as a percentage of a base figure within the same period.",
+    "explanation": "Horizontal analysis tracks changes over time, while vertical analysis shows the proportion of each item to a whole.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c22064622df42c30c4"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Accounting",
+    "subtopic": "Auditing",
+    "difficulty": "Medium",
+    "question": "Types of audit opinion by auditor",
+    "option": {},
+    "answer": "The types of audit opinions are: Unqualified Opinion (clean opinion), Qualified Opinion (except for...), Adverse Opinion, and Disclaimer of Opinion.",
+    "explanation": "An unqualified opinion is given when financial statements are presented fairly, while other opinions indicate issues or limitations.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c2b0f0c5875b503eff"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Banking",
+    "subtopic": "Digital Lending",
+    "difficulty": "Medium",
+    "question": "After COVID-19, digital lending has increased in the country. Enumerate the factors behind it.",
+    "option": {},
+    "answer": "Factors include increased internet penetration, smartphone adoption, demand for contactless transactions, convenience, faster loan processing, and government initiatives promoting digital infrastructure.",
+    "explanation": "The pandemic accelerated the adoption of digital services, including lending, due to convenience and safety concerns.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c2610f49f2e507c061"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "English",
+    "topic": "Essay",
+    "subtopic": "Artificial Intelligence",
+    "difficulty": "Medium",
+    "question": "Artificial intelligence relevance in banking sector",
+    "option": {},
+    "answer": "AI is revolutionizing the banking sector by enhancing customer service through chatbots, improving fraud detection, personalizing financial advice, automating processes, and enabling data-driven decision-making.",
+    "explanation": "AI offers significant benefits to banks by improving efficiency, security, and customer experience.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c21ce123465dcb516c"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "English",
+    "topic": "Essay",
+    "subtopic": "Environment",
+    "difficulty": "Medium",
+    "question": "Plastic and the environment",
+    "option": {},
+    "answer": "Plastic pollution poses a severe threat to the environment, harming wildlife, contaminating soil and water, and contributing to climate change through its production and disposal.",
+    "explanation": "The pervasive use of plastic leads to significant environmental degradation, necessitating urgent solutions.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c2598d36ffe31cbfb4"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "English",
+    "topic": "Letter Writing",
+    "subtopic": "Banking Complaint",
+    "difficulty": "Easy",
+    "question": "Letter to bank manager regarding ATM problem",
+    "option": {},
+    "answer": "A letter to the bank manager regarding an ATM problem should clearly state the issue (e.g., card not returned, cash dispensed but not recorded, machine malfunction), the ATM location and time, and request prompt resolution.",
+    "explanation": "A well-structured letter with specific details is crucial for effective communication with the bank manager.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c2229f4da61431826e"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Accounting",
+    "subtopic": "Income Recognition and Provisioning",
+    "difficulty": "Medium",
+    "question": "Income recognition, asset classification and provisioning norms",
+    "option": {},
+    "answer": "Income recognition norms follow principles like accrual basis and realization. Asset classification categorizes loans based on risk (standard, substandard, doubtful, loss). Provisioning norms require banks to set aside funds for potential loan losses based on asset classification.",
+    "explanation": "These norms ensure prudent financial management and stability in the banking sector.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c29448a8c4eba3c490"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Insolvency and Bankruptcy",
+    "subtopic": "IBC 2016",
+    "difficulty": "Hard",
+    "question": "NCLT vs. DRT jurisdiction. Comment with respect to specific sections of IBC 2016",
+    "option": {},
+    "answer": "The National Company Law Tribunal (NCLT) handles corporate insolvency resolution under the Insolvency and Bankruptcy Code, 2016 (IBC), specifically under Part II. Debt Recovery Tribunals (DRTs) deal with recovery of debts under the Recovery of Debts Due to Banks and Financial Institutions Act, 1993, and generally do not have jurisdiction over IBC proceedings.",
+    "explanation": "NCLT has exclusive jurisdiction over corporate insolvency matters under the IBC, distinct from the DRT's debt recovery role.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c27aab1ea8783c7ad2"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Project Appraisal",
+    "subtopic": "Technical Viability",
+    "difficulty": "Medium",
+    "question": "Technical viability, lenders independent engineer report and its relevance in project appraisal",
+    "option": {},
+    "answer": "Technical viability assesses the feasibility of a project's technical aspects, including technology, design, and execution. A lender's independent engineer report provides an unbiased technical evaluation, crucial for project appraisal by lenders to mitigate risks.",
+    "explanation": "The independent engineer's report assures lenders of the project's technical soundness before funding.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c29c10003365d647ac"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Risk Management",
+    "subtopic": "Risk Assessment",
+    "difficulty": "Medium",
+    "question": "Define risk assessment control matrix, its benefits and steps in risk identification",
+    "option": {},
+    "answer": "A Risk Assessment Control Matrix (RACM) is a tool that maps risks to their corresponding controls. Its benefits include improved risk management, compliance assurance, and identification of control gaps. Steps in risk identification involve brainstorming, checklists, interviews, and analyzing historical data.",
+    "explanation": "RACM helps systematically identify risks and the controls in place to mitigate them.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c2f53120a201cce888"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Central Bank Digital Currency",
+    "subtopic": "CBDC",
+    "difficulty": "Medium",
+    "question": "What is CBDC? Advantages and compare it with private virtual currency.",
+    "option": {},
+    "answer": "CBDC (Central Bank Digital Currency) is a digital form of fiat currency that is issued by a central bank. Advantages include improved payment efficiency, reduced transaction costs, and enhanced financial inclusion. It differs from private virtual currencies (like Bitcoin) in that it is issued and backed by a central authority, thus offering greater stability and regulatory oversight.",
+    "explanation": "CBDC is a digital form of a country's fiat currency, issued by the central bank, offering advantages over private virtual currencies due to its stability and regulatory backing.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c2083f0eedb983b39f"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Financial Ratios",
+    "subtopic": "Balance Sheet Analysis",
+    "difficulty": "Hard",
+    "question": "Balance sheet data was given and asked to calculate and analyse TNW, current ratio, long term debt to equity ratio, outside liability ratio.",
+    "option": {},
+    "answer": "Calculations and analysis would involve applying standard financial ratio formulas to the provided balance sheet data to assess the company's financial health, liquidity, leverage, and solvency.",
+    "explanation": "This question requires applying financial ratio analysis to balance sheet data to evaluate a company's financial health and performance.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c2c8aeed3dae773569"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Financial Statements",
+    "subtopic": "Cash Flow and Fund Flow",
+    "difficulty": "Medium",
+    "question": "What is cashflow and fund flow statement? Analysis of the case.",
+    "option": {},
+    "answer": "A cash flow statement tracks the movement of cash in and out of a company, while a fund flow statement (or statement of changes in financial position) tracks the movement of working capital. Analysis of a case would involve interpreting these statements to understand a company's financial activities and position.",
+    "explanation": "Cash flow statements detail cash movements, while fund flow statements analyze working capital changes, both crucial for understanding a company's financial activities.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c2fcfb2fc27be444bb"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "International Trade Finance",
+    "subtopic": "Letter of Credit",
+    "difficulty": "Medium",
+    "question": "What is letter of credit? Types, parties to letters of credit.",
+    "option": {},
+    "answer": "A Letter of Credit (LC) is a financial instrument issued by a bank that guarantees payment to a seller on behalf of a buyer. Types include transferable, back-to-back, standby LCs, etc. Parties typically include the applicant (buyer), issuing bank, beneficiary (seller), and often a nominated bank or advising bank.",
+    "explanation": "A Letter of Credit is a bank's guarantee of payment to a seller, with various types and defined parties involved in its execution.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c2d45066281e28b09b"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Working Capital Management",
+    "subtopic": "Tandon Committee Norms",
+    "difficulty": "Hard",
+    "question": "Working capital question, analyze the case and calculate current ratio through three types as of Tandon committee.",
+    "option": {},
+    "answer": "The Tandon Committee recommended three methods for assessing working capital requirements, focusing on current assets and current liabilities. Analyzing the case would involve applying these methods to calculate the current ratio and assess working capital adequacy.",
+    "explanation": "The Tandon Committee's recommendations on working capital involve three methods for calculating the current ratio to assess fund requirements.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c22f8c889c4f33ee78"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "English",
+    "topic": "Essay Writing",
+    "subtopic": "Mergers and Acquisitions",
+    "difficulty": "Medium",
+    "question": "Advantages and disadvantages of merger of banks",
+    "option": {},
+    "answer": "Advantages of bank mergers include increased market share, economies of scale, and improved efficiency, while disadvantages can involve integration challenges, potential job losses, and cultural clashes.",
+    "explanation": "Bank mergers offer benefits like scale and efficiency but also present challenges in integration and cultural alignment.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c20a897cbfaed8c2f5"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "English",
+    "topic": "Essay Writing",
+    "subtopic": "Government Funding",
+    "difficulty": "Medium",
+    "question": "Government and private funding to archaeological sites in India",
+    "option": {},
+    "answer": "Government and private funding play crucial roles in the preservation and development of archaeological sites in India, each with its own strengths and limitations.",
+    "explanation": "Both government and private funding are vital for India's archaeological sites, contributing uniquely to their preservation and development.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c2b5e22e5b08580f0f"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "English",
+    "topic": "Essay Writing",
+    "subtopic": "Company Jubilee",
+    "difficulty": "Easy",
+    "question": "Report on celebration of golden jubilee of a company",
+    "option": {},
+    "answer": "A report on a company's golden jubilee celebration would detail the event's significance, activities, attendees, and future outlook, marking a milestone achievement.",
+    "explanation": "A report on a company's golden jubilee should cover the event's highlights, its historical significance, and future aspirations.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c2a5561e40926a5eb9"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "English",
+    "topic": "Letter Writing",
+    "subtopic": "General",
+    "difficulty": "Easy",
+    "question": "Letter (attempt any 1)",
+    "option": {},
+    "answer": "This question requires writing a formal or informal letter based on a given prompt, demonstrating communication skills.",
+    "explanation": "Letter writing assesses the candidate's ability to communicate effectively in a specified format and context.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c23004a7a2f3ab01f6"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "English",
+    "topic": "Letter Writing",
+    "subtopic": "Formal Letters",
+    "difficulty": "Easy",
+    "question": "Which of the following is a type of letter that can be addressed to the manager for account-related issues?",
+    "option": {
+      "A": "Letter to manager for reactivation of account",
+      "B": "Letter to editor",
+      "C": "Letter for missing boxes of chocolate",
+      "D": "None of the above"
+    },
+    "answer": "A",
+    "explanation": "A letter to the manager for reactivation of an account is a direct request related to account management.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c2b8eb7a7a0d41d91d"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "English",
+    "topic": "Letter Writing",
+    "subtopic": "Informal Letters",
+    "difficulty": "Easy",
+    "question": "Which of the following is an example of a letter to the editor?",
+    "option": {
+      "A": "Letter to manager for reactivation of account",
+      "B": "Letter to editor",
+      "C": "Letter for missing boxes of chocolate",
+      "D": "None of the above"
+    },
+    "answer": "B",
+    "explanation": "A letter to the editor is typically sent to a newspaper or magazine to express an opinion or share information.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c20fa13bf86d543b6b"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "English",
+    "topic": "Letter Writing",
+    "subtopic": "Informal Letters",
+    "difficulty": "Easy",
+    "question": "Which of the following is an example of a personal or informal letter?",
+    "option": {
+      "A": "Letter to manager for reactivation of account",
+      "B": "Letter to editor",
+      "C": "Letter for missing boxes of chocolate",
+      "D": "None of the above"
+    },
+    "answer": "C",
+    "explanation": "A letter concerning missing items like boxes of chocolate is usually personal and informal in nature.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c2bd70a086a3397286"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Reasoning and Quantitative Aptitude",
+    "topic": "Data Interpretation",
+    "subtopic": "Graph Questions",
+    "difficulty": "Easy",
+    "question": "Which topic under Reasoning and Quantitative Aptitude covers graph-based questions?",
+    "option": {
+      "A": "Inequality",
+      "B": "Caselet",
+      "C": "Data interpretation",
+      "D": "None of the above"
+    },
+    "answer": "C",
+    "explanation": "Data Interpretation specifically includes the analysis of graphical representations of data.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c24078f9a54b970296"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Reasoning and Quantitative Aptitude",
+    "topic": "Data Interpretation",
+    "subtopic": "Inequality",
+    "difficulty": "Easy",
+    "question": "What is one of the specific topics mentioned under Reasoning and Quantitative Aptitude besides data interpretation?",
+    "option": {
+      "A": "Caselet",
+      "B": "Inequality",
+      "C": "Full form of OMR",
+      "D": "Banking industry terms"
+    },
+    "answer": "B",
+    "explanation": "Inequality is listed as a distinct sub-topic within Reasoning and Quantitative Aptitude.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c2f3bac401b6d66f10"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Reasoning and Quantitative Aptitude",
+    "topic": "Data Interpretation",
+    "subtopic": "Caselet",
+    "difficulty": "Easy",
+    "question": "Which type of question, involving a short story or scenario, is mentioned under Reasoning and Quantitative Aptitude?",
+    "option": {
+      "A": "Graph questions",
+      "B": "Inequality",
+      "C": "Caselet",
+      "D": "Full form of OMR"
+    },
+    "answer": "C",
+    "explanation": "Caselet questions are a type of data interpretation that presents data within a narrative context.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c2a83d54498cffcb92"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Financial Awareness",
+    "topic": "Banking Products",
+    "subtopic": "EXIM Bank Products",
+    "difficulty": "Easy",
+    "question": "What specific area related to EXIM Bank's operations is mentioned for questions in the Financial Awareness section?",
+    "option": {
+      "A": "NPA assets",
+      "B": "EXIM bank products",
+      "C": "Computer shortcuts",
+      "D": "RC (Reading Comprehension)"
+    },
+    "answer": "B",
+    "explanation": "Questions on EXIM bank products are explicitly mentioned as part of the Financial Awareness section.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c29cea86f647f8a0f0"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Financial Awareness",
+    "topic": "Banking Terms",
+    "subtopic": "NPA Assets",
+    "difficulty": "Easy",
+    "question": "Which financial term related to assets is mentioned as a topic for the Financial Awareness section?",
+    "option": {
+      "A": "EXIM bank products",
+      "B": "Banking industry terms",
+      "C": "NPA assets",
+      "D": "MS Word"
+    },
+    "answer": "C",
+    "explanation": "NPA (Non-Performing Asset) assets is a key financial term relevant to banking.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c269e6a66e1b74f8e3"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Financial Awareness",
+    "topic": "Banking Terms",
+    "subtopic": "General Banking Terms",
+    "difficulty": "Easy",
+    "question": "What general category of terms from the banking sector is to be covered in the Financial Awareness section?",
+    "option": {
+      "A": "EXIM bank products",
+      "B": "NPA assets",
+      "C": "Banking industry terms",
+      "D": "Operating system"
+    },
+    "answer": "C",
+    "explanation": "General 'Banking industry terms' are a broad area of coverage in the financial awareness section.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c23c15fb78f30c2757"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Computer",
+    "topic": "Computer Skills",
+    "subtopic": "Shortcut Keys",
+    "difficulty": "Easy",
+    "question": "What is a specific topic related to computer knowledge mentioned in the syllabus?",
+    "option": {
+      "A": "RC (Reading Comprehension)",
+      "B": "Banking industry terms",
+      "C": "Ques on short cut keys",
+      "D": "EXIM bank products"
+    },
+    "answer": "C",
+    "explanation": "Questions on shortcut keys are a common topic in computer knowledge sections.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c2825c9e8c8e44cb02"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Computer",
+    "topic": "Computer Skills",
+    "subtopic": "MS Office",
+    "difficulty": "Easy",
+    "question": "Which of the following MS Office applications is mentioned as a topic in the Computer section?",
+    "option": {
+      "A": "MS PowerPoint",
+      "B": "MS Access",
+      "C": "MS Word",
+      "D": "MS Outlook"
+    },
+    "answer": "C",
+    "explanation": "MS Word is explicitly mentioned as a part of the computer syllabus.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c244127aceb9faac01"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Computer",
+    "topic": "Computer Skills",
+    "subtopic": "MS Office",
+    "difficulty": "Easy",
+    "question": "Besides MS Word, which other MS Office application is mentioned as a computer topic?",
+    "option": {
+      "A": "MS PowerPoint",
+      "B": "MS Excel",
+      "C": "MS Access",
+      "D": "MS Outlook"
+    },
+    "answer": "B",
+    "explanation": "MS Excel is listed alongside MS Word as a topic within the computer section.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c2728545f843c93fb8"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Computer",
+    "topic": "Computer Skills",
+    "subtopic": "Operating Systems",
+    "difficulty": "Easy",
+    "question": "Which fundamental computer concept, related to system software, is mentioned as a topic?",
+    "option": {
+      "A": "Full form of OMR",
+      "B": "Operating system",
+      "C": "Binary number",
+      "D": "EXIM bank products"
+    },
+    "answer": "B",
+    "explanation": "Operating systems are a core concept in computer knowledge.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c27b06744eed1aa9d9"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Computer",
+    "topic": "Computer Skills",
+    "subtopic": "Number Systems",
+    "difficulty": "Easy",
+    "question": "What type of number representation is included in the Computer section?",
+    "option": {
+      "A": "Decimal number",
+      "B": "Hexadecimal number",
+      "C": "Binary number",
+      "D": "Octal number"
+    },
+    "answer": "C",
+    "explanation": "Binary numbers are a fundamental topic in computer science.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c2d8769a26eda0a643"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Computer",
+    "topic": "Computer Peripherals",
+    "subtopic": "OMR",
+    "difficulty": "Easy",
+    "question": "What is the full form of OMR in the context of computer-related questions?",
+    "option": {
+      "A": "Optical Mark Reader",
+      "B": "Optical Machine Reader",
+      "C": "Online Mark Reader",
+      "D": "Optical Memory Reader"
+    },
+    "answer": "A",
+    "explanation": "OMR stands for Optical Mark Reader, a technology used for reading marks made on paper.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c24623e7b94ad946d9"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "English",
+    "topic": "Reading Comprehension",
+    "subtopic": "RC",
+    "difficulty": "Easy",
+    "question": "What is the primary reading-based topic mentioned under the English section?",
+    "option": {
+      "A": "Word replacement",
+      "B": "RC",
+      "C": "Letter to editor",
+      "D": "Caselet"
+    },
+    "answer": "B",
+    "explanation": "RC stands for Reading Comprehension, a common test of reading ability.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c21ba2b441972476ab"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "English",
+    "topic": "Vocabulary",
+    "subtopic": "Word Replacement",
+    "difficulty": "Easy",
+    "question": "Which vocabulary-related skill is mentioned in the English section?",
+    "option": {
+      "A": "RC",
+      "B": "Synonyms",
+      "C": "Word replacement",
+      "D": "Antonyms"
+    },
+    "answer": "C",
+    "explanation": "Word replacement is a common exercise to test a candidate's understanding of word usage.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c2af42e7e1e2991dd8"
+    }
+  }
+]

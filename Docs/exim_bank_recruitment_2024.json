@@ -1,0 +1,641 @@
+[
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Banking",
+    "subtopic": "Financial Inclusion",
+    "difficulty": "Medium",
+    "question": "Which of the following schemes aims to promote financial inclusion in India by providing access to banking, insurance, pension, and credit facilities?",
+    "option": {
+      "A": "Pradhan Mantri Jan Dhan Yojana (PMJDY)",
+      "B": "Pradhan Mantri Mudra Yojana (PMMY)",
+      "C": "Atal Pension Yojana (APY)",
+      "D": "National Rural Livelihood Mission (NRLM)"
+    },
+    "answer": "A",
+    "explanation": "Pradhan Mantri Jan Dhan Yojana (PMJDY) is the flagship scheme for financial inclusion, providing access to banking, insurance, pension, and credit.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d8860186c3bfdbe81a6e5a"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Banking",
+    "subtopic": "Monetary Policy",
+    "difficulty": "Medium",
+    "question": "What is the primary objective of the Reserve Bank of India's (RBI) monetary policy?",
+    "option": {
+      "A": "To control inflation and ensure price stability",
+      "B": "To boost economic growth by increasing money supply",
+      "C": "To manage the exchange rate of the Indian Rupee",
+      "D": "To provide liquidity to banks and financial institutions"
+    },
+    "answer": "A",
+    "explanation": "The primary objective of India's monetary policy is to maintain price stability while keeping in mind the objective of growth.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d886016913af43b42da8cb"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Banking",
+    "subtopic": "International Trade Finance",
+    "difficulty": "Hard",
+    "question": "Under which of the following is a bank permitted to refuse payment against a presentation of documents under a Letter of Credit?",
+    "option": {
+      "A": "The documents comply with the terms of the Letter of Credit.",
+      "B": "The documents presented are not genuine.",
+      "C": "The beneficiary has defaulted on an unrelated transaction.",
+      "D": "The bank has received an injunction from a court."
+    },
+    "answer": "B",
+    "explanation": "A bank is generally obligated to pay under a Letter of Credit if the documents conform to its terms; refusal is typically based on non-compliance or fraudulent presentation.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d886011851242c38430197"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Banking",
+    "subtopic": "Risk Management",
+    "difficulty": "Medium",
+    "question": "What does 'Credit Risk' refer to in the context of banking?",
+    "option": {
+      "A": "The risk of loss due to a borrower's failure to repay a loan or meet contractual obligations.",
+      "B": "The risk of loss due to adverse movements in market prices, such as interest rates or exchange rates.",
+      "C": "The risk of loss arising from inadequate or failed internal processes, people, and systems or from external events.",
+      "D": "The risk of loss due to the inability of a bank to meet its short-term obligations."
+    },
+    "answer": "A",
+    "explanation": "Credit risk is the potential loss a bank or financial institution faces if a borrower defaults on their debt obligations.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d886010595d621b8203937"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Banking",
+    "subtopic": "Capital Adequacy",
+    "difficulty": "Medium",
+    "question": "The Basel Accords primarily aim to strengthen regulation, supervision, and risk management within the banking sector globally. What is a key aspect of these accords?",
+    "option": {
+      "A": "Setting minimum capital requirements for banks.",
+      "B": "Mandating specific interest rates for loans.",
+      "C": "Regulating the types of investments banks can make.",
+      "D": "Prescribing operational hours for bank branches."
+    },
+    "answer": "A",
+    "explanation": "A core objective of the Basel Accords is to ensure banks maintain adequate capital to absorb unexpected losses, thereby promoting financial stability.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d88601e1b92e3310b09c02"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Finance",
+    "topic": "Financial Statement Analysis",
+    "subtopic": "Ratio Analysis",
+    "difficulty": "Medium",
+    "question": "Given the Profit and Loss Account, calculate the following ratios:\n- Net profit margin\n- EBITDA margin\n- EPS\n- PE ratio\n- TOL/TNW",
+    "option": {},
+    "answer": "Calculation based on provided financial data",
+    "explanation": "These ratios are standard metrics for evaluating a company's profitability and financial leverage.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d88601f67dad3c568c0343"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Finance",
+    "topic": "Financial Statement Analysis",
+    "subtopic": "Ratio Analysis",
+    "difficulty": "Medium",
+    "question": "Given the Balance Sheet, calculate the following ratios:\n- Current ratio\n- Quick ratio\n- Debt equity ratio\n- FACR (Fixed Asset Coverage Ratio)\n- RoCE",
+    "option": {},
+    "answer": "Calculation based on provided financial data",
+    "explanation": "These ratios are standard metrics for evaluating a company's liquidity, leverage, and operational efficiency.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d886011bfde7d2f1b001da"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Financial Statement Analysis",
+    "subtopic": "Ratio Analysis",
+    "difficulty": "Medium",
+    "question": "The Balance Sheet and Profit and Loss Statement of Indra Private Ltd is given below. The company has to repay the debentures in 5 equal instalments starting current year and bank loans due for repayment this year include Rs.86000. Analyse the company based on following ratios:\\ni. Current Ratio\\nii. Quick Ratio\\niii. Debt to Equity Ratio\\niv. Inventory Turnover Ratio\\nv. Operating Ratio\\nvi. DSCR\\nvii. ICR",
+    "option": {},
+    "answer": "The question requires the calculation and analysis of various financial ratios for Indra Private Ltd based on provided (but incomplete) financial statements. Specific calculations and comments are needed for each ratio listed.",
+    "explanation": "Detailed analysis of each ratio would provide insights into the company's liquidity, solvency, efficiency, and debt servicing capacity.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d88601aabcb30f190a00ce"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Financial Statement Analysis",
+    "subtopic": "Operating Cycle",
+    "difficulty": "Medium",
+    "question": "As such, operating cycle = receivable days + Inventory days — payables days\\nFor Armani Pvt Ltd = 44 +96 — 69 = 71 days\\nFor Bhawani Pvt Ltd = 61+117-64 = 114 days\\nComment — Armani Pvt Ltd has better control over its operating cycle as compared to Bhawani Pvt Ltd. The inventory days and receivable days of Armani Pvt Ltd are better controlled than that of Bhawani Pvt Ltd, while both enjoy similar payable days from their respective suppliers. This is also reflected in a better asset turnover for Armani Pvt Ltd at 2.07 times as against 1.8 times for Bhawani Pvt Ltd.",
+    "option": {},
+    "answer": "Armani Pvt Ltd has a better control over its operating cycle (71 days) compared to Bhawani Pvt Ltd (114 days), which is also reflected in its higher asset turnover ratio.",
+    "explanation": "A shorter operating cycle indicates more efficient management of inventory and receivables, leading to better asset utilization.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d8860127f835e7312878fa"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Financial Statement Analysis",
+    "subtopic": "Valuation",
+    "difficulty": "Medium",
+    "question": "The share of Armani Private Ltd is Rs.40 per share and Bhawani Private Ltd is Rs.36 per share. Which of the two companies is trading at a better PE multiple? (4 marks)",
+    "option": {},
+    "answer": "To determine which company is trading at a better PE multiple, we need to calculate the PE ratio for both companies. The PE ratio is calculated as Market Price per Share / Earnings Per Share (EPS).",
+    "explanation": "The company with a lower PE multiple is generally considered to be trading at a better valuation, assuming similar growth prospects.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d886010f49f3fd3102096d"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Finance",
+    "topic": "Financial Ratios",
+    "subtopic": "Profitability Ratios",
+    "difficulty": "Medium",
+    "question": "Calculate the Net Profit Margin for a company.",
+    "option": {},
+    "answer": "Net Profit Margin = Net Profit / Revenue x 100",
+    "explanation": "Net Profit Margin measures how much profit is generated for every dollar of revenue.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d88601a878eae1fae8efc2"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Finance",
+    "topic": "Financial Ratios",
+    "subtopic": "Activity Ratios",
+    "difficulty": "Medium",
+    "question": "Calculate the Operating Ratio for a company.",
+    "option": {},
+    "answer": "Operating Ratio = (Cost of Goods Sold + Operating Expenses) / Revenue x 100",
+    "explanation": "The Operating Ratio indicates the proportion of revenue that is consumed by operating expenses.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d88601276ab8f51e896dd4"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Finance",
+    "topic": "Financial Ratios",
+    "subtopic": "Profitability Ratios",
+    "difficulty": "Medium",
+    "question": "Calculate the ROCE (Return on Capital Employed) for a company.",
+    "option": {},
+    "answer": "ROCE = Earnings Before Interest and Tax (EBIT) / Capital Employed x 100",
+    "explanation": "ROCE measures a company's profitability and the efficiency with which it uses its capital.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d88601a99731422a44b720"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Finance",
+    "topic": "Financial Ratios",
+    "subtopic": "Solvency Ratios",
+    "difficulty": "Medium",
+    "question": "Calculate the Interest Coverage Ratio for a company.",
+    "option": {},
+    "answer": "Interest Coverage Ratio = Earnings Before Interest and Tax (EBIT) / Interest Expense",
+    "explanation": "The Interest Coverage Ratio assesses a company's ability to meet its interest obligations.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d88601741b57ed5bc32399"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Finance",
+    "topic": "Financial Statement Analysis",
+    "subtopic": "Cash Flow Statement",
+    "difficulty": "Medium",
+    "question": "What are the three main components of a cash flow statement?",
+    "option": {},
+    "answer": "The three main components are Cash Flow from Operating Activities, Cash Flow from Investing Activities, and Cash Flow from Financing Activities.",
+    "explanation": "These components categorize the sources and uses of cash over a period.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d88601099c761b4decfec0"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Finance",
+    "topic": "Financial Statement Analysis",
+    "subtopic": "Balance Sheet",
+    "difficulty": "Medium",
+    "question": "What is Net-worth? What is the impact of intangible assets on Net-worth. Give three examples of intangible assets.",
+    "option": {},
+    "answer": "Net-worth is the total assets minus total liabilities. Intangible assets reduce net-worth if they are impaired or amortized; examples include patents, trademarks, and goodwill.",
+    "explanation": "Net-worth represents the owners' stake in the company, and intangible assets can significantly influence its value.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d8860150c52d0a9462ea45"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Finance",
+    "topic": "Risk Management",
+    "subtopic": "Types of Risk",
+    "difficulty": "Medium",
+    "question": "What are credit risk, liquidity risk, market risk, and operational risk?",
+    "option": {},
+    "answer": "Credit risk is the risk of loss due to a borrower's failure to repay a loan or meet contractual obligations; liquidity risk is the risk of not being able to meet short-term financial demands; market risk is the risk of losses due to factors that affect the overall performance of financial markets; and operational risk is the risk of loss resulting from inadequate or failed internal processes, people, and systems or from external events.",
+    "explanation": "These are the primary categories of financial risk that institutions face.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d88601fc3f931a7a84184d"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Finance",
+    "topic": "Banking Operations",
+    "subtopic": "Trade Finance",
+    "difficulty": "Medium",
+    "question": "Explain Bank guarantee and letter of credit. What are the differences between them?",
+    "option": {},
+    "answer": "A bank guarantee is a promise from a bank to cover a client's debt if the client fails to pay, while a letter of credit is a payment instrument issued by a bank on behalf of a buyer, ensuring payment to the seller upon fulfillment of specified conditions. Key differences lie in their purpose (guarantee vs. payment assurance) and trigger events.",
+    "explanation": "Both are crucial financial instruments used in trade and commerce to mitigate risk.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d88601a038a0563cfba5d4"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Finance",
+    "topic": "Investment Appraisal",
+    "subtopic": "Project Appraisal",
+    "difficulty": "Medium",
+    "question": "How do you define project appraisal? In this context, explain NPV and IRR.",
+    "option": {},
+    "answer": "Project appraisal is the process of evaluating the feasibility and desirability of a project. NPV (Net Present Value) is the difference between the present value of cash inflows and the present value of cash outflows over a period, and IRR (Internal Rate of Return) is the discount rate at which the NPV of all cash flows from a particular project equals zero.",
+    "explanation": "NPV and IRR are key metrics used in project appraisal to determine investment viability.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d88601a25ef8e7b56e6b5c"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Finance",
+    "topic": "Banking Operations",
+    "subtopic": "Asset Quality",
+    "difficulty": "Medium",
+    "question": "What are NPAs and how are they recognized?",
+    "option": {},
+    "answer": "NPAs (Non-Performing Assets) are loans or advances for which the interest and installments of principal remain overdue for a period of 90 days. They are recognized based on the duration of overdues and the provisioning requirements set by regulatory authorities.",
+    "explanation": "Recognizing NPAs is critical for banks to accurately reflect their financial health.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d8860106e6b9f675038e12"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Finance",
+    "topic": "Financial Ratios",
+    "subtopic": "Solvency Ratios",
+    "difficulty": "Medium",
+    "question": "What is the interest coverage ratio and debt service coverage ratio and how to calculate them?",
+    "option": {},
+    "answer": "The interest coverage ratio is calculated as EBIT / Interest Expense, measuring the ability to cover interest payments. The debt service coverage ratio (DSCR) is calculated as (Net Operating Income) / (Total Debt Service Payments), measuring the ability to cover all debt obligations, including principal and interest.",
+    "explanation": "These ratios are crucial for assessing a company's ability to service its debt obligations.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d88601ac84e813e5b9da99"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Finance",
+    "topic": "Financial Statements",
+    "subtopic": "Analysis of Financial Statements",
+    "difficulty": "Medium",
+    "question": "Which of the following is NOT a component of the 'Presentation of Companies Final Accounts'?",
+    "option": {
+      "A": "Balance Sheet (BS)",
+      "B": "Profit & Loss Statement (P&L)",
+      "C": "Cash Flow Statement (CFS)",
+      "D": "Statement of Changes in Equity"
+    },
+    "answer": "D",
+    "explanation": "The Statement of Changes in Equity is not always a mandatory part of the basic final accounts presentation as per general accounting standards.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d88601a4060f0ed475d2bf"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Finance",
+    "topic": "Working Capital Management",
+    "subtopic": "Working Capital Numericals",
+    "difficulty": "Hard",
+    "question": "Calculate the Net Working Capital if Current Assets are $2,50,000 and Current Liabilities are $1,20,000.",
+    "option": {
+      "A": "$1,30,000",
+      "B": "$3,70,000",
+      "C": "$1,20,000",
+      "D": "$2,50,000"
+    },
+    "answer": "A",
+    "explanation": "Net Working Capital = Current Assets - Current Liabilities = $2,50,000 - $1,20,000 = $1,30,000.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d886019eccdc0fd3823c1f"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Finance",
+    "topic": "Ratio Analysis",
+    "subtopic": "Profitability Ratios",
+    "difficulty": "Medium",
+    "question": "Which profitability ratio measures the profit generated from the company's core operations before interest and taxes?",
+    "option": {
+      "A": "Gross Profit Ratio",
+      "B": "Operating Profit Ratio",
+      "C": "Net Profit Ratio",
+      "D": "Return on Equity"
+    },
+    "answer": "B",
+    "explanation": "The Operating Profit Ratio (or EBIT margin) indicates profitability from core business operations.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d886011a4850a38617ca30"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Finance",
+    "topic": "Financial Statements",
+    "subtopic": "Cash Flow Statement",
+    "difficulty": "Easy",
+    "question": "The Cash Flow Statement primarily reports on a company's cash inflows and outflows over a period of:",
+    "option": {
+      "A": "One day",
+      "B": "One week",
+      "C": "One quarter or year",
+      "D": "Ten years"
+    },
+    "answer": "C",
+    "explanation": "The Cash Flow Statement summarizes cash movements over a specific accounting period, typically a quarter or a year.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d8860186628b3647059414"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Finance",
+    "topic": "Ratio Analysis",
+    "subtopic": "Activity Ratios",
+    "difficulty": "Medium",
+    "question": "Inventory Turnover Ratio is a type of which financial ratio?",
+    "option": {
+      "A": "Profitability Ratio",
+      "B": "Liquidity Ratio",
+      "C": "Activity Ratio",
+      "D": "Leverage Ratio"
+    },
+    "answer": "C",
+    "explanation": "Inventory Turnover Ratio measures how efficiently a company is managing its inventory and is categorized under Activity Ratios.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d886018abd15ded92883fe"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Risk Management",
+    "subtopic": "Risks in Export Business",
+    "difficulty": "Medium",
+    "question": "You are an exporter of cotton. What are the various types of risks you face as an exporter?",
+    "option": {},
+    "answer": "As an exporter of cotton, the various types of risks faced can be broadly categorized into commercial risks, political risks, financial risks, and operational risks.",
+    "explanation": "These categories encompass uncertainties related to buyers, transactions, markets, political events, financial fluctuations, and internal operations.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d88601bb01f92cd6352141"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Banking Operations",
+    "topic": "Credit Risk Management",
+    "subtopic": "Credit Risk",
+    "difficulty": "Medium",
+    "question": "What is credit risk? What are the steps taken by banks to manage credit risk?",
+    "option": {},
+    "answer": "Credit risk refers to the potential for a borrower to default on their financial obligations, causing financial loss for the lender. Steps taken by banks to manage credit risk include assessing borrower creditworthiness, setting credit limits, diversifying the loan portfolio, and implementing monitoring and recovery procedures.",
+    "explanation": "Credit risk is the risk of loss due to a borrower's failure to repay a loan or meet other contractual obligations.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d8860114b15d57b802c7c7"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Banking",
+    "topic": "Banking Operations",
+    "subtopic": "Asset Classification and NPA",
+    "difficulty": "Medium",
+    "question": "Briefly discuss the asset classification, NPA recognition and provisioning norms as stated by RBI.",
+    "option": {},
+    "answer": "Banks classify loans based on credit risk. Standard Assets are those with no defaults and normal risk. Non-Performing Assets (NPAs) are assets that cease to generate income due to defaults in principal or interest payments, requiring specific provisioning based on their classification (e.g., Substandard, Doubtful, Loss).",
+    "explanation": "RBI guidelines dictate how banks categorize assets to manage risk and ensure financial stability.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d886017c7e2467ded38009"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Banking",
+    "topic": "International Trade Finance",
+    "subtopic": "Letter of Credit",
+    "difficulty": "Medium",
+    "question": "What is a letter of credit? Enumerate the various parties to a letter of credit.",
+    "option": {},
+    "answer": "A Letter of Credit (LC) is a bank's written undertaking to pay the seller (beneficiary) on behalf of the buyer (applicant) a specified amount, provided the beneficiary presents stipulated documents complying with the LC terms. The parties involved are the Applicant (Buyer/Importer), Issuing Bank (Buyer's Bank), Beneficiary (Seller/Exporter), and often a Negotiating Bank or Confirming Bank.",
+    "explanation": "A Letter of Credit mitigates risks in international trade by providing payment assurance to the seller and ensuring document compliance for the buyer.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d8860105611a453f436758"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Finance",
+    "topic": "Capital Budgeting",
+    "subtopic": "Project Appraisal Methods",
+    "difficulty": "Medium",
+    "question": "Explain the NPV and IRR methods of project appraisal. What happens when NPV and IRR give conflicting results?",
+    "option": {},
+    "answer": "NPV (Net Present Value) is the difference between the present value of cash inflows and the present value of cash outflows, while IRR (Internal Rate of Return) is the discount rate at which the NPV of a project equals zero. Conflicting results can occur when projects have different scales of investment, timing of cash flows, or when conventional assumptions of IRR are violated.",
+    "explanation": "NPV is generally preferred as it directly measures the increase in shareholder wealth, while IRR can be misleading in certain scenarios, especially with mutually exclusive projects.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d886014eaf07c28b584daa"
+    }
+  }
+]

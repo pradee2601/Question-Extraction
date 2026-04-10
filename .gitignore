@@ -89,3 +89,12 @@ faiss_index.bin
 faiss_index.bin.meta
 xls_dump.json
 node_modules/
+
+# Automation & Local State
+Docs/automation_status.json
+Docs/automation_pid.txt
+extraction_history.json
+*.json.tmp
+
+# Data (Optional: ignore JSON banks if you only want code)
+# Docs/*.json
