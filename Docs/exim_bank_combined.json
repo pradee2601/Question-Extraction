@@ -1,0 +1,1889 @@
+[
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Banking Awareness",
+    "topic": "International Organizations",
+    "subtopic": "IMF",
+    "difficulty": "Medium",
+    "question": "Which of the following is the primary objective of the International Monetary Fund (IMF)?",
+    "option": {
+      "A": "To provide short-term loans to countries facing balance of payments problems.",
+      "B": "To promote global economic growth through trade agreements.",
+      "C": "To manage the world's gold reserves.",
+      "D": "To provide long-term development loans to developing countries."
+    },
+    "answer": "A",
+    "explanation": "The IMF's primary objective is to ensure the stability of the international monetary system, which includes providing temporary financial assistance to countries experiencing balance of payments difficulties.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c2e277b67afc4326fa"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Quantitative Aptitude",
+    "topic": "Percentage",
+    "subtopic": "Profit and Loss",
+    "difficulty": "Easy",
+    "question": "A shopkeeper bought an article for $500 and sold it for $600. What is the profit percentage?",
+    "option": {
+      "A": "15%",
+      "B": "20%",
+      "C": "25%",
+      "D": "30%"
+    },
+    "answer": "B",
+    "explanation": "Profit = Selling Price - Cost Price = $600 - $500 = $100. Profit Percentage = (Profit / Cost Price) * 100 = ($100 / $500) * 100 = 20%.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c2d59f2a2fba23c69a"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Reasoning Ability",
+    "topic": "Blood Relations",
+    "subtopic": "Family Tree",
+    "difficulty": "Medium",
+    "question": "Pointing to a photograph, a man said, \"I have no brother or sister, but that man's father is my father's son.\" Who is in the photograph?",
+    "option": {
+      "A": "His son",
+      "B": "His nephew",
+      "C": "His father",
+      "D": "His uncle"
+    },
+    "answer": "A",
+    "explanation": "My father's son (since I have no brother or sister) is me. So, 'that man's father is me'. Therefore, the man in the photograph is my son.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c245c527bd562c91fd"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "English Language",
+    "topic": "Vocabulary",
+    "subtopic": "Synonyms",
+    "difficulty": "Easy",
+    "question": "Choose the word that is most nearly the SAME in meaning as the word given below:\n\\nABUNDANT",
+    "option": {
+      "A": "Scarce",
+      "B": "Meager",
+      "C": "Plentiful",
+      "D": "Limited"
+    },
+    "answer": "C",
+    "explanation": "Abundant means existing or available in large quantities; plentiful. Scarce, meager, and limited are antonyms.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c2a90add2210df0563"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Quantitative Aptitude",
+    "topic": "Averages",
+    "subtopic": "Weightage Average",
+    "difficulty": "Hard",
+    "question": "The average weight of a class of 30 students is 45 kg. If the weight of the teacher is included, the average weight increases by 1 kg. What is the weight of the teacher?",
+    "option": {
+      "A": "75 kg",
+      "B": "76 kg",
+      "C": "77 kg",
+      "D": "78 kg"
+    },
+    "answer": "B",
+    "explanation": "Total weight of 30 students = 30 * 45 kg = 1350 kg. New average weight (including teacher) = 45 + 1 = 46 kg. Total weight of 31 people (students + teacher) = 31 * 46 kg = 1426 kg. Weight of the teacher = 1426 kg - 1350 kg = 76 kg.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c2f303e0b4e8c7a1ab"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Accounting",
+    "subtopic": "Financial Statement Analysis",
+    "difficulty": "Medium",
+    "question": "Users of balance sheet, horizontal and vertical analysis of balance sheet",
+    "option": {},
+    "answer": "Users of balance sheet include investors, creditors, management, and regulatory bodies. Horizontal analysis involves comparing financial data over several periods to identify trends, while vertical analysis involves expressing each line item as a percentage of a base figure within the same period.",
+    "explanation": "Horizontal analysis tracks changes over time, while vertical analysis shows the proportion of each item to a whole.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c22064622df42c30c4"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Accounting",
+    "subtopic": "Auditing",
+    "difficulty": "Medium",
+    "question": "Types of audit opinion by auditor",
+    "option": {},
+    "answer": "The types of audit opinions are: Unqualified Opinion (clean opinion), Qualified Opinion (except for...), Adverse Opinion, and Disclaimer of Opinion.",
+    "explanation": "An unqualified opinion is given when financial statements are presented fairly, while other opinions indicate issues or limitations.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c2b0f0c5875b503eff"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Banking",
+    "subtopic": "Digital Lending",
+    "difficulty": "Medium",
+    "question": "After COVID-19, digital lending has increased in the country. Enumerate the factors behind it.",
+    "option": {},
+    "answer": "Factors include increased internet penetration, smartphone adoption, demand for contactless transactions, convenience, faster loan processing, and government initiatives promoting digital infrastructure.",
+    "explanation": "The pandemic accelerated the adoption of digital services, including lending, due to convenience and safety concerns.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c2610f49f2e507c061"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "English",
+    "topic": "Essay",
+    "subtopic": "Artificial Intelligence",
+    "difficulty": "Medium",
+    "question": "Artificial intelligence relevance in banking sector",
+    "option": {},
+    "answer": "AI is revolutionizing the banking sector by enhancing customer service through chatbots, improving fraud detection, personalizing financial advice, automating processes, and enabling data-driven decision-making.",
+    "explanation": "AI offers significant benefits to banks by improving efficiency, security, and customer experience.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c21ce123465dcb516c"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "English",
+    "topic": "Essay",
+    "subtopic": "Environment",
+    "difficulty": "Medium",
+    "question": "Plastic and the environment",
+    "option": {},
+    "answer": "Plastic pollution poses a severe threat to the environment, harming wildlife, contaminating soil and water, and contributing to climate change through its production and disposal.",
+    "explanation": "The pervasive use of plastic leads to significant environmental degradation, necessitating urgent solutions.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c2598d36ffe31cbfb4"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "English",
+    "topic": "Letter Writing",
+    "subtopic": "Banking Complaint",
+    "difficulty": "Easy",
+    "question": "Letter to bank manager regarding ATM problem",
+    "option": {},
+    "answer": "A letter to the bank manager regarding an ATM problem should clearly state the issue (e.g., card not returned, cash dispensed but not recorded, machine malfunction), the ATM location and time, and request prompt resolution.",
+    "explanation": "A well-structured letter with specific details is crucial for effective communication with the bank manager.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c2229f4da61431826e"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Accounting",
+    "subtopic": "Income Recognition and Provisioning",
+    "difficulty": "Medium",
+    "question": "Income recognition, asset classification and provisioning norms",
+    "option": {},
+    "answer": "Income recognition norms follow principles like accrual basis and realization. Asset classification categorizes loans based on risk (standard, substandard, doubtful, loss). Provisioning norms require banks to set aside funds for potential loan losses based on asset classification.",
+    "explanation": "These norms ensure prudent financial management and stability in the banking sector.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c29448a8c4eba3c490"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Insolvency and Bankruptcy",
+    "subtopic": "IBC 2016",
+    "difficulty": "Hard",
+    "question": "NCLT vs. DRT jurisdiction. Comment with respect to specific sections of IBC 2016",
+    "option": {},
+    "answer": "The National Company Law Tribunal (NCLT) handles corporate insolvency resolution under the Insolvency and Bankruptcy Code, 2016 (IBC), specifically under Part II. Debt Recovery Tribunals (DRTs) deal with recovery of debts under the Recovery of Debts Due to Banks and Financial Institutions Act, 1993, and generally do not have jurisdiction over IBC proceedings.",
+    "explanation": "NCLT has exclusive jurisdiction over corporate insolvency matters under the IBC, distinct from the DRT's debt recovery role.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c27aab1ea8783c7ad2"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Project Appraisal",
+    "subtopic": "Technical Viability",
+    "difficulty": "Medium",
+    "question": "Technical viability, lenders independent engineer report and its relevance in project appraisal",
+    "option": {},
+    "answer": "Technical viability assesses the feasibility of a project's technical aspects, including technology, design, and execution. A lender's independent engineer report provides an unbiased technical evaluation, crucial for project appraisal by lenders to mitigate risks.",
+    "explanation": "The independent engineer's report assures lenders of the project's technical soundness before funding.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c29c10003365d647ac"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Risk Management",
+    "subtopic": "Risk Assessment",
+    "difficulty": "Medium",
+    "question": "Define risk assessment control matrix, its benefits and steps in risk identification",
+    "option": {},
+    "answer": "A Risk Assessment Control Matrix (RACM) is a tool that maps risks to their corresponding controls. Its benefits include improved risk management, compliance assurance, and identification of control gaps. Steps in risk identification involve brainstorming, checklists, interviews, and analyzing historical data.",
+    "explanation": "RACM helps systematically identify risks and the controls in place to mitigate them.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c2f53120a201cce888"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Central Bank Digital Currency",
+    "subtopic": "CBDC",
+    "difficulty": "Medium",
+    "question": "What is CBDC? Advantages and compare it with private virtual currency.",
+    "option": {},
+    "answer": "CBDC (Central Bank Digital Currency) is a digital form of fiat currency that is issued by a central bank. Advantages include improved payment efficiency, reduced transaction costs, and enhanced financial inclusion. It differs from private virtual currencies (like Bitcoin) in that it is issued and backed by a central authority, thus offering greater stability and regulatory oversight.",
+    "explanation": "CBDC is a digital form of a country's fiat currency, issued by the central bank, offering advantages over private virtual currencies due to its stability and regulatory backing.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c2083f0eedb983b39f"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Financial Ratios",
+    "subtopic": "Balance Sheet Analysis",
+    "difficulty": "Hard",
+    "question": "Balance sheet data was given and asked to calculate and analyse TNW, current ratio, long term debt to equity ratio, outside liability ratio.",
+    "option": {},
+    "answer": "Calculations and analysis would involve applying standard financial ratio formulas to the provided balance sheet data to assess the company's financial health, liquidity, leverage, and solvency.",
+    "explanation": "This question requires applying financial ratio analysis to balance sheet data to evaluate a company's financial health and performance.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c2c8aeed3dae773569"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Financial Statements",
+    "subtopic": "Cash Flow and Fund Flow",
+    "difficulty": "Medium",
+    "question": "What is cashflow and fund flow statement? Analysis of the case.",
+    "option": {},
+    "answer": "A cash flow statement tracks the movement of cash in and out of a company, while a fund flow statement (or statement of changes in financial position) tracks the movement of working capital. Analysis of a case would involve interpreting these statements to understand a company's financial activities and position.",
+    "explanation": "Cash flow statements detail cash movements, while fund flow statements analyze working capital changes, both crucial for understanding a company's financial activities.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c2fcfb2fc27be444bb"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "International Trade Finance",
+    "subtopic": "Letter of Credit",
+    "difficulty": "Medium",
+    "question": "What is letter of credit? Types, parties to letters of credit.",
+    "option": {},
+    "answer": "A Letter of Credit (LC) is a financial instrument issued by a bank that guarantees payment to a seller on behalf of a buyer. Types include transferable, back-to-back, standby LCs, etc. Parties typically include the applicant (buyer), issuing bank, beneficiary (seller), and often a nominated bank or advising bank.",
+    "explanation": "A Letter of Credit is a bank's guarantee of payment to a seller, with various types and defined parties involved in its execution.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c2d45066281e28b09b"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Working Capital Management",
+    "subtopic": "Tandon Committee Norms",
+    "difficulty": "Hard",
+    "question": "Working capital question, analyze the case and calculate current ratio through three types as of Tandon committee.",
+    "option": {},
+    "answer": "The Tandon Committee recommended three methods for assessing working capital requirements, focusing on current assets and current liabilities. Analyzing the case would involve applying these methods to calculate the current ratio and assess working capital adequacy.",
+    "explanation": "The Tandon Committee's recommendations on working capital involve three methods for calculating the current ratio to assess fund requirements.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c22f8c889c4f33ee78"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "English",
+    "topic": "Essay Writing",
+    "subtopic": "Mergers and Acquisitions",
+    "difficulty": "Medium",
+    "question": "Advantages and disadvantages of merger of banks",
+    "option": {},
+    "answer": "Advantages of bank mergers include increased market share, economies of scale, and improved efficiency, while disadvantages can involve integration challenges, potential job losses, and cultural clashes.",
+    "explanation": "Bank mergers offer benefits like scale and efficiency but also present challenges in integration and cultural alignment.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c20a897cbfaed8c2f5"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "English",
+    "topic": "Essay Writing",
+    "subtopic": "Government Funding",
+    "difficulty": "Medium",
+    "question": "Government and private funding to archaeological sites in India",
+    "option": {},
+    "answer": "Government and private funding play crucial roles in the preservation and development of archaeological sites in India, each with its own strengths and limitations.",
+    "explanation": "Both government and private funding are vital for India's archaeological sites, contributing uniquely to their preservation and development.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c2b5e22e5b08580f0f"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "English",
+    "topic": "Essay Writing",
+    "subtopic": "Company Jubilee",
+    "difficulty": "Easy",
+    "question": "Report on celebration of golden jubilee of a company",
+    "option": {},
+    "answer": "A report on a company's golden jubilee celebration would detail the event's significance, activities, attendees, and future outlook, marking a milestone achievement.",
+    "explanation": "A report on a company's golden jubilee should cover the event's highlights, its historical significance, and future aspirations.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c2a5561e40926a5eb9"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "English",
+    "topic": "Letter Writing",
+    "subtopic": "General",
+    "difficulty": "Easy",
+    "question": "Letter (attempt any 1)",
+    "option": {},
+    "answer": "This question requires writing a formal or informal letter based on a given prompt, demonstrating communication skills.",
+    "explanation": "Letter writing assesses the candidate's ability to communicate effectively in a specified format and context.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c23004a7a2f3ab01f6"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "English",
+    "topic": "Letter Writing",
+    "subtopic": "Formal Letters",
+    "difficulty": "Easy",
+    "question": "Which of the following is a type of letter that can be addressed to the manager for account-related issues?",
+    "option": {
+      "A": "Letter to manager for reactivation of account",
+      "B": "Letter to editor",
+      "C": "Letter for missing boxes of chocolate",
+      "D": "None of the above"
+    },
+    "answer": "A",
+    "explanation": "A letter to the manager for reactivation of an account is a direct request related to account management.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c2b8eb7a7a0d41d91d"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "English",
+    "topic": "Letter Writing",
+    "subtopic": "Informal Letters",
+    "difficulty": "Easy",
+    "question": "Which of the following is an example of a letter to the editor?",
+    "option": {
+      "A": "Letter to manager for reactivation of account",
+      "B": "Letter to editor",
+      "C": "Letter for missing boxes of chocolate",
+      "D": "None of the above"
+    },
+    "answer": "B",
+    "explanation": "A letter to the editor is typically sent to a newspaper or magazine to express an opinion or share information.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c20fa13bf86d543b6b"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "English",
+    "topic": "Letter Writing",
+    "subtopic": "Informal Letters",
+    "difficulty": "Easy",
+    "question": "Which of the following is an example of a personal or informal letter?",
+    "option": {
+      "A": "Letter to manager for reactivation of account",
+      "B": "Letter to editor",
+      "C": "Letter for missing boxes of chocolate",
+      "D": "None of the above"
+    },
+    "answer": "C",
+    "explanation": "A letter concerning missing items like boxes of chocolate is usually personal and informal in nature.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c2bd70a086a3397286"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Reasoning and Quantitative Aptitude",
+    "topic": "Data Interpretation",
+    "subtopic": "Graph Questions",
+    "difficulty": "Easy",
+    "question": "Which topic under Reasoning and Quantitative Aptitude covers graph-based questions?",
+    "option": {
+      "A": "Inequality",
+      "B": "Caselet",
+      "C": "Data interpretation",
+      "D": "None of the above"
+    },
+    "answer": "C",
+    "explanation": "Data Interpretation specifically includes the analysis of graphical representations of data.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c24078f9a54b970296"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Reasoning and Quantitative Aptitude",
+    "topic": "Data Interpretation",
+    "subtopic": "Inequality",
+    "difficulty": "Easy",
+    "question": "What is one of the specific topics mentioned under Reasoning and Quantitative Aptitude besides data interpretation?",
+    "option": {
+      "A": "Caselet",
+      "B": "Inequality",
+      "C": "Full form of OMR",
+      "D": "Banking industry terms"
+    },
+    "answer": "B",
+    "explanation": "Inequality is listed as a distinct sub-topic within Reasoning and Quantitative Aptitude.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c2f3bac401b6d66f10"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Reasoning and Quantitative Aptitude",
+    "topic": "Data Interpretation",
+    "subtopic": "Caselet",
+    "difficulty": "Easy",
+    "question": "Which type of question, involving a short story or scenario, is mentioned under Reasoning and Quantitative Aptitude?",
+    "option": {
+      "A": "Graph questions",
+      "B": "Inequality",
+      "C": "Caselet",
+      "D": "Full form of OMR"
+    },
+    "answer": "C",
+    "explanation": "Caselet questions are a type of data interpretation that presents data within a narrative context.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c2a83d54498cffcb92"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Financial Awareness",
+    "topic": "Banking Products",
+    "subtopic": "EXIM Bank Products",
+    "difficulty": "Easy",
+    "question": "What specific area related to EXIM Bank's operations is mentioned for questions in the Financial Awareness section?",
+    "option": {
+      "A": "NPA assets",
+      "B": "EXIM bank products",
+      "C": "Computer shortcuts",
+      "D": "RC (Reading Comprehension)"
+    },
+    "answer": "B",
+    "explanation": "Questions on EXIM bank products are explicitly mentioned as part of the Financial Awareness section.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c29cea86f647f8a0f0"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Financial Awareness",
+    "topic": "Banking Terms",
+    "subtopic": "NPA Assets",
+    "difficulty": "Easy",
+    "question": "Which financial term related to assets is mentioned as a topic for the Financial Awareness section?",
+    "option": {
+      "A": "EXIM bank products",
+      "B": "Banking industry terms",
+      "C": "NPA assets",
+      "D": "MS Word"
+    },
+    "answer": "C",
+    "explanation": "NPA (Non-Performing Asset) assets is a key financial term relevant to banking.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c269e6a66e1b74f8e3"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Financial Awareness",
+    "topic": "Banking Terms",
+    "subtopic": "General Banking Terms",
+    "difficulty": "Easy",
+    "question": "What general category of terms from the banking sector is to be covered in the Financial Awareness section?",
+    "option": {
+      "A": "EXIM bank products",
+      "B": "NPA assets",
+      "C": "Banking industry terms",
+      "D": "Operating system"
+    },
+    "answer": "C",
+    "explanation": "General 'Banking industry terms' are a broad area of coverage in the financial awareness section.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c23c15fb78f30c2757"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Computer",
+    "topic": "Computer Skills",
+    "subtopic": "Shortcut Keys",
+    "difficulty": "Easy",
+    "question": "What is a specific topic related to computer knowledge mentioned in the syllabus?",
+    "option": {
+      "A": "RC (Reading Comprehension)",
+      "B": "Banking industry terms",
+      "C": "Ques on short cut keys",
+      "D": "EXIM bank products"
+    },
+    "answer": "C",
+    "explanation": "Questions on shortcut keys are a common topic in computer knowledge sections.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c2825c9e8c8e44cb02"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Computer",
+    "topic": "Computer Skills",
+    "subtopic": "MS Office",
+    "difficulty": "Easy",
+    "question": "Which of the following MS Office applications is mentioned as a topic in the Computer section?",
+    "option": {
+      "A": "MS PowerPoint",
+      "B": "MS Access",
+      "C": "MS Word",
+      "D": "MS Outlook"
+    },
+    "answer": "C",
+    "explanation": "MS Word is explicitly mentioned as a part of the computer syllabus.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c244127aceb9faac01"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Computer",
+    "topic": "Computer Skills",
+    "subtopic": "MS Office",
+    "difficulty": "Easy",
+    "question": "Besides MS Word, which other MS Office application is mentioned as a computer topic?",
+    "option": {
+      "A": "MS PowerPoint",
+      "B": "MS Excel",
+      "C": "MS Access",
+      "D": "MS Outlook"
+    },
+    "answer": "B",
+    "explanation": "MS Excel is listed alongside MS Word as a topic within the computer section.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c2728545f843c93fb8"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Computer",
+    "topic": "Computer Skills",
+    "subtopic": "Operating Systems",
+    "difficulty": "Easy",
+    "question": "Which fundamental computer concept, related to system software, is mentioned as a topic?",
+    "option": {
+      "A": "Full form of OMR",
+      "B": "Operating system",
+      "C": "Binary number",
+      "D": "EXIM bank products"
+    },
+    "answer": "B",
+    "explanation": "Operating systems are a core concept in computer knowledge.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c27b06744eed1aa9d9"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Computer",
+    "topic": "Computer Skills",
+    "subtopic": "Number Systems",
+    "difficulty": "Easy",
+    "question": "What type of number representation is included in the Computer section?",
+    "option": {
+      "A": "Decimal number",
+      "B": "Hexadecimal number",
+      "C": "Binary number",
+      "D": "Octal number"
+    },
+    "answer": "C",
+    "explanation": "Binary numbers are a fundamental topic in computer science.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c2d8769a26eda0a643"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Computer",
+    "topic": "Computer Peripherals",
+    "subtopic": "OMR",
+    "difficulty": "Easy",
+    "question": "What is the full form of OMR in the context of computer-related questions?",
+    "option": {
+      "A": "Optical Mark Reader",
+      "B": "Optical Machine Reader",
+      "C": "Online Mark Reader",
+      "D": "Optical Memory Reader"
+    },
+    "answer": "A",
+    "explanation": "OMR stands for Optical Mark Reader, a technology used for reading marks made on paper.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c24623e7b94ad946d9"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "English",
+    "topic": "Reading Comprehension",
+    "subtopic": "RC",
+    "difficulty": "Easy",
+    "question": "What is the primary reading-based topic mentioned under the English section?",
+    "option": {
+      "A": "Word replacement",
+      "B": "RC",
+      "C": "Letter to editor",
+      "D": "Caselet"
+    },
+    "answer": "B",
+    "explanation": "RC stands for Reading Comprehension, a common test of reading ability.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c21ba2b441972476ab"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "English",
+    "topic": "Vocabulary",
+    "subtopic": "Word Replacement",
+    "difficulty": "Easy",
+    "question": "Which vocabulary-related skill is mentioned in the English section?",
+    "option": {
+      "A": "RC",
+      "B": "Synonyms",
+      "C": "Word replacement",
+      "D": "Antonyms"
+    },
+    "answer": "C",
+    "explanation": "Word replacement is a common exercise to test a candidate's understanding of word usage.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2022",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885c2af42e7e1e2991dd8"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Professional Knowledge",
+    "subtopic": "General",
+    "difficulty": "Medium",
+    "question": "Which of the following is NOT a direct export promotion scheme of India?",
+    "option": {
+      "A": "Export Credit Guarantee Corporation (ECGC) Scheme",
+      "B": "Duty Drawback Scheme",
+      "C": "Export House Certificate Scheme",
+      "D": "Export-Import Bank of India (EXIM Bank) Financing Schemes"
+    },
+    "answer": "D",
+    "explanation": "EXIM Bank financing schemes are primarily for facilitating exports and imports, not a direct promotion scheme like ECGC, Duty Drawback, or Export House Certificates.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2023",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885d73f691abe1420c206"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Accounting",
+    "subtopic": "Financial Ratios",
+    "difficulty": "Medium",
+    "question": "A trial balance was given with multiple figures. Pre and post incorporation expenses were also mentioned in the Trial Balance. Using the given information, the following values had to be calculated:\\na) Current Assets\\nb) Current Liabilities\\nc) Current Ratio\\nd) Debt Equity Ratio\\ne) TOL/TNW\\nf) Net worth\\ng) Fixed assets\\nh) Intangible Assets\\ni) Debtors",
+    "option": {},
+    "answer": "The question requires calculation of various financial metrics based on a provided trial balance and information on pre and post-incorporation expenses.",
+    "explanation": "This question assesses the ability to analyze a trial balance and calculate key financial ratios and asset/liability components.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2023",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885d79f726fc377d661c0"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Financial Statement Analysis",
+    "subtopic": "Ratios",
+    "difficulty": "Medium",
+    "question": "A Balance Sheet and Profit & Loss statement was given from which the following were to be calculated:\\na) NP ratio\\nb) Operating ratio\\nc) Debt Equity ratio\\nd) Net worth\\ne) Capital\\nf) Net worth",
+    "option": {},
+    "answer": "Requires Balance Sheet and P&L data to calculate.",
+    "explanation": "These are standard financial ratios and metrics derived from a company's financial statements.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2023",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885d7ba0f42e53c3cbf6f"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Financial Statement Analysis",
+    "subtopic": "Net Worth and Assets",
+    "difficulty": "Medium",
+    "question": "Co. XYZ having a loan of Rs. 450crore and total assets of Rs.1000 crore (including goodwill and copywrites worth Rs.50 crores). Some more information was given. Find the following:\\na) Intangible assets\\nb) Tangible net worth\\nc) Net worth\\nd) Total liabilities\\ne) Current Assets",
+    "option": {},
+    "answer": "Requires additional information to calculate.",
+    "explanation": "The question asks for specific financial calculations based on provided data and additional implicit information.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2023",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885d73897e02ca20dcf9f"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Banking Operations",
+    "subtopic": "Financial Terms",
+    "difficulty": "Easy",
+    "question": "Describe the following terms:\\na) Nostro account\\nb) Vostro account\\nc) Escrow\\nd) IRR\\ne) CRAR",
+    "option": {},
+    "answer": "Requires definitions of the given financial terms.",
+    "explanation": "This question tests the understanding of fundamental banking and financial terminology.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2023",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885d7a2c74cd8aa826a3e"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Banking Operations",
+    "subtopic": "Financial Instruments",
+    "difficulty": "Easy",
+    "question": "Short notes on:\\na. Financial Scheme regarding export credit\\nb. Letter of credit\\nc. Bank guarantee",
+    "option": {},
+    "answer": "Requires brief explanations of the listed banking instruments.",
+    "explanation": "This question assesses knowledge of common financial instruments used in trade finance.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2023",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885d71bbc74e1b9b785c6"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Financial Projections",
+    "subtopic": "Time Value of Money",
+    "difficulty": "Easy",
+    "question": "What does NPV stand for in the context of financial projections?",
+    "option": {
+      "A": "Net Present Value",
+      "B": "New Project Valuation",
+      "C": "Nominal Profit Value",
+      "D": "National Project Venture"
+    },
+    "answer": "A",
+    "explanation": "NPV stands for Net Present Value, a metric used to evaluate the profitability of an investment.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885d7fbce08c9d3306a5f"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Financial Management & Forex Markets",
+    "subtopic": "Derivatives",
+    "difficulty": "Easy",
+    "question": "Which of the following is a type of derivative contract?",
+    "option": {
+      "A": "Swap",
+      "B": "Bond",
+      "C": "Equity",
+      "D": "Letter of Credit"
+    },
+    "answer": "A",
+    "explanation": "Swaps are a type of derivative contract where two parties exchange financial instruments or cash flows.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885d743b6e606a3f4ebc0"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Trade Finance",
+    "subtopic": "Letters of Credit",
+    "difficulty": "Easy",
+    "question": "What does UCPDC stand for in relation to Letters of Credit?",
+    "option": {
+      "A": "Uniform Customs and Practice for Documentary Credits",
+      "B": "Universal Commercial Procedures for Direct Collections",
+      "C": "United Commercial Practices for Documentary Collections",
+      "D": "Uniform Currency Practices for Documentary Credits"
+    },
+    "answer": "A",
+    "explanation": "UCPDC stands for Uniform Customs and Practice for Documentary Credits, a set of rules widely used in international banking for Letters of Credit.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885d70480c2af44be0942"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "KYC & Compliance",
+    "subtopic": "AML/CFT",
+    "difficulty": "Easy",
+    "question": "What does AML/CFT refer to in the context of banking compliance?",
+    "option": {
+      "A": "Anti-Money Laundering / Counter-Financing of Terrorism",
+      "B": "Asset Management and Capital Flow Tracking",
+      "C": "Account Monitoring and Credit Flow Technology",
+      "D": "Advanced Market Liquidity and Customer Fund Trust"
+    },
+    "answer": "A",
+    "explanation": "AML/CFT stands for Anti-Money Laundering and Counter-Financing of Terrorism, crucial aspects of banking compliance.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885d748e8db425e66c652"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Stressed Accounts, NPA & Recovery Process",
+    "subtopic": "NPA Norms",
+    "difficulty": "Easy",
+    "question": "What does NPA stand for in banking?",
+    "option": {
+      "A": "Non-Performing Asset",
+      "B": "New Payment Arrangement",
+      "C": "Net Profitability Analysis",
+      "D": "Non-Pledged Account"
+    },
+    "answer": "A",
+    "explanation": "NPA stands for Non-Performing Asset, an asset that no longer generates income for the bank.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885d75111dbfe02a250dc"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Risks Management & Audit",
+    "subtopic": "Basel Norms",
+    "difficulty": "Easy",
+    "question": "Which set of norms aims to strengthen the regulation, supervision, and risk management of banks?",
+    "option": {
+      "A": "Basel III",
+      "B": "Solvency II",
+      "C": "IFRS",
+      "D": "GAAP"
+    },
+    "answer": "A",
+    "explanation": "Basel III norms are international banking regulations designed to strengthen the resilience of the banking sector.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885d7384903d094dd86ef"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Indian & Global Economy",
+    "subtopic": "International Trade",
+    "difficulty": "Easy",
+    "question": "Which of the following is a key aspect of India's International Trade & Services?",
+    "option": {
+      "A": "Top Export & Import Sectors",
+      "B": "Domestic Monetary Policy",
+      "C": "Agricultural Subsidies",
+      "D": "Infrastructure Development"
+    },
+    "answer": "A",
+    "explanation": "Identifying top export and import sectors is crucial for understanding India's international trade patterns.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885d78f081170efb5c6f9"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Indian Financial System",
+    "subtopic": "Regulatory Bodies",
+    "difficulty": "Easy",
+    "question": "Which of the following is a key regulatory body in the Indian Financial System?",
+    "option": {
+      "A": "SEBI",
+      "B": "IRDAI",
+      "C": "PFRDA",
+      "D": "All of the above"
+    },
+    "answer": "D",
+    "explanation": "SEBI (Securities and Exchange Board of India) is a key regulatory body for the securities market.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885d70641a7aed53afd58"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Taxation",
+    "subtopic": "Direct Taxation",
+    "difficulty": "Easy",
+    "question": "Which of the following is an example of direct taxation?",
+    "option": {
+      "A": "Income Tax",
+      "B": "Goods and Services Tax (GST)",
+      "C": "Customs Duty",
+      "D": "Excise Duty"
+    },
+    "answer": "A",
+    "explanation": "Income Tax is a direct tax levied on the income of individuals and entities.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885d7c45afed0cda0c61e"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Legal and Regulatory Framework",
+    "subtopic": "FEMA",
+    "difficulty": "Easy",
+    "question": "What does FEMA regulate in India?",
+    "option": {
+      "A": "Foreign Exchange Management",
+      "B": "Financial Equity Market Analysis",
+      "C": "Federal Economic Monetary Authority",
+      "D": "Foreign Exchange and Monetary Affairs"
+    },
+    "answer": "A",
+    "explanation": "FEMA stands for Foreign Exchange Management Act, which regulates foreign exchange transactions in India.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d885d729aa060655f14887"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Banking",
+    "subtopic": "Financial Inclusion",
+    "difficulty": "Medium",
+    "question": "Which of the following schemes aims to promote financial inclusion in India by providing access to banking, insurance, pension, and credit facilities?",
+    "option": {
+      "A": "Pradhan Mantri Jan Dhan Yojana (PMJDY)",
+      "B": "Pradhan Mantri Mudra Yojana (PMMY)",
+      "C": "Atal Pension Yojana (APY)",
+      "D": "National Rural Livelihood Mission (NRLM)"
+    },
+    "answer": "A",
+    "explanation": "Pradhan Mantri Jan Dhan Yojana (PMJDY) is the flagship scheme for financial inclusion, providing access to banking, insurance, pension, and credit.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d8860186c3bfdbe81a6e5a"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Banking",
+    "subtopic": "Monetary Policy",
+    "difficulty": "Medium",
+    "question": "What is the primary objective of the Reserve Bank of India's (RBI) monetary policy?",
+    "option": {
+      "A": "To control inflation and ensure price stability",
+      "B": "To boost economic growth by increasing money supply",
+      "C": "To manage the exchange rate of the Indian Rupee",
+      "D": "To provide liquidity to banks and financial institutions"
+    },
+    "answer": "A",
+    "explanation": "The primary objective of India's monetary policy is to maintain price stability while keeping in mind the objective of growth.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d886016913af43b42da8cb"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Banking",
+    "subtopic": "International Trade Finance",
+    "difficulty": "Hard",
+    "question": "Under which of the following is a bank permitted to refuse payment against a presentation of documents under a Letter of Credit?",
+    "option": {
+      "A": "The documents comply with the terms of the Letter of Credit.",
+      "B": "The documents presented are not genuine.",
+      "C": "The beneficiary has defaulted on an unrelated transaction.",
+      "D": "The bank has received an injunction from a court."
+    },
+    "answer": "B",
+    "explanation": "A bank is generally obligated to pay under a Letter of Credit if the documents conform to its terms; refusal is typically based on non-compliance or fraudulent presentation.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d886011851242c38430197"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Banking",
+    "subtopic": "Risk Management",
+    "difficulty": "Medium",
+    "question": "What does 'Credit Risk' refer to in the context of banking?",
+    "option": {
+      "A": "The risk of loss due to a borrower's failure to repay a loan or meet contractual obligations.",
+      "B": "The risk of loss due to adverse movements in market prices, such as interest rates or exchange rates.",
+      "C": "The risk of loss arising from inadequate or failed internal processes, people, and systems or from external events.",
+      "D": "The risk of loss due to the inability of a bank to meet its short-term obligations."
+    },
+    "answer": "A",
+    "explanation": "Credit risk is the potential loss a bank or financial institution faces if a borrower defaults on their debt obligations.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d886010595d621b8203937"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Banking",
+    "subtopic": "Capital Adequacy",
+    "difficulty": "Medium",
+    "question": "The Basel Accords primarily aim to strengthen regulation, supervision, and risk management within the banking sector globally. What is a key aspect of these accords?",
+    "option": {
+      "A": "Setting minimum capital requirements for banks.",
+      "B": "Mandating specific interest rates for loans.",
+      "C": "Regulating the types of investments banks can make.",
+      "D": "Prescribing operational hours for bank branches."
+    },
+    "answer": "A",
+    "explanation": "A core objective of the Basel Accords is to ensure banks maintain adequate capital to absorb unexpected losses, thereby promoting financial stability.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d88601e1b92e3310b09c02"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Finance",
+    "topic": "Financial Statement Analysis",
+    "subtopic": "Ratio Analysis",
+    "difficulty": "Medium",
+    "question": "Given the Profit and Loss Account, calculate the following ratios:\n- Net profit margin\n- EBITDA margin\n- EPS\n- PE ratio\n- TOL/TNW",
+    "option": {},
+    "answer": "Calculation based on provided financial data",
+    "explanation": "These ratios are standard metrics for evaluating a company's profitability and financial leverage.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d88601f67dad3c568c0343"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Finance",
+    "topic": "Financial Statement Analysis",
+    "subtopic": "Ratio Analysis",
+    "difficulty": "Medium",
+    "question": "Given the Balance Sheet, calculate the following ratios:\n- Current ratio\n- Quick ratio\n- Debt equity ratio\n- FACR (Fixed Asset Coverage Ratio)\n- RoCE",
+    "option": {},
+    "answer": "Calculation based on provided financial data",
+    "explanation": "These ratios are standard metrics for evaluating a company's liquidity, leverage, and operational efficiency.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d886011bfde7d2f1b001da"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Financial Statement Analysis",
+    "subtopic": "Ratio Analysis",
+    "difficulty": "Medium",
+    "question": "The Balance Sheet and Profit and Loss Statement of Indra Private Ltd is given below. The company has to repay the debentures in 5 equal instalments starting current year and bank loans due for repayment this year include Rs.86000. Analyse the company based on following ratios:\\ni. Current Ratio\\nii. Quick Ratio\\niii. Debt to Equity Ratio\\niv. Inventory Turnover Ratio\\nv. Operating Ratio\\nvi. DSCR\\nvii. ICR",
+    "option": {},
+    "answer": "The question requires the calculation and analysis of various financial ratios for Indra Private Ltd based on provided (but incomplete) financial statements. Specific calculations and comments are needed for each ratio listed.",
+    "explanation": "Detailed analysis of each ratio would provide insights into the company's liquidity, solvency, efficiency, and debt servicing capacity.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d88601aabcb30f190a00ce"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Financial Statement Analysis",
+    "subtopic": "Operating Cycle",
+    "difficulty": "Medium",
+    "question": "As such, operating cycle = receivable days + Inventory days — payables days\\nFor Armani Pvt Ltd = 44 +96 — 69 = 71 days\\nFor Bhawani Pvt Ltd = 61+117-64 = 114 days\\nComment — Armani Pvt Ltd has better control over its operating cycle as compared to Bhawani Pvt Ltd. The inventory days and receivable days of Armani Pvt Ltd are better controlled than that of Bhawani Pvt Ltd, while both enjoy similar payable days from their respective suppliers. This is also reflected in a better asset turnover for Armani Pvt Ltd at 2.07 times as against 1.8 times for Bhawani Pvt Ltd.",
+    "option": {},
+    "answer": "Armani Pvt Ltd has a better control over its operating cycle (71 days) compared to Bhawani Pvt Ltd (114 days), which is also reflected in its higher asset turnover ratio.",
+    "explanation": "A shorter operating cycle indicates more efficient management of inventory and receivables, leading to better asset utilization.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d8860127f835e7312878fa"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Financial Statement Analysis",
+    "subtopic": "Valuation",
+    "difficulty": "Medium",
+    "question": "The share of Armani Private Ltd is Rs.40 per share and Bhawani Private Ltd is Rs.36 per share. Which of the two companies is trading at a better PE multiple? (4 marks)",
+    "option": {},
+    "answer": "To determine which company is trading at a better PE multiple, we need to calculate the PE ratio for both companies. The PE ratio is calculated as Market Price per Share / Earnings Per Share (EPS).",
+    "explanation": "The company with a lower PE multiple is generally considered to be trading at a better valuation, assuming similar growth prospects.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d886010f49f3fd3102096d"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Finance",
+    "topic": "Financial Ratios",
+    "subtopic": "Profitability Ratios",
+    "difficulty": "Medium",
+    "question": "Calculate the Net Profit Margin for a company.",
+    "option": {},
+    "answer": "Net Profit Margin = Net Profit / Revenue x 100",
+    "explanation": "Net Profit Margin measures how much profit is generated for every dollar of revenue.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d88601a878eae1fae8efc2"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Finance",
+    "topic": "Financial Ratios",
+    "subtopic": "Activity Ratios",
+    "difficulty": "Medium",
+    "question": "Calculate the Operating Ratio for a company.",
+    "option": {},
+    "answer": "Operating Ratio = (Cost of Goods Sold + Operating Expenses) / Revenue x 100",
+    "explanation": "The Operating Ratio indicates the proportion of revenue that is consumed by operating expenses.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d88601276ab8f51e896dd4"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Finance",
+    "topic": "Financial Ratios",
+    "subtopic": "Profitability Ratios",
+    "difficulty": "Medium",
+    "question": "Calculate the ROCE (Return on Capital Employed) for a company.",
+    "option": {},
+    "answer": "ROCE = Earnings Before Interest and Tax (EBIT) / Capital Employed x 100",
+    "explanation": "ROCE measures a company's profitability and the efficiency with which it uses its capital.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d88601a99731422a44b720"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Finance",
+    "topic": "Financial Ratios",
+    "subtopic": "Solvency Ratios",
+    "difficulty": "Medium",
+    "question": "Calculate the Interest Coverage Ratio for a company.",
+    "option": {},
+    "answer": "Interest Coverage Ratio = Earnings Before Interest and Tax (EBIT) / Interest Expense",
+    "explanation": "The Interest Coverage Ratio assesses a company's ability to meet its interest obligations.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d88601741b57ed5bc32399"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Finance",
+    "topic": "Financial Statement Analysis",
+    "subtopic": "Cash Flow Statement",
+    "difficulty": "Medium",
+    "question": "What are the three main components of a cash flow statement?",
+    "option": {},
+    "answer": "The three main components are Cash Flow from Operating Activities, Cash Flow from Investing Activities, and Cash Flow from Financing Activities.",
+    "explanation": "These components categorize the sources and uses of cash over a period.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d88601099c761b4decfec0"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Finance",
+    "topic": "Financial Statement Analysis",
+    "subtopic": "Balance Sheet",
+    "difficulty": "Medium",
+    "question": "What is Net-worth? What is the impact of intangible assets on Net-worth. Give three examples of intangible assets.",
+    "option": {},
+    "answer": "Net-worth is the total assets minus total liabilities. Intangible assets reduce net-worth if they are impaired or amortized; examples include patents, trademarks, and goodwill.",
+    "explanation": "Net-worth represents the owners' stake in the company, and intangible assets can significantly influence its value.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d8860150c52d0a9462ea45"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Finance",
+    "topic": "Risk Management",
+    "subtopic": "Types of Risk",
+    "difficulty": "Medium",
+    "question": "What are credit risk, liquidity risk, market risk, and operational risk?",
+    "option": {},
+    "answer": "Credit risk is the risk of loss due to a borrower's failure to repay a loan or meet contractual obligations; liquidity risk is the risk of not being able to meet short-term financial demands; market risk is the risk of losses due to factors that affect the overall performance of financial markets; and operational risk is the risk of loss resulting from inadequate or failed internal processes, people, and systems or from external events.",
+    "explanation": "These are the primary categories of financial risk that institutions face.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d88601fc3f931a7a84184d"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Finance",
+    "topic": "Banking Operations",
+    "subtopic": "Trade Finance",
+    "difficulty": "Medium",
+    "question": "Explain Bank guarantee and letter of credit. What are the differences between them?",
+    "option": {},
+    "answer": "A bank guarantee is a promise from a bank to cover a client's debt if the client fails to pay, while a letter of credit is a payment instrument issued by a bank on behalf of a buyer, ensuring payment to the seller upon fulfillment of specified conditions. Key differences lie in their purpose (guarantee vs. payment assurance) and trigger events.",
+    "explanation": "Both are crucial financial instruments used in trade and commerce to mitigate risk.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d88601a038a0563cfba5d4"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Finance",
+    "topic": "Investment Appraisal",
+    "subtopic": "Project Appraisal",
+    "difficulty": "Medium",
+    "question": "How do you define project appraisal? In this context, explain NPV and IRR.",
+    "option": {},
+    "answer": "Project appraisal is the process of evaluating the feasibility and desirability of a project. NPV (Net Present Value) is the difference between the present value of cash inflows and the present value of cash outflows over a period, and IRR (Internal Rate of Return) is the discount rate at which the NPV of all cash flows from a particular project equals zero.",
+    "explanation": "NPV and IRR are key metrics used in project appraisal to determine investment viability.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d88601a25ef8e7b56e6b5c"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Finance",
+    "topic": "Banking Operations",
+    "subtopic": "Asset Quality",
+    "difficulty": "Medium",
+    "question": "What are NPAs and how are they recognized?",
+    "option": {},
+    "answer": "NPAs (Non-Performing Assets) are loans or advances for which the interest and installments of principal remain overdue for a period of 90 days. They are recognized based on the duration of overdues and the provisioning requirements set by regulatory authorities.",
+    "explanation": "Recognizing NPAs is critical for banks to accurately reflect their financial health.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d8860106e6b9f675038e12"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Finance",
+    "topic": "Financial Ratios",
+    "subtopic": "Solvency Ratios",
+    "difficulty": "Medium",
+    "question": "What is the interest coverage ratio and debt service coverage ratio and how to calculate them?",
+    "option": {},
+    "answer": "The interest coverage ratio is calculated as EBIT / Interest Expense, measuring the ability to cover interest payments. The debt service coverage ratio (DSCR) is calculated as (Net Operating Income) / (Total Debt Service Payments), measuring the ability to cover all debt obligations, including principal and interest.",
+    "explanation": "These ratios are crucial for assessing a company's ability to service its debt obligations.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d88601ac84e813e5b9da99"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Finance",
+    "topic": "Financial Statements",
+    "subtopic": "Analysis of Financial Statements",
+    "difficulty": "Medium",
+    "question": "Which of the following is NOT a component of the 'Presentation of Companies Final Accounts'?",
+    "option": {
+      "A": "Balance Sheet (BS)",
+      "B": "Profit & Loss Statement (P&L)",
+      "C": "Cash Flow Statement (CFS)",
+      "D": "Statement of Changes in Equity"
+    },
+    "answer": "D",
+    "explanation": "The Statement of Changes in Equity is not always a mandatory part of the basic final accounts presentation as per general accounting standards.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d88601a4060f0ed475d2bf"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Finance",
+    "topic": "Working Capital Management",
+    "subtopic": "Working Capital Numericals",
+    "difficulty": "Hard",
+    "question": "Calculate the Net Working Capital if Current Assets are $2,50,000 and Current Liabilities are $1,20,000.",
+    "option": {
+      "A": "$1,30,000",
+      "B": "$3,70,000",
+      "C": "$1,20,000",
+      "D": "$2,50,000"
+    },
+    "answer": "A",
+    "explanation": "Net Working Capital = Current Assets - Current Liabilities = $2,50,000 - $1,20,000 = $1,30,000.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d886019eccdc0fd3823c1f"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Finance",
+    "topic": "Ratio Analysis",
+    "subtopic": "Profitability Ratios",
+    "difficulty": "Medium",
+    "question": "Which profitability ratio measures the profit generated from the company's core operations before interest and taxes?",
+    "option": {
+      "A": "Gross Profit Ratio",
+      "B": "Operating Profit Ratio",
+      "C": "Net Profit Ratio",
+      "D": "Return on Equity"
+    },
+    "answer": "B",
+    "explanation": "The Operating Profit Ratio (or EBIT margin) indicates profitability from core business operations.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d886011a4850a38617ca30"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Finance",
+    "topic": "Financial Statements",
+    "subtopic": "Cash Flow Statement",
+    "difficulty": "Easy",
+    "question": "The Cash Flow Statement primarily reports on a company's cash inflows and outflows over a period of:",
+    "option": {
+      "A": "One day",
+      "B": "One week",
+      "C": "One quarter or year",
+      "D": "Ten years"
+    },
+    "answer": "C",
+    "explanation": "The Cash Flow Statement summarizes cash movements over a specific accounting period, typically a quarter or a year.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d8860186628b3647059414"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Finance",
+    "topic": "Ratio Analysis",
+    "subtopic": "Activity Ratios",
+    "difficulty": "Medium",
+    "question": "Inventory Turnover Ratio is a type of which financial ratio?",
+    "option": {
+      "A": "Profitability Ratio",
+      "B": "Liquidity Ratio",
+      "C": "Activity Ratio",
+      "D": "Leverage Ratio"
+    },
+    "answer": "C",
+    "explanation": "Inventory Turnover Ratio measures how efficiently a company is managing its inventory and is categorized under Activity Ratios.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d886018abd15ded92883fe"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Professional Knowledge",
+    "topic": "Risk Management",
+    "subtopic": "Risks in Export Business",
+    "difficulty": "Medium",
+    "question": "You are an exporter of cotton. What are the various types of risks you face as an exporter?",
+    "option": {},
+    "answer": "As an exporter of cotton, the various types of risks faced can be broadly categorized into commercial risks, political risks, financial risks, and operational risks.",
+    "explanation": "These categories encompass uncertainties related to buyers, transactions, markets, political events, financial fluctuations, and internal operations.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d88601bb01f92cd6352141"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Banking Operations",
+    "topic": "Credit Risk Management",
+    "subtopic": "Credit Risk",
+    "difficulty": "Medium",
+    "question": "What is credit risk? What are the steps taken by banks to manage credit risk?",
+    "option": {},
+    "answer": "Credit risk refers to the potential for a borrower to default on their financial obligations, causing financial loss for the lender. Steps taken by banks to manage credit risk include assessing borrower creditworthiness, setting credit limits, diversifying the loan portfolio, and implementing monitoring and recovery procedures.",
+    "explanation": "Credit risk is the risk of loss due to a borrower's failure to repay a loan or meet other contractual obligations.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d8860114b15d57b802c7c7"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Banking",
+    "topic": "Banking Operations",
+    "subtopic": "Asset Classification and NPA",
+    "difficulty": "Medium",
+    "question": "Briefly discuss the asset classification, NPA recognition and provisioning norms as stated by RBI.",
+    "option": {},
+    "answer": "Banks classify loans based on credit risk. Standard Assets are those with no defaults and normal risk. Non-Performing Assets (NPAs) are assets that cease to generate income due to defaults in principal or interest payments, requiring specific provisioning based on their classification (e.g., Substandard, Doubtful, Loss).",
+    "explanation": "RBI guidelines dictate how banks categorize assets to manage risk and ensure financial stability.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d886017c7e2467ded38009"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Banking",
+    "topic": "International Trade Finance",
+    "subtopic": "Letter of Credit",
+    "difficulty": "Medium",
+    "question": "What is a letter of credit? Enumerate the various parties to a letter of credit.",
+    "option": {},
+    "answer": "A Letter of Credit (LC) is a bank's written undertaking to pay the seller (beneficiary) on behalf of the buyer (applicant) a specified amount, provided the beneficiary presents stipulated documents complying with the LC terms. The parties involved are the Applicant (Buyer/Importer), Issuing Bank (Buyer's Bank), Beneficiary (Seller/Exporter), and often a Negotiating Bank or Confirming Bank.",
+    "explanation": "A Letter of Credit mitigates risks in international trade by providing payment assurance to the seller and ensuring document compliance for the buyer.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d8860105611a453f436758"
+    }
+  },
+  {
+    "exam_type": "EXIM Bank Recruitment",
+    "department": "EXIM Bank",
+    "subject": "Finance",
+    "topic": "Capital Budgeting",
+    "subtopic": "Project Appraisal Methods",
+    "difficulty": "Medium",
+    "question": "Explain the NPV and IRR methods of project appraisal. What happens when NPV and IRR give conflicting results?",
+    "option": {},
+    "answer": "NPV (Net Present Value) is the difference between the present value of cash inflows and the present value of cash outflows, while IRR (Internal Rate of Return) is the discount rate at which the NPV of a project equals zero. Conflicting results can occur when projects have different scales of investment, timing of cash flows, or when conventional assumptions of IRR are violated.",
+    "explanation": "NPV is generally preferred as it directly measures the increase in shareholder wealth, while IRR can be misleading in certain scenarios, especially with mutually exclusive projects.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2024",
+    "pdf_name": "file.pdf",
+    "_id": {
+      "$oid": "69d886014eaf07c28b584daa"
+    }
+  }
+]

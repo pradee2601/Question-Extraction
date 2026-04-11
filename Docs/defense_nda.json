@@ -1,0 +1,1790 @@
+[
+  {
+    "exam_type": "Combined Medical Services (CMS)",
+    "department": "UPSC",
+    "subject": "English",
+    "topic": "Memory Based Paper",
+    "subtopic": "Section I + II",
+    "difficulty": "Medium",
+    "question": "The author's purpose in writing the passage is to $\\frac{\\text{test}}{\\text{demonstrate}}$ the readers' understanding of the topic.",
+    "option": {
+      "A": "$\\text{to persuade the readers to adopt a particular point of view}$",
+      "B": "$\\text{to provide a detailed analysis of the topic}$",
+      "C": "$\\text{to introduce a new idea or concept}$",
+      "D": "$\\text{to test the readers' understanding of the topic}$"
+    },
+    "answer": "D",
+    "explanation": "$\\text{The author's primary goal is to assess the readers' comprehension of the topic}$",
+    "level": "National Exam",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d337d664ce50eb677541"
+    }
+  },
+  {
+    "exam_type": "Combined Medical Services (CMS)",
+    "department": "UPSC",
+    "subject": "Mathematics",
+    "topic": "Averages",
+    "subtopic": "Age Problems",
+    "difficulty": "Medium",
+    "question": "The present ratio of ages of P and Q is 6 ∶ 7. 12 years ago, this ratio was 3 ∶ 4. Find the sum of total of their present ages.",
+    "option": {
+      "1": "52 years",
+      "2": "24 years",
+      "3": "28 years",
+      "4": "48 years"
+    },
+    "answer": "24 years",
+    "explanation": "Let the present ages of P and Q be 6x and 7x. 12 years ago, their ages were 6x - 12 and 7x - 12. The ratio of their ages 12 years ago was 3 ∶ 4, so we can write the equation (6x - 12) / (7x - 12) = 3/4. Solving for x, we get x = 4. Therefore, the present ages of P and Q are 6x = 24 and 7x = 28. The sum of their present ages is 24 + 28 = 52 years.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d337a7dae8450d079c53"
+    }
+  },
+  {
+    "exam_type": "Combined Medical Services (CMS)",
+    "department": "UPSC",
+    "subject": "Mathematics",
+    "topic": "Profit and Loss",
+    "subtopic": "Discount and Loss",
+    "difficulty": "Easy",
+    "question": "If there is a loss of 30% after selling a pen for Rs. 56, then in what price will it be sold to get a profit of 20% ?",
+    "option": {
+      "1": "Rs. 96",
+      "2": "Rs. 84",
+      "3": "Rs. 72",
+      "4": "Rs. 48"
+    },
+    "answer": "Rs. 72",
+    "explanation": "Let the selling price of the pen be x. Then, the loss = 30% of x, which is (0.3x). The selling price is Rs. 56, so we can write the equation x - 0.3x = 56. Solving for x, we get x = 80. To get a profit of 20%, the selling price should be 80 + (0.2 * 80) = Rs. 96.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d3378dc028ab4040699c"
+    }
+  },
+  {
+    "exam_type": "Combined Medical Services (CMS)",
+    "department": "UPSC",
+    "subject": "Physics",
+    "topic": "Motion",
+    "subtopic": "Relative Motion",
+    "difficulty": "Medium",
+    "question": "A train passes a platform in 42 seconds and a man standing on the platform in 25 seconds. If the speed of the train is 72 km/hr, what is the length of the platform?",
+    "option": {},
+    "answer": "40 m",
+    "explanation": "Let the length of the platform be x. The speed of the train is 72 km/hr, which is equivalent to 20 m/s. The train passes the platform in 42 seconds, so the distance covered by the train is 20 * 42 = 840 m. The train also passes the man standing on the platform in 25 seconds, so the distance covered by the man is 20 * 25 = 500 m. Since the man is standing on the platform, the distance covered by the man is equal to the length of the platform. Therefore, the length of the platform is 500 m.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d33760ca18e5b41b591f"
+    }
+  },
+  {
+    "exam_type": "Navik GD Memory Based Paper",
+    "department": "UPSC",
+    "subject": "Mathematics",
+    "topic": "Algebra",
+    "subtopic": "Solution of Linear Equations",
+    "difficulty": "Medium",
+    "question": "A completes a work in 12 days and B completes the same work in 30 days. In many days will they complete the work together?",
+    "option": {
+      "A": "8 days",
+      "B": "10 days",
+      "C": "12 days",
+      "D": "15 days"
+    },
+    "answer": "10 days",
+    "explanation": "Let x be the total number of days. We know that A completes the work in 12 days, so A's rate of work is 1/12. Similarly, B's rate of work is 1/30. Therefore, the total rate of work is 1/x = 1/12 + 1/30 = 1/10, so x = 10. Hence, they will complete the work together in 10 days.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d33794b75cbf4d98c558"
+    }
+  },
+  {
+    "exam_type": "Navik GD Memory Based Paper",
+    "department": "UPSC",
+    "subject": "Mathematics",
+    "topic": "Algebra",
+    "subtopic": "Solution of Linear Equations",
+    "difficulty": "Medium",
+    "question": "What is the ratio of the LCM to HCF of the 76, 114 and 304.",
+    "option": {
+      "A": "24",
+      "B": "42",
+      "C": "48",
+      "D": "54"
+    },
+    "answer": "24",
+    "explanation": "The LCM of 76, 114 and 304 is 2288. The HCF is 38. Therefore, the ratio of LCM to HCF is 2288/38 = 24.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d337204438c564b3fdf2"
+    }
+  },
+  {
+    "exam_type": "Navik GD Memory Based Paper",
+    "department": "UPSC",
+    "subject": "Mathematics",
+    "topic": "Algebra",
+    "subtopic": "Solution of Linear Equations",
+    "difficulty": "Medium",
+    "question": "If the mean and median of a statistical data be 5 and 6 respectively, then the value of mode is",
+    "option": {
+      "A": "8",
+      "B": "9",
+      "C": "11",
+      "D": "None of the above"
+    },
+    "answer": "11",
+    "explanation": "Let the values of the data be x, x, x, 5, 6, 7, 8, 9, 10. Then, the mean is (x + x + x + 5 + 6 + 7 + 8 + 9 + 10)/9 = 5. The median is (6 + 7 + 8)/3 = 6. Therefore, the mode is the value that occurs most frequently in the data. In this case, the mode is 9.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d337339e4d9e68ab0a7d"
+    }
+  },
+  {
+    "exam_type": "Navik GD Memory Based Paper",
+    "department": "UPSC",
+    "subject": "Mathematics",
+    "topic": "Algebra",
+    "subtopic": "Solution of Linear Equations",
+    "difficulty": "Medium",
+    "question": "Find the value of x.",
+    "option": {
+      "A": "55°",
+      "B": "45°",
+      "C": "35°",
+      "D": "70°"
+    },
+    "answer": "70°",
+    "explanation": "No explanation required.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d33759fa8d42b056b6ed"
+    }
+  },
+  {
+    "exam_type": "Navik GD Memory Based Paper",
+    "department": "UPSC",
+    "subject": "Mathematics",
+    "topic": "Algebra",
+    "subtopic": "Solution of Linear Equations",
+    "difficulty": "Medium",
+    "question": "If a : b = 5 : 2, b : c = 8 : 9 and c : d = 9 : 4, then find the value of a : d.",
+    "option": {
+      "A": "1 : 5",
+      "B": "5 : 1",
+      "C": "2 : 3",
+      "D": "3 : 2"
+    },
+    "answer": "1 : 5",
+    "explanation": "From the given equations, we can find that a/b = 5/2, b/c = 8/9, and c/d = 9/4. Therefore, a/d = (a/b) * (b/c) * (c/d) = (5/2) * (8/9) * (9/4) = 5/2 = 1 : 5.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d33736bd8c5e2ea753da"
+    }
+  },
+  {
+    "exam_type": "Combined Graduate Level (CGL)",
+    "department": "Staff Selection Commission (SSC)",
+    "subject": "Mathematics",
+    "topic": "Algebra",
+    "subtopic": "Linear Equations",
+    "difficulty": "Medium",
+    "question": "The average runs scored by a batsman in eleven matches is 73 runs. After playing the twelfth match his new average got reduced by 5 runs. Find the runs scored by the batsman in the twelfth match.$\\ \\$",
+    "option": {
+      "1": "18",
+      "2": "23",
+      "3": "26",
+      "4": "unknown"
+    },
+    "answer": "1",
+    "explanation": "The new average is 73 - 5 = 68. The runs scored in the 12th match are 68 * 12 - 73 * 11 = 18.",
+    "level": "National Exam",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d337246ab6ffd4831504"
+    }
+  },
+  {
+    "exam_type": "Combined Graduate Level (CGL)",
+    "department": "Staff Selection Commission (SSC)",
+    "subject": "Mathematics",
+    "topic": "Trigonometry",
+    "subtopic": "Identities",
+    "difficulty": "Hard",
+    "question": "What is the simplified value of (cosA + sinA)(cotA + tanA)?$\\ \\$",
+    "option": {
+      "1": "secA + cosecA",
+      "2": "sinA + cosA",
+      "3": "tanA + cotA",
+      "4": "secA - cosecA"
+    },
+    "answer": "1",
+    "explanation": "Using trigonometric identities, we get (cosA + sinA)(cotA + tanA) = secA.cosecA.",
+    "level": "National Exam",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d33733d5148269d08a03"
+    }
+  },
+  {
+    "exam_type": "Combined Graduate Level (CGL)",
+    "department": "Staff Selection Commission (SSC)",
+    "subject": "Mathematics",
+    "topic": "Geometry",
+    "subtopic": "Perimeter and Area",
+    "difficulty": "Medium",
+    "question": "The diagonal of a rectangular field is 10 metre and the perimeter is 28 metre, then what will be the area of the field?$\\ \\$",
+    "option": {
+      "1": "96 m2",
+      "2": "48 m",
+      "3": "72 m",
+      "4": "unknown"
+    },
+    "answer": "3",
+    "explanation": "Using the formula for the area of a rectangle, we get Area = (10/2) * (10/2) = 96 m2.",
+    "level": "National Exam",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d337fbfd0e1ac880affa"
+    }
+  },
+  {
+    "exam_type": "Combined Graduate Level (CGL)",
+    "department": "Staff Selection Commission (SSC)",
+    "subject": "Mathematics",
+    "topic": "Geometry",
+    "subtopic": "Volume",
+    "difficulty": "Hard",
+    "question": "Find the volume of a sphere of diameter 21 cm.$\\ \\$",
+    "option": {
+      "1": "4,481 cm3",
+      "2": "4,851 cm3",
+      "3": "4,637 cm3",
+      "4": "unknown"
+    },
+    "answer": "3",
+    "explanation": "Using the formula for the volume of a sphere, we get Volume = (4/3) * pi * (10.5)3 = 4,637 cm3.",
+    "level": "National Exam",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d33779f48dc666d5df63"
+    }
+  },
+  {
+    "exam_type": "Combined Graduate Level (CGL)",
+    "department": "Staff Selection Commission (SSC)",
+    "subject": "Mathematics",
+    "topic": "Algebra",
+    "subtopic": "Linear Equations",
+    "difficulty": "Medium",
+    "question": "Rs. 1,800 is shared between A, B, and C. If A gets thrice of B, and B gets twice of C, then what is the share of A?$\\ \\$",
+    "option": {
+      "1": "Rs. 120",
+      "2": "Rs. 240",
+      "3": "Rs. 180",
+      "4": "Rs. 200"
+    },
+    "answer": "2",
+    "explanation": "Let the share of C be x. Then, the share of B is 2x and the share of A is 6x. Since the total shares add up to 1800, we get 6x + 2x + x = 1800. Solving for x, we get x = 120. Therefore, the share of A is 6x = 6 * 120 = 720.",
+    "level": "National Exam",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d337a21f6c24569c905b"
+    }
+  },
+  {
+    "exam_type": "Navik GD",
+    "department": "UPSC",
+    "subject": "Finance",
+    "topic": "Compound Interest",
+    "subtopic": "Financial Mathematics",
+    "difficulty": "Medium",
+    "question": "If the sum of Rs. 3000 lent on compound interest becomes Rs. 3993 in 3 years. Find the rate of interest.",
+    "option": {
+      "A": "10%",
+      "B": "12%",
+      "C": "13%",
+      "D": "7%"
+    },
+    "answer": "1. 10%",
+    "explanation": "$1.10\\%$",
+    "level": "National Exam",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d337bffcf513ab551549"
+    }
+  },
+  {
+    "exam_type": "Navik GD",
+    "department": "UPSC",
+    "subject": "Finance",
+    "topic": "Financial Mathematics",
+    "subtopic": "Pie Charts",
+    "difficulty": "Medium",
+    "question": "The pie chart given below shows the number of tigers in different zoos. The number of tigers in a particular zoo are shown as a percentage of total number of tiger in all the zoos together.",
+    "option": {
+      "A": "18°",
+      "B": "72°",
+      "C": "36°",
+      "D": "54°"
+    },
+    "answer": "4. 54°",
+    "explanation": "$\\Delta z_1 \\Delta z_3 = 54^\\circ$",
+    "level": "National Exam",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d337ec1415cde49d889e"
+    }
+  },
+  {
+    "exam_type": "Navik GD",
+    "department": "UPSC",
+    "subject": "Finance",
+    "topic": "Financial Mathematics",
+    "subtopic": "Pie Charts",
+    "difficulty": "Medium",
+    "question": "The pie chart given below shows the number of female students in different subjects. The number of female students in a particular subject is shown as a percentage of a total number of female students in all the subjects together.",
+    "option": {},
+    "answer": "",
+    "explanation": "",
+    "level": "National Exam",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d3379591416c62829fae"
+    }
+  },
+  {
+    "exam_type": "Combined Medical Services (CMS)",
+    "department": "UPSC",
+    "subject": "Mathematics",
+    "topic": "Statistics",
+    "subtopic": "Sample Problems",
+    "difficulty": "Medium",
+    "question": "If the total number of female students is 3600, then what is the difference in the number of female students in subjects S1 and S4?",
+    "option": {
+      "A": "1. 412",
+      "B": "2. 400",
+      "C": "3. 432",
+      "D": "4. 456"
+    },
+    "answer": "3. 432",
+    "explanation": "The difference in the number of female students in subjects S1 and S4 can be calculated by subtracting the number of female students in S1 from the number of female students in S4.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d337a84293ec64edab26"
+    }
+  },
+  {
+    "exam_type": "Combined Medical Services (CMS)",
+    "department": "UPSC",
+    "subject": "English Language",
+    "topic": "Grammar",
+    "subtopic": "Tenses",
+    "difficulty": "Easy",
+    "question": "Change the Voice - His colleague took him to the hospital.",
+    "option": {
+      "A": "1. He was taken to the hospital by his colleague.",
+      "B": "2. He is taken to the hospital by his colleague.",
+      "C": "3. He was being to the hospital by his colleague.",
+      "D": "4. Hospital was taken him by his colleague."
+    },
+    "answer": "1. He was taken to the hospital by his colleague.",
+    "explanation": "The passive voice of the sentence is 'He was taken to the hospital by his colleague'.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d337c84fae3fb978252d"
+    }
+  },
+  {
+    "exam_type": "Combined Medical Services (CMS)",
+    "department": "UPSC",
+    "subject": "English Language",
+    "topic": "Grammar",
+    "subtopic": "Passive Voice",
+    "difficulty": "Medium",
+    "question": "Select the correct passive form of the given sentence. Had I completed the assignment?",
+    "option": {
+      "A": "1. Has the assignment been completed by me?",
+      "B": "2. Had the assignment completed by me?",
+      "C": "3. Had the assignment been complete by me?",
+      "D": "4. Had the assignment been completed by me?"
+    },
+    "answer": "4. Had the assignment been completed by me?",
+    "explanation": "The correct passive form of the sentence is 'Had the assignment been completed by me'.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d3378f603c536cb1cead"
+    }
+  },
+  {
+    "exam_type": "Combined Medical Services (CMS)",
+    "department": "UPSC",
+    "subject": "English Language",
+    "topic": "Grammar",
+    "subtopic": "Indirect Speech",
+    "difficulty": "Medium",
+    "question": "Choose the option that is the indirect form of the sentence. She said, 'I will be there at 3 pm'.",
+    "option": {
+      "A": "1. She said that she will be there at 3 pm.",
+      "B": "2. She said to she would be there at 3 pm.",
+      "C": "3. She said if she would be there at 3 pm.",
+      "D": "4. She said that she would be there at 3 pm."
+    },
+    "answer": "4. She said that she would be there at 3 pm.",
+    "explanation": "The indirect form of the sentence is 'She said that she would be there at 3 pm'.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d337fb2e2694d7903e1c"
+    }
+  },
+  {
+    "exam_type": "Combined Medical Services (CMS)",
+    "department": "UPSC",
+    "subject": "English",
+    "topic": "Narration",
+    "subtopic": "Change the Narration",
+    "difficulty": "Easy",
+    "question": "She said to me, \"Will you buy the book?\"",
+    "option": {
+      "A": "She asked me whether I will buy the book.",
+      "B": "She asked me whether I would buy the book.",
+      "C": "She asked me that I would buy the book.",
+      "D": "She asked me I would buy the book."
+    },
+    "answer": "2",
+    "explanation": "Correct Option - 2",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d337e36f215aadac1d08"
+    }
+  },
+  {
+    "exam_type": "Combined Medical Services (CMS)",
+    "department": "UPSC",
+    "subject": "English",
+    "topic": "Error Detection",
+    "subtopic": "Error in Sentence",
+    "difficulty": "Easy",
+    "question": "I think a animal is (A)/ in the garage and (B)/ they all gather to see that animal. (C)/ No error (D)",
+    "option": {
+      "A": "1.",
+      "B": "2.",
+      "C": "3.",
+      "D": "4."
+    },
+    "answer": "1",
+    "explanation": "Correct Option - 1",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d3379def705cdd255f0d"
+    }
+  },
+  {
+    "exam_type": "Memory Based Paper",
+    "department": "Navik GD",
+    "subject": "English",
+    "topic": "Synonyms",
+    "subtopic": "Antonyms",
+    "difficulty": "Medium",
+    "question": "Direction: Select the synonym of the given word. FANATIC",
+    "option": {
+      "A": "Fantastic",
+      "B": "Famed",
+      "C": "Enthusiast",
+      "D": "Great"
+    },
+    "answer": "Enthusiast",
+    "explanation": "The correct synonym of 'fanatic' is 'enthusiast'.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d337c4b4e262192ab4a6"
+    }
+  },
+  {
+    "exam_type": "Memory Based Paper",
+    "department": "Navik GD",
+    "subject": "English",
+    "topic": "Synonyms",
+    "subtopic": "Antonyms",
+    "difficulty": "Medium",
+    "question": "Direction: Select the antonym of the given word. LAVISH",
+    "option": {
+      "A": "Meagre",
+      "B": "Laudable",
+      "C": "Excessive",
+      "D": "LIberal"
+    },
+    "answer": "Meagre",
+    "explanation": "The correct antonym of 'lavish' is 'meagre'.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d337a5dd53aad0d29672"
+    }
+  },
+  {
+    "exam_type": "Memory Based Paper",
+    "department": "Navik GD",
+    "subject": "English",
+    "topic": "Synonyms",
+    "subtopic": "Antonyms",
+    "difficulty": "Medium",
+    "question": "Direction: Select the correct antonym of the given word. Allure",
+    "option": {
+      "A": "Attract",
+      "B": "Repulse",
+      "C": "Rewind",
+      "D": "Revive"
+    },
+    "answer": "Repulse",
+    "explanation": "The correct antonym of 'allure' is 'repulse'.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d337d5ad3055b92204a5"
+    }
+  },
+  {
+    "exam_type": "Combined Medical Services (CMS)",
+    "department": "UPSC",
+    "subject": "",
+    "topic": "",
+    "subtopic": "",
+    "difficulty": "Easy",
+    "question": "Direction: Select the most appropriate antonym for the given word. Sever\\nCorrect Option - 3\\nDetach\n1.\\nCleave\n2.\\nBind\n3.\\nDisconnect\n4.\n",
+    "option": {
+      "A": "Cleave",
+      "B": "Bind",
+      "C": "Disconnect",
+      "D": "Detach"
+    },
+    "answer": "3. Disconnect",
+    "explanation": "The antonym of 'Sever' is 'Disconnect'.",
+    "level": "National Exam",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d3372bbec6dae65ba0dd"
+    }
+  },
+  {
+    "exam_type": "Combined Medical Services (CMS)",
+    "department": "UPSC",
+    "subject": "",
+    "topic": "",
+    "subtopic": "",
+    "difficulty": "Easy",
+    "question": "A series is given in the following question. Find the term that will replace the question mark.\n0, 8, 31, 74, 142, ?\\nCorrect Option - 1\n240\n1.\n230\n2.\n260\n3.\n300\n4.\n",
+    "option": {
+      "A": "230",
+      "B": "260",
+      "C": "300",
+      "D": "240"
+    },
+    "answer": "1. 240",
+    "explanation": "The pattern of the series is adding 22, 23, 41, 72, 110, so the next term is 240.",
+    "level": "National Exam",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d33731b6899d9b55e060"
+    }
+  },
+  {
+    "exam_type": "Combined Medical Services (CMS)",
+    "department": "UPSC",
+    "subject": "",
+    "topic": "",
+    "subtopic": "",
+    "difficulty": "Easy",
+    "question": "If 'FRAME' is coded as 53972 and 'BOOK' is coded as 4881, then how is 'MORE' coded?\\nCorrect Option - 4\n4381\n1.\n3287\n2.\n5872\n3.\n7832\n4.\n",
+    "option": {
+      "A": "3287",
+      "B": "5872",
+      "C": "7832",
+      "D": "4381"
+    },
+    "answer": "4. 4381",
+    "explanation": "The coding pattern is replacing each letter with its corresponding number. 'FRAME' is coded as 53972 and 'BOOK' is coded as 4881, so 'MORE' is coded as 4381.",
+    "level": "National Exam",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d337f98e840dcdb39d1e"
+    }
+  },
+  {
+    "exam_type": "Combined Medical Services (CMS)",
+    "department": "UPSC",
+    "subject": "",
+    "topic": "",
+    "subtopic": "",
+    "difficulty": "Easy",
+    "question": "If MNOP is written as QRST in a code language, then what will ABCD be written in that code language?\\nCorrect Option - 3\\nMNOP\n1.\\nFGHI\n2.\\nEFGH\n3.\\nPQRS\n4.\n",
+    "option": {
+      "A": "FGHI",
+      "B": "EFGH",
+      "C": "PQRS",
+      "D": "MNOP"
+    },
+    "answer": "3. PQRS",
+    "explanation": "The code language replaces each letter with the next letter in the alphabet, so 'MNOP' is replaced by 'QRST', so 'ABCD' is replaced by 'PQRS'.",
+    "level": "National Exam",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d337cac762f5da32db9e"
+    }
+  },
+  {
+    "exam_type": "Combined Medical Services (CMS)",
+    "department": "UPSC",
+    "subject": "",
+    "topic": "",
+    "subtopic": "",
+    "difficulty": "Easy",
+    "question": "A word with letters jumbled has been given. Choose the correct order of letters which are required to form the correct word.\\nJumbled word: SPTRECE\\nCorrect Option - 4\n4, 3, 6, 5, 7, 2, 1\n1.\n4, 3, 2, 7, 6, 5, 1\n2.\n4, 7, 1, 6, 2, 5, 3\n3.\n4, 7, 1, 2, 5, 6, 3\n4.\n",
+    "option": {
+      "A": "4, 3, 2, 7, 6, 5, 1",
+      "B": "4, 7, 1, 6, 2, 5, 3",
+      "C": "4, 7, 1, 2, 5, 6, 3",
+      "D": "4, 3, 6, 5, 7, 2, 1"
+    },
+    "answer": "4, 3, 6, 5, 7, 2, 1",
+    "explanation": "The correct order of letters to form the correct word is S-P-T-R-E-C-E.",
+    "level": "National Exam",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d337b03fe0c51314444b"
+    }
+  },
+  {
+    "exam_type": "Combined Medical Services (CMS)",
+    "department": "UPSC",
+    "subject": "",
+    "topic": "",
+    "subtopic": "",
+    "difficulty": "Easy",
+    "question": "Find the odd word from the given alternatives.\\nSkin\n1.\\nEye\n2.\\nTeeth\n3.\n",
+    "option": {
+      "A": "Eye",
+      "B": "Teeth",
+      "C": "Skin"
+    },
+    "answer": "2. Teeth",
+    "explanation": "The odd word is 'Teeth' because the other two options 'Eye' and 'Skin' are related to the human body, while 'Teeth' is not.",
+    "level": "National Exam",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d3370aca1ac4f0d5d83b"
+    }
+  },
+  {
+    "exam_type": "Navik GD Memory Based Paper",
+    "department": "UPSC",
+    "subject": "English",
+    "topic": "History",
+    "subtopic": "Ancient History",
+    "difficulty": "Easy",
+    "question": "Archeology : History ∷ Paleontology : ?",
+    "option": {
+      "A": "Rock",
+      "B": "Fossil",
+      "C": "Animals",
+      "D": "Fish"
+    },
+    "answer": "3",
+    "explanation": "",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d3379fa7ba7ad8dcd00c"
+    }
+  },
+  {
+    "exam_type": "Navik GD Memory Based Paper",
+    "department": "UPSC",
+    "subject": "English",
+    "topic": "Numerical Reasoning",
+    "subtopic": "Basic Arithmetic",
+    "difficulty": "Easy",
+    "question": "Select the number which can be placed at the sign of the question mark (?) from the given alternatives.",
+    "option": {
+      "1": "12",
+      "2": "4",
+      "3": "24",
+      "4": "21",
+      "5": "8",
+      "6": "84",
+      "7": "25",
+      "8": "100"
+    },
+    "answer": "1",
+    "explanation": "",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d33742fb204d4bed4d3c"
+    }
+  },
+  {
+    "exam_type": "Navik GD Memory Based Paper",
+    "department": "UPSC",
+    "subject": "English",
+    "topic": "Logical Reasoning",
+    "subtopic": "Series Completion",
+    "difficulty": "Easy",
+    "question": "Which of the following sets of letters will be placed sequentially in the given alphabetical series to complete the given letter series?",
+    "option": {
+      "A": "cdefg",
+      "B": "cdegf",
+      "C": "cedgf",
+      "D": "bcdef"
+    },
+    "answer": "C",
+    "explanation": "",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d3376428f8c83032da2a"
+    }
+  },
+  {
+    "exam_type": "Navik GD Memory Based Paper",
+    "department": "UPSC",
+    "subject": "English",
+    "topic": "Geometry",
+    "subtopic": "Cube Formation",
+    "difficulty": "Easy",
+    "question": "A cube is made by folding the given sheet. In the cube so formed, which number will be on the face opposite to the face having the number '6'?",
+    "option": {
+      "A": "1",
+      "B": "2",
+      "C": "5",
+      "D": "6"
+    },
+    "answer": "4",
+    "explanation": "",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d337f3ee431c9c8bc3d1"
+    }
+  },
+  {
+    "exam_type": "National",
+    "department": "UPSC",
+    "subject": "General Knowledge",
+    "topic": "History",
+    "subtopic": "Revolutionary Movements",
+    "difficulty": "Easy",
+    "question": "Who is the author of the book, 'Citizen and Society'?",
+    "option": {
+      "A": "Pranab Mukherjee",
+      "B": "LK Advani",
+      "C": "Hamid Ansari",
+      "D": "Manmohan Singh"
+    },
+    "answer": "D",
+    "explanation": "Manmohan Singh is the author of the book 'Citizen and Society'.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d337ffe82919b29d212b"
+    }
+  },
+  {
+    "exam_type": "National",
+    "department": "UPSC",
+    "subject": "General Knowledge",
+    "topic": "Science and Technology",
+    "subtopic": "Aerospace",
+    "difficulty": "Easy",
+    "question": "What is the name of the first Indian missile?",
+    "option": {
+      "A": "Sagarika",
+      "B": "Prithvi",
+      "C": "Dhanush",
+      "D": "Agni"
+    },
+    "answer": "C",
+    "explanation": "Dhanush is the name of the first Indian missile.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d337eeb2d41f98e747de"
+    }
+  },
+  {
+    "exam_type": "Navik GD",
+    "department": "UPSC",
+    "subject": "",
+    "topic": "",
+    "subtopic": "",
+    "difficulty": "Easy",
+    "question": "Growth hormone is secreted by:",
+    "option": {
+      "A": "1. Liver gland",
+      "B": "2. Pituitary gland",
+      "C": "3. Thyroid gland",
+      "D": "4. Adrenal gland"
+    },
+    "answer": "2",
+    "explanation": "",
+    "level": "National Exam",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d337b343b281ba13e561"
+    }
+  },
+  {
+    "exam_type": "Navik GD",
+    "department": "UPSC",
+    "subject": "",
+    "topic": "",
+    "subtopic": "",
+    "difficulty": "Easy",
+    "question": "Blue colour of the sky and the reddish appearance of the Sun at the sunrise or sunset is due to",
+    "option": {
+      "A": "1. Interference",
+      "B": "2. Reflection",
+      "C": "3. Refraction",
+      "D": "4. Scattering"
+    },
+    "answer": "4",
+    "explanation": "",
+    "level": "National Exam",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d337b62fcd11ff858de2"
+    }
+  },
+  {
+    "exam_type": "Navik GD",
+    "department": "UPSC",
+    "subject": "",
+    "topic": "",
+    "subtopic": "",
+    "difficulty": "Easy",
+    "question": "Weber is the unit of",
+    "option": {
+      "A": "1. electric conductance",
+      "B": "2. magnetic flux",
+      "C": "3. magnetic flux density",
+      "D": "4. capacitance"
+    },
+    "answer": "2",
+    "explanation": "",
+    "level": "National Exam",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d3376a0863ec8d3b92bf"
+    }
+  },
+  {
+    "exam_type": "Navik GD",
+    "department": "UPSC",
+    "subject": "",
+    "topic": "",
+    "subtopic": "",
+    "difficulty": "Easy",
+    "question": "Polygraph is a device commonly used by law enforcement agencies for",
+    "option": {
+      "A": "1. launching tear gas shells",
+      "B": "2. lie detection",
+      "C": "3. firing pellets",
+      "D": "4. throwing water with high pressure"
+    },
+    "answer": "2",
+    "explanation": "",
+    "level": "National Exam",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d33769871a8f55121c62"
+    }
+  },
+  {
+    "exam_type": "Navik GD",
+    "department": "UPSC",
+    "subject": "",
+    "topic": "",
+    "subtopic": "",
+    "difficulty": "Easy",
+    "question": "The electron was first identified by",
+    "option": {
+      "A": "1. James Chadwick",
+      "B": "2. D. Rutherford",
+      "C": "3. JJ Thomson",
+      "D": "4. J. Kepler"
+    },
+    "answer": "3",
+    "explanation": "",
+    "level": "National Exam",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d337fcae414d81c696a6"
+    }
+  },
+  {
+    "exam_type": "Navik GD",
+    "department": "UPSC",
+    "subject": "",
+    "topic": "",
+    "subtopic": "",
+    "difficulty": "Easy",
+    "question": "Which of the following is used in soda-acid fire extinguishers?",
+    "option": {
+      "A": "1. Sodium chloride",
+      "B": "2. Sodium hydrogen carbonate",
+      "C": "3. Calcium hydroxide",
+      "D": "4. Acetic acid"
+    },
+    "answer": "2",
+    "explanation": "",
+    "level": "National Exam",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d3370d207813ab1a97c1"
+    }
+  },
+  {
+    "exam_type": "Navik GD",
+    "department": "UPSC",
+    "subject": "",
+    "topic": "",
+    "subtopic": "",
+    "difficulty": "Easy",
+    "question": "Which acid is present in sour milk?",
+    "option": {},
+    "answer": "",
+    "explanation": "",
+    "level": "National Exam",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d337c137da8b524d42d0"
+    }
+  },
+  {
+    "exam_type": "Combined Medical Services (CMS)",
+    "department": "UPSC",
+    "subject": "Physics",
+    "topic": "Atomic Physics",
+    "subtopic": "Rutherford's Alpha Particle Scattering Experiment",
+    "difficulty": "Medium",
+    "question": "When the distance between the two charges remains the same and the charges on them are increased by two times, then the force between the two charges $\\frac{1}{2}$.",
+    "option": {
+      "A": "1. remains the same",
+      "B": "2. becomes four times",
+      "C": "3. becomes double",
+      "D": "4. Reduced to one-fourth"
+    },
+    "answer": "B",
+    "explanation": "When the distance between the two charges remains the same and the charges on them are increased by two times, then the force between the two charges is proportional to the product of the charges.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d337851b44b064abb9bb"
+    }
+  },
+  {
+    "exam_type": "Combined Medical Services (CMS)",
+    "department": "UPSC",
+    "subject": "Physics",
+    "topic": "Atomic Physics",
+    "subtopic": "Rutherford's Alpha Particle Scattering Experiment",
+    "difficulty": "Medium",
+    "question": "When the distance between the two charges is reduced by half without changing the magnitude of charges. Then the force between the two charges $\\frac{1}{2}$.",
+    "option": {
+      "A": "1. remains the same",
+      "B": "2. becomes four times",
+      "C": "3. becomes double",
+      "D": "4. Reduced to one-fourth"
+    },
+    "answer": "B",
+    "explanation": "When the distance between the two charges is reduced by half without changing the magnitude of charges, then the force between the two charges is inversely proportional to the square of the distance.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d3379c873c45c8a60079"
+    }
+  },
+  {
+    "exam_type": "Combined Medical Services (CMS)",
+    "department": "UPSC",
+    "subject": "Physics",
+    "topic": "Electricity",
+    "subtopic": "Capacitance",
+    "difficulty": "Medium",
+    "question": "If a dielectric is inserted between the parallel plate capacitor then capacitance will.",
+    "option": {
+      "A": "1. remains the same",
+      "B": "2. increase",
+      "C": "3. decrease",
+      "D": "4. increase initially and then decrease"
+    },
+    "answer": "B",
+    "explanation": "When a dielectric is inserted between the parallel plate capacitor, the capacitance increases due to the increased electric field between the plates.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d33712b3ad79f47239bb"
+    }
+  },
+  {
+    "exam_type": "Engineering Services Examination (ESE/IES)",
+    "department": "UPSC",
+    "subject": "Physics",
+    "topic": "Electricity and Magnetism",
+    "subtopic": "Capacitance",
+    "difficulty": "Medium",
+    "question": "If the distance between the plates of a parallel plate capacitor is halved keeping other parameters unchanged. The new capacitance will become-",
+    "option": {
+      "A": "One third of the initial capacitance",
+      "B": "Two times of the initial capacitance",
+      "C": "Nine times of the initial capacitance",
+      "D": "Remains unchanged"
+    },
+    "answer": "B",
+    "explanation": "$C' = \\frac{1}{2}C$",
+    "level": "National Exam",
+    "eligibility": "Engineering Degree",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d337435653879fec2858"
+    }
+  },
+  {
+    "exam_type": "Engineering Services Examination (ESE/IES)",
+    "department": "UPSC",
+    "subject": "Physics",
+    "topic": "Electricity and Magnetism",
+    "subtopic": "Capacitance",
+    "difficulty": "Medium",
+    "question": "Five capacitor of capacitance C are connected (I) in series and then (II) in parallel. The ratio of equivalent capacitance in case (I) to that in case (II) is:",
+    "option": {
+      "A": "1 : 5",
+      "B": "5 : 1",
+      "C": "1 : 25",
+      "D": "25 : 5"
+    },
+    "answer": "D",
+    "explanation": "When connected in series, the equivalent capacitance is $C_s = \\frac{C}{5}$. When connected in parallel, the equivalent capacitance is $C_p = 5C$. The ratio is $C_p : C_s = 25 : 5$.",
+    "level": "National Exam",
+    "eligibility": "Engineering Degree",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d33706b83e9bfdd50439"
+    }
+  },
+  {
+    "exam_type": "Engineering Services Examination (ESE/IES)",
+    "department": "UPSC",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "subtopic": "Motion",
+    "difficulty": "Medium",
+    "question": "If the mass of a body is doubled then what'll happen to its acceleration if the same force is applied?",
+    "option": {
+      "A": "It will become half",
+      "B": "It will become double",
+      "C": "It will remains the same",
+      "D": "It will reduced to one-fourth"
+    },
+    "answer": "C",
+    "explanation": "Acceleration is directly proportional to force and inversely proportional to mass. Therefore, if the mass is doubled, the acceleration will remain the same.",
+    "level": "National Exam",
+    "eligibility": "Engineering Degree",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d3374d71b30217e3cd0c"
+    }
+  },
+  {
+    "exam_type": "Combined Medical Services (CMS)",
+    "department": "UPSC",
+    "subject": "Physics",
+    "topic": "Electricity and Magnetism",
+    "subtopic": "Electromagnetic Induction",
+    "difficulty": "Medium",
+    "question": "A charge Q is placed at the centre of a cube. Find the flux of the electric field through the six surfaces of the cube.",
+    "option": {
+      "A": "1.",
+      "B": "6Q/ϵ0",
+      "C": "Q/6ϵ0",
+      "D": "5Q/6ϵ0"
+    },
+    "answer": "C",
+    "explanation": "$Q/6\\epsilon_0$",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d3377a583540dc05fa7d"
+    }
+  },
+  {
+    "exam_type": "Combined Medical Services (CMS)",
+    "department": "UPSC",
+    "subject": "Physics",
+    "topic": "Electricity and Magnetism",
+    "subtopic": "Electromagnetic Induction",
+    "difficulty": "Medium",
+    "question": "The ratio of the drift velocity to the magnitude of electric field in a conductor is equal to the ________.",
+    "option": {
+      "A": "1.",
+      "B": "mobility of the electrons",
+      "C": "conductivity of the material",
+      "D": "resistivity of the material"
+    },
+    "answer": "C",
+    "explanation": "The conductivity of the material",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d337082dd6b54800fed4"
+    }
+  },
+  {
+    "exam_type": "Combined Medical Services (CMS)",
+    "department": "UPSC",
+    "subject": "Physics",
+    "topic": "Electricity and Magnetism",
+    "subtopic": "Electromagnetic Induction",
+    "difficulty": "Medium",
+    "question": "When the length of the solenoid is doubled without any change in the number of turns and the area of the coil. Then its self-inductance will",
+    "option": {
+      "A": "Nine times",
+      "B": "Half times",
+      "C": "Doubled",
+      "D": "Unchanged"
+    },
+    "answer": "C",
+    "explanation": "The self-inductance will double",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d337d9a8e635e01047f8"
+    }
+  },
+  {
+    "exam_type": "Combined Medical Services (CMS)",
+    "department": "UPSC",
+    "subject": "Physics",
+    "topic": "Electricity and Magnetism",
+    "subtopic": "Electromagnetic Induction",
+    "difficulty": "Medium",
+    "question": "In a moving coil galvanometer, if the current flowing through it is increased, then the deflection in the coil will",
+    "option": {
+      "A": "increase",
+      "B": "decrease",
+      "C": "remains the same",
+      "D": "None of the above"
+    },
+    "answer": "A",
+    "explanation": "The deflection in the coil will increase",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d3372cb0bc85116dea6e"
+    }
+  },
+  {
+    "exam_type": "Combined Medical Services (CMS)",
+    "department": "UPSC",
+    "subject": "Physics",
+    "topic": "Electricity and Magnetism",
+    "subtopic": "Electromagnetic Induction",
+    "difficulty": "Medium",
+    "question": "Capacitive reactance is equal to _______.",
+    "option": {
+      "A": "1.",
+      "B": "2.",
+      "C": "$2\\pi\\nu C$",
+      "D": "ωL"
+    },
+    "answer": "C",
+    "explanation": "$2\\pi\\nu C$",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d3373c1d7f29d42526f1"
+    }
+  },
+  {
+    "exam_type": "Combined Medical Services (CMS)",
+    "department": "UPSC",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "subtopic": "Rotational Motion",
+    "difficulty": "Medium",
+    "question": "A man standing on a revolving platform spreading his hands outward. Then:",
+    "option": {
+      "A": "angular velocity increase",
+      "B": "angular velocity decrease",
+      "C": "angular momentum increase",
+      "D": "angular momentum is zero"
+    },
+    "answer": "A",
+    "explanation": "The angular velocity of the platform will increase",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d337420529caac5eb442"
+    }
+  },
+  {
+    "exam_type": "Combined Medical Services (CMS)",
+    "department": "UPSC",
+    "subject": "Physics",
+    "topic": "Waves",
+    "subtopic": "Wave Equations",
+    "difficulty": "Hard",
+    "question": "The equation of a wave is given by y = 2 sin (314t - 2x + π/2)m. The wavelength of the wave is:",
+    "option": {
+      "A": "1.57 m",
+      "B": "2.0 m",
+      "C": "6.28 m",
+      "D": "3.14 m"
+    },
+    "answer": "C",
+    "explanation": "$y = 2 \\sin(314t - 2x + \\pi/2)m$ is the equation of a wave. The wavelength is given by $λ = \\dfrac{2\\pi}{k} = \\dfrac{2\\pi}{314} = 6.28 m$.",
+    "level": "National Exam",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d337b020a59f00c3a195"
+    }
+  },
+  {
+    "exam_type": "Combined Medical Services (CMS)",
+    "department": "UPSC",
+    "subject": "Electronics",
+    "topic": "Diodes",
+    "subtopic": "Zener Diodes",
+    "difficulty": "Hard",
+    "question": "Zener diode is used as:",
+    "option": {
+      "A": "an amplifier",
+      "B": "a rectifier",
+      "C": "a oscillator",
+      "D": "a voltage regulator"
+    },
+    "answer": "D",
+    "explanation": "Zener diodes are used as voltage regulators because of their ability to maintain a stable voltage across the load.",
+    "level": "National Exam",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d3374cd66c876068a33f"
+    }
+  },
+  {
+    "exam_type": "Combined Medical Services (CMS)",
+    "department": "UPSC",
+    "subject": "Physics",
+    "topic": "Satellites",
+    "subtopic": "Geostationary Satellites",
+    "difficulty": "Hard",
+    "question": "Which of the following statement is INCORRECT about necessary conditions for a geostationary satellite?",
+    "option": {
+      "A": "It should revolve in an orbit concentric and coplanar with the equatorial plane of the earth.",
+      "B": "Its direction of rotation is from east to west.",
+      "C": "Its period of revolution around the earth should be exactly same as that of the earth about its own axis, i.e., 24 hours.",
+      "D": "It should revolve at a height of nearly 36,000 km above the earth's surface."
+    },
+    "answer": "B",
+    "explanation": "A geostationary satellite should revolve in an orbit concentric and coplanar with the equatorial plane of the earth.",
+    "level": "National Exam",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d337a69a1e29a5c635c5"
+    }
+  },
+  {
+    "exam_type": "Combined Medical Services (CMS)",
+    "department": "UPSC",
+    "subject": "Electrical Circuits",
+    "topic": "Circuit Analysis",
+    "subtopic": "Internal Resistance",
+    "difficulty": "Hard",
+    "question": "Find the equivalent internal resistance and potential of the given circuit.",
+    "option": {
+      "A": "r and E",
+      "B": "r/3 and E/3",
+      "C": "3r and 3E",
+      "D": "r/3 and 3E"
+    },
+    "answer": "C",
+    "explanation": "The equivalent internal resistance is 3r, and the equivalent potential is 3E.",
+    "level": "National Exam",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d3371580267201200034"
+    }
+  },
+  {
+    "exam_type": "Combined Medical Services (CMS)",
+    "department": "UPSC",
+    "subject": "Physics",
+    "topic": "Resistance and Conductance",
+    "subtopic": "Stretched Wire",
+    "difficulty": "Hard",
+    "question": "If a wire of resistance R is stretched to double of its length, then the new resistance will be",
+    "option": {
+      "A": "R/2",
+      "B": "2R",
+      "C": "4R",
+      "D": "16R"
+    },
+    "answer": "C",
+    "explanation": "When a wire is stretched to double its length, its resistance increases by a factor of 4.",
+    "level": "National Exam",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d3371c39dcfa89ba4320"
+    }
+  },
+  {
+    "exam_type": "Combined Medical Services (CMS)",
+    "department": "UPSC",
+    "subject": "Mathematics",
+    "topic": "Algebra",
+    "subtopic": "Quadratic Equations",
+    "difficulty": "Medium",
+    "question": "Find the values of k so the line $y = 2x - 1$ and $y = 3x - 2$ are parallel.",
+    "option": {
+      "A": "1.",
+      "B": "2.",
+      "C": "1/2",
+      "D": "3."
+    },
+    "answer": "2.",
+    "explanation": "Since the lines are parallel, the slopes are equal. So, we can set the slopes equal to each other and solve for k.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d337f2aa39d08fc1fb9c"
+    }
+  },
+  {
+    "exam_type": "Combined Medical Services (CMS)",
+    "department": "UPSC",
+    "subject": "Trigonometry",
+    "topic": "Identities",
+    "subtopic": "Sum and Difference",
+    "difficulty": "Easy",
+    "question": "If 6sin2x - 2cos2x = 4, then find the value of tan x.",
+    "option": {
+      "A": "√3",
+      "B": "1.",
+      "C": "√2",
+      "D": "2"
+    },
+    "answer": "1.",
+    "explanation": "Using the sum and difference identities, we can simplify the expression and solve for tan x.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d337b04b54a1d9715552"
+    }
+  },
+  {
+    "exam_type": "Combined Medical Services (CMS)",
+    "department": "UPSC",
+    "subject": "Algebra",
+    "topic": "Polynomials",
+    "subtopic": "Factoring",
+    "difficulty": "Medium",
+    "question": "If α, β are the roots of the equation 3x2 + 57x - 5 = 0, then what is (α - 3)(β - 3) equal to?",
+    "option": {
+      "A": "81/125",
+      "B": "27/125",
+      "C": "-125/27",
+      "D": "α3 β3"
+    },
+    "answer": "4.",
+    "explanation": "We can factor the quadratic equation using the rational roots theorem and solve for the roots.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d3370d60252aa79e88bd"
+    }
+  },
+  {
+    "exam_type": "Combined Medical Services (CMS)",
+    "department": "UPSC",
+    "subject": "Geometry",
+    "topic": "Conics",
+    "subtopic": "Hyperbolas",
+    "difficulty": "Hard",
+    "question": "The difference of focal distances of any point on a hyperbola is equal to the length of what?",
+    "option": {
+      "A": "latus rectum",
+      "B": "semi-transverse axis",
+      "C": "transverse axis",
+      "D": "semi-latus rectum"
+    },
+    "answer": "3.",
+    "explanation": "The difference of focal distances is equal to the length of the latus rectum.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d337ae96e3a1d6bfb850"
+    }
+  },
+  {
+    "exam_type": "Combined Medical Services (CMS)",
+    "department": "UPSC",
+    "subject": "Calculus",
+    "topic": "Integration",
+    "subtopic": "Basic Integration",
+    "difficulty": "Easy",
+    "question": "Find the value of ∫dx = x / (1 + x2).",
+    "option": {
+      "A": "log(1 + x) + c",
+      "B": "log x2 + c",
+      "C": "log(1 + x) + c",
+      "D": "log x2 - c"
+    },
+    "answer": "2.",
+    "explanation": "We can integrate the function using the power rule and simplify the expression.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d337bc29771d9913cc6f"
+    }
+  },
+  {
+    "exam_type": "Combined Medical Services (CMS)",
+    "department": "UPSC",
+    "subject": "Mathematics",
+    "topic": "Logarithms",
+    "subtopic": "Properties",
+    "difficulty": "Medium",
+    "question": "What is the value of log927 + log832?",
+    "option": {
+      "A": "7/2",
+      "B": "19/6",
+      "C": "4",
+      "D": "7"
+    },
+    "answer": "2.",
+    "explanation": "We can use the product rule of logarithms to simplify the expression and solve for its value.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d33798314bb8a26e8b19"
+    }
+  },
+  {
+    "exam_type": "Combined Medical Services (CMS)",
+    "department": "UPSC",
+    "subject": "Mathematics",
+    "topic": "Calculus",
+    "subtopic": "Integration",
+    "difficulty": "Hard",
+    "question": "What is the value of $\\int_{-1}^{1} |x| dx$?",
+    "option": {
+      "A": "$x^2$",
+      "B": "$\\frac{1}{3}x^3$",
+      "C": "$\\frac{2}{3}x^2$",
+      "D": "$x$"
+    },
+    "answer": "C",
+    "explanation": "The given integral is the definite integral of the absolute value function. Using the fundamental theorem of calculus, we can evaluate the integral as $\\frac{2}{3} \\cdot 1^2 - \\frac{2}{3} \\cdot (-1)^2 = \\frac{2}{3}.$",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d3375024f180182cf421"
+    }
+  },
+  {
+    "exam_type": "Combined Medical Services (CMS)",
+    "department": "UPSC",
+    "subject": "Mathematics",
+    "topic": "Calculus",
+    "subtopic": "Differentiation",
+    "difficulty": "Hard",
+    "question": "If $y = x^2$, what is $\\frac{dy}{dx}$ at $x = 1$ equal to?",
+    "option": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3"
+    },
+    "answer": "B",
+    "explanation": "Using the power rule of differentiation, we can find the derivative of $y = x^2$ as $dy/dx = 2x$. Evaluating this at $x = 1$, we get $2(1) = 2.$",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d3376ffd6022664e9969"
+    }
+  },
+  {
+    "exam_type": "Combined Medical Services (CMS)",
+    "department": "UPSC",
+    "subject": "Mathematics",
+    "topic": "Calculus",
+    "subtopic": "Integration",
+    "difficulty": "Medium",
+    "question": "Evaluate: $\\int dx \\left( 1-\\cos^2 x \\right)$",
+    "option": {
+      "A": "$\\tan x - 2x + c$",
+      "B": "$2 \\tan x - x + c$",
+      "C": "$2 \\tan x + 2x + c$",
+      "D": "None of the above"
+    },
+    "answer": "C",
+    "explanation": "The given integral is a basic calculus problem, and the answer is $2 \\tan x + 2x + c$.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d3379d978b2792e57c70"
+    }
+  },
+  {
+    "exam_type": "Combined Medical Services (CMS)",
+    "department": "UPSC",
+    "subject": "Mathematics",
+    "topic": "Calculus",
+    "subtopic": "Differentiation",
+    "difficulty": "Easy",
+    "question": "Find dy/dx when y = x^2 e^x",
+    "option": {
+      "A": "$2x e^x$",
+      "B": "$e^x (x + 2)$",
+      "C": "$e^x x$",
+      "D": "None of the above"
+    },
+    "answer": "A",
+    "explanation": "This is a basic calculus problem, and the answer is $2x e^x$.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d337cf44987b506a80d2"
+    }
+  },
+  {
+    "exam_type": "National",
+    "department": "UPSC",
+    "subject": "Mathematics",
+    "topic": "Functions",
+    "subtopic": "Range of Functions",
+    "difficulty": "Medium",
+    "question": "$f(x) = x+1$",
+    "option": {
+      "A": "$x-3$",
+      "B": "R - {3}",
+      "C": "R - {1}",
+      "D": "R"
+    },
+    "answer": "B",
+    "explanation": "$f(x) = x+1$ has a range of $R - {3}$",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d33773eb1682f59e6412"
+    }
+  },
+  {
+    "exam_type": "SSC",
+    "department": "Staff Selection Commission",
+    "subject": "General Awareness",
+    "topic": "Railways",
+    "subtopic": "SSC to Railways",
+    "difficulty": "Easy",
+    "question": "FROM SSC TO RAILWAYS, BANKING TO STATE EXAMS",
+    "option": {
+      "A": "aw UU gm,») Ug, ~) “ MY “ MY",
+      "B": "7 cet WE? [== | ey \\) y | -<) Wa | \\",
+      "C": "ce, Se, MC, ry ey",
+      "D": "~ AIRI ~~ AIRI ~ ~ AIR2 ~~ AIRI ~ ~~ AIRT 1"
+    },
+    "answer": "A",
+    "explanation": "This question is related to the topic 'SSC to Railways'",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d337aa6d45b0406fe066"
+    }
+  },
+  {
+    "exam_type": "SSC",
+    "department": "Staff Selection Commission",
+    "subject": "General Awareness",
+    "topic": "Banking",
+    "subtopic": "SSC to Banking",
+    "difficulty": "Easy",
+    "question": "7 ~~ 7 Px ~ 7 ~~ 7 ~ 7 ~~",
+    "option": {
+      "A": "7 cet WE? [== | ey \\) y | -<) Wa | \\",
+      "B": "ce, Se, MC, ry ey",
+      "C": "~ AIRI ~~ AIRI ~ ~ AIR2 ~~ AIRI ~ ~~ AIRT 1",
+      "D": "4 . 4 N 4 N sf. N 5 N"
+    },
+    "answer": "B",
+    "explanation": "This question is related to the topic 'SSC to Banking'",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2021",
+    "pdf_name": "Navik GD 20 March 2021 Memory Based Paper (Section I II) English.pdf",
+    "_id": {
+      "$oid": "69d9d33731cb1797f1f5d353"
+    }
+  }
+]
