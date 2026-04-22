@@ -47,3 +47,8 @@ This application generates MCQs for JEE/NEET exams using RAG (Retrieval Augmente
 - `data/`: Data storage (handled by HuggingFace cache mostly).
 - `utils/`: Helper functions.
 - `prompts/`: Prompt templates.
+
+
+@contextScopeItemMention 
+hear this the next level enhancement plan for our question extraction use this for the enhancement process 
+lets start following this steps and improve out question extraction process follow the instruction given in the md file 

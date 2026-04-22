@@ -33,11 +33,11 @@ import time
 import os
 import traceback
 import requests
-import google.generativeai as genai
 from pathlib import Path
 
 from config import Config
 from utils.logger import setup_logger
+from utils.helpers import call_llm
 
 logger = setup_logger(__name__)
 
@@ -179,12 +179,12 @@ class QuestionValidator:
         if not self.firecrawl_key:
             raise ValueError("FIRECRAWL_API key is missing from .env")
 
-        # Gemini for cross-checking
-        if Config.GOOGLE_API_KEY:
-            genai.configure(api_key=Config.GOOGLE_API_KEY)
-            self.model = genai.GenerativeModel(Config.GENERATION_MODEL)
+        # LLM for cross-checking
+        if Config.API_KEY or Config.GOOGLE_API_KEY:
+            self.has_llm = True
         else:
-            self.model = None
+            self.has_llm = False
+            logger.warning("No API key (API_KEY or GOOGLE_API_KEY) was found for LLM validation.")
 
     # ══════════════════════════════════════════════════════════════════════
     #  STEP 1 — Serper web search
@@ -312,7 +312,7 @@ class QuestionValidator:
         The LLM is instructed to FIX every wrong field and return
         the corrected values.
         """
-        if not self.model or not web_content:
+        if not self.has_llm or not web_content:
             return {
                 "status": "unverified",
                 "corrections": {},
@@ -375,15 +375,14 @@ RULES:
 Return ONLY the JSON object."""
 
         try:
-            response = self.model.generate_content(prompt)
-            if not response.candidates:
+            raw = call_llm(prompt)
+            if not raw:
                 return {
                     "status": "unverified",
                     "corrections": {},
-                    "notes": "Gemini returned no response.",
+                    "notes": "LLM returned no response.",
                 }
 
-            raw = response.candidates[0].content.parts[0].text
             # Strip markdown fences
             raw = re.sub(r'^```(?:json)?\s*', '', raw, flags=re.MULTILINE | re.IGNORECASE)
             raw = re.sub(r',?\s*```\s*$', '', raw, flags=re.MULTILINE)

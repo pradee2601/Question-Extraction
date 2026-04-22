@@ -1,1424 +1,227 @@
 [
   {
-    "exam_type": "RRB PO",
-    "department": "Railway Recruitment Board",
-    "subject": "Unknown",
-    "topic": "Unknown",
-    "subtopic": "Unknown",
-    "difficulty": "Medium",
-    "question": "If 2 is subtracted from each even digit and 1 is added to each odd digit in the given number '2145673', then how many digits will appear more than one in the new number thus formed?",
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS",
+    "subject": "Quantitative Aptitude",
+    "topic": "Number System",
+    "subtopic": "Digit Manipulation",
+    "difficulty": "Easy",
+    "question": "If $2$ is subtracted from each even digit and $1$ is added to each odd digit in the given number ‘$2145673$’, then how many digits will appear more than one in the new number thus formed?",
     "option": {
-      "A": "(a) None",
-      "B": "(b) One",
-      "C": "(c) Two",
-      "D": "(d) Three",
-      "E": "(e) None of these"
+      "A": "None",
+      "B": "One",
+      "C": "Two",
+      "D": "Three",
+      "E": "None of these"
     },
-    "answer": "A",
-    "explanation": "When 2 is subtracted from each even digit and 1 is added to each odd digit in the given number '2145673', the new number thus formed will have only one digit which appears more than once, i.e., 1.",
-    "level": "National",
-    "eligibility": "12th/Graduate",
+    "answer": "B",
+    "explanation": "The new number is $0226484$, where the digits $2$ and $4$ appear twice, but applying the logic: $2-2=0$, $1+1=2$, $4-2=2$, $5+1=6$, $6-2=4$, $7+1=8$, $3+1=4$; resulting in $0226484$, so digits $2$ and $4$ repeat, meaning two digits repeat.",
+    "level": "National Exam",
+    "eligibility": "graduate",
     "year": "2020",
     "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
     "_id": {
-      "$oid": "69d9d64d43bd1dc00c86a44c"
+      "$oid": "69e875df9b40fabbf2e64fc3"
     }
   },
   {
-    "exam_type": "RRB PO",
-    "department": "Railway Recruitment Board",
-    "subject": "Unknown",
-    "topic": "Unknown",
-    "subtopic": "Unknown",
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS",
+    "subject": "Reasoning Ability",
+    "topic": "Floor and Flat Based Puzzle",
+    "subtopic": "Scheduling/Ordering",
     "difficulty": "Medium",
-    "question": "Who among the following lives just below the flat in which G lives?",
+    "question": "Eight persons live in a building of four floors such that ground floor is numbered 1 and floor above it is 2 and so on up to 4th floor. Each of the floor consist of 2 flats as flat-P, which is in west of flat Q. Flat-P of floor-2 is immediately above flat-P of floor-1 and immediately below flat-P of floor-3 and in the same way flat-Q of each floor follow same pattern.\n\\nA lives on an even numbered floor. A lives just above the flat of E. B lives to the west of E. One floor gap between D and C. H lives in the east of D. G lives on the 3rd floor. Both F and C live in the different flats.\n\\nWho among the following lives just below the flat in which G lives?",
     "option": {
-      "A": "(a) B",
-      "B": "(b) C",
-      "C": "(c) A",
-      "D": "(d) Both (b) and (c)",
-      "E": "(e) None of these"
+      "A": "B",
+      "B": "C",
+      "C": "A",
+      "D": "Both (b) and (c)",
+      "E": "None of these"
     },
-    "answer": "C",
-    "explanation": "According to the information given, G lives on the 3rd floor, and A lives just above the flat of E. Therefore, A lives just below the flat in which G lives.",
-    "level": "National",
-    "eligibility": "12th/Graduate",
+    "answer": "D",
+    "explanation": "Based on the arrangement, both C and A reside in the flats directly below G's floor.",
+    "level": "National Exam",
+    "eligibility": "graduate",
     "year": "2020",
     "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
     "_id": {
-      "$oid": "69d9d64dfdc3047a0682835e"
+      "$oid": "69e875dffc8834a2c6053e0d"
     }
   },
   {
-    "exam_type": "RRB PO",
-    "department": "Railway Recruitment Board",
-    "subject": "Unknown",
-    "topic": "Unknown",
-    "subtopic": "Unknown",
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS",
+    "subject": "Reasoning Ability",
+    "topic": "Floor and Flat Based Puzzle",
+    "subtopic": "Scheduling/Ordering",
     "difficulty": "Medium",
     "question": "How many floors gap between B and H?",
     "option": {
-      "A": "(a) None",
-      "B": "(b) Two",
-      "C": "(c) One",
-      "D": "(d) Either (a) or (c)",
-      "E": "(e) Either (b) or (c) Prime"
+      "A": "None",
+      "B": "Two",
+      "C": "One",
+      "D": "Either (a) or (c)",
+      "E": "Either (b) or (c)"
     },
-    "answer": "C",
-    "explanation": "According to the information given, there is one floor gap between D and C. Since H lives in the east of D, there is one floor gap between B and H.",
-    "level": "National",
-    "eligibility": "12th/Graduate",
+    "answer": "D",
+    "explanation": "Depending on the final positioning of B and H within the floors, there is either no gap or one floor gap.",
+    "level": "National Exam",
+    "eligibility": "graduate",
     "year": "2020",
     "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
     "_id": {
-      "$oid": "69d9d64d559e77c71619c2c2"
+      "$oid": "69e875dfbc13302d6ab55fe7"
     }
   },
   {
-    "exam_type": "RRB PO",
-    "department": "Railway Recruitment Board",
-    "subject": "Unknown",
-    "topic": "Unknown",
-    "subtopic": "Unknown",
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS",
+    "subject": "Reasoning Ability",
+    "topic": "Floor and Flat Based Puzzle",
+    "subtopic": "Scheduling/Ordering",
     "difficulty": "Medium",
     "question": "What is the direction of G with respect to E?",
     "option": {
-      "A": "(a) South",
-      "B": "(b) North-east",
-      "C": "(c) North",
-      "D": "(d) East",
-      "E": "(e) North-west"
-    },
-    "answer": "C",
-    "explanation": "According to the information given, G lives on the 3rd floor, and E lives on an even numbered floor. Therefore, G lives north of E.",
-    "level": "National",
-    "eligibility": "12th/Graduate",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64da2dc4eaf24a78ae8"
-    }
-  },
-  {
-    "exam_type": "RRB-PO-Pre-Memory-Based",
-    "department": "Railway Recruitment Board (RRB)",
-    "subject": "",
-    "topic": "",
-    "subtopic": "",
-    "difficulty": "Easy",
-    "question": "What is the meaning of  ?",
-    "option": {
-      "A": "i",
-      "B": "Addai",
-      "C": "Test is",
-      "D": "ALL EXAMS, ONE SUBSCRIPTION"
-    },
-    "answer": "A",
-    "explanation": "The symbol  is used to represent the word 'Addai' in this context.",
-    "level": "National Exam",
-    "eligibility": "Graduate",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64def0f5daa299c18ee"
-    }
-  },
-  {
-    "exam_type": "RRB-PO-Pre-Memory-Based",
-    "department": "Railway Recruitment Board (RRB)",
-    "subject": "General Awareness",
-    "topic": "Family Structure",
-    "subtopic": "Residential Information",
-    "difficulty": "Easy",
-    "question": "Which of the following floor does C live?",
-    "option": {
-      "A": "Floor-1",
-      "B": "Floor-4",
-      "C": "Floor-3",
-      "D": "Floor-2",
-      "E": "None of these"
-    },
-    "answer": "D",
-    "explanation": "The floor number provided in the question is Floor-2.",
-    "level": "National",
-    "eligibility": "Any",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64d1e489a85129d3985"
-    }
-  },
-  {
-    "exam_type": "RRB-PO-Pre-Memory-Based",
-    "department": "Railway Recruitment Board (RRB)",
-    "subject": "General Awareness",
-    "topic": "Family Structure",
-    "subtopic": "Residential Information",
-    "difficulty": "Easy",
-    "question": "Which of the following is true regarding H?",
-    "option": {
-      "A": "Floor 4 – Flat P",
-      "B": "Floor3 – Flat Q",
-      "C": "Floor 2- Flat P",
-      "D": "Floor4- Flat Q",
-      "E": "Floor1- Flat Q"
-    },
-    "answer": "A",
-    "explanation": "The information provided in the question is true regarding H, which is Flat P on Floor 4.",
-    "level": "National",
-    "eligibility": "Any",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64d23b8470c5123e852"
-    }
-  },
-  {
-    "exam_type": "RRB-PO-Pre-Memory-Based",
-    "department": "Railway Recruitment Board (RRB)",
-    "subject": "General Awareness",
-    "topic": "Code Language",
-    "subtopic": "Coding Techniques",
-    "difficulty": "Medium",
-    "question": "What is the code of 'make' as per the given code language?",
-    "option": {
-      "A": "zm",
-      "B": "mn",
-      "C": "rk",
-      "D": "pc",
-      "E": "None of these"
-    },
-    "answer": "A",
-    "explanation": "The code of 'make' is 'zm' as per the given code language.",
-    "level": "National",
-    "eligibility": "Any",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64d6b28c6e5172755bb"
-    }
-  },
-  {
-    "exam_type": "RRB-PO-Pre-Memory-Based",
-    "department": "Railway Recruitment Board (RRB)",
-    "subject": "General Awareness",
-    "topic": "Code Language",
-    "subtopic": "Coding Techniques",
-    "difficulty": "Medium",
-    "question": "What is the code of 'exam' as per the given code language?",
-    "option": {
-      "A": "rk",
-      "B": "pc",
-      "C": "kr",
-      "D": "oj",
-      "E": "None of these"
-    },
-    "answer": "A",
-    "explanation": "The code of 'exam' is 'rk' as per the given code language.",
-    "level": "National",
-    "eligibility": "Any",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64dc371bd8c9a8aa6c4"
-    }
-  },
-  {
-    "exam_type": "RRB-PO-Pre-Memory-Based",
-    "department": "Railway Recruitment Board (RRB)",
-    "subject": "General Awareness",
-    "topic": "Code Language",
-    "subtopic": "Coding Techniques",
-    "difficulty": "Medium",
-    "question": "What is the code of 'go' as per the given code language?",
-    "option": {
-      "A": "pc",
-      "B": "si",
-      "C": "kr",
-      "D": "either 'pc' or 'kr'",
-      "E": "None of these"
-    },
-    "answer": "A",
-    "explanation": "The code of 'go' is 'pc' as per the given code language.",
-    "level": "National",
-    "eligibility": "Any",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64db5d7236d8be0e2b1"
-    }
-  },
-  {
-    "exam_type": "RRB PO",
-    "department": "Railway Recruitment Board",
-    "subject": "",
-    "topic": "",
-    "subtopic": "",
-    "difficulty": "Medium",
-    "question": "What is the code of ‘exam today’ as per the given code language?",
-    "option": {
-      "a": "si oj",
-      "b": "mn kr",
-      "c": "lv si",
-      "d": "zm oj",
-      "e": "None of these"
-    },
-    "answer": "e",
-    "explanation": "",
-    "level": "National",
-    "eligibility": "Graduate",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64d5c7dd3e4eb302443"
-    }
-  },
-  {
-    "exam_type": "RRB PO",
-    "department": "Railway Recruitment Board",
-    "subject": "",
-    "topic": "",
-    "subtopic": "",
-    "difficulty": "Medium",
-    "question": "If ‘easy to plan’ is coded as ‘mn ly pc’ then what is the code of ‘go’ as per the given code language?",
-    "option": {
-      "a": "pc",
-      "b": "zm",
-      "c": "kr",
-      "d": "mn",
-      "e": "None of these"
-    },
-    "answer": "a",
-    "explanation": "",
-    "level": "National",
-    "eligibility": "Graduate",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64df77158461ca31bae"
-    }
-  },
-  {
-    "exam_type": "RRB PO",
-    "department": "Railway Recruitment Board",
-    "subject": "",
-    "topic": "",
-    "subtopic": "",
-    "difficulty": "Medium",
-    "question": "How many pairs of letters are there in the word “GRANDUAL” each of which have as many letters between them in the word as they have between them in the English alphabetical series??",
-    "option": {
-      "a": "Three",
-      "b": "Four",
-      "c": "Two",
-      "d": "One",
-      "e": "Five"
-    },
-    "answer": "a",
-    "explanation": "",
-    "level": "National",
-    "eligibility": "Graduate",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64d977583bcc3cccc59"
-    }
-  },
-  {
-    "exam_type": "RRB PO",
-    "department": "Railway Recruitment Board",
-    "subject": "",
-    "topic": "",
-    "subtopic": "",
-    "difficulty": "Medium",
-    "question": "In which direction point P with respect to point M?",
-    "option": {
-      "a": "South",
-      "b": "South-east",
-      "c": "North-east",
-      "d": "East",
-      "e": "None of these"
-    },
-    "answer": "a",
-    "explanation": "",
-    "level": "National",
-    "eligibility": "Graduate",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64df8c363fa9865d916"
-    }
-  },
-  {
-    "exam_type": "RRB PO",
-    "department": "Railway Recruitment Board",
-    "subject": "",
-    "topic": "",
-    "subtopic": "",
-    "difficulty": "Medium",
-    "question": "What is the shortest distance between point K and point H?",
-    "option": {
-      "a": "13m",
-      "b": "26m",
-      "c": "39m",
-      "d": "25m",
-      "e": "None of these"
-    },
-    "answer": "a",
-    "explanation": "",
-    "level": "National",
-    "eligibility": "Graduate",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64d0f6d51cb703efdff"
-    }
-  },
-  {
-    "exam_type": "RRB PO Pre-Memory-Based",
-    "department": "Railway Recruitment Board",
-    "subject": "Mathematics",
-    "topic": "Distance and Direction",
-    "subtopic": "Trigonometry",
-    "difficulty": "Medium",
-    "question": "If Point Z is 13m north of point H, then what is the distance between point M and point Z?",
-    "option": {
-      "A": "13m",
-      "B": "26m",
-      "C": "39m",
-      "D": "25m",
-      "E": "None of these"
+      "A": "South",
+      "B": "North-east",
+      "C": "North",
+      "D": "East",
+      "E": "North-west"
     },
     "answer": "B",
-    "explanation": "$d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2} = \\sqrt{(13)^2} = 13m$",
-    "level": "National",
-    "eligibility": "Graduate",
+    "explanation": "G is located to the North and East relative to E's position.",
+    "level": "National Exam",
+    "eligibility": "graduate",
     "year": "2020",
     "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
     "_id": {
-      "$oid": "69d9d64dc1ad001f8432e8c2"
+      "$oid": "69e875df98c424020059ba17"
     }
   },
   {
-    "exam_type": "RRB PO Pre-Memory-Based",
-    "department": "Railway Recruitment Board",
-    "subject": "Logical Reasoning",
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS RRB Officer Scale I (PO)",
+    "subject": "Reasoning Ability",
     "topic": "Seating Arrangement",
-    "subtopic": "Linear Arrangement",
-    "difficulty": "Easy",
-    "question": "The number of persons sit between L and Q is same as the number of persons sit between P and _____?",
+    "subtopic": "Circular Arrangement",
+    "difficulty": "Hard",
+    "question": "Nine persons sit around a circular table. Some of them are facing to the centre while some are facing outside the centre. C sits 2nd to the right of A, who faces inside. Two persons sit between C and G. J sits 3rd to the left of G. L sits 2nd to the left of J, who does not sit next to C. B sits 3rd to the right of L and is an immediate neighbour of P. K sits 4th to the right of H, who does not sit near J. Both B and P face same direction as A. C and G face opposite direction to each other. K does not face outside. What is the position of P with respect to K?",
     "option": {
-      "A": "D",
-      "B": "G",
-      "C": "U",
-      "D": "Q",
-      "E": "None of these"
-    },
-    "answer": "B",
-    "explanation": "As Q is 2nd to the right of D, and D sits 3rd from one of the extreme ends, Q sits 2nd from one of the extreme ends. Therefore, the number of persons sit between L and Q is 2, and the number of persons sit between P and G is also 2.",
-    "level": "National",
-    "eligibility": "Graduate",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64dcb62e5040ca9add5"
-    }
-  },
-  {
-    "exam_type": "RRB PO Pre-Memory-Based",
-    "department": "Railway Recruitment Board",
-    "subject": "Logical Reasoning",
-    "topic": "Seating Arrangement",
-    "subtopic": "Linear Arrangement",
-    "difficulty": "Easy",
-    "question": "What is the position of J with respect to Q?",
-    "option": {
-      "A": "2nd to the left",
-      "B": "Immediate left",
-      "C": "Immediate right",
-      "D": "4th to the left",
-      "E": "3rd to the right"
-    },
-    "answer": "C",
-    "explanation": "As J is 30 years old, and Q is 5 years younger than P, who is 20 years older than one of his immediate neighbours. Therefore, J sits 3rd to the right of Q.",
-    "level": "National",
-    "eligibility": "Graduate",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64dda02e4859e0c9b27"
-    }
-  },
-  {
-    "exam_type": "RRB PO Pre-Memory-Based",
-    "department": "Railway Recruitment Board",
-    "subject": "Logical Reasoning",
-    "topic": "Grouping",
-    "subtopic": "Identical Objects",
-    "difficulty": "Easy",
-    "question": "Four of the following five are alike in a certain way and so form a group. Find the one who does not belong to that group?",
-    "option": {
-      "A": "P",
-      "B": "G",
-      "C": "J",
-      "D": "L",
-      "E": "U"
-    },
-    "answer": "C",
-    "explanation": "As J is 30 years old, and the other options are all different ages, J does not belong to the group.",
-    "level": "National",
-    "eligibility": "Graduate",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64d7e5799c0bb251640"
-    }
-  },
-  {
-    "exam_type": "RRB PO Pre Memory Based",
-    "department": "Railway Recruitment Board",
-    "subject": "General Awareness",
-    "topic": "Biography",
-    "subtopic": "Who is 40 years old",
-    "difficulty": "Easy",
-    "question": "Who among the following is 40 years old?",
-    "option": {
-      "A": "L",
-      "B": "P",
-      "C": "D",
-      "D": "U",
-      "E": "None of these"
-    },
-    "answer": "A",
-    "explanation": "L is 40 years old.",
-    "level": "National Exam",
-    "eligibility": "10th | 12th | graduate",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64d874774d80f8127c8"
-    }
-  },
-  {
-    "exam_type": "RRB PO Pre Memory Based",
-    "department": "Railway Recruitment Board",
-    "subject": "General Awareness",
-    "topic": "Biography",
-    "subtopic": "True Statement",
-    "difficulty": "Easy",
-    "question": "Which of the following statement is true?",
-    "option": {
-      "A": "J sits to the right of L",
-      "B": "D sits 3rd to the right of G",
-      "C": "P sits at one of the extreme ends",
-      "D": "None is true",
-      "E": "Q sits immediate right of the one who is 35 years old"
-    },
-    "answer": "D",
-    "explanation": "None of the given options is true.",
-    "level": "National Exam",
-    "eligibility": "10th | 12th | graduate",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64de81de5543e0c95f8"
-    }
-  },
-  {
-    "exam_type": "RRB PO Pre Memory Based",
-    "department": "Railway Recruitment Board",
-    "subject": "General Awareness",
-    "topic": "Biography",
-    "subtopic": "Person's Birthday",
-    "difficulty": "Easy",
-    "question": "Who among the following person was born on Wednesday?",
-    "option": {
-      "A": "U",
-      "B": "R",
-      "C": "S",
-      "D": "T",
-      "E": "None of these"
-    },
-    "answer": "E",
-    "explanation": "None of the given options was born on Wednesday.",
-    "level": "National Exam",
-    "eligibility": "10th | 12th | graduate",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64d3403f6cee2ebfc04"
-    }
-  },
-  {
-    "exam_type": "RRB PO Pre Memory Based",
-    "department": "Railway Recruitment Board",
-    "subject": "General Awareness",
-    "topic": "Biography",
-    "subtopic": "Number of Boxes",
-    "difficulty": "Easy",
-    "question": "How many boxes are placed between O and L?",
-    "option": {
-      "A": "One",
-      "B": "More than Five",
-      "C": "Four",
-      "D": "Three",
-      "E": "Two"
-    },
-    "answer": "E",
-    "explanation": "There are two boxes between O and L.",
-    "level": "National Exam",
-    "eligibility": "10th | 12th | graduate",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64d93f2b1c9caded07d"
-    }
-  },
-  {
-    "exam_type": "RRB PO Pre-Memory-Based",
-    "department": "Railway Recruitment Board (RRB)",
-    "subject": "",
-    "topic": "",
-    "subtopic": "",
-    "difficulty": "Medium",
-    "question": "What is the position of Y from the bottommost?",
-    "option": {
-      "A": "Seven",
-      "B": "Eight",
-      "C": "Six",
-      "D": "Five",
-      "E": "Three"
-    },
-    "answer": "E",
-    "explanation": "",
-    "level": "National",
-    "eligibility": "12th/Graduate",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64df9f8c659ecdf337e"
-    }
-  },
-  {
-    "exam_type": "RRB PO Pre-Memory-Based",
-    "department": "Railway Recruitment Board (RRB)",
-    "subject": "",
-    "topic": "",
-    "subtopic": "",
-    "difficulty": "Medium",
-    "question": "If T and O interchange their positions then which among the following box is placed just below O?",
-    "option": {
-      "A": "Y",
-      "B": "X",
-      "C": "K",
-      "D": "Q",
-      "E": "None of these"
-    },
-    "answer": "E",
-    "explanation": "",
-    "level": "National",
-    "eligibility": "12th/Graduate",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64d4cc5d91e70406224"
-    }
-  },
-  {
-    "exam_type": "RRB PO Pre-Memory-Based",
-    "department": "Railway Recruitment Board (RRB)",
-    "subject": "",
-    "topic": "",
-    "subtopic": "",
-    "difficulty": "Medium",
-    "question": "How many persons sit in the above arrangement?",
-    "option": {
-      "A": "25",
-      "B": "26",
-      "C": "28",
-      "D": "24",
-      "E": "None of these"
-    },
-    "answer": "C",
-    "explanation": "",
-    "level": "National",
-    "eligibility": "12th/Graduate",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64dcf8056035af82045"
-    }
-  },
-  {
-    "exam_type": "RRB-PO-Pre-Memory-Based",
-    "department": "Railway Recruitment Board (RRB)",
-    "subject": "",
-    "topic": "",
-    "subtopic": "",
-    "difficulty": "Medium",
-    "question": "If two persons sit between X and N, then what is the position of X with respect to L?",
-    "option": {
-      "A": "4th to the left",
-      "B": "6th to the left",
-      "C": "5th to the right",
+      "A": "3rd to the right",
+      "B": "2nd to the left",
+      "C": "Immediate left",
       "D": "3rd to the left",
-      "E": "7th to the left"
+      "E": "5th to the right"
     },
-    "answer": "D",
-    "explanation": "",
-    "level": "National",
-    "eligibility": "12th",
+    "answer": "C",
+    "explanation": "Based on the arrangement, P is sitting immediately to the left of K.",
+    "level": "Hard",
+    "eligibility": "Graduate",
     "year": "2020",
     "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
     "_id": {
-      "$oid": "69d9d64d1e337b5c723f8b92"
+      "$oid": "69e875dfb66b57e966cf5f03"
     }
   },
   {
-    "exam_type": "RRB-PO-Pre-Memory-Based",
-    "department": "Railway Recruitment Board (RRB)",
-    "subject": "",
-    "topic": "",
-    "subtopic": "",
-    "difficulty": "Medium",
-    "question": "How many persons sit between L and J?",
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS RRB Officer Scale I (PO)",
+    "subject": "Reasoning Ability",
+    "topic": "Seating Arrangement",
+    "subtopic": "Circular Arrangement",
+    "difficulty": "Hard",
+    "question": "Nine persons sit around a circular table. Some of them are facing to the centre while some are facing outside the centre. C sits 2nd to the right of A, who faces inside. Two persons sit between C and G. J sits 3rd to the left of G. L sits 2nd to the left of J, who does not sit next to C. B sits 3rd to the right of L and is an immediate neighbour of P. K sits 4th to the right of H, who does not sit near J. Both B and P face same direction as A. C and G face opposite direction to each other. K does not face outside. How many persons sit between J and H, when counted from the left of H?",
     "option": {
       "A": "Five",
-      "B": "None of these",
-      "C": "Seven",
-      "D": "Four",
+      "B": "Six",
+      "C": "Four",
+      "D": "One",
       "E": "Three"
     },
-    "answer": "D",
-    "explanation": "",
-    "level": "National",
-    "eligibility": "12th",
+    "answer": "E",
+    "explanation": "Counting from the left of H, there are three persons between J and H.",
+    "level": "Hard",
+    "eligibility": "Graduate",
     "year": "2020",
     "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
     "_id": {
-      "$oid": "69d9d64de88016e837114678"
+      "$oid": "69e875df6235396556b28ccd"
     }
   },
   {
-    "exam_type": "RRB-PO-Pre-Memory-Based",
-    "department": "Railway Recruitment Board (RRB)",
-    "subject": "",
-    "topic": "",
-    "subtopic": "",
-    "difficulty": "Medium",
-    "question": "What is the position of L with respect to Q?",
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS RRB Officer Scale I (PO)",
+    "subject": "Reasoning Ability",
+    "topic": "Seating Arrangement",
+    "subtopic": "Circular Arrangement",
+    "difficulty": "Hard",
+    "question": "Nine persons sit around a circular table. Some of them are facing to the centre while some are facing outside the centre. C sits 2nd to the right of A, who faces inside. Two persons sit between C and G. J sits 3rd to the left of G. L sits 2nd to the left of J, who does not sit next to C. B sits 3rd to the right of L and is an immediate neighbour of P. K sits 4th to the right of H, who does not sit near J. Both B and P face same direction as A. C and G face opposite direction to each other. K does not face outside. Four of the following five are alike in a certain way and so form a group. Find the one who does not belong to that group?",
     "option": {
-      "A": "8th to the right",
-      "B": "8th to the left",
-      "C": "6th to the right",
-      "D": "5th to the left",
+      "A": "C-H",
+      "B": "L-K",
+      "C": "B-J",
+      "D": "H-L",
+      "E": "B-P"
+    },
+    "answer": "E",
+    "explanation": "In all other pairs, the persons have a specific positional relationship that B-P does not share within the pattern group.",
+    "level": "Hard",
+    "eligibility": "Graduate",
+    "year": "2020",
+    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
+    "_id": {
+      "$oid": "69e875dff9fb921416517375"
+    }
+  },
+  {
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS RRB Officer Scale I (PO)",
+    "subject": "Reasoning Ability",
+    "topic": "Seating Arrangement",
+    "subtopic": "Circular Arrangement",
+    "difficulty": "Hard",
+    "question": "Nine persons sit around a circular table. Some of them are facing to the centre while some are facing outside the centre. C sits 2nd to the right of A, who faces inside. Two persons sit between C and G. J sits 3rd to the left of G. L sits 2nd to the left of J, who does not sit next to C. B sits 3rd to the right of L and is an immediate neighbour of P. K sits 4th to the right of H, who does not sit near J. Both B and P face same direction as A. C and G face opposite direction to each other. K does not face outside. How many persons sit between G and H, when counted from the left of G?",
+    "option": {
+      "A": "Three",
+      "B": "Five",
+      "C": "Two",
+      "D": "Four",
       "E": "None of these"
     },
-    "answer": "D",
-    "explanation": "",
-    "level": "National",
-    "eligibility": "12th",
+    "answer": "A",
+    "explanation": "Counting from the left of G, there are three persons between G and H.",
+    "level": "Hard",
+    "eligibility": "Graduate",
     "year": "2020",
     "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
     "_id": {
-      "$oid": "69d9d64d7c96458aa1c1a1db"
+      "$oid": "69e875df0a132509ba5e5721"
     }
   },
   {
-    "exam_type": "RRB-PO-Pre-Memory-Based",
-    "department": "Railway Recruitment Board (RRB)",
-    "subject": "",
-    "topic": "",
-    "subtopic": "",
-    "difficulty": "Medium",
-    "question": "How many persons sit to the right of the one, who sits immediate left of J?",
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS RRB Officer Scale I (PO)",
+    "subject": "Reasoning Ability",
+    "topic": "Seating Arrangement",
+    "subtopic": "Circular Arrangement",
+    "difficulty": "Hard",
+    "question": "Nine persons sit around a circular table. Some of them are facing to the centre while some are facing outside the centre. C sits 2nd to the right of A, who faces inside. Two persons sit between C and G. J sits 3rd to the left of G. L sits 2nd to the left of J, who does not sit next to C. B sits 3rd to the right of L and is an immediate neighbour of P. K sits 4th to the right of H, who does not sit near J. Both B and P face same direction as A. C and G face opposite direction to each other. K does not face outside. How many persons face outside from the centre?",
     "option": {
-      "A": "Ten",
-      "B": "Seven",
+      "A": "Three",
+      "B": "Four",
       "C": "None of these",
-      "D": "Eight",
-      "E": "Eleven"
+      "D": "Six",
+      "E": "Five"
     },
-    "answer": "D",
-    "explanation": "",
-    "level": "National",
-    "eligibility": "12th",
+    "answer": "E",
+    "explanation": "Based on the logical deduction of the sitting arrangement, five persons are facing outside the centre.",
+    "level": "Hard",
+    "eligibility": "Graduate",
     "year": "2020",
     "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
     "_id": {
-      "$oid": "69d9d64d7c4c52d46e1d6eb2"
-    }
-  },
-  {
-    "exam_type": "RRB-PO-Pre-Memory-Based",
-    "department": "Railway Recruitment Board (RRB)",
-    "subject": "",
-    "topic": "",
-    "subtopic": "",
-    "difficulty": "Medium",
-    "question": "Statements: Z > O = G < I ≤ S > P Conclusions: I. S > O II. P > G",
-    "option": {},
-    "answer": "D",
-    "explanation": "",
-    "level": "National",
-    "eligibility": "12th",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64d73471a7c71483ac4"
-    }
-  },
-  {
-    "exam_type": "RRB-PO-Pre-Memory-Based",
-    "department": "Railway Recruitment Board (RRB)",
-    "subject": "",
-    "topic": "",
-    "subtopic": "",
-    "difficulty": "Medium",
-    "question": "Statements: K ≥ M > W ≥ T ≤ Y < Q Conclusions: I. T < Q II. T < K",
-    "option": {},
-    "answer": "D",
-    "explanation": "",
-    "level": "National",
-    "eligibility": "12th",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64dd42b906eaf5dceda"
-    }
-  },
-  {
-    "exam_type": "RRB-PO-Pre-Memory-Based",
-    "department": "Railway Recruitment Board (RRB)",
-    "subject": "",
-    "topic": "",
-    "subtopic": "",
-    "difficulty": "Medium",
-    "question": "Statements: I = H ≥ B ≥ N < D > L Conclusions: I. B < N II. L > H",
-    "option": {},
-    "answer": "D",
-    "explanation": "",
-    "level": "National",
-    "eligibility": "12th",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64dd0d36e1bfda8056f"
-    }
-  },
-  {
-    "exam_type": "RRB-PO-Pre-Memory-Based-2020-1",
-    "department": "Railway Recruitment Board (RRB)",
-    "subject": "Mathematics",
-    "topic": "Geometry",
-    "subtopic": "Floor Plan",
-    "difficulty": "Easy",
-    "question": "2 1 4 5 6 7 3 \\n 0 2 2 6 4 8 4 \\n\\n Directions (2-6): \\n Floors \\n Flat-P \\n Flat-Q \\n 4 \\n D \\n H \\n 3 \\n G \\n F \\n 2 \\n C \\n A \\n 1 \\n B \\n E",
-    "option": {
-      "A": "2 1 4 5 6 7 3",
-      "B": "0 2 2 6 4 8 4",
-      "C": "Directions (2-6): Floors Flat-P Flat-Q 4 D H 3 G F 2 C A 1 B E",
-      "D": ""
-    },
-    "answer": "2 1 4 5 6 7 3",
-    "explanation": "The given plan represents a floor plan with 7 floors, each with a different code. The code for the 2nd floor is 0 2 2 6 4 8 4.",
-    "level": "National Exam",
-    "eligibility": "10th",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64de48f35e8d9d6367a"
-    }
-  },
-  {
-    "exam_type": "RRB-PO-Pre-Memory-Based-2020-1",
-    "department": "Railway Recruitment Board (RRB)",
-    "subject": "Mathematics",
-    "topic": "Geometry",
-    "subtopic": "Word Problems",
-    "difficulty": "Easy",
-    "question": "Directions (7-11): \\n Words \\n Codes \\n Plan \\n mn \\n To \\n kr/pc \\n Go \\n pc/kr \\n Exam \\n oj \\n Easy \\n ly \\n Today \\n si \\n Your \\n zm \\n Make \\n rk",
-    "option": {
-      "A": "Directions (7-11): Words Codes Plan mn To kr/pc Go pc/kr Exam oj Easy ly Today si Your zm Make rk",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "Directions (7-11): Words Codes Plan mn To kr/pc Go pc/kr Exam oj Easy ly Today si Your zm Make rk",
-    "explanation": "The given plan represents a word problem with 11 words, each with a different code. The code for the 2nd word is To.",
-    "level": "National Exam",
-    "eligibility": "10th",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64d9208d06c7c1e43e2"
-    }
-  },
-  {
-    "exam_type": "RRB-PO-Pre-Memory-Based-2020-1",
-    "department": "Railway Recruitment Board (RRB)",
-    "subject": "Mathematics",
-    "topic": "Geometry",
-    "subtopic": "Floor Plan",
-    "difficulty": "Easy",
-    "question": "S7. Ans.(c) \\n Sol.",
-    "option": {
-      "A": "",
-      "B": "",
-      "C": "S7. Ans.(c)",
-      "D": ""
-    },
-    "answer": "S7. Ans.(c)",
-    "explanation": "The given answer is correct.",
-    "level": "National Exam",
-    "eligibility": "10th",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64dbe56d9d52ef38c62"
-    }
-  },
-  {
-    "exam_type": "RRB-PO-Pre-Memory-Based-2020-1",
-    "department": "Railway Recruitment Board (RRB)",
-    "subject": "Mathematics",
-    "topic": "Geometry",
-    "subtopic": "Floor Plan",
-    "difficulty": "Easy",
-    "question": "S8. Ans.(d) \\n Sol.",
-    "option": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "S8. Ans.(d)"
-    },
-    "answer": "S8. Ans.(d)",
-    "explanation": "The given answer is correct.",
-    "level": "National Exam",
-    "eligibility": "10th",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64ded6aa3f5af2e3a75"
-    }
-  },
-  {
-    "exam_type": "RRB-PO-Pre-Memory-Based-2020-1",
-    "department": "Railway Recruitment Board (RRB)",
-    "subject": "Mathematics",
-    "topic": "Geometry",
-    "subtopic": "Floor Plan",
-    "difficulty": "Easy",
-    "question": "S9. Ans.(d) \\n Sol.",
-    "option": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": "S9. Ans.(d)"
-    },
-    "answer": "S9. Ans.(d)",
-    "explanation": "The given answer is correct.",
-    "level": "National Exam",
-    "eligibility": "10th",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64d337cfbedcbdbee9e"
-    }
-  },
-  {
-    "exam_type": "RRB-PO-Pre-Memory-Based-2020-1",
-    "department": "Railway Recruitment Board (RRB)",
-    "subject": "Mathematics",
-    "topic": "Geometry",
-    "subtopic": "Floor Plan",
-    "difficulty": "Easy",
-    "question": "S10. Ans.(a) \\n Sol.",
-    "option": {
-      "A": "S10. Ans.(a)",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "S10. Ans.(a)",
-    "explanation": "The given answer is correct.",
-    "level": "National Exam",
-    "eligibility": "10th",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64d7684fd9b809576a6"
-    }
-  },
-  {
-    "exam_type": "RRB-PO-Pre-Memory-Based-2020-1",
-    "department": "Railway Recruitment Board (RRB)",
-    "subject": "Mathematics",
-    "topic": "Geometry",
-    "subtopic": "Floor Plan",
-    "difficulty": "Easy",
-    "question": "S11. Ans.(c) \\n Sol.",
-    "option": {
-      "A": "",
-      "B": "",
-      "C": "S11. Ans.(c)",
-      "D": ""
-    },
-    "answer": "S11. Ans.(c)",
-    "explanation": "The given answer is correct.",
-    "level": "National Exam",
-    "eligibility": "10th",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64d8de39fb484efdf16"
-    }
-  },
-  {
-    "exam_type": "RRB-PO-Pre-Memory-Based-2020-1",
-    "department": "Railway Recruitment Board (RRB)",
-    "subject": "Mathematics",
-    "topic": "Geometry",
-    "subtopic": "Floor Plan",
-    "difficulty": "Easy",
-    "question": "S12. Ans.(c) \\n Sol.",
-    "option": {
-      "A": "",
-      "B": "",
-      "C": "S12. Ans.(c)",
-      "D": ""
-    },
-    "answer": "S12. Ans.(c)",
-    "explanation": "The given answer is correct.",
-    "level": "National Exam",
-    "eligibility": "10th",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64d5dce75d958784869"
-    }
-  },
-  {
-    "exam_type": "RRB PO",
-    "department": "Railway Recruitment Board",
-    "subject": "Reasoning",
-    "topic": "Directions",
-    "subtopic": "Understanding Directions",
-    "difficulty": "Easy",
-    "question": "Get it on Google Play Addale47) Direction (13-15):",
-    "option": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "G",
-    "explanation": "The directions are given in the format 'G' which means go.",
-    "level": "National Exam",
-    "eligibility": "10th",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64dbce71f8d3986ef81"
-    }
-  },
-  {
-    "exam_type": "RRB PO",
-    "department": "Railway Recruitment Board",
-    "subject": "Reasoning",
-    "topic": "Directions",
-    "subtopic": "Understanding Directions",
-    "difficulty": "Easy",
-    "question": "P Ss S13. Ans.(e) $14. Ans.(b) S15. Ans.(a) Directions (16-20):",
-    "option": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "answer": "S16. Ans. (a)",
-    "explanation": "The directions are given in the format 'Ss' which means stop.",
-    "level": "National Exam",
-    "eligibility": "10th",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64d062ce47630b379ff"
-    }
-  },
-  {
-    "exam_type": "RRB PO Pre Memory Based",
-    "department": "Railway Recruitment Board",
-    "subject": "Not specified",
-    "topic": "Not specified",
-    "subtopic": "Not specified",
-    "difficulty": "Medium",
-    "question": "Boxes T Q Y O M X K L P J",
-    "option": {
-      "A": "T",
-      "B": "Q",
-      "C": "Y",
-      "D": "O"
-    },
-    "answer": "d",
-    "explanation": "Boxes are used to store things",
-    "level": "National",
-    "eligibility": "12th/Graduate",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64daf398bfbb5a4644e"
-    }
-  },
-  {
-    "exam_type": "RRB PO Pre Memory Based",
-    "department": "Railway Recruitment Board",
-    "subject": "Not specified",
-    "topic": "Not specified",
-    "subtopic": "Not specified",
-    "difficulty": "Medium",
-    "question": "Directions (22-26):",
-    "option": {},
-    "answer": "Not applicable",
-    "explanation": "Not applicable",
-    "level": "National",
-    "eligibility": "12th/Graduate",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64db4ba96397bbf04db"
-    }
-  },
-  {
-    "exam_type": "RRB PO Pre Memory Based",
-    "department": "Railway Recruitment Board",
-    "subject": "Not specified",
-    "topic": "Not specified",
-    "subtopic": "Not specified",
-    "difficulty": "Medium",
-    "question": "S22. Ans. (d)",
-    "option": {},
-    "answer": "d",
-    "explanation": "Not applicable",
-    "level": "National",
-    "eligibility": "12th/Graduate",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64d82aeb22529ae6c14"
-    }
-  },
-  {
-    "exam_type": "RRB PO Pre Memory Based",
-    "department": "Railway Recruitment Board",
-    "subject": "Not specified",
-    "topic": "Not specified",
-    "subtopic": "Not specified",
-    "difficulty": "Medium",
-    "question": "S23. Ans. (e)",
-    "option": {},
-    "answer": "e",
-    "explanation": "Not applicable",
-    "level": "National",
-    "eligibility": "12th/Graduate",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64d29ca015feb89c59f"
-    }
-  },
-  {
-    "exam_type": "RRB PO Pre Memory Based",
-    "department": "Railway Recruitment Board",
-    "subject": "Not specified",
-    "topic": "Not specified",
-    "subtopic": "Not specified",
-    "difficulty": "Medium",
-    "question": "S24. Ans. (c)",
-    "option": {},
-    "answer": "c",
-    "explanation": "Not applicable",
-    "level": "National",
-    "eligibility": "12th/Graduate",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64d939ec7e9a894c657"
-    }
-  },
-  {
-    "exam_type": "RRB PO Pre Memory Based",
-    "department": "Railway Recruitment Board",
-    "subject": "Not specified",
-    "topic": "Not specified",
-    "subtopic": "Not specified",
-    "difficulty": "Medium",
-    "question": "S25. Ans. (b)",
-    "option": {},
-    "answer": "b",
-    "explanation": "Not applicable",
-    "level": "National",
-    "eligibility": "12th/Graduate",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64df7de4a05858c8f5b"
-    }
-  },
-  {
-    "exam_type": "RRB PO Pre Memory Based",
-    "department": "Railway Recruitment Board",
-    "subject": "Not specified",
-    "topic": "Not specified",
-    "subtopic": "Not specified",
-    "difficulty": "Medium",
-    "question": "S26. Ans. (d)",
-    "option": {},
-    "answer": "d",
-    "explanation": "Not applicable",
-    "level": "National",
-    "eligibility": "12th/Graduate",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64dfad00469cfa0d97c"
-    }
-  },
-  {
-    "exam_type": "RRB PO Pre Memory Based",
-    "department": "Railway Recruitment Board",
-    "subject": "Not specified",
-    "topic": "Not specified",
-    "subtopic": "Not specified",
-    "difficulty": "Medium",
-    "question": "Directions (27-31):",
-    "option": {},
-    "answer": "Not applicable",
-    "explanation": "Not applicable",
-    "level": "National",
-    "eligibility": "12th/Graduate",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64d91c3ad6f9394160b"
-    }
-  },
-  {
-    "exam_type": "RRB PO Pre Memory Based",
-    "department": "Railway Recruitment Board",
-    "subject": "Not specified",
-    "topic": "Not specified",
-    "subtopic": "Not specified",
-    "difficulty": "Medium",
-    "question": "S27. Ans. (c)",
-    "option": {},
-    "answer": "c",
-    "explanation": "Not applicable",
-    "level": "National",
-    "eligibility": "12th/Graduate",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64df76cbde80cd3e6b1"
-    }
-  },
-  {
-    "exam_type": "RRB PO Pre Memory Based",
-    "department": "Railway Recruitment Board",
-    "subject": "Not specified",
-    "topic": "Not specified",
-    "subtopic": "Not specified",
-    "difficulty": "Medium",
-    "question": "S28. Ans. (b)",
-    "option": {},
-    "answer": "b",
-    "explanation": "Not applicable",
-    "level": "National",
-    "eligibility": "12th/Graduate",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64d0856438a21b14402"
-    }
-  },
-  {
-    "exam_type": "RRB PO Pre Memory Based",
-    "department": "Railway Recruitment Board",
-    "subject": "Not specified",
-    "topic": "Not specified",
-    "subtopic": "Not specified",
-    "difficulty": "Medium",
-    "question": "S29. Ans. (e)",
-    "option": {},
-    "answer": "e",
-    "explanation": "Not applicable",
-    "level": "National",
-    "eligibility": "12th/Graduate",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64d948cb198af4603b8"
-    }
-  },
-  {
-    "exam_type": "RRB PO Pre Memory Based",
-    "department": "Railway Recruitment Board",
-    "subject": "Not specified",
-    "topic": "Not specified",
-    "subtopic": "Not specified",
-    "difficulty": "Medium",
-    "question": "S30. Ans. (b)",
-    "option": {},
-    "answer": "b",
-    "explanation": "Not applicable",
-    "level": "National",
-    "eligibility": "12th/Graduate",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64d306d8b0522d91bfd"
-    }
-  },
-  {
-    "exam_type": "RRB PO Pre Memory Based",
-    "department": "Railway Recruitment Board",
-    "subject": "Not specified",
-    "topic": "Not specified",
-    "subtopic": "Not specified",
-    "difficulty": "Medium",
-    "question": "S31. Ans. (c)",
-    "option": {},
-    "answer": "c",
-    "explanation": "Not applicable",
-    "level": "National",
-    "eligibility": "12th/Graduate",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64dd1f670bbd1bc8911"
-    }
-  },
-  {
-    "exam_type": "RRB PO Pre Memory Based",
-    "department": "Railway Recruitment Board",
-    "subject": "Not specified",
-    "topic": "Not specified",
-    "subtopic": "Not specified",
-    "difficulty": "Medium",
-    "question": "S32. Ans.(a)",
-    "option": {},
-    "answer": "a",
-    "explanation": "Sol. I. S > O (True) II. P > G(False)",
-    "level": "National",
-    "eligibility": "12th/Graduate",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64d832c6370fe0ad70d"
-    }
-  },
-  {
-    "exam_type": "RRB PO Pre Memory Based",
-    "department": "Railway Recruitment Board",
-    "subject": "Not specified",
-    "topic": "Not specified",
-    "subtopic": "Not specified",
-    "difficulty": "Medium",
-    "question": "S33. Ans. (e)",
-    "option": {},
-    "answer": "e",
-    "explanation": "Sol. I. T < Q (True) II. T < K (True)",
-    "level": "National",
-    "eligibility": "12th/Graduate",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64d44c7e9af263a4c7f"
-    }
-  },
-  {
-    "exam_type": "RRB PO Pre Memory Based",
-    "department": "Railway Recruitment Board",
-    "subject": "Not specified",
-    "topic": "Not specified",
-    "subtopic": "Not specified",
-    "difficulty": "Medium",
-    "question": "S34. Ans. (b)",
-    "option": {},
-    "answer": "b",
-    "explanation": "Sol. I. V  H(False) II. H  M (True)",
-    "level": "National",
-    "eligibility": "12th/Graduate",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64dd8b6a8c61e64e9b6"
-    }
-  },
-  {
-    "exam_type": "RRB PO Pre Memory Based",
-    "department": "Railway Recruitment Board",
-    "subject": "Not specified",
-    "topic": "Not specified",
-    "subtopic": "Not specified",
-    "difficulty": "Medium",
-    "question": "S35. Ans. (d)",
-    "option": {},
-    "answer": "d",
-    "explanation": "Sol. I. B < N (False) II. L > H (False)",
-    "level": "National",
-    "eligibility": "12th/Graduate",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64d822017eb485b4810"
-    }
-  },
-  {
-    "exam_type": "RRB PO Pre-Memory-Based",
-    "department": "Railway Recruitment Board (RRB)",
-    "subject": " unknown",
-    "topic": " unknown",
-    "subtopic": " unknown",
-    "difficulty": "Easy",
-    "question": "What is the value of A?",
-    "option": {
-      "A": "$S36. Ans. (d)",
-      "B": "$37. Ans. (e)",
-      "C": "$38. Ans. (d)",
-      "D": "$39. Ans. (e)"
-    },
-    "answer": "d",
-    "explanation": "The value of A is d.",
-    "level": "National Exam",
-    "eligibility": "12th/Graduate",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64d88dd3b6e09572e9c"
-    }
-  },
-  {
-    "exam_type": "RRB PO Pre-Memory-Based",
-    "department": "Railway Recruitment Board (RRB)",
-    "subject": " unknown",
-    "topic": " unknown",
-    "subtopic": " unknown",
-    "difficulty": "Easy",
-    "question": "What is the value of S?",
-    "option": {
-      "A": "$S36. Ans. (d)",
-      "B": "$37. Ans. (e)",
-      "C": "$38. Ans. (d)",
-      "D": "$39. Ans. (e)"
-    },
-    "answer": "b",
-    "explanation": "The value of S is b.",
-    "level": "National Exam",
-    "eligibility": "12th/Graduate",
-    "year": "2020",
-    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
-    "_id": {
-      "$oid": "69d9d64d2bed56a4ba8c27cc"
+      "$oid": "69e875dfe770026b01987c06"
     }
   }
 ]

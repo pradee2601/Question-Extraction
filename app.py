@@ -16,7 +16,7 @@ import psutil
 
 from config import Config
 from utils.logger import setup_logger
-from utils.helpers import load_data
+from utils.helpers import load_data, LLMTracker
 from rag.ocr import extract_text_from_image, clean_text
 from rag.embedder import Embedder
 from rag.vector_store import VectorStore
@@ -99,59 +99,46 @@ st.markdown("""
 
 def _check_api_key() -> bool:
     """
-    Quick validation of the GOOGLE_API_KEY.
-    Shows a clear error banner and returns False if the key is missing,
-    obviously wrong, or suspended (403 CONSUMER_SUSPENDED).
+    Quick validation of the API keys based on the configured model.
+    Shows a clear error banner and returns False if the required key is missing.
     """
-    key = Config.GOOGLE_API_KEY
-    if not key or len(key) < 20:
+    model_name = Config.GENERATION_MODEL
+    is_google_model = model_name.startswith("google/") or model_name.startswith("models/")
+    
+    if is_google_model:
+        key = Config.GOOGLE_API_KEY
+        key_name = "GOOGLE_API_KEY"
+    else:
+        key = Config.API_KEY
+        key_name = "API_KEY"
+
+    if not key or len(key) < 10:
         st.error(
-            "## ⚠️ Google API Key Missing\n\n"
-            "No `GOOGLE_API_KEY` found in your `.env` file.\n\n"
-            "**Steps to fix:**\n"
-            "1. Go to [Google AI Studio](https://aistudio.google.com/apikey) and create a new key\n"
-            "2. Open `.env` and set: `GOOGLE_API_KEY=your_new_key_here`\n"
-            "3. Restart the app"
+            f"## ⚠️ API Key Missing\n\n"
+            f"No `{key_name}` found in your `.env` file.\n\n"
+            f"**Steps to fix:**\n"
+            f"1. Open `.env` and set: `{key_name}=your_api_key_here`\n"
+            f"2. Restart the app"
         )
         return False
 
     # Test the key with a minimal call
+    from utils.helpers import call_llm
     try:
-        import google.generativeai as genai
-        genai.configure(api_key=key)
-        model = genai.GenerativeModel(Config.GENERATION_MODEL)
-        model.generate_content("Say OK", generation_config={"max_output_tokens": 5})
-        return True
+        resp = call_llm("Say OK")
+        if resp:
+            return True
+        else:
+            st.warning("⚠️ Could not verify API key (empty response).\n\n"
+                       "The app will continue but may fail during generation.")
+            return True
     except Exception as e:
         err_str = str(e)
-        if "CONSUMER_SUSPENDED" in err_str or "suspended" in err_str.lower():
-            st.error(
-                "## 🚫 Google API Key Suspended\n\n"
-                "Your API key has been **suspended** by Google. This usually happens when:\n"
-                "- The free-tier quota was exceeded\n"
-                "- The key was flagged for unusual activity\n\n"
-                "**Steps to fix:**\n"
-                "1. Go to [Google AI Studio](https://aistudio.google.com/apikey) → create a **new** API key\n"
-                "2. Open your `.env` file and replace the old key:\n"
-                "   ```\n"
-                "   GOOGLE_API_KEY=your_new_key_here\n"
-                "   ```\n"
-                "3. Save `.env` and restart the app with `streamlit run app.py`"
-            )
-        elif "403" in err_str or "401" in err_str:
-            st.error(
-                f"## ❌ API Key Invalid (403/401)\n\n"
-                f"The key in `.env` was rejected by Google.\n\n"
-                f"Get a new key at [Google AI Studio](https://aistudio.google.com/apikey) and update `.env`.\n\n"
-                f"Raw error: `{err_str[:200]}`"
-            )
-        else:
-            st.warning(
-                f"⚠️ Could not verify API key: `{err_str[:200]}`\n\n"
-                "The app will continue but may fail during generation."
-            )
-            return True   # Non-auth error — let it proceed
-        return False
+        st.warning(
+            f"⚠️ Could not verify API key: `{err_str[:200]}`\n\n"
+            "The app will continue but may fail during generation."
+        )
+        return True
 
 
 def ingest_data():
@@ -507,6 +494,56 @@ def _render_passage_exam(exam_obj: dict, inside_expander: bool = False):
         st.markdown("---")
 
 
+def format_duration(seconds: float) -> str:
+    """Formats seconds into human-readable string: 1h 20m 14s."""
+    h = int(seconds // 3600)
+    m = int((seconds % 3600) // 60)
+    s = int(seconds % 60)
+    
+    parts = []
+    if h > 0: parts.append(f"{h}h")
+    if m > 0: parts.append(f"{m}m")
+    if s > 0 or not parts: parts.append(f"{s}s")
+    
+    return " ".join(parts)
+
+
+def _save_report(total_files, total_extracted, report, file_results):
+    """Saves a detailed markdown report of the extraction to the 'reports' folder."""
+    import datetime
+    reports_dir = os.path.join(Config.BASE_DIR, "reports")
+    os.makedirs(reports_dir, exist_ok=True)
+    
+    timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+    report_path = os.path.join(reports_dir, f"extraction_report_{timestamp}.md")
+    
+    with open(report_path, "w", encoding="utf-8") as f:
+        f.write(f"# 📊 Extraction Performance Report\n")
+        f.write(f"**Date:** {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n")
+        f.write(f"## 📝 Summary\n")
+        f.write(f"- **PDFs Processed:** {total_files}\n")
+        f.write(f"- **Total Questions Extracted:** {total_extracted}\n")
+        f.write(f"- **Total API Calls:** {report['total_calls']}\n")
+        f.write(f"- **Total Tokens Used:** {report['total_tokens']:,}\n")
+        f.write(f"- **Total Time Taken:** {format_duration(report['total_time_seconds'])}\n\n")
+        
+        f.write(f"## 💡 Resource Breakdown\n")
+        f.write(f"- **Prompt Tokens:** {report['prompt_tokens']:,}\n")
+        f.write(f"- **Completion Tokens:** {report['completion_tokens']:,}\n")
+        f.write(f"- **Avg Time per Call:** {report['avg_time_per_call']}s\n")
+        if report['total_time_seconds'] > 0:
+            tps = round(report['total_tokens'] / report['total_time_seconds'], 1)
+            f.write(f"- **Extraction Speed:** {tps} tokens/sec\n\n")
+        
+        f.write(f"## 📁 File Details\n")
+        for res in file_results:
+            # Strip markdown bolding for cleaner text file
+            clean_res = res.replace("**", "")
+            f.write(f"- {clean_res}\n")
+            
+    return report_path
+
+
 def _run_extraction(
     pdf_sources,          # list of (name, file-like) tuples
     extraction_mode: str,
@@ -525,7 +562,14 @@ def _run_extraction(
     progress = st.progress(0, text="Starting...")
     total    = len(pdf_sources)
 
+    # Reset tracker at start of extraction
+    LLMTracker.reset()
+    start_time_wall = time.time()
+    timer_placeholder = st.empty()
+    
     for idx, (fname, fobj) in enumerate(pdf_sources):
+        elapsed = format_duration(time.time() - start_time_wall)
+        timer_placeholder.markdown(f"### ⏱️ Elapsed Time: **{elapsed}**")
         progress.progress(idx / total, text=f"Processing {fname} ({idx+1}/{total})...")
         try:
             result = extractor.extract_from_pdf(fobj, mode=extraction_mode)
@@ -554,7 +598,8 @@ def _run_extraction(
         except Exception as e:
             file_results.append(f"❌ **{fname}** — error: {e}")
             logger.error(f"Extraction error for {fname}: {e}")
-
+            
+    timer_placeholder.empty() # Remove ticking timer when done
     progress.progress(1.0, text="Done!")
 
     save_summary: list[str] = []
@@ -609,6 +654,30 @@ def _run_extraction(
         st.error("No content could be extracted from any of the uploaded files.")
         for r in file_results:
             st.markdown(f"- {r}")
+
+    # -- LLM Report --------------------------------------------------------
+    report = LLMTracker.get_report()
+    if report["total_calls"] > 0:
+        with st.expander("📊 LLM Performance Report", expanded=True):
+            rc1, rc2, rc3 = st.columns(3)
+            rc1.metric("Total API Calls", report["total_calls"])
+            rc2.metric("Total Tokens", f"{report['total_tokens']:,}")
+            rc3.metric("Total Time", format_duration(report["total_time_seconds"]))
+            
+            sc1, sc2, sc3 = st.columns(3)
+            sc1.metric("Prompt Tokens", f"{report['prompt_tokens']:,}")
+            sc2.metric("Completion Tokens", f"{report['completion_tokens']:,}")
+            sc3.metric("Avg Time / Call", f"{report['avg_time_per_call']}s")
+            
+            # Additional detail: Tokens per second
+            if report["total_time_seconds"] > 0:
+                tps = round(report["total_tokens"] / report["total_time_seconds"], 1)
+                st.caption(f"🚀 Speed: **{tps}** tokens/sec")
+        
+        # Save report to local disk
+        total_extracted = len(all_simple) + sum(len(e.get("questions", [])) for e in all_passage)
+        report_file = _save_report(total, total_extracted, report, file_results)
+        st.info(f"💾 Report saved to: `{report_file}`")
 
     return {"simple": all_simple, "passage": all_passage}
 
@@ -747,7 +816,8 @@ def main():
                             st.info(ctx_item.get('question_text', 'No text'))
                             st.caption(f"Answer: {ctx_item.get('correct_answer')}")
 
-                    with st.spinner("🤖 Generating new MCQs with Gemini..."):
+                    LLMTracker.reset()
+                    with st.spinner("🤖 Generating new MCQs with Mistral/Llama..."):
                         mcqs = generator.generate_mcqs(
                             context, subject, difficulty, num_questions, exam_type
                         )
@@ -761,6 +831,13 @@ def main():
         if st.session_state.get('mcqs'):
             st.markdown("### 📝 Generated Questions")
             _render_mcq_list(st.session_state['mcqs'], key_prefix="gen")
+            # Show Performance Report for Generation
+            report = LLMTracker.get_report()
+            if report["total_calls"] > 0:
+                with st.expander("📊 Generation Performance", expanded=False):
+                    st.write(f"**Tokens:** {report['total_tokens']:,} | **Time:** {report['total_time_seconds']}s")
+                    st.caption(f"Prompt: {report['prompt_tokens']} | Completion: {report['completion_tokens']}")
+
             mcq_json = json.dumps(st.session_state['mcqs'], indent=2)
             st.download_button(
                 label="⬇️ Download JSON",

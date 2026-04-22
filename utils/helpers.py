@@ -1,15 +1,17 @@
-from datasets import load_dataset
 from config import Config
 import logging
 from utils.logger import setup_logger
 
 logger = setup_logger(__name__)
 
+import google.generativeai as genai
 from huggingface_hub import snapshot_download
 from datasets import Dataset, load_dataset
 import pandas as pd
 import glob
 import os
+import time
+import requests
 
 def load_data(split="train"):
     """
@@ -118,3 +120,121 @@ def load_data(split="train"):
     except Exception as e:
         logger.error(f"Error loading dataset: {e}")
         return None
+
+def _is_invalid(value) -> bool:
+    # Helper for sanitization if needed here
+    return False
+
+class LLMTracker:
+    total_tokens = 0
+    prompt_tokens = 0
+    completion_tokens = 0
+    total_time = 0
+    call_count = 0
+
+    @classmethod
+    def update(cls, p_tokens, c_tokens, wall_time):
+        cls.prompt_tokens += p_tokens
+        cls.completion_tokens += c_tokens
+        cls.total_tokens += (p_tokens + c_tokens)
+        cls.total_time += wall_time
+        cls.call_count += 1
+
+    @classmethod
+    def reset(cls):
+        cls.total_tokens = 0
+        cls.prompt_tokens = 0
+        cls.completion_tokens = 0
+        cls.total_time = 0
+        cls.call_count = 0
+
+    @classmethod
+    def get_report(cls):
+        return {
+            "total_calls": cls.call_count,
+            "total_tokens": cls.total_tokens,
+            "prompt_tokens": cls.prompt_tokens,
+            "completion_tokens": cls.completion_tokens,
+            "total_time_seconds": round(cls.total_time, 2),
+            "avg_time_per_call": round(cls.total_time / cls.call_count, 2) if cls.call_count > 0 else 0
+        }
+
+def call_llm(prompt: str) -> str:
+    """
+    Calls the Google Generative AI (Gemma/Gemini) service or fallback API with the given prompt.
+    Returns the text content of the response and tracks metrics.
+    """
+    model_name = Config.GENERATION_MODEL
+    
+    # 1. Try using Google Generative AI SDK if it's a Google/Gemma model 
+    # AND we have a valid-looking Google API Key (starts with AIza)
+    g_key = Config.GOOGLE_API_KEY
+    if (model_name.startswith("google/") or model_name.startswith("models/")) and g_key and g_key.startswith("AIza"):
+        try:
+            genai.configure(api_key=g_key)
+            # Remove "google/" prefix if present for AI Studio compatibility
+            api_model_name = model_name.replace("google/", "models/") if model_name.startswith("google/") else model_name
+            
+            model = genai.GenerativeModel(api_model_name)
+            
+            start_time = time.time()
+            response = model.generate_content(prompt)
+            end_time = time.time()
+            wall_time = end_time - start_time
+            
+            text = response.text
+            
+            # Track usage
+            usage = getattr(response, 'usage_metadata', None)
+            p_tokens = usage.prompt_token_count if usage else 0
+            c_tokens = usage.candidates_token_count if usage else 0
+            LLMTracker.update(p_tokens, c_tokens, wall_time)
+            
+            return text
+        except Exception as e:
+            logger.warning(f"Google Generative AI SDK failed (model: {model_name}): {e}. Trying fallback API...")
+            # Continue to custom API fallback instead of returning empty
+
+    # 2. Fallback to custom OpenAI-compatible API (Mistral/Llama/etc)
+    url = Config.API_URL
+    api_key = Config.API_KEY
+
+    if not api_key:
+        logger.error("API_KEY is missing from .env for custom endpoint")
+        return ""
+
+    headers = {
+        "Authorization": f"Bearer {api_key}",
+        "Content-Type": "application/json"
+    }
+
+    payload = {
+        "model": model_name,
+        "messages": [
+            {"role": "user", "content": prompt}
+        ]
+    }
+
+    try:
+        start_time = time.time()
+        response = requests.post(url, headers=headers, json=payload, timeout=120)
+        end_time = time.time()
+        wall_time = end_time - start_time
+
+        response.raise_for_status()
+        data = response.json()
+        
+        # Track usage if available
+        usage = data.get("usage", {})
+        p_tokens = usage.get("prompt_tokens", 0)
+        c_tokens = usage.get("completion_tokens", 0)
+        LLMTracker.update(p_tokens, c_tokens, wall_time)
+
+        if "choices" in data and len(data["choices"]) > 0:
+            return data["choices"][0]["message"]["content"]
+        else:
+            logger.warning(f"Unexpected API response format: {data}")
+            return ""
+    except Exception as e:
+        logger.error(f"Custom LLM API call failed: {e}")
+        return ""

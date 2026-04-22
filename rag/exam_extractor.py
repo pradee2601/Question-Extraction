@@ -14,7 +14,7 @@ Two paper types supported
 Pipeline (scanned PDFs)
 -----------------------
   Scanned page -> PyMuPDF pixmap -> Tesseract OCR -> plain text ->
-  Gemini (text-only) -> JSON
+  LLM (text-only) -> JSON
 
 Output JSON schema matches the target MongoDB format:
   exam_type, department, subject, topic, subtopic, difficulty,
@@ -29,7 +29,6 @@ Return value of extract_from_pdf()
   }
 """
 
-import google.generativeai as genai
 import fitz          # PyMuPDF
 from PIL import Image
 import pytesseract
@@ -44,6 +43,7 @@ from pathlib import Path
 
 from config import Config
 from utils.logger import setup_logger
+from utils.helpers import call_llm
 
 logger = setup_logger(__name__)
 
@@ -52,7 +52,7 @@ pytesseract.pytesseract.tesseract_cmd = Config.TESSERACT_CMD_PATH
 
 # -- tuneable constants --------------------------------------------------------
 OCR_DPI         = 250      # higher DPI -> better accuracy for old scans
-MAX_TEXT_CHARS  = 60_000   # max chars per Gemini call (increased)
+MAX_TEXT_CHARS  = 12_000   # max chars per LLM call (reduced for context window)
 PAGES_PER_CHUNK = 1        # process 1 page at a time to prevent LLM laziness/truncation
 
 # Keywords that indicate a reading-comprehension / passage-based paper
@@ -358,45 +358,42 @@ class ExamExtractor:
     """
 
     def __init__(self):
-        if not Config.GOOGLE_API_KEY:
-            raise ValueError("GOOGLE_API_KEY is missing.")
-
-        genai.configure(api_key=Config.GOOGLE_API_KEY)
-        self.safety_settings = [
-            {"category": "HARM_CATEGORY_HARASSMENT",        "threshold": "BLOCK_NONE"},
-            {"category": "HARM_CATEGORY_HATE_SPEECH",       "threshold": "BLOCK_NONE"},
-            {"category": "HARM_CATEGORY_SEXUALLY_EXPLICIT", "threshold": "BLOCK_NONE"},
-            {"category": "HARM_CATEGORY_DANGEROUS_CONTENT", "threshold": "BLOCK_NONE"},
-        ]
-        import google.generativeai.types as genai_types
-        self.generation_config = genai_types.GenerationConfig(max_output_tokens=8192)
-        self.model = genai.GenerativeModel(
-            Config.GENERATION_MODEL,
-            safety_settings=self.safety_settings,
-            generation_config=self.generation_config,
-        )
+        if not (Config.API_KEY or Config.GOOGLE_API_KEY):
+            raise ValueError("No API key found (API_KEY or GOOGLE_API_KEY).")
 
         prompts_dir = os.path.join(Config.BASE_DIR, "prompts")
 
-        # Standard standalone-MCQ prompt
-        mcq_path = os.path.join(prompts_dir, "exam_extraction_prompt.txt")
+        # Standard standalone-MCQ prompt (Llama optimized)
+        mcq_path = os.path.join(prompts_dir, "exam_extraction_prompt_llama.txt")
         try:
             with open(mcq_path, "r", encoding="utf-8") as f:
                 self.mcq_prompt_template = f.read()
         except FileNotFoundError:
-            logger.error(f"MCQ extraction prompt not found at {mcq_path}")
-            raise
+            # Fallback to original if llama-version is missing
+            mcq_path_orig = os.path.join(prompts_dir, "exam_extraction_prompt.txt")
+            try:
+                with open(mcq_path_orig, "r", encoding="utf-8") as f:
+                    self.mcq_prompt_template = f.read()
+            except FileNotFoundError:
+                logger.error(f"MCQ extraction prompt not found at {mcq_path} or {mcq_path_orig}")
+                raise
 
-        # Passage-based comprehension prompt
-        passage_path = os.path.join(prompts_dir, "passage_extraction_prompt.txt")
+        # Passage-based comprehension prompt (Llama optimized)
+        passage_path = os.path.join(prompts_dir, "passage_extraction_prompt_llama.txt")
         try:
             with open(passage_path, "r", encoding="utf-8") as f:
                 self.passage_prompt_template = f.read()
         except FileNotFoundError:
-            logger.warning(
-                f"Passage prompt not found at {passage_path}. Using MCQ prompt as fallback."
-            )
-            self.passage_prompt_template = self.mcq_prompt_template
+            # Fallback to original
+            passage_path_orig = os.path.join(prompts_dir, "passage_extraction_prompt.txt")
+            try:
+                with open(passage_path_orig, "r", encoding="utf-8") as f:
+                    self.passage_prompt_template = f.read()
+            except FileNotFoundError:
+                logger.warning(
+                    f"Passage prompt not found. Using MCQ prompt as fallback."
+                )
+                self.passage_prompt_template = self.mcq_prompt_template
 
         # Exam metadata mapping table
         mapping_path = os.path.join(prompts_dir, "exam_mapping_table.txt")
@@ -516,27 +513,35 @@ class ExamExtractor:
             return ""
         
         pdf_name_lower = pdf_name.lower()
-        # FindConducting Body (UPSC, SSC, IBPS, RRB, SBI, RBI, LIC, JEE, NEET, etc.)
-        keywords = ["upsc", "ssc", "ibps", "rrb", "sbi", "rbi", "lic", "nabard", "ctet", "ugc", "jee", "neet", "nda", "cds", "psc"]
+        # Find Conducting Body or Exam Type
+        keywords = [
+            "upsc", "ssc", "ibps", "rrb", "sbi", "rbi", "lic", "nabard", "ctet", "ugc", 
+            "jee", "neet", "nda", "cds", "psc", "navik", "coast guard", "icg", "army", 
+            "navy", "air force", "gate", "clat", "cat", "mat", "xat", "gmat", "cmat"
+        ]
         relevant_keywords = [k for k in keywords if k in pdf_name_lower]
         
-        if not relevant_keywords:
-            return self.exam_mapping_text # fallback to full if no keyword matches
-
         lines = self.exam_mapping_text.splitlines()
         header = lines[0] if lines else ""
-        filtered_lines = [header]
         
+        if not relevant_keywords:
+            # If no keyword matches, return only a sample of the table (first 50 rows) 
+            # to keep prompt size manageable
+            return "\n".join(lines[:50])
+
+        filtered_lines = [header]
         for line in lines[1:]:
             line_lower = line.lower()
             if any(k in line_lower for k in relevant_keywords):
                 filtered_lines.append(line)
         
-        # If we filtered too aggressively, keep the full table (e.g. less than 5 rows)
+        # If we filtered too aggressively, return a sample (at least 20 rows)
         if len(filtered_lines) < 5:
-            return self.exam_mapping_text
+            return "\n".join(lines[:30])
             
-        return "\n".join(filtered_lines)
+        # Hard limit of 100 rows to ensure prompt size doesn't exceed LLM context
+        return "\n".join(filtered_lines[:100])
+
 
     def _build_prompt(self, mode: str, text_block: str, passage_mode: bool, pdf_name: str) -> str:
         """Fill prompt template placeholders."""
@@ -555,88 +560,21 @@ class ExamExtractor:
         prompt = prompt.replace("{exam_mapping}", relevant_mapping)
         return prompt.replace("{pdf_text}", text_block)
 
-    def _raw_gemini_call(self, prompt: str, label: str) -> str:
-        """Call Gemini and return raw text. Handles finish_reason=4 gracefully with exponential backoff for rate limits."""
-        import time
-        max_retries = 5
-        base_delay = 10
-
-        for attempt in range(max_retries):
-            try:
-                response = self.model.generate_content(prompt)
-                if not response.candidates:
-                    logger.warning(f"[{label}] No candidates returned.")
-                    return ""
-                candidate = response.candidates[0]
-                finish_reason = getattr(candidate, "finish_reason", None)
-                if finish_reason == 4:
-                    logger.warning(f"[{label}] RECITATION block - retrying with rephrased prompt ...")
-                    return self._rephrased_call(prompt, label)
-                if finish_reason == 2: # MAX_TOKENS
-                    logger.warning(f"[{label}] Exceeded max output tokens.")
-                if not candidate.content or not candidate.content.parts:
-                    logger.warning(f"[{label}] Empty content parts.")
-                    return ""
-                return "".join(
-                    part.text for part in candidate.content.parts if hasattr(part, "text")
-                )
-            except Exception as e:
-                err = str(e)
-                if "finish_reason" in err and "4" in err:
-                    logger.warning(f"[{label}] RECITATION exception - retrying rephrased ...")
-                    return self._rephrased_call(prompt, label)
-                if "429" in err or "quota" in err.lower() or "too many requests" in err.lower() or "ResourceExhausted" in err:
-                    if attempt < max_retries - 1:
-                        delay = base_delay * (2 ** attempt)
-                        logger.warning(f"[{label}] Rate limit/Quota. Retrying in {delay}s ({attempt+1}/{max_retries})...")
-                        time.sleep(delay)
-                        continue
-                logger.error(f"[{label}] Gemini call failed: {e}")
-                return ""
-        return ""
-
-    def _rephrased_call(self, original_prompt: str, label: str) -> str:
-        """Retry with line-labelled content to avoid recitation detection."""
-        # Extract the pdf_text section from the prompt
-        parts = original_prompt.split("--- OCR TEXT TO PROCESS ---")
-        if len(parts) < 2:
-            parts = original_prompt.split("{pdf_text}")
-        ocr_text = parts[-1].strip() if len(parts) > 1 else original_prompt
-
-        labelled = "\n".join(
-            f"[LINE {idx+1}] {line}"
-            for idx, line in enumerate(ocr_text.splitlines())
-            if line.strip()
-        )
-        rephrased = (
-            "You are a data formatter. The following lines were captured by an "
-            "OCR scanner from a printed exam paper. Parse them to extract all "
-            "questions (including MCQs, Fill-in-the-blanks, Descriptive, etc.) "
-            "and return valid JSON only. Use LaTeX notation ($...$) for any "
-            "mathematical formulas, chemical equations, or scientific notation:\n\n"
-            + labelled[:MAX_TEXT_CHARS]
-        )
+    def _raw_llm_call(self, prompt: str, label: str) -> str:
+        """Call the Llama/Mistral service and return raw text."""
         try:
-            resp = self.model.generate_content(rephrased)
-            if not resp.candidates:
-                return ""
-            cand = resp.candidates[0]
-            if not cand.content or not cand.content.parts:
-                return ""
-            return "".join(
-                part.text for part in cand.content.parts if hasattr(part, "text")
-            )
+            return call_llm(prompt)
         except Exception as e:
-            logger.error(f"[{label}] Rephrased call also failed: {e}")
+            logger.error(f"[{label}] LLM call failed: {e}")
             return ""
 
-    def _call_gemini(
+    def _call_llm(
         self, mode: str, text_block: str, chunk_label: str, passage_mode: bool, pdf_name: str = "unknown.pdf"
     ) -> str:
-        """Build prompt and call Gemini, returning raw text."""
+        """Build prompt and call LLM, returning raw text."""
         prompt = self._build_prompt(mode, text_block, passage_mode, pdf_name)
-        logger.info(f"Gemini call [{chunk_label}]: {len(prompt):,} chars prompt")
-        return self._raw_gemini_call(prompt, chunk_label)
+        logger.info(f"LLM call [{chunk_label}]: {len(prompt):,} chars prompt")
+        return self._raw_llm_call(prompt, chunk_label)
 
     # ------------------------------------------------------------------
     # Step 4 - Parse response (both schemas)
@@ -929,7 +867,7 @@ class ExamExtractor:
                 label  = f"chunk {chunk_num}/{total_chunks}, pages {page_nums}"
                 logger.info(f"Processing {label} ({len(text_block):,} chars)")
 
-                raw     = self._call_gemini(mode, text_block, label, passage_mode=True, pdf_name=pdf_name)
+                raw     = self._call_llm(mode, text_block, label, passage_mode=True, pdf_name=pdf_name)
                 results = self._parse_response_simple(raw)
                 logger.info(f"  >> {len(results)} question(s) in {label}")
                 all_results.extend(results)
@@ -975,7 +913,7 @@ class ExamExtractor:
                 label  = f"chunk {chunk_num}/{total_chunks}, pages {page_nums}"
                 logger.info(f"Processing {label} ({len(text_block):,} chars)")
 
-                raw     = self._call_gemini(mode, text_block, label, passage_mode=False, pdf_name=pdf_name)
+                raw     = self._call_llm(mode, text_block, label, passage_mode=False, pdf_name=pdf_name)
                 results = self._parse_response_simple(raw)
                 logger.info(f"  >> {len(results)} question(s) in {label}")
                 all_results.extend(results)

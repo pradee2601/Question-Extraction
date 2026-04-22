@@ -1,6 +1,6 @@
-import google.generativeai as genai
 from config import Config
 from utils.logger import setup_logger
+from utils.helpers import call_llm
 import json
 import os
 
@@ -8,12 +8,9 @@ logger = setup_logger(__name__)
 
 class Generator:
     def __init__(self):
-        if not Config.GOOGLE_API_KEY:
-             raise ValueError("GOOGLE_API_KEY is missing.")
+        if not (Config.API_KEY or Config.GOOGLE_API_KEY):
+             raise ValueError("No API key found (API_KEY or GOOGLE_API_KEY).")
              
-        genai.configure(api_key=Config.GOOGLE_API_KEY)
-        self.model = genai.GenerativeModel(Config.GENERATION_MODEL)
-        
         # Load prompt template
         prompt_path = os.path.join(Config.BASE_DIR, "prompts", "mcq_generation_prompt.txt")
         try:
@@ -44,11 +41,13 @@ class Generator:
         prompt = prompt.replace("{difficulty}", str(difficulty))
         
         try:
-            logger.info("Sending generation request to Gemini...")
-            response = self.model.generate_content(prompt)
+            logger.info("Sending generation request to Mistral/Llama...")
+            text = call_llm(prompt)
             
-            # Parse JSON
-            text = response.text
+            if not text:
+                logger.error("Empty response from LLM")
+                return []
+
             import re
             
             # Clean markdown code blocks

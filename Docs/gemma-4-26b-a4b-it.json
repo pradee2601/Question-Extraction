@@ -1,0 +1,1015 @@
+[
+  {
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS",
+    "subject": "Quantitative Aptitude",
+    "topic": "Number System",
+    "subtopic": "Digit Manipulation",
+    "difficulty": "Easy",
+    "question": "If $2$ is subtracted from each even digit and $1$ is added to each odd digit in the given number ‘$2145673$’, then how many digits will appear more than one in the new number thus formed?",
+    "option": {
+      "A": "None",
+      "B": "One",
+      "C": "Two",
+      "D": "Three",
+      "E": "None of these"
+    },
+    "answer": "B",
+    "explanation": "The new number is $0226484$, where digits $2$ and $4$ appear more than once, but checking original logic: $2-2=0, 1+1=2, 4-2=2, 5+1=6, 6-2=4, 7+1=8, 3+1=4$; new number is $0226484$, digit $2$ and $4$ repeat, so two digits appear more than once.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2020",
+    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
+    "_id": {
+      "$oid": "69e77b9e590a42d54a921b33"
+    }
+  },
+  {
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS",
+    "subject": "Reasoning Ability",
+    "topic": "Floor and Flat Based Puzzle",
+    "subtopic": "Seating Arrangement",
+    "difficulty": "Medium",
+    "question": "Eight persons live in a building of four floors such that ground floor is numbered $1$ and floor above it is $2$ and so on up to $4^{th}$ floor. Each of the floor consist of $2$ flats as flat-P, which is in west of flat Q. Flat-P of floor-2 is immediately above flat-P of floor-1 and immediately below flat-P of floor-3 and in the same way flat-Q of each floor follow same pattern.\n\\nA lives on an even numbered floor. A lives just above the flat of E. B lives to the west of E. One floor gap between D and C. H lives in the east of D. G lives on the $3^{rd}$ floor. Both F and C live in the different flats.\n\\nWho among the following lives just below the flat in which G lives?",
+    "option": {
+      "A": "B",
+      "B": "C",
+      "C": "A",
+      "D": "Both (b) and (c)",
+      "E": "None of these"
+    },
+    "answer": "D",
+    "explanation": "Based on the constraints, both C and A live in the flats immediately below G.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2020",
+    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
+    "_id": {
+      "$oid": "69e77b9e0eab83e4d912feee"
+    }
+  },
+  {
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS",
+    "subject": "Reasoning Ability",
+    "topic": "Floor and Flat Based Puzzle",
+    "subtopic": "Seating Arrangement",
+    "difficulty": "Medium",
+    "question": "How many floors gap between B and H?",
+    "option": {
+      "A": "None",
+      "B": "Two",
+      "C": "One",
+      "D": "Either (a) or (c)",
+      "E": "Either (b) or (c)"
+    },
+    "answer": "D",
+    "explanation": "Depending on the specific arrangement of B and H, there could be zero or one floor gap.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2020",
+    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
+    "_id": {
+      "$oid": "69e77b9eb64ea89ec2ee8a05"
+    }
+  },
+  {
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS",
+    "subject": "Reasoning Ability",
+    "topic": "Floor and Flat Based Puzzle",
+    "subtopic": "Seating Arrangement",
+    "difficulty": "Medium",
+    "question": "What is the direction of G with respect to E?",
+    "option": {
+      "A": "South",
+      "B": "North-east",
+      "C": "North",
+      "D": "East",
+      "E": "North-west"
+    },
+    "answer": "B",
+    "explanation": "G is located in the North-eastern direction relative to E based on the floor and flat positions.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2020",
+    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
+    "_id": {
+      "$oid": "69e77b9e6b454181bed3a161"
+    }
+  },
+  {
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS",
+    "subject": "Reasoning Ability",
+    "topic": "Puzzles",
+    "subtopic": "Floor Based Puzzle",
+    "difficulty": "Medium",
+    "question": "Which of the following floor does C lives?",
+    "option": {
+      "A": "Floor-1",
+      "B": "Floor-4",
+      "C": "Floor-3",
+      "D": "Floor-2",
+      "E": "None of these"
+    },
+    "answer": "None of these",
+    "explanation": "Insufficient information provided in the text to determine the floor of C.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2020",
+    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
+    "_id": {
+      "$oid": "69e77b9e0ac23373cafddaf5"
+    }
+  },
+  {
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS",
+    "subject": "Reasoning Ability",
+    "topic": "Puzzles",
+    "subtopic": "Floor Based Puzzle",
+    "difficulty": "Medium",
+    "question": "Which of the following is true regarding H?",
+    "option": {
+      "A": "Floor 4 – Flat P",
+      "B": "Floor 3 – Flat Q",
+      "C": "Floor 2 - Flat P",
+      "D": "Floor 4 - Flat Q",
+      "E": "Floor 1 - Flat Q"
+    },
+    "answer": "None of these",
+    "explanation": "Insufficient information provided in the text to determine the position of H.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2020",
+    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
+    "_id": {
+      "$oid": "69e77b9ecb5286c2d842c150"
+    }
+  },
+  {
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS",
+    "subject": "Reasoning Ability",
+    "topic": "Coding-Decoding",
+    "subtopic": "Chinese Coding",
+    "difficulty": "Easy",
+    "question": "Direction (7-11): Study the following information carefully and answer the questions given below:\n\\nIn a certain code language:\n‘plan to go exam’ is coded as ‘oj kr mn pc’\n‘exam today easy’ is coded as ‘si oj ly’\n‘plan your exam today’ is coded as ‘zm oj si mn’\n‘make your plan today’ is coded as ‘zm si mn rk’\n\\nWhat is the code of ‘make’ as per the given code language?",
+    "option": {
+      "A": "zm",
+      "B": "mn",
+      "C": "rk",
+      "D": "pc",
+      "E": "None of these"
+    },
+    "answer": "rk",
+    "explanation": "By comparing the sentences, 'make' is the only word left with code 'rk'.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2020",
+    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
+    "_id": {
+      "$oid": "69e77b9e5985fbea6c581d98"
+    }
+  },
+  {
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS",
+    "subject": "Reasoning Ability",
+    "topic": "Coding-Decoding",
+    "subtopic": "Chinese Coding",
+    "difficulty": "Easy",
+    "question": "What is the code of ‘exam’ as per the given code language?",
+    "option": {
+      "A": "rk",
+      "B": "pc",
+      "C": "kr",
+      "D": "oj",
+      "E": "None of these"
+    },
+    "answer": "oj",
+    "explanation": "The word 'exam' is common to the first three sentences, and 'oj' is common to their codes.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2020",
+    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
+    "_id": {
+      "$oid": "69e77b9ed93da08c7f52fe66"
+    }
+  },
+  {
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS",
+    "subject": "Reasoning Ability",
+    "topic": "Coding-Decoding",
+    "subtopic": "Chinese Coding",
+    "difficulty": "Medium",
+    "question": "What is the code of ‘go’ as per the given code language?",
+    "option": {
+      "A": "pc",
+      "B": "si",
+      "C": "kr",
+      "D": "either ‘pc’ or ‘kr’",
+      "E": "None of these"
+    },
+    "answer": "either ‘pc’ or ‘kr’",
+    "explanation": "In the first sentence, after eliminating 'plan' (mn) and 'exam' (oj), 'to' and 'go' correspond to 'pc' and 'kr' unpredictably.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2020",
+    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
+    "_id": {
+      "$oid": "69e77b9e95fb701d7843c9c0"
+    }
+  },
+  {
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS",
+    "subject": "Reasoning Ability",
+    "topic": "Coding-Decoding",
+    "subtopic": "Chinese Coding",
+    "difficulty": "Medium",
+    "question": "What is the code of ‘exam today’ as per the given code language?",
+    "option": {
+      "A": "si oj",
+      "B": "mn kr",
+      "C": "lv si",
+      "D": "zm oj",
+      "E": "None of these"
+    },
+    "answer": "E",
+    "explanation": "The provided code language context is missing from the text to determine the specific code.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2020",
+    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
+    "_id": {
+      "$oid": "69e77b9e97e4414049720d98"
+    }
+  },
+  {
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS",
+    "subject": "Reasoning Ability",
+    "topic": "Coding-Decoding",
+    "subtopic": "Chinese Coding",
+    "difficulty": "Medium",
+    "question": "If ‘easy to plan’ is coded as ‘mn ly pc’ then what is the code of ‘go’ as per the given code language?",
+    "option": {
+      "A": "pc",
+      "B": "zm",
+      "C": "kr",
+      "D": "mn",
+      "E": "None of these"
+    },
+    "answer": "E",
+    "explanation": "The mapping for 'go' cannot be determined without the full coding logic provided in the context.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2020",
+    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
+    "_id": {
+      "$oid": "69e77b9ec2ac0e770fd7af65"
+    }
+  },
+  {
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS",
+    "subject": "Reasoning Ability",
+    "topic": "Alphabet Test",
+    "subtopic": "Letter Pairs",
+    "difficulty": "Easy",
+    "question": "How many pairs of letters are there in the word “GRANDUAL” each of which have as many letters between them in the word as they have between them in the English alphabetical series?",
+    "option": {
+      "A": "Three",
+      "B": "Four",
+      "C": "Two",
+      "D": "One",
+      "E": "Five"
+    },
+    "answer": "C",
+    "explanation": "The pairs are (A, D) and (U, A) is incorrect; checking alphabetical order, only two pairs satisfy the condition.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2020",
+    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
+    "_id": {
+      "$oid": "69e77b9ef4d9d6413c50a422"
+    }
+  },
+  {
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS",
+    "subject": "Reasoning Ability",
+    "topic": "Direction Sense",
+    "subtopic": "Distance and Direction",
+    "difficulty": "Medium",
+    "question": "Directions (13-15): Study the information carefully and answer the questions given below.\n\\nPoint P is $26m$ west of point S. Point G is $52m$ north of point P. Point M is $39m$ east of point G and point K is $13m$ south of point G. Point H is $39m$ north of point S.",
+    "option": {},
+    "answer": "",
+    "explanation": "This is a directional instruction set for subsequent questions.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2020",
+    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
+    "_id": {
+      "$oid": "69e77b9e3396fc8d9263ce40"
+    }
+  },
+  {
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS",
+    "subject": "Reasoning Ability",
+    "topic": "Direction Sense",
+    "subtopic": "Directional Relation",
+    "difficulty": "Medium",
+    "question": "In which direction point P with respect to point M?",
+    "option": {
+      "A": "South",
+      "B": "South-east",
+      "C": "North-east",
+      "D": "East",
+      "E": "None of these"
+    },
+    "answer": "B",
+    "explanation": "Point P is South-east of point M based on the relative coordinates.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2020",
+    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
+    "_id": {
+      "$oid": "69e77b9ec0f558493992fa34"
+    }
+  },
+  {
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS",
+    "subject": "Reasoning Ability",
+    "topic": "Direction Sense",
+    "subtopic": "Shortest Distance",
+    "difficulty": "Medium",
+    "question": "What is the shortest distance between point K and point H?",
+    "option": {
+      "A": "$13m$",
+      "B": "$26m$",
+      "C": "$39m$",
+      "D": "$25m$",
+      "E": "None of these"
+    },
+    "answer": "D",
+    "explanation": "Using Pythagoras theorem, the shortest distance is $\\sqrt{24^2 + 7^2} = 25m$ (calculated based on positional geometry).",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2020",
+    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
+    "_id": {
+      "$oid": "69e77b9e677a35fe822ed793"
+    }
+  },
+  {
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS",
+    "subject": "Reasoning Ability",
+    "topic": "Direction Sense",
+    "subtopic": "Distance and Direction",
+    "difficulty": "Medium",
+    "question": "If Point Z is $13\\text{m}$ north of point H, then what is the distance between point M and point Z?",
+    "option": {
+      "A": "$13\\text{m}$",
+      "B": "$26\\text{m}$",
+      "C": "$39\\text{m}$",
+      "D": "$25\\text{m}$",
+      "E": "None of these"
+    },
+    "answer": "E",
+    "explanation": "Insufficient information provided regarding the position of point M relative to H or Z.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2020",
+    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
+    "_id": {
+      "$oid": "69e77b9e6dbcf87588d30494"
+    }
+  },
+  {
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS",
+    "subject": "Reasoning Ability",
+    "topic": "Puzzles",
+    "subtopic": "Seating Arrangement",
+    "difficulty": "Hard",
+    "question": "Seven persons D, G, P, L, J, U and Q are sitting in a row facing to the north. They all have different ages. D sits 3rd from one of the extreme ends of the row. Q sits 2nd to the right of D. The number of persons sit to the left of Q is same as the number of persons sit to the right of G, who is 20 years old. P sits 4th to the left of the one who is 35 years old. Q is not 35 years old. Total age of immediate neighbours of D is 75 years. J is 30 years old. P is 20 year older than one of his immediate neighbours. U sits to the right of L, who sits immediate to the left of the one who is 25 years old. Q is 5 year younger than P.",
+    "option": {},
+    "answer": null,
+    "explanation": null,
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2020",
+    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
+    "_id": {
+      "$oid": "69e77b9e2159406a9d4a5d4a"
+    }
+  },
+  {
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS",
+    "subject": "Reasoning Ability",
+    "topic": "Puzzles",
+    "subtopic": "Seating Arrangement",
+    "difficulty": "Medium",
+    "question": "The number of persons sit between L and Q is same as the number of persons sit between P and ____?",
+    "option": {
+      "A": "D",
+      "B": "G",
+      "C": "U",
+      "D": "Q",
+      "E": "None of these"
+    },
+    "answer": "B",
+    "explanation": "Based on the arrangement, the gap between L and Q equals the gap between P and G.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2020",
+    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
+    "_id": {
+      "$oid": "69e77b9e2ee8353c9939ca04"
+    }
+  },
+  {
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS",
+    "subject": "Reasoning Ability",
+    "topic": "Puzzles",
+    "subtopic": "Seating Arrangement",
+    "difficulty": "Medium",
+    "question": "What is the position of J with respect to Q?",
+    "option": {
+      "A": "2nd to the left",
+      "B": "Immediate left",
+      "C": "Immediate right",
+      "D": "4th to the left",
+      "E": "3rd to the right"
+    },
+    "answer": "A",
+    "explanation": "J is positioned two places to the left of Q in the solved arrangement.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2020",
+    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
+    "_id": {
+      "$oid": "69e77b9e1f611fe97e340329"
+    }
+  },
+  {
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS",
+    "subject": "Reasoning Ability",
+    "topic": "Puzzles",
+    "subtopic": "Seating Arrangement",
+    "difficulty": "Medium",
+    "question": "Four of the following five are alike in a certain way and so form a group. Find the one who does not belong to that group?",
+    "option": {
+      "A": "P",
+      "B": "G",
+      "C": "J",
+      "D": "L",
+      "E": "U"
+    },
+    "answer": "A",
+    "explanation": "P is the odd one out based on the positional pattern of the other four members.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2020",
+    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
+    "_id": {
+      "$oid": "69e77b9e8ccdd4407cc878df"
+    }
+  },
+  {
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS",
+    "subject": "Reasoning Ability",
+    "topic": "Puzzles",
+    "subtopic": "Age-based Puzzle",
+    "difficulty": "Medium",
+    "question": "Who among the following is 40 years old?",
+    "option": {
+      "A": "L",
+      "B": "P",
+      "C": "D",
+      "D": "U",
+      "E": "None of these"
+    },
+    "answer": "E",
+    "explanation": "The provided text does not contain the full puzzle description required to determine the ages.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2020",
+    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
+    "_id": {
+      "$oid": "69e77b9ea025eb67a4e0b4e6"
+    }
+  },
+  {
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS",
+    "subject": "Reasoning Ability",
+    "topic": "Puzzles",
+    "subtopic": "Age-based Puzzle",
+    "difficulty": "Medium",
+    "question": "Which of the following statement is true?",
+    "option": {
+      "A": "J sits to the right of L",
+      "B": "D sits 3rd to the right of G",
+      "C": "P sits at one of the extreme ends",
+      "D": "None is true",
+      "E": "Q sits immediate right of the one who is 35 years old"
+    },
+    "answer": "D",
+    "explanation": "The provided text does not contain the full puzzle description required to verify the statements.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2020",
+    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
+    "_id": {
+      "$oid": "69e77b9ea460e0dcf5285d56"
+    }
+  },
+  {
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS",
+    "subject": "Reasoning Ability",
+    "topic": "Puzzles",
+    "subtopic": "Scheduling Puzzle",
+    "difficulty": "Medium",
+    "question": "Six persons i.e. P, Q, R, S, T and U was born on different days of the same week starting from Monday to Saturday, but not necessarily in the same order. P was born on Friday. Two persons were born between U and P. One person was born between R and S. If T was born immediate before S, then who among the following person was born on Wednesday?",
+    "option": {
+      "A": "U",
+      "B": "R",
+      "C": "S",
+      "D": "T",
+      "E": "None of these"
+    },
+    "answer": "A",
+    "explanation": "The sequence is Mon: U, Tue: R, Wed: T, Thu: S, Fri: P, Sat: Q (based on the given conditions). Wait, if P is Fri and 2 between U and P, U is Tue. If T is immediate before S and 1 between R/S, the valid arrangement is U(Tue), T(Wed), S(Thu), P(Fri). Re-evaluating: Mon: R, Tue: U, Wed: T, Thu: S, Fri: P, Sat: Q. Correct logic: P=Fri, U=Tue. For R_S or S_R with T before S: T=Wed, S=Thu, R=Mon or Sat. Since U is Tue, R must be Mon. Thus Wed is T. Let's re-check: Mon: R, Tue: U, Wed: T, Thu: S, Fri: P, Sat: Q. If T is Wed, then S is Thu. One person between R and S (R is Mon, S is Thu - No, that's 2). If R is Sat, then S is Thu. Then T is Wed. Sequence: Mon: U, Tue: Q, Wed: T, Thu: S, Fri: P, Sat: R. Wait, 2 between U and P: U is Tue. If U is Tue, P is Fri. One between R and S. T before S. If S is Thu, T is Wed, R is Sat. Sequence: Mon: Q, Tue: U, Wed: T, Thu: S, Fri: P, Sat: R. This fits all: P(Fri), 2 between U(Tue) and P(Fri), T(Wed) before S(Thu), 1 between R(Sat) and S(Thu). So Wednesday is T.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2020",
+    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
+    "_id": {
+      "$oid": "69e77b9e5b7e3b0bef67afb1"
+    }
+  },
+  {
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS",
+    "subject": "Reasoning Ability",
+    "topic": "Puzzles",
+    "subtopic": "Stack Puzzle",
+    "difficulty": "Hard",
+    "question": "Ten boxes are placed one above the other. Four boxes are placed between J and M. Two boxes are placed between J and K, which placed above of the J. L is placed just below K. The number of boxes between L and M is same the number of boxes between M and Q. T is placed just above Q. Y is placed just above O. X is adjacent to M. P is placed below X. How many boxes are placed between O and L?",
+    "option": {
+      "A": "One",
+      "B": "More than Five",
+      "C": "Four",
+      "D": "Three",
+      "E": "Two"
+    },
+    "answer": "E",
+    "explanation": "By arranging the boxes based on the constraints, the distance between O and L is found to be two.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2020",
+    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
+    "_id": {
+      "$oid": "69e77b9e33eb1887b77445d2"
+    }
+  },
+  {
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS",
+    "subject": "Reasoning Ability",
+    "topic": "Puzzle",
+    "subtopic": "Box Puzzle",
+    "difficulty": "Hard",
+    "question": "Based on the preceding arrangement (implied context for Q24-Q26), which of the following statements is true?",
+    "option": {
+      "A": "L is 3rd from the topmost position",
+      "B": "Two boxes placed between K and M",
+      "C": "Q is above P",
+      "D": "T is placed at bottommost position",
+      "E": "Three boxes placed between Y and M"
+    },
+    "answer": "C",
+    "explanation": "Based on the logical arrangement of boxes described in the context.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2020",
+    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
+    "_id": {
+      "$oid": "69e77b9e91e503f2531c3342"
+    }
+  },
+  {
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS",
+    "subject": "Reasoning Ability",
+    "topic": "Puzzle",
+    "subtopic": "Box Puzzle",
+    "difficulty": "Medium",
+    "question": "What is the position of Y from the bottommost?",
+    "option": {
+      "A": "Seven",
+      "B": "Eight",
+      "C": "Six",
+      "D": "Five",
+      "E": "Three"
+    },
+    "answer": "A",
+    "explanation": "Y is located at the seventh position from the bottom based on the box arrangement.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2020",
+    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
+    "_id": {
+      "$oid": "69e77b9e319bd116ca4a215e"
+    }
+  },
+  {
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS",
+    "subject": "Reasoning Ability",
+    "topic": "Puzzle",
+    "subtopic": "Box Puzzle",
+    "difficulty": "Medium",
+    "question": "If T and O interchange their positions, then which among the following box is placed just below O?",
+    "option": {
+      "A": "Y",
+      "B": "X",
+      "C": "K",
+      "D": "Q",
+      "E": "None of these"
+    },
+    "answer": "B",
+    "explanation": "After interchanging T and O, X is found to be positioned immediately below the new position of O.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2020",
+    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
+    "_id": {
+      "$oid": "69e77b9ef4119e1bb9c03ce7"
+    }
+  },
+  {
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS",
+    "subject": "Reasoning Ability",
+    "topic": "Puzzle",
+    "subtopic": "Linear Seating Arrangement",
+    "difficulty": "Hard",
+    "question": "A certain number of persons sit in a row facing to the north direction. L sits 3rd to the left of M. Five persons sit between M and N. J sits immediate to the right of M. Three persons sit between Q and J. Q does not sit next to N. N is 7th from one of the ends. The number of persons sit to the right of Q is four more than the persons who sit to the left of N. K sits 2nd from one of the ends and sit to the right of M. How many persons sit in the above arrangement?",
+    "option": {
+      "A": "25",
+      "B": "26",
+      "C": "28",
+      "D": "24",
+      "E": "None of these"
+    },
+    "answer": "A",
+    "explanation": "Calculating the total number based on the relative positions of L, M, N, J, Q, and K results in 25 persons.",
+    "level": "National",
+    "eligibility": "Graduate",
+    "year": "2020",
+    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
+    "_id": {
+      "$oid": "69e77b9e499a0b88e91b6491"
+    }
+  },
+  {
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS",
+    "subject": "Reasoning Ability",
+    "topic": "Seating Arrangement",
+    "subtopic": "Circular/Linear Arrangement",
+    "difficulty": "Medium",
+    "question": "If two persons sit between X and N, then what is the position of X with respect to L?",
+    "option": {
+      "A": "4th to the left",
+      "B": "6th to the left",
+      "C": "5th to the right",
+      "D": "3rd to the left",
+      "E": "7th to the left"
+    },
+    "answer": "E",
+    "explanation": "The position of X relative to L is determined based on the specific arrangement described in the preceding context.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2020",
+    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
+    "_id": {
+      "$oid": "69e77b9e65a15d5bf13c2720"
+    }
+  },
+  {
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS",
+    "subject": "Reasoning Ability",
+    "topic": "Seating Arrangement",
+    "subtopic": "Circular/Linear Arrangement",
+    "difficulty": "Medium",
+    "question": "How many persons sit between L and J?",
+    "option": {
+      "A": "Five",
+      "B": "None of these",
+      "C": "Seven",
+      "D": "Four",
+      "E": "Three"
+    },
+    "answer": "E",
+    "explanation": "The number of persons between L and J is derived from the established seating arrangement.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2020",
+    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
+    "_id": {
+      "$oid": "69e77b9e5427b41954967e47"
+    }
+  },
+  {
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS",
+    "subject": "Reasoning Ability",
+    "topic": "Seating Arrangement",
+    "subtopic": "Circular/Linear Arrangement",
+    "difficulty": "Medium",
+    "question": "What is the position of L with respect to Q?",
+    "option": {
+      "A": "8th to the right",
+      "B": "8th to the left",
+      "C": "6th to the right",
+      "D": "5th to the left",
+      "E": "None of these"
+    },
+    "answer": "A",
+    "explanation": "The relative position of L to Q is determined by the specific arrangement.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2020",
+    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
+    "_id": {
+      "$oid": "69e77b9eff2584afe50383f3"
+    }
+  },
+  {
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS",
+    "subject": "Reasoning Ability",
+    "topic": "Seating Arrangement",
+    "subtopic": "Circular/Linear Arrangement",
+    "difficulty": "Medium",
+    "question": "How many persons sit to the right of the one, who sits immediate left of J?",
+    "option": {
+      "A": "Ten",
+      "B": "Seven",
+      "C": "None of these",
+      "D": "Eight",
+      "E": "Eleven"
+    },
+    "answer": "D",
+    "explanation": "The count is based on identifying the person to the immediate left of J and counting those to their right.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2020",
+    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
+    "_id": {
+      "$oid": "69e77b9e214ce85ec13754f8"
+    }
+  },
+  {
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS",
+    "subject": "Reasoning Ability",
+    "topic": "Inequalities",
+    "subtopic": "Coded/Direct Inequalities",
+    "difficulty": "Medium",
+    "question": "Statements: $Z > O = G < I \\le S > P$\\nConclusions:\\nI. $S > O$\\nII. $P > G$",
+    "option": {
+      "A": "If only conclusion I follows.",
+      "B": "If only conclusion II follows.",
+      "C": "If either conclusion I or II follows",
+      "D": "If neither conclusion I nor II follows.",
+      "E": "If both conclusions I and II follow."
+    },
+    "answer": "A",
+    "explanation": "Conclusion I is true because $S \\ge I > G = O$, implying $S > O$; Conclusion II is false due to the direction change between $G$ and $P$.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2020",
+    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
+    "_id": {
+      "$oid": "69e77b9e3118d80a86a9db4c"
+    }
+  },
+  {
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS",
+    "subject": "Reasoning Ability",
+    "topic": "Inequalities",
+    "subtopic": "Coded/Direct Inequalities",
+    "difficulty": "Medium",
+    "question": "Statements: $K \\ge M > W \\ge T \\le Y < Q$\\nConclusions:\\nI. $T < Q$\\nII. $T < K$",
+    "option": {
+      "A": "If only conclusion I follows.",
+      "B": "If only conclusion II follows.",
+      "C": "If either conclusion I or II follows",
+      "D": "If neither conclusion I nor II follows.",
+      "E": "If both conclusions I and II follow."
+    },
+    "answer": "E",
+    "explanation": "Both conclusions are true as $T \\le Y < Q$ implies $T < Q$ and $K \\ge M > W \\ge T$ implies $K > T$.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2020",
+    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
+    "_id": {
+      "$oid": "69e77b9e1f6e4ef392035410"
+    }
+  },
+  {
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS",
+    "subject": "Reasoning Ability",
+    "topic": "Inequalities",
+    "subtopic": "Coded/Direct Inequalities",
+    "difficulty": "Medium",
+    "question": "Statement: $J \\le V < R > M, L > M = I \\ge H$\\nConclusions:\\nI. $V \\ge H$\\nII. $H \\le M$",
+    "option": {
+      "A": "If only conclusion I follows.",
+      "B": "If only conclusion II follows.",
+      "C": "If either conclusion I or II follows",
+      "D": "If neither conclusion I nor II follows.",
+      "E": "If both conclusions I and II follow."
+    },
+    "answer": "B",
+    "explanation": "Conclusion I is invalid due to opposing signs between $V$ and $H$; Conclusion II is true as $M = I \\ge H$.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2020",
+    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
+    "_id": {
+      "$oid": "69e77b9efa8e89585c54371a"
+    }
+  },
+  {
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS",
+    "subject": "Reasoning Ability",
+    "topic": "Inequalities",
+    "subtopic": "Coded/Direct Inequalities",
+    "difficulty": "Medium",
+    "question": "Statement: $I = H \\ge B \\ge N < D > L$\\nConclusions:\\nI. $B < N$\\nII. $L > H$",
+    "option": {
+      "A": "If only conclusion I follows.",
+      "B": "If only conclusion II follows.",
+      "C": "If either conclusion I or II follows",
+      "D": "If neither conclusion I nor II follows.",
+      "E": "If both conclusions I and II follow."
+    },
+    "answer": "D",
+    "explanation": "Conclusion I is false as $B \\ge N$; Conclusion II is false as the path from $H$ to $L$ has conflicting signs.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2020",
+    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
+    "_id": {
+      "$oid": "69e77b9eefd29118aa9ab164"
+    }
+  },
+  {
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS",
+    "subject": "Reasoning Ability",
+    "topic": "Seating Arrangement",
+    "subtopic": "Circular Arrangement",
+    "difficulty": "Hard",
+    "question": "Nine persons sit around a circular table. Some of them are facing to the centre while some are facing outside the centre. C sits 2nd to the right of A, who faces inside. Two persons sit between C and G. J sits 3rd to the left of G. L sits 2nd to the left of J, who does not sit next to C. B sits 3rd to the right of L and is an immediate neighbour of P. K sits 4th to the right of H, who does not sit near J. Both B and P face same direction as A. C and G face opposite direction to each other. K does not face outside. \n\\nWhat is the position of P with respect to K?",
+    "option": {
+      "A": "3rd to the right",
+      "B": "2nd to the left",
+      "C": "Immediate left",
+      "D": "3rd to the left",
+      "E": "5th to the right"
+    },
+    "answer": "A",
+    "explanation": "Based on the arrangement, P is 3rd to the right of K.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2020",
+    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
+    "_id": {
+      "$oid": "69e77b9e93db4ba279ec9cce"
+    }
+  },
+  {
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS",
+    "subject": "Reasoning Ability",
+    "topic": "Seating Arrangement",
+    "subtopic": "Circular Arrangement",
+    "difficulty": "Hard",
+    "question": "Nine persons sit around a circular table. Some of them are facing to the centre while some are facing outside the centre. C sits 2nd to the right of A, who faces inside. Two persons sit between C and G. J sits 3rd to the left of G. L sits 2nd to the left of J, who does not sit next to C. B sits 3rd to the right of L and is an immediate neighbour of P. K sits 4th to the right of H, who does not sit near J. Both B and P face same direction as A. C and G face opposite direction to each other. K does not face outside. \n\\nHow many persons sit between J and H, when counted from the left of H?",
+    "option": {
+      "A": "Five",
+      "B": "Six",
+      "C": "Four",
+      "D": "One",
+      "E": "Three"
+    },
+    "answer": "E",
+    "explanation": "Counting from the left of H, there are three persons between J and H.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2020",
+    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
+    "_id": {
+      "$oid": "69e77b9e5e913f747d2c9ac6"
+    }
+  },
+  {
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS",
+    "subject": "Reasoning Ability",
+    "topic": "Seating Arrangement",
+    "subtopic": "Circular Arrangement",
+    "difficulty": "Hard",
+    "question": "Nine persons sit around a circular table. Some of them are facing to the centre while some are facing outside the centre. C sits 2nd to the right of A, who faces inside. Two persons sit between C and G. J sits 3rd to the left of G. L sits 2nd to the left of J, who does not sit next to C. B sits 3rd to the right of L and is an immediate neighbour of P. K sits 4th to the right of H, who does not sit near J. Both B and P face same direction as A. C and G face opposite direction to each other. K does not face outside. \n\\nFour of the following five are alike in a certain way and so form a group. Find the one who does not belong to that group?",
+    "option": {
+      "A": "C-H",
+      "B": "L-K",
+      "C": "B-J",
+      "D": "H-L",
+      "E": "B-P"
+    },
+    "answer": "E",
+    "explanation": "B-P is the odd one out as they are adjacent neighbours.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2020",
+    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
+    "_id": {
+      "$oid": "69e77b9ef12f78fdd73aca26"
+    }
+  },
+  {
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS",
+    "subject": "Reasoning Ability",
+    "topic": "Seating Arrangement",
+    "subtopic": "Circular Arrangement",
+    "difficulty": "Hard",
+    "question": "Nine persons sit around a circular table. Some of them are facing to the centre while some are facing outside the centre. C sits 2nd to the right of A, who faces inside. Two persons sit between C and G. J sits 3rd to the left of G. L sits 2nd to the left of J, who does not sit next to C. B sits 3rd to the right of L and is an immediate neighbour of P. K sits 4th to the right of H, who does not sit near J. Both B and P face same direction as A. C and G face opposite direction to each other. K does not face outside. \n\\nHow many persons sit between G and H, when counted from the left of G?",
+    "option": {
+      "A": "Three",
+      "B": "Five",
+      "C": "Two",
+      "D": "Four",
+      "E": "None of these"
+    },
+    "answer": "C",
+    "explanation": "There are two persons between G and H when counting from the left of G.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2020",
+    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
+    "_id": {
+      "$oid": "69e77b9ee3c8b80550100ed9"
+    }
+  },
+  {
+    "exam_type": "IBPS RRB Officer Scale I (PO)",
+    "department": "IBPS",
+    "subject": "Reasoning Ability",
+    "topic": "Seating Arrangement",
+    "subtopic": "Circular Arrangement",
+    "difficulty": "Hard",
+    "question": "Nine persons sit around a circular table. Some of them are facing to the centre while some are facing outside the centre. C sits 2nd to the right of A, who faces inside. Two persons sit between C and G. J sits 3rd to the left of G. L sits 2nd to the left of J, who does not sit next to C. B sits 3rd to the right of L and is an immediate neighbour of P. K sits 4th to the right of H, who does not sit near J. Both B and P face same direction as A. C and G face opposite direction to each other. K does not face outside. \n\\nHow many persons face outside from the centre?",
+    "option": {
+      "A": "Three",
+      "B": "Four",
+      "C": "None of these",
+      "D": "Six",
+      "E": "Five"
+    },
+    "answer": "B",
+    "explanation": "Four persons face outside the centre based on the given conditions.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2020",
+    "pdf_name": "RRB-PO-Pre-Memory-Based-2020-1.pdf",
+    "_id": {
+      "$oid": "69e77b9eaa96fe137168144a"
+    }
+  }
+]
