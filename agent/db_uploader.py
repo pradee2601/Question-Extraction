@@ -5,16 +5,9 @@ import json
 import logging
 import re
 from pathlib import Path
+from utils.collection_mapper import get_collection_name
 
 logger = logging.getLogger(__name__)
-
-def slugify(text: str) -> str:
-    """Convert 'Exam Name 2024' -> 'exam_name_2024'"""
-    if not text:
-        return "unknown_exam"
-    text = text.lower()
-    text = re.sub(r'[^a-z0-9]+', '_', text)
-    return text.strip('_')
 
 def upload_to_db(questions: list) -> dict:
     """
@@ -29,7 +22,7 @@ def upload_to_db(questions: list) -> dict:
     grouped_questions = {}
     for q in questions:
         exam_type = q.get("exam_type", "Unknown Exam")
-        collection_name = slugify(exam_type)
+        collection_name = get_collection_name(exam_type)
         if collection_name not in grouped_questions:
             grouped_questions[collection_name] = []
         
@@ -53,6 +46,12 @@ def upload_to_db(questions: list) -> dict:
                 result = collection.insert_many(docs)
                 total_uploaded += len(result.inserted_ids)
                 logger.info(f"Uploaded {len(result.inserted_ids)} questions to collection: {coll_name}")
+                
+                # --- AUTO-SYNC WITH DASHBOARD ---
+                try:
+                    update_dashboard_metadata(db, coll_name, docs)
+                except Exception as sync_err:
+                    logger.warning(f"Dashboard metadata sync failed: {sync_err}")
             
             return {"success": True, "uploaded_count": total_uploaded}
         except ImportError:
@@ -84,3 +83,53 @@ def upload_to_db(questions: list) -> dict:
             total_saved += len(docs)
             
         return {"success": True, "uploaded_count": total_saved, "simulated": True}
+
+def update_dashboard_metadata(db, collection_name, docs):
+    """Updates the 'topics' collection with new counts and year ranges."""
+    if not docs: return
+    
+    exam_name = docs[0].get("exam_type", collection_name.replace("_", " ").title())
+    category = docs[0].get("department", docs[0].get("category", "General"))
+    
+    # Calculate stats from docs
+    years = [str(d.get("year", "")) for d in docs if d.get("year")]
+    if not years: return
+    
+    min_year = min(years)
+    max_year = max(years)
+    year_range = f"{min_year}-{max_year}" if min_year != max_year else min_year
+    
+    # Get current total count from collection
+    total_q = db[collection_name].count_documents({})
+    
+    # Update or Insert into 'topics' collection
+    topics = db["topics"]
+    
+    # Try to find existing entry
+    existing = topics.find_one({"$or": [{"exam_name": exam_name}, {"collection_name": collection_name}]})
+    
+    if existing:
+        topics.update_one(
+            {"_id": existing["_id"]},
+            {"$set": {
+                "question_count": f"{total_q:,}",
+                "year_range": year_range
+            }}
+        )
+        logger.info(f"Updated dashboard metadata for {exam_name}")
+    else:
+        # Create new entry with sensible defaults
+        new_topic = {
+            "track_name": "Govt Exams Track", # Default
+            "category": category,
+            "exam_name": exam_name,
+            "conducting_body": category,
+            "level": docs[0].get("level", "National"),
+            "eligibility": docs[0].get("eligibility", "Graduate"),
+            "question_count": f"{total_q:,}",
+            "year_range": year_range,
+            "collection_name": collection_name, # Extra field for mapping
+            "sub_topic": []
+        }
+        topics.insert_one(new_topic)
+        logger.info(f"Created new dashboard entry for {exam_name}")

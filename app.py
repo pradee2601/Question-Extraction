@@ -759,7 +759,7 @@ def main():
         st.title("🎯 Menu")
         page = st.radio(
             "Select Workspace:",
-            ["📥 Extract from Exam PDF", "📊 Automation Monitor", "🔍 Validation Agent"],
+            ["📊 Automation Monitor", "🔍 Validation Agent", "📥 Extract from Exam PDF"],
             help="Switch between different stages of the extraction pipeline."
         )
         st.markdown("---")
