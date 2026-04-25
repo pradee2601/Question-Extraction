@@ -13,6 +13,7 @@ import json
 import time
 import subprocess
 import psutil
+from pathlib import Path
 
 from config import Config
 from utils.logger import setup_logger
@@ -34,7 +35,7 @@ from utils.question_store import (
 # Setup logger
 logger = setup_logger()
 
-st.set_page_config(page_title="JEE/NEET MCQ Generator", layout="wide", page_icon="📚")
+st.set_page_config(page_title="AI Question Bank Automation", layout="wide", page_icon="🚀")
 
 # Custom CSS
 st.markdown("""
@@ -742,8 +743,8 @@ def _folder_picker_widget() -> str:
 
 
 def main():
-    st.title("📚 JEE/NEET MCQ Generator with RAG")
-    st.markdown("Generate high-quality practice questions based on real exam patterns.")
+    st.title("🚀 AI Question Bank Automation Pipeline")
+    st.markdown("End-to-end extraction, validation, and database ingestion for government exam questions.")
 
     # ── API key health check ───────────────────────────────────────────────
     if not st.session_state.get("_api_key_ok"):
@@ -753,102 +754,25 @@ def main():
             st.stop()   # halt rendering — show only the error above
         st.session_state["_api_key_ok"] = True
 
-    # ------------------------------------------------------------------ Sidebar
-    st.sidebar.title("⚙️ Configuration")
+    # -------------------------------------------------------------- Navigation
+    with st.sidebar:
+        st.title("🎯 Menu")
+        page = st.radio(
+            "Select Workspace:",
+            ["📥 Extract from Exam PDF", "📊 Automation Monitor", "🔍 Validation Agent"],
+            help="Switch between different stages of the extraction pipeline."
+        )
+        st.markdown("---")
+        st.caption("v2.0 - Automation Pipeline")
 
-    st.sidebar.subheader("Knowledge Base")
-    if st.sidebar.button("Update Knowledge Base (Ingest Data)"):
-        ingest_data()
+    # Mapping page names to their blocks
+    show_extract = (page == "📥 Extract from Exam PDF")
+    show_monitor = (page == "📊 Automation Monitor")
+    show_agent   = (page == "🔍 Validation Agent")
 
-    st.sidebar.markdown("---")
-    st.sidebar.subheader("📄 Upload Custom PDFs (RAG)")
-    st.sidebar.caption("Upload PDFs to enrich the knowledge base for MCQ generation.")
-    uploaded_pdfs = st.sidebar.file_uploader(
-        "Upload PDFs",
-        type=["pdf"],
-        accept_multiple_files=True,
-        key="rag_pdf_uploader",
-    )
-    if st.sidebar.button("Process Uploaded PDFs"):
-        process_uploaded_pdfs(uploaded_pdfs)
-
-    st.sidebar.markdown("---")
-    st.sidebar.subheader("Generator Settings")
-
-    custom_exam = st.sidebar.toggle("Custom Exam")
-    if custom_exam:
-        exam_type = st.sidebar.text_input("Enter Custom Exam Name", placeholder="e.g., CUET")
-    else:
-        exam_type = st.sidebar.selectbox("Select Exam", ["JEE Main", "JEE Advanced", "NEET"])
-
-    custom_subject = st.sidebar.toggle("Custom Subject")
-    if custom_subject:
-        subject = st.sidebar.text_input("Enter Custom Subject Name", placeholder="e.g., Computer Science")
-    else:
-        subject = st.sidebar.selectbox("Select Subject", ["Physics", "Chemistry", "Mathematics", "Biology"])
-
-    difficulty    = st.sidebar.selectbox("Difficulty Level", ["Easy", "Medium", "Hard"])
-    num_questions = st.sidebar.slider("Number of Questions", 1, 10, 3)
-
-    # -------------------------------------------------------------- Main tabs
-    tab_generate, tab_extract, tab_bank, tab_monitor = st.tabs(
-        ["🤖 Generate MCQs (RAG)", "📥 Extract from Exam PDF", "🗄️ Question Bank", "📊 Automation Monitor"]
-    )
-
-    # ============================= TAB 1 – RAG Generator ====================
-    with tab_generate:
-        if st.button("🚀 Generate MCQs", key="btn_generate"):
-            st.session_state['mcqs'] = None
-            try:
-                retriever = Retriever()
-                generator = Generator()
-
-                with st.spinner("🔍 Retrieving similar questions from Knowledge Base..."):
-                    query   = f"{subject} question {difficulty} {exam_type}"
-                    context = retriever.retrieve(query, k=3)
-
-                if not context:
-                    st.warning("No similar questions found. Please update the knowledge base first.")
-                else:
-                    with st.expander("🔍 View Retrieved Context (RAG Source)"):
-                        for i, ctx_item in enumerate(context):
-                            st.markdown(f"**Context {i+1}**")
-                            st.info(ctx_item.get('question_text', 'No text'))
-                            st.caption(f"Answer: {ctx_item.get('correct_answer')}")
-
-                    LLMTracker.reset()
-                    with st.spinner("🤖 Generating new MCQs with Mistral/Llama..."):
-                        mcqs = generator.generate_mcqs(
-                            context, subject, difficulty, num_questions, exam_type
-                        )
-                        if mcqs:
-                            st.session_state['mcqs'] = mcqs
-                        else:
-                            st.error("Failed to generate MCQs. Check logs.")
-            except Exception as e:
-                st.error(f"Error: {e}")
-
-        if st.session_state.get('mcqs'):
-            st.markdown("### 📝 Generated Questions")
-            _render_mcq_list(st.session_state['mcqs'], key_prefix="gen")
-            # Show Performance Report for Generation
-            report = LLMTracker.get_report()
-            if report["total_calls"] > 0:
-                with st.expander("📊 Generation Performance", expanded=False):
-                    st.write(f"**Tokens:** {report['total_tokens']:,} | **Time:** {report['total_time_seconds']}s")
-                    st.caption(f"Prompt: {report['prompt_tokens']} | Completion: {report['completion_tokens']}")
-
-            mcq_json = json.dumps(st.session_state['mcqs'], indent=2)
-            st.download_button(
-                label="⬇️ Download JSON",
-                data=mcq_json,
-                file_name="generated_mcqs.json",
-                mime="application/json",
-                key="download_gen",
-            )
 
     # ============================= TAB 2 – Exam PDF Extractor ===============
-    with tab_extract:
+    if show_extract:
         st.markdown(
             "Extract MCQs from exam PDFs. Upload **individual files** or point to a "
             "**local folder** and all PDFs inside will be processed automatically. "
@@ -949,8 +873,7 @@ def main():
             folder_path_str = _folder_picker_widget()
 
             if folder_path_str:
-                import pathlib
-                folder_path = pathlib.Path(folder_path_str.strip())
+                folder_path = Path(folder_path_str.strip())
 
                 if not folder_path.exists() or not folder_path.is_dir():
                     st.error(f"❌ Invalid folder path: `{folder_path}`")
@@ -1228,116 +1151,9 @@ def main():
                     key=f"download_ext_passage_{i}",
                 )
 
-    # ============================= TAB 3 – Question Bank =====================
-    with tab_bank:
-        st.markdown(
-            "Browse, search, and download the questions stored in each exam "
-            "category file inside `docs/`."
-        )
-
-        # ── Category summary cards ─────────────────────────────────────────
-        counts = all_counts()
-        card_cols = st.columns(3)
-        for i, slug in enumerate(SLUG_ORDER):
-            label    = EXAM_CATEGORIES[slug]["label"]
-            fname    = EXAM_CATEGORIES[slug]["file"]
-            slug_cnt = counts[slug]
-            mcq_n    = slug_cnt.get("mcq", 0)
-            pex_n    = slug_cnt.get("passage_exams", 0)
-            delta    = f"{mcq_n} MCQs" + (f" + {pex_n} exams" if pex_n else "")
-            with card_cols[i % 3]:
-                st.metric(label=f"{label}", value=f"{mcq_n + pex_n}", delta=delta)
-
-        st.markdown("---")
-
-        # ── Drill-down: pick a category to browse ─────────────────────────
-        browse_slug = st.selectbox(
-            "📂 Browse Category",
-            options=SLUG_ORDER,
-            format_func=lambda s: EXAM_CATEGORIES[s]["label"],
-            key="browse_slug",
-        )
-
-        bank_qs = load_questions(browse_slug)
-        cat_label = EXAM_CATEGORIES[browse_slug]["label"]
-        cat_file  = EXAM_CATEGORIES[browse_slug]["file"]
-
-        if not bank_qs:
-            st.info(
-                f"No questions saved yet for **{cat_label}**.  \n"
-                f"Upload a PDF in the *Extract from Exam PDF* tab to populate it."
-            )
-        else:
-            # Search / filter
-            search_term = st.text_input(
-                "🔍 Search questions",
-                placeholder="Type keywords …",
-                key="bank_search",
-            )
-            if search_term:
-                filtered = [
-                    q for q in bank_qs
-                    if search_term.lower() in q.get("question", "").lower()
-                    or search_term.lower() in q.get("topic", "").lower()
-                    or search_term.lower() in q.get("subtopic", "").lower()
-                ]
-            else:
-                filtered = bank_qs
-
-            st.markdown(
-                f"### {cat_label}  -  {len(filtered)} / {len(bank_qs)} MCQ(s)"
-            )
-            _render_mcq_list(filtered, key_prefix=f"bank_{browse_slug}")
-
-            bank_json = json.dumps(bank_qs, indent=2, ensure_ascii=False)
-            st.download_button(
-                label=f"Download {cat_label} MCQs ({len(bank_qs)})",
-                data=bank_json,
-                file_name=cat_file,
-                mime="application/json",
-                key=f"download_bank_{browse_slug}",
-            )
-
-        # -- Passage exams browser ----------------------------------------
-        passage_exams = load_passage_exams(browse_slug)
-        if passage_exams:
-            st.markdown(f"---\n### Passage-Based Exams ({len(passage_exams)}):")
-            for i, exam_obj in enumerate(passage_exams):
-                exam_name = exam_obj.get("exam", f"Exam {i+1}")
-                exam_date = exam_obj.get("date", "")
-                q_count   = len(exam_obj.get("questions", []))
-                p_count   = len(exam_obj.get("passages", []))
-                with st.expander(
-                    f"{exam_name}" + (f" ({exam_date})" if exam_date else "")
-                    + f"  -  {p_count} passages, {q_count} questions"
-                ):
-                    _render_passage_exam(exam_obj, inside_expander=True)
-                    exam_json = json.dumps(exam_obj, indent=2, ensure_ascii=False)
-                    st.download_button(
-                        label=f"Download '{exam_name}' JSON",
-                        data=exam_json,
-                        file_name=f"{exam_name.replace(' ','_')[:40]}.json",
-                        mime="application/json",
-                        key=f"dl_pex_{browse_slug}_{i}",
-                    )
-
-            # ── Danger zone: clear category ────────────────────────────────
-            with st.expander("⚠️ Danger Zone"):
-                st.warning(
-                    f"This will permanently delete all **{len(bank_qs)}** questions "
-                    f"from **{cat_label}** (`docs/{cat_file}`)."
-                )
-                if st.button(
-                    f"🗑️ Clear {cat_label} Bank",
-                    key=f"clear_{browse_slug}",
-                ):
-                    from utils.question_store import save_questions
-                    save_questions(browse_slug, [])
-                    st.success(f"✅ {cat_label} question bank cleared.")
-                    st.rerun()
 
     # ============================= TAB 4 – Automation Monitor =================
-    with tab_monitor:
+    if show_monitor:
         st.markdown("### 🤖 Automation Controls")
         
         # --- Control Form ---
@@ -1403,13 +1219,24 @@ def main():
                 with open(status_file, "r", encoding="utf-8") as f:
                     status = json.load(f)
                 
-                col1, col2, col3, col4 = st.columns(4)
-                col1.metric("📁 Current Folder", status.get("current_folder", "N/A"))
-                col2.metric("📄 Current PDF", (status.get("current_pdf") or "Scanning...")[:20] + "...")
-                col3.metric("✅ PDFs Processed", status.get("processed_count", 0))
-                col4.metric("📝 Questions Saved", status.get("questions_added", 0))
+                # --- COMMAND CENTER HEADER ---
+                st.markdown("#### ⚡ Command Center Metrics")
+                stats = status.get("llm_stats", {})
+                
+                # Metric Row 1: High level counts
+                m1, m2, m3, m4 = st.columns(4)
+                m1.metric("📄 PDFs Completed", status.get("processed_count", 0), help="Total PDFs fully processed")
+                m2.metric("📝 Questions Saved", status.get("questions_added", 0), delta=f"+{stats.get('total_questions', 0)} from LLM", help="Total questions added to database")
+                m3.metric("💰 Estimated Cost", f"₹{stats.get('cost_by_tokens', 0)}", delta=f"₹{stats.get('effective_cost_per_question', 0)} / q", delta_color="inverse", help="Total cost based on token usage")
+                m4.metric("🎟️ Total Tokens", f"{stats.get('total_tokens', 0):,}", help="Total API tokens consumed")
 
+                # Progress Row
                 st.markdown("---")
+                curr_pdf = status.get("current_pdf") or "Scanning..."
+                st.write(f"🔍 **Currently Processing:** `{curr_pdf}`")
+                
+                # Active folder display
+                st.info(f"📂 **Active Folder:** `{status.get('current_folder', 'N/A')}`")
                 
                 folders = status.get("folders", [])
                 if folders:
@@ -1452,6 +1279,72 @@ def main():
                     
             except Exception as e:
                 st.error(f"Error reading status: {e}")
+
+    # ============================= TAB 5 – Refining & Validation Agent ======
+    if show_agent:
+        st.header("🔍 Refining & Validation Agent")
+
+        # --- Run Agent ---
+        if st.button("▶️ Run Agent Now"):
+            # Use absolute path to the agent script
+            agent_script = os.path.join(Config.BASE_DIR, "agent", "refining_agent.py")
+            # Set PYTHONPATH to ensure imports within agent/ work correctly
+            env = os.environ.copy()
+            env["PYTHONPATH"] = Config.BASE_DIR
+            subprocess.Popen(["python", agent_script], env=env)
+            st.success("Agent started! Monitor progress below.")
+
+        # --- Live Status ---
+        status_file = os.path.join(Config.BASE_DIR, "agent_status.json")
+        if os.path.exists(status_file):
+            try:
+                with open(status_file, "r", encoding="utf-8") as f:
+                    status = json.load(f)
+                
+                col1, col2 = st.columns([2, 1])
+                with col1:
+                    st.metric("Current File", status.get("current_file", "Idle"))
+                with col2:
+                    prog = status.get("progress", 0)
+                    st.metric("Progress", f"{prog}%")
+                
+                st.progress(max(0, min(100, prog)) / 100)
+                st.caption(f"Last updated: {status.get('timestamp', '')}")
+            except Exception as e:
+                st.error(f"Error reading agent status: {e}")
+
+        st.markdown("---")
+
+        # --- Output Summary ---
+        st.subheader("📁 Processed Files Summary")
+        norm_folder = os.path.join(Config.BASE_DIR, "agent_output", "normalized")
+        flag_folder = os.path.join(Config.BASE_DIR, "agent_output", "flagged")
+        
+        os.makedirs(norm_folder, exist_ok=True)
+        os.makedirs(flag_folder, exist_ok=True)
+
+        col1, col2 = st.columns(2)
+        with col1:
+            norm_count = len(list(Path(norm_folder).glob('*.json')))
+            st.success(f"✅ Normalized: **{norm_count}** files")
+        with col2:
+            flag_count = len(list(Path(flag_folder).glob('*.json')))
+            st.warning(f"🚨 Flagged: **{flag_count}** files")
+
+        # --- Show Reports ---
+        st.subheader("📊 Validation Reports")
+        report_folder = os.path.join(Config.BASE_DIR, "agent_output", "reports")
+        os.makedirs(report_folder, exist_ok=True)
+        
+        reports = sorted(list(Path(report_folder).glob("*_report.md")), key=os.path.getmtime, reverse=True)
+        if reports:
+            selected_report_name = st.selectbox("Select a report to view:", [r.name for r in reports])
+            if selected_report_name:
+                report_path = os.path.join(report_folder, selected_report_name)
+                with open(report_path, "r", encoding="utf-8") as f:
+                    st.markdown(f.read())
+        else:
+            st.info("No validation reports found yet. Run the agent to generate reports.")
 
 
 if __name__ == "__main__":

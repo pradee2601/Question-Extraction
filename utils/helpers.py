@@ -131,6 +131,11 @@ class LLMTracker:
     completion_tokens = 0
     total_time = 0
     call_count = 0
+    total_questions = 0
+    
+    # Cost constants (Indian Rupees)
+    COST_PER_QUESTION = 0.028
+    COST_PER_TOKEN = 0.0000208
 
     @classmethod
     def update(cls, p_tokens, c_tokens, wall_time):
@@ -141,22 +146,34 @@ class LLMTracker:
         cls.call_count += 1
 
     @classmethod
+    def update_questions(cls, count):
+        cls.total_questions += count
+
+    @classmethod
     def reset(cls):
         cls.total_tokens = 0
         cls.prompt_tokens = 0
         cls.completion_tokens = 0
         cls.total_time = 0
         cls.call_count = 0
+        cls.total_questions = 0
 
     @classmethod
     def get_report(cls):
+        cost_tokens = cls.total_tokens * cls.COST_PER_TOKEN
+        cost_questions = cls.total_questions * cls.COST_PER_QUESTION
+        
         return {
             "total_calls": cls.call_count,
             "total_tokens": cls.total_tokens,
+            "total_questions": cls.total_questions,
             "prompt_tokens": cls.prompt_tokens,
             "completion_tokens": cls.completion_tokens,
             "total_time_seconds": round(cls.total_time, 2),
-            "avg_time_per_call": round(cls.total_time / cls.call_count, 2) if cls.call_count > 0 else 0
+            "avg_time_per_call": round(cls.total_time / cls.call_count, 2) if cls.call_count > 0 else 0,
+            "cost_by_tokens": round(cost_tokens, 4),
+            "cost_by_questions": round(cost_questions, 4),
+            "effective_cost_per_question": round(cost_tokens / cls.total_questions, 4) if cls.total_questions else 0
         }
 
 def call_llm(prompt: str) -> str:

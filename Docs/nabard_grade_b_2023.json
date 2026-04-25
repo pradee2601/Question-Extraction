@@ -1,0 +1,2704 @@
+[
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Agriculture and Rural Development",
+    "topic": "Agri-Clinic and Agribusiness Centers",
+    "subtopic": "Schemes",
+    "difficulty": "Medium",
+    "question": "Total assistance for individual project under Agri-clinic and Agribusiness centers scheme (ACABC)?",
+    "option": {
+      "A": "10 lakhs",
+      "B": "5 lakhs",
+      "C": "20 lakhs",
+      "D": "8 lakhs",
+      "E": "22 lakhs"
+    },
+    "answer": "C",
+    "explanation": "Under the Agri-Clinic and Agribusiness Centres (ACABC) scheme, the government provides credit assistance for individual projects to promote entrepreneurship among agriculture graduates.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd29d0b4974d7d9e9c8"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Agriculture and Rural Development",
+    "topic": "Soil Conservation",
+    "subtopic": "Terracing",
+    "difficulty": "Medium",
+    "question": "___________ is construction of series of platforms along contours where platforms are separated at regular intervals by vertical drops.",
+    "option": {
+      "A": "Bench terracing",
+      "B": "Contour bunding",
+      "C": "Zing terracing",
+      "D": "Khadins",
+      "E": "None of the above"
+    },
+    "answer": "A",
+    "explanation": "Bench terracing involves the creation of level platforms or 'steps' along the contours of a slope to reduce soil erosion and improve water retention.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2edc22a5299e1b8ce"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Animal Husbandry",
+    "topic": "Poultry",
+    "subtopic": "Incubation",
+    "difficulty": "Easy",
+    "question": "What is the incubation period of Chickens?",
+    "option": {
+      "A": "21 days",
+      "B": "15 days",
+      "C": "50 days",
+      "D": "42 days",
+      "E": "80 days"
+    },
+    "answer": "A",
+    "explanation": "The standard incubation period for chicken eggs is approximately 21 days.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd225c31906ea8572c8"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Agriculture and Rural Development",
+    "topic": "Irrigation",
+    "subtopic": "Surface Irrigation",
+    "difficulty": "Medium",
+    "question": "Which type of surface irrigation, fields is divided into strips that are separated by border ridges running through gradient of field?",
+    "option": {
+      "A": "Furrow irrigation",
+      "B": "Centre pivot irrigation",
+      "C": "Sprinkler irrigation",
+      "D": "Border Strip irrigation",
+      "E": "Localized irrigation"
+    },
+    "answer": "D",
+    "explanation": "In Border Strip irrigation, the field is divided into long, narrow strips separated by low ridges (borders) through which water flows via gravity.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd23cbb4917519bccab"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Animal Husbandry",
+    "topic": "Poultry",
+    "subtopic": "Incubation",
+    "difficulty": "Hard",
+    "question": "For how much time, food is not given to incubated chicks.",
+    "option": {
+      "A": "9 hours",
+      "B": "24 hours",
+      "C": "48 hours",
+      "D": "12 hours",
+      "E": "34 hours"
+    },
+    "answer": "B",
+    "explanation": "In commercial poultry incubation, chicks are typically not fed immediately upon hatching; they rely on the residual yolk sac for approximately 24 to 48 hours.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd27575f239019e460d"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Environment and Ecology",
+    "topic": "Conservation Schemes",
+    "subtopic": "Amrit Dharohar",
+    "difficulty": "Medium",
+    "question": "Which of the following is the objective of Amrit Dharohar?\n(a) Species and habitat conservation\n(b) This scheme will help the local communities in their income generations\n(c) wetlands livelihoods, wetland carbon\n(d) The scheme will increase eco-tourism\n(e) All of the above",
+    "option": {
+      "A": "Species and habitat conservation",
+      "B": "This scheme will help the local communities in their income generations",
+      "C": "wetlands livelihoods, wetland carbon",
+      "D": "The scheme will increase eco-tourism",
+      "E": "All of the above"
+    },
+    "answer": "E",
+    "explanation": "The Amrit Dharohar scheme aims for the conservation of wetlands, promoting community livelihoods, eco-tourism, and the protection of species and habitats.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2d78406d94f5f9805"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Agriculture and Rural Development",
+    "topic": "Plant Pathology",
+    "subtopic": "Mango Disorders",
+    "difficulty": "Hard",
+    "question": "Identify the disorder of mango.\\nIt has generally been detected in orchard located in the vicinity of brick kilns. The infection of fruits is initiated right at marble stage, with a characteristic yellowing of tissues at the distal end. Gradually, the color intensifies into brown and finally black.",
+    "option": {
+      "A": "Biennial bearing",
+      "B": "Mango malformation",
+      "C": "Clustering in mango",
+      "D": "Spongy tissue",
+      "E": "Black tip"
+    },
+    "answer": "E",
+    "explanation": "Black tip is a physiological disorder in mango caused by sulfur dioxide ($SO_2$) pollution, often occurring in orchards near brick kilns. It causes the distal end of the fruit to turn brown and eventually black.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd29765b7d6ab81adf8"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Reasoning",
+    "topic": "Inequality",
+    "subtopic": "Mathematical Inequalities",
+    "difficulty": "Medium",
+    "question": "Q.15. Based on the provided statements, determine which of the following conclusions follow.",
+    "option": {
+      "A": "Not specified",
+      "B": "Not specified",
+      "C": "Not specified",
+      "D": "Conclusion IV"
+    },
+    "answer": "D",
+    "explanation": "The relationship is given as $H \\geq G \\leq F < D \\leq A < I$. \n\\na) $G < I$: This is true. \\nSo, conclusion I follows.\n\\nb) $A > G$: This is true. \\nSo, conclusion II does not follow (Note: The explanation suggests a contradiction in the OCR text logic, but based on the inequality $G \\leq F < D \\leq A$, $A > G$ is mathematically true, however, the answer key provided is 'd').\n\\nc) No relation can be established between $H$ and $F$. \\nSo, conclusion III does not follow.\n\\nd) No relation can be established between $D$ and $H$. \\nSo, conclusion IV does not follow.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd216e26e8db4127a9f"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Reasoning",
+    "topic": "Data Sufficiency",
+    "subtopic": "Ranking",
+    "difficulty": "Medium",
+    "question": "Q.17. Determine if the given statements are sufficient to answer the question regarding Mahesh's rank.",
+    "option": {
+      "A": "Not specified",
+      "B": "Not specified",
+      "C": "Either I alone or II alone is sufficient"
+    },
+    "answer": "C",
+    "explanation": "From I alone: \\nTotal students in the class = $44 + 46 - 1 = 90 - 1 = 89$. \\nMahesh's rank from bottom = $89 + 1 - 50 = 40$. \\nFrom II alone: \\nTotal strength of the class = $90$. \\nMahesh's rank from bottom = $90 + 1 - 50 = 41$. \\nSo, either I alone or II alone is sufficient to answer the question.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2fe4b598d4cc07926"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Reasoning",
+    "topic": "Data Sufficiency",
+    "subtopic": "Ordering and Ranking",
+    "difficulty": "Medium",
+    "question": "Q.18. Determine who is the youngest among the group based on the statements.",
+    "option": {
+      "A": "Not specified",
+      "B": "Not specified",
+      "C": "Combining I and III"
+    },
+    "answer": "C",
+    "explanation": "From statement I: $M > V > S, N$. Either Sunita or Naina can be youngest. I alone is not sufficient.\\nFrom statement II: $S > M > N, V$. Either Naina or Veena can be youngest. II alone is not sufficient.\\nFrom statement III: $V > S > N$. Information about Meena is not given. III alone is not sufficient.\\nCombining I and III: $M > V > S > N$. Hence, Naina is the youngest.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd260b94c4d0141ebd1"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "English Language",
+    "topic": "Grammar",
+    "subtopic": "Subject-Verb Agreement",
+    "difficulty": "Easy",
+    "question": "Q.21. Identify the error in the sentence regarding the usage of 'price rise'.",
+    "option": {
+      "A": "Not specified",
+      "B": "Not specified",
+      "C": "Not specified",
+      "D": "Not specified",
+      "E": "Not specified"
+    },
+    "answer": "E",
+    "explanation": "“Price rise” should be replaced with “price rises” because the subject, i.e., price, is singular. Strengthening grammatical concepts will help in tackling such questions.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2a654ce1f454d99cf"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "English Language",
+    "topic": "Grammar",
+    "subtopic": "Prepositions and Articles",
+    "difficulty": "Medium",
+    "question": "Q.22. Identify the grammatical error in the sentence.",
+    "option": {
+      "A": "Not specified",
+      "B": "Part 1: among/between; Part 2: the/a"
+    },
+    "answer": "B",
+    "explanation": "In the first part, ‘among’ is wrong. ‘Between’ should be used because there are two nouns. In the second part, “the” is wrongly used. Here, ‘a’ should be used for ‘impact’.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2484ec7b2557fdb10"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "English Language",
+    "topic": "Grammar",
+    "subtopic": "Pronouns",
+    "difficulty": "Medium",
+    "question": "Q.23. Identify the error in the usage of pronouns.",
+    "option": {
+      "A": "Not specified",
+      "B": "Not specified",
+      "C": "Use 'that' instead of 'those'"
+    },
+    "answer": "C",
+    "explanation": "In the third part, ‘those’ is used wrongly. Instead, ‘that’ should be used as the noun is singular.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2e37e0e0f44c61c36"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "English Language",
+    "topic": "Grammar",
+    "subtopic": "Prepositions",
+    "difficulty": "Medium",
+    "question": "Q.24. Identify the error regarding prepositional usage.",
+    "option": {
+      "A": "Not specified",
+      "B": "Not specified",
+      "C": "Use 'for' instead of 'on'"
+    },
+    "answer": "C",
+    "explanation": "In the third part, the usage of ‘on’ is wrong. Instead, ‘for’ should be used.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd22ff10e42eb648f51"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "English Language",
+    "topic": "Grammar",
+    "subtopic": "Participles",
+    "difficulty": "Medium",
+    "question": "Q.25. Identify the correct form of the verb used in the sentence.",
+    "option": {
+      "A": "Not specified",
+      "B": "Not specified",
+      "C": "Not specified",
+      "D": "Use 'serving' instead of 'served'"
+    },
+    "answer": "D",
+    "explanation": "Instead of ‘served’, ‘serving’ should be used as a present participle, which functions as an adjective describing “National income”.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd26005a3b74704006f"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "English Language",
+    "topic": "Reading Comprehension",
+    "subtopic": "Passage-based Question",
+    "difficulty": "Medium",
+    "question": "Q.26. Select the correct answer based on the passage.",
+    "option": {
+      "A": "Option A"
+    },
+    "answer": "A",
+    "explanation": "As per the 4th last paragraph, option A is the correct answer. When approaching a reading comprehension (RC) question, it’s advisable to begin by reading the questions first to gain a sense of what specific information you need to extract.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2ed13825b4c8d4196"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "English Language",
+    "topic": "Reading Comprehension",
+    "subtopic": "Green Finance",
+    "difficulty": "Medium",
+    "question": "Q.27. Based on the passage, how much of India's annual GDP needs to be allocated to green finance?",
+    "option": {
+      "A": "Not specified",
+      "B": "Not specified",
+      "C": "2.5 percent"
+    },
+    "answer": "C",
+    "explanation": "As per the lines - “According to the Reserve Bank of India, bridging this substantial funding gap necessitates allocating $2.5$ percent of India’s annual GDP to green finance”, option C is correct.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2b5d24f22a9651c5f"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "English Language",
+    "topic": "Reading Comprehension",
+    "subtopic": "Net-zero Emissions",
+    "difficulty": "Medium",
+    "question": "Q.28. According to the passage, what is the required cumulative investment to achieve net-zero emissions by 2070?",
+    "option": {
+      "A": "Not specified",
+      "B": "Not specified",
+      "C": "Not specified",
+      "D": "$10 trillion"
+    },
+    "answer": "D",
+    "explanation": "“Moreover, to achieve the target of net-zero emissions by 2070, a cumulative investment of $\\$10\\text{ trillion}$ would be required, as predicted by the International Financial Services Centres Authority’s Expert Committee on Sustainable Finance”. According to these lines, option D is right.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2ac0529dc5856c50f"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "English Language",
+    "topic": "Reading Comprehension",
+    "subtopic": "Passage-based Question",
+    "difficulty": "Medium",
+    "question": "Q.29. Select the correct option based on the passage.",
+    "option": {
+      "A": "Option A"
+    },
+    "answer": "A",
+    "explanation": "As per the 2nd last paragraph, option A is the correct answer. This involves reading questions first to identify necessary information.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2d7c9ac2684ba3136"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "English Language",
+    "topic": "Vocabulary",
+    "subtopic": "Contextual Usage",
+    "difficulty": "Medium",
+    "question": "Q.30. Choose the word that best fits the context of the passage.",
+    "option": {
+      "A": "Not specified",
+      "B": "Not specified",
+      "C": "Not specified",
+      "D": "Option D"
+    },
+    "answer": "D",
+    "explanation": "Option D is the correct answer. The best way to answer such questions is to replace the highlighted word with each option to assess which one fits best in the context.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd240a75410df93a708"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "English Language",
+    "topic": "Verbal Ability",
+    "subtopic": "Sentence Rearrangement",
+    "difficulty": "Medium",
+    "question": "Q.31. Arrange the following sentences in the correct logical order.",
+    "option": {
+      "A": "Not specified",
+      "B": "Not specified",
+      "C": "Not specified",
+      "D": "32514"
+    },
+    "answer": "D",
+    "explanation": "The correct sequence is 32514.\n(3) Animal husbandry is the branch of agriculture that focuses on the breeding, care, and management of livestock for various purposes, including food production, transportation, and labor.\n(2) It plays a crucial role in meeting the world’s demand for meat, milk, and other animal products.\n(5) Effective animal husbandry practices involve ensuring the health and welfare of animals, improving their genetics through selective breeding, and providing appropriate nutrition and housing.\n(1) Sustainable and ethical animal husbandry practices are essential for both animal well-being and the environment.\n(4) It’s a dynamic field that continues to evolve to meet the growing needs of our global population while addressing concerns related to animal welfare and environmental sustainability.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd28bc6652c1d44cb46"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "English Language",
+    "topic": "Verbal Ability",
+    "subtopic": "Sentence Rearrangement",
+    "difficulty": "Medium",
+    "question": "Q.32. Arrange the following sentences in the correct logical order regarding Financial Inclusion.",
+    "option": {
+      "A": "Not specified",
+      "B": "52431"
+    },
+    "answer": "B",
+    "explanation": "The correct sequence is 52431.\n(5) Financial inclusion is a key component of economic development and social progress.\n(2) It refers to the accessibility and affordability of essential financial services, including banking, credit, insurance, and savings, for all segments of the population, particularly those who are traditionally underserved or excluded from the formal financial system.\n(4) When financial inclusion is achieved, it can empower individuals and communities by providing them with the tools to save, invest, and protect their assets, ultimately improving their financial well-being.\n(3) It also promotes economic stability, entrepreneurship, and poverty reduction.\n(1) Governments, financial institutions, and technology companies are working together to expand financial inclusion through innovative solutions, making it an integral part of global efforts to enhance economic equality and financial security.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2e34a0ce52a248e6f"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "English Language",
+    "topic": "Verbal Ability",
+    "subtopic": "Sentence Rearrangement",
+    "difficulty": "Hard",
+    "question": "Q.33. Arrange the following sentences in the correct logical order regarding Ozone Depletion.",
+    "option": {
+      "A": "Not specified",
+      "B": "Not specified",
+      "C": "Not specified",
+      "D": "452136"
+    },
+    "answer": "D",
+    "explanation": "The correct sequence is 452136.\n(4) Ozone depletion refers to the significant reduction of the ozone layer in the Earth’s stratosphere, primarily caused by the release of human-made chemicals known as ozone-depleting substances (ODS), such as chlorofluorocarbons (CFCs) and halons.\n(5) The ozone layer plays a crucial role in protecting life on Earth by absorbing the majority of harmful ultraviolet (UV) radiation from the sun.\n(2) The depletion of this protective layer leads to an increase in UV radiation at the Earth’s surface, which can have detrimental effects on human health, causing skin cancer and cataracts, and impacting ecosystems, including harm to marine life and terrestrial vegetation.\n(1) International agreements, like the Montreal Protocol, have successfully reduced the production and use of ODS, leading to gradual recovery of the ozone layer, demonstrating the importance of global cooperation in addressing environmental challenges.\n(3) However, continued vigilance is essential to ensure a full recovery and the long-term protection of the ozone layer.\n(6) The concerted global efforts to phase out ozone-depleting substances have demonstrated the positive impact of international collaboration in addressing environmental challenges.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd24aa2b8b109b3695f"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "English Language",
+    "topic": "Verbal Ability",
+    "subtopic": "Sentence Rearrangement",
+    "difficulty": "Medium",
+    "question": "Q.34. Arrange the following sentences in the correct logical order regarding Insurance Penetration.",
+    "option": {
+      "A": "Not specified",
+      "B": "Not specified",
+      "C": "52143"
+    },
+    "answer": "C",
+    "explanation": "The correct sequence is 52143.\n(5) Insurance penetration is a measure of the extent to which insurance products are utilized within a particular population or region.\n(2) It reflects the percentage of individuals or businesses that have insurance coverage compared to the total eligible population.\n(1) Higher insurance penetration often signifies a more financially secure and resilient society as it helps individuals and businesses mitigate financial risks associated with unexpected events, such as accidents, health issues, or natural disasters.\n(4) Improved insurance penetration can also support economic development by providing a safety net for individuals and facilitating investments by businesses.\n(3) Governments and insurers alike are working to increase insurance penetration through public awareness campaigns, affordable insurance products, and regulatory reforms, recognizing its potential to enhance financial security and stability on both individual and national levels.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd25da18e6d52e56726"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "English",
+    "topic": "Verbal Ability",
+    "subtopic": "Sentence Rearrangement",
+    "difficulty": "Medium",
+    "question": "(4) The confluence of technological advancements in artificial intelligence and the proliferation of data analytics has engendered a paradigm shift in various industries.\n(2) This transformation has not only led to enhanced operational efficiency and predictive insights but has also sparked intricate ethical and privacy concerns.\n(5) As organizations harness the power of machine learning algorithms and deep learning neural networks, the need for comprehensive regulatory frameworks to govern data collection, utilization, and retention becomes increasingly imperative.\n(1) Furthermore, the interplay between algorithms and cognitive biases underscores the exigency of ethical considerations in algorithm design, necessitating the evolution of responsible AI practices to mitigate inadvertent discrimination and uphold societal values.\n(3) In this dynamic landscape, the imperative for interdisciplinary collaboration between technology, legal, and ethical experts is clear, facilitating the development of holistic solutions to address the multifaceted challenges emerging from this digital evolution.\n\\nQ.35) Select the correct sequence to form a coherent paragraph.",
+    "option": {
+      "A": "Not provided",
+      "B": "Not provided",
+      "C": "Not provided",
+      "D": "Not provided"
+    },
+    "answer": "B",
+    "explanation": "The correct sequence is 4-2-5-1-3.",
+    "level": "National Exam",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd265cc86b7222c0992"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "English",
+    "topic": "Verbal Ability",
+    "subtopic": "Sentence Correction",
+    "difficulty": "Medium",
+    "question": "Q.36) Select the grammatically correct sentence.",
+    "option": {
+      "A": "Not provided",
+      "B": "Not provided",
+      "C": "Not provided",
+      "D": "Not provided"
+    },
+    "answer": "A",
+    "explanation": "The correct sentence is “As a dance aficionado, she couldn’t resist the urge to wriggle to the rhythm of the music, showcasing her passion for movement and groove on the dance floor.”",
+    "level": "National Exam",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd21b012d46acb1e2d2"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "English",
+    "topic": "Verbal Ability",
+    "subtopic": "Grammar",
+    "difficulty": "Medium",
+    "question": "Q.41) Identify the correct sentence(s).",
+    "option": {
+      "A": "Not provided",
+      "B": "Not provided",
+      "C": "Not provided",
+      "D": "Not provided",
+      "E": "All sentences are correct"
+    },
+    "answer": "E",
+    "explanation": "All the sentences are correct. Hence, option E is the correct answer.",
+    "level": "National Exam",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd27367e1b6373b180f"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "English",
+    "topic": "Verbal Ability",
+    "subtopic": "Grammar",
+    "difficulty": "Medium",
+    "question": "Q.42) Identify the error in the usage of the word 'staunch'.",
+    "option": {
+      "A": "Not provided",
+      "B": "Not provided",
+      "C": "Not provided",
+      "D": "Not provided"
+    },
+    "answer": "D",
+    "explanation": "Here, ‘staunch’ is used wrongly. It should have been used as an adverb (‘staunchly’) and not as an adjective.",
+    "level": "National Exam",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2e9d02dc7a5f2a6dd"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "English",
+    "topic": "Verbal Ability",
+    "subtopic": "Grammar",
+    "difficulty": "Medium",
+    "question": "Q.43) Identify the error in the sentence regarding 'convict'.",
+    "option": {
+      "A": "Not provided",
+      "B": "Not provided",
+      "C": "Not provided",
+      "D": "Not provided"
+    },
+    "answer": "B",
+    "explanation": "Instead of “convict”, “convicted” should be used. “After being convicted” is a Participial Phrase (being + $V_3$).",
+    "level": "National Exam",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2544a1f6e325fc1d6"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "English",
+    "topic": "Verbal Ability",
+    "subtopic": "Grammar",
+    "difficulty": "Medium",
+    "question": "Q.44) Identify the error in the sentence.",
+    "option": {
+      "A": "Not provided",
+      "B": "Not provided",
+      "C": "Not provided",
+      "D": "Not provided",
+      "E": "All sentences are correct"
+    },
+    "answer": "E",
+    "explanation": "All the sentences are grammatically and contextually correct.",
+    "level": "National Exam",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd21ee4627c0c1c3aa4"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "English",
+    "topic": "Verbal Ability",
+    "subtopic": "Grammar",
+    "difficulty": "Medium",
+    "question": "Q.45) Identify the error in the use of the article.",
+    "option": {
+      "A": "Not provided",
+      "B": "Not provided",
+      "C": "Not provided",
+      "D": "Not provided"
+    },
+    "answer": "D",
+    "explanation": "“Retreat” should be used because the article ‘a’ is mentioned.",
+    "level": "National Exam",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2da46263beafe030e"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "English",
+    "topic": "Verbal Ability",
+    "subtopic": "Idioms and Phrases",
+    "difficulty": "Medium",
+    "question": "Q.46) Select the appropriate idiom that fits the context.",
+    "option": {
+      "A": "Not provided",
+      "B": "Not provided",
+      "C": "Not provided",
+      "D": "Not provided"
+    },
+    "answer": "A",
+    "explanation": "Buy A Lemon means buying a vehicle/instrument that gives trouble. A lemon is a purchase that turns out to be worth far less than believed, and may even end up costing the buyer more than the initial purchase price.",
+    "level": "National Exam",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd22973467e355d6fc9"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "English",
+    "topic": "Verbal Ability",
+    "subtopic": "Idioms and Phrases",
+    "difficulty": "Medium",
+    "question": "Q.47) Select the idiom that means to ignore or snub someone.",
+    "option": {
+      "A": "Not provided",
+      "B": "Not provided",
+      "C": "Not provided",
+      "D": "Not provided"
+    },
+    "answer": "B",
+    "explanation": "To give a cold shoulder means to ignore or snub someone you know. In both sentences, only option B fits perfectly.",
+    "level": "National Exam",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd24a2acd6d4a6cc363"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "English",
+    "topic": "Verbal Ability",
+    "subtopic": "Idioms and Phrases",
+    "difficulty": "Medium",
+    "question": "Q.48) Select the correct idiom.",
+    "option": {
+      "A": "Not provided",
+      "B": "Not provided",
+      "C": "Not provided",
+      "D": "Not provided"
+    },
+    "answer": "D",
+    "explanation": "Option D is the correct answer.",
+    "level": "National Exam",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2b3dfdeeb70cf166e"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Computer Awareness",
+    "topic": "Computer Fundamentals",
+    "subtopic": "Character Encoding",
+    "difficulty": "Easy",
+    "question": "Q.51) Identify the character encoding format mentioned.",
+    "option": {
+      "A": "Not provided",
+      "B": "Not provided",
+      "C": "Not provided",
+      "D": "Not provided",
+      "E": "Not provided"
+    },
+    "answer": "E",
+    "explanation": "ASCII (American Standard Code for Information Interchange) is the most common character encoding format for text data in computers and on the internet. In standard ASCII-encoded data, there are unique values for 128 alphabetic, numeric or special additional characters and control codes.",
+    "level": "National Exam",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd231b125da15620d24"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Computer Awareness",
+    "topic": "Computer Fundamentals",
+    "subtopic": "Hardware",
+    "difficulty": "Easy",
+    "question": "Q.52) What are the functions of the motherboard?",
+    "option": {
+      "A": "Not provided",
+      "B": "Not provided",
+      "C": "Not provided",
+      "D": "Not provided"
+    },
+    "answer": "D",
+    "explanation": "The functions of the motherboard are to: provide a place for other devices or interfaces to be connected to (such as more memory or another graphics cards); distribute power to the various components; act as a communication hub as the components send and receive information through the motherboard.",
+    "level": "National Exam",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd20a46d398619ba645"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Computer Awareness",
+    "topic": "Data Visualization",
+    "subtopic": "Charts",
+    "difficulty": "Easy",
+    "question": "Q.53) What is the purpose of a pie chart?",
+    "option": {
+      "A": "Not provided",
+      "B": "Not provided",
+      "C": "Not provided",
+      "D": "Not provided"
+    },
+    "answer": "D",
+    "explanation": "A pie chart helps organize and show data as a percentage of a whole. This kind of visualization uses a circle to represent the whole, and slices of that circle, or “pie”, to represent the specific categories that compose the whole.",
+    "level": "National Exam",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2bf842605865e0abe"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Computer Awareness",
+    "topic": "Operating Systems & Software",
+    "subtopic": "Keyboard Shortcuts",
+    "difficulty": "Easy",
+    "question": "Q.54) How can you switch between tabs in most web browsers?",
+    "option": {
+      "A": "Not provided",
+      "B": "Not provided",
+      "C": "Not provided",
+      "D": "Not provided"
+    },
+    "answer": "B",
+    "explanation": "You can switch between tabs in most web browsers by pressing “Ctrl + Tab” to move to the next tab or “Ctrl + Shift + Tab” to go to the previous one.",
+    "level": "National Exam",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2761758e8e2279e3c"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Computer Awareness",
+    "topic": "Number Systems",
+    "subtopic": "Binary",
+    "difficulty": "Medium",
+    "question": "Q.55) What is the maximum possible decimal number with 4 bits?",
+    "option": {
+      "A": "Not provided",
+      "B": "Not provided",
+      "C": "Not provided",
+      "D": "Not provided",
+      "E": "Not provided"
+    },
+    "answer": "C",
+    "explanation": "With 4 bits, the maximum possible number is binary $1111$ or decimal $15$.",
+    "level": "National Exam",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2e016141a0e1cbe5d"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Computer Awareness",
+    "topic": "Computer Fundamentals",
+    "subtopic": "Hardware",
+    "difficulty": "Easy",
+    "question": "Q.56) Which of the following companies do not manufacture microprocessors?",
+    "option": {
+      "A": "Not provided",
+      "B": "Not provided",
+      "C": "Not provided",
+      "D": "Not provided"
+    },
+    "answer": "D",
+    "explanation": "Dell and Microsoft do not manufacture microprocessors.",
+    "level": "National Exam",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd21899c9c5fe5bb4ec"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Computer Awareness",
+    "topic": "Computer Fundamentals",
+    "subtopic": "Ports & Connectivity",
+    "difficulty": "Easy",
+    "question": "Q.57) What are USB-C ports typically used for?",
+    "option": {
+      "A": "Not provided",
+      "B": "Not provided",
+      "C": "Not provided",
+      "D": "Not provided"
+    },
+    "answer": "C",
+    "explanation": "USB-C ports are more commonly associated with general-purpose data and power connections, often found on laptops, smartphones, and various peripheral devices for tasks such as data transfer, charging, and connecting accessories. Graphics cards typically use dedicated video output ports like HDMI and DisplayPort for connecting to displays.",
+    "level": "National Exam",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd23606597b31d5a234"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Computer Awareness",
+    "topic": "Multimedia",
+    "subtopic": "Visual Effects",
+    "difficulty": "Easy",
+    "question": "Q.58) What is Visual Effects (VFX)?",
+    "option": {
+      "A": "Not provided",
+      "B": "Not provided",
+      "C": "Not provided",
+      "D": "Not provided"
+    },
+    "answer": "A",
+    "explanation": "Visual effects (VFX) is a term used to describe imagery created, manipulated, or enhanced for any film, or other moving media that doesn’t take place during live-action shooting. VFX often involves the integration between actual footage and this manipulated imagery to create realistic looking environments for the context.",
+    "level": "National Exam",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2a4fcb77068663cab"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Computer Awareness",
+    "topic": "Operating Systems",
+    "subtopic": "Windows",
+    "difficulty": "Easy",
+    "question": "Q.59) What is the function of the taskbar in Windows?",
+    "option": {
+      "A": "Not provided",
+      "B": "Not provided",
+      "C": "Not provided",
+      "D": "Not provided"
+    },
+    "answer": "B",
+    "explanation": "The taskbar in a Windows operating system serves as a central hub for launching applications and managing open windows. It typically appears at the bottom of the screen and provides quick access to the Start menu, system notifications, and the system tray.",
+    "level": "National Exam",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd25cd75201c8ba059e"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Computer Awareness",
+    "topic": "Computer Fundamentals",
+    "subtopic": "Printers",
+    "difficulty": "Easy",
+    "question": "Q.60) Why are laser printers preferred in office environments?",
+    "option": {
+      "A": "Not provided",
+      "B": "Not provided",
+      "C": "Not provided",
+      "D": "Not provided"
+    },
+    "answer": "C",
+    "explanation": "Laser printers are the preferred choice in office environments due to their efficiency, speed, quality, and cost-effectiveness for handling the printing needs of businesses and organizations.",
+    "level": "National Exam",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd214329f5e1d16bb6f"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Computer Awareness",
+    "topic": "Computer Fundamentals",
+    "subtopic": "BIOS",
+    "difficulty": "Easy",
+    "question": "Q.61) What is the function of BIOS?",
+    "option": {
+      "A": "Not provided",
+      "B": "Not provided",
+      "C": "Not provided",
+      "D": "Not provided",
+      "E": "Not provided"
+    },
+    "answer": "E",
+    "explanation": "BIOS (basic input/output system) is the program a computer’s microprocessor uses to start the computer system after it is powered on. It also manages data flow between the computer’s operating system (OS) and attached devices, such as the hard disk, video adapter, keyboard, mouse and printer.",
+    "level": "National Exam",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2904ac245bbb38f1e"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Computer Awareness",
+    "topic": "Operating Systems",
+    "subtopic": "Windows Security",
+    "difficulty": "Easy",
+    "question": "Q.62) What are the methods to turn on the Windows lock screen?",
+    "option": {
+      "A": "Not provided",
+      "B": "Not provided",
+      "C": "Not provided",
+      "D": "Not provided"
+    },
+    "answer": "C",
+    "explanation": "Methods to Turn on Windows lock screen:\\nMethod 1 - Press the Windows key and the L key simultaneously to activate the lock screen (Windows + L).\\nMethod 2 - Hold down Ctrl, Alt, and Del simultaneously (Ctrl + Alt + Del). Several options will display on the screen. Press Lock to activate the lock screen.",
+    "level": "National Exam",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2865dc2ad420a2b8b"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Computer Awareness",
+    "topic": "Operating Systems",
+    "subtopic": "Windows Tools",
+    "difficulty": "Easy",
+    "question": "Q.63) What does pressing Ctrl + Alt + Delete do in Windows?",
+    "option": {
+      "A": "Not provided",
+      "B": "Not provided",
+      "C": "Not provided",
+      "D": "Not provided"
+    },
+    "answer": "A",
+    "explanation": "In Windows, pressing Ctrl + Alt + Delete brings up the Task Manager, which allows you to view and manage running processes and applications. You can use it to close unresponsive programs, monitor system performance, and more.",
+    "level": "National Exam",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2081a341bfc4852ac"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Computer Awareness",
+    "topic": "Internet & Browsing",
+    "subtopic": "Incognito Mode",
+    "difficulty": "Easy",
+    "question": "Q.64) What happens when you browse privately in Chrome?",
+    "option": {
+      "A": "Not provided",
+      "B": "Not provided",
+      "C": "Not provided",
+      "D": "Not provided"
+    },
+    "answer": "D",
+    "explanation": "When you browse privately, other people who use the device won’t see your history. Chrome doesn’t save your browsing history or information entered in forms. Cookies and site data are remembered while you’re browsing, but deleted when you exit Incognito mode.",
+    "level": "National Exam",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd29714ea62ffedf2b6"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Computer Awareness",
+    "topic": "Internet & Browsing",
+    "subtopic": "Incognito Mode",
+    "difficulty": "Medium",
+    "question": "Q.65) Is your IP address visible in incognito mode?",
+    "option": {
+      "A": "Not provided",
+      "B": "Not provided",
+      "C": "Not provided",
+      "D": "Not provided"
+    },
+    "answer": "B",
+    "explanation": "In incognito mode, your IP address is still visible to others. The means that your internet service provider, the websites you have visited, your school, employer, or government agencies can still track your browsing activity.",
+    "level": "National Exam",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd268e4eb19f37fb9e4"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Computer Awareness",
+    "topic": "Operating Systems",
+    "subtopic": "GUI",
+    "difficulty": "Easy",
+    "question": "Q.66) What is a Graphical User Interface (GUI)?",
+    "option": {
+      "A": "Not provided",
+      "B": "Not provided",
+      "C": "Not provided",
+      "D": "Not provided"
+    },
+    "answer": "B",
+    "explanation": "A graphical user interface (GUI) is a digital interface in which a user interacts with graphical components such as icons, buttons, and menus. In a GUI, the visuals displayed in the user interface convey information relevant to the user, as well as actions that they can take.",
+    "level": "National Exam",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd29e3e4a1e7d8a5cb3"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Computer Awareness",
+    "topic": "Networking",
+    "subtopic": "Security",
+    "difficulty": "Easy",
+    "question": "Q.67) What is the primary function of a firewall?",
+    "option": {
+      "A": "Not provided",
+      "B": "Not provided",
+      "C": "Not provided",
+      "D": "Not provided"
+    },
+    "answer": "C",
+    "explanation": "A firewall primarily monitors and controls network traffic to protect a network or device from unauthorized access and potential security threats.",
+    "level": "National Exam",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd23d9c196fc9038578"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Computer Awareness",
+    "topic": "Operating Systems",
+    "subtopic": "File Management",
+    "difficulty": "Easy",
+    "question": "Q.68) What is File Explorer?",
+    "option": {
+      "A": "Not provided",
+      "B": "Not provided",
+      "C": "Not provided",
+      "D": "Not provided"
+    },
+    "answer": "B",
+    "explanation": "File Explorer is a file browser that helps you access, view and manage all the files stored on your computer.",
+    "level": "National Exam",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd278487477d78032f3"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Computer Awareness",
+    "topic": "Internet & Communication",
+    "subtopic": "Email",
+    "difficulty": "Easy",
+    "question": "Q.69) What is the difference between CC and BCC in emails?",
+    "option": {
+      "A": "Not provided",
+      "B": "Not provided",
+      "C": "Not provided",
+      "D": "Not provided"
+    },
+    "answer": "A",
+    "explanation": "CC stands for “carbon copy”. BCC stands for “blind carbon copy.” Just like CC, BCC is a way of sending copies of an email to other people. The difference between the two is that, while you can see a list of recipients when CC is used, that’s not the case with BCC. It’s called blind carbon copy because the other recipients won’t be able to see that someone else has been sent a copy of the email.",
+    "level": "National Exam",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2230c32fcbe1937df"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Computer Awareness",
+    "topic": "Mobile Applications",
+    "subtopic": "Parental Controls",
+    "difficulty": "Easy",
+    "question": "Q.70) What is the function of parental controls in the Play Games app?",
+    "option": {
+      "A": "Not provided",
+      "B": "Not provided",
+      "C": "Not provided",
+      "D": "Not provided",
+      "E": "Not provided"
+    },
+    "answer": "E",
+    "explanation": "Parental controls don’t change the games you see in the Play Games app, including games you’ve bought or recommended.",
+    "level": "National Exam",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd25bdb33a31517f3ab"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Quantitative Aptitude",
+    "topic": "Percentage",
+    "subtopic": "Percentage Change",
+    "difficulty": "Easy",
+    "question": "Q.71) What is the required percentage change?",
+    "option": {
+      "A": "Not specified",
+      "B": "9.09%",
+      "C": "Not specified",
+      "D": "Not specified"
+    },
+    "answer": "B",
+    "explanation": "Required percentage = $\\frac{240 - 220}{220} \\times 100 = 9.09\\%$",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd28a49a254549a831c"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Quantitative Aptitude",
+    "topic": "Ratio and Proportion",
+    "subtopic": "Ratio of Employees",
+    "difficulty": "Medium",
+    "question": "Q.72) What is the required ratio of male employees to female employees?",
+    "option": {
+      "A": "Not specified",
+      "B": "Not specified",
+      "C": "93 : 83",
+      "D": "Not specified"
+    },
+    "answer": "C",
+    "explanation": "Total number of male employees = 465. Total number of female employees = 415. Required ratio = $465 : 415 = 93 : 83$.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd29ac08a1877ecae42"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Quantitative Aptitude",
+    "topic": "Number Series",
+    "subtopic": "Pattern Recognition",
+    "difficulty": "Hard",
+    "question": "Q.73) Find the missing number in the series.",
+    "option": {
+      "A": "Not specified",
+      "B": "Not specified",
+      "C": "Not specified",
+      "D": "Not specified"
+    },
+    "answer": "D",
+    "explanation": "The pattern is as follows:\n$5 \\times 2 + 1 = 11$\n$11 \\times 3 + 2 = 35$\n$35 \\times 4 + 3 = 143$\n$143 \\times 5 + 4 = 719$\n$719 \\times 6 + 5 = 4319$",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd21e3a09f023ef7366"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Quantitative Aptitude",
+    "topic": "Data Interpretation",
+    "subtopic": "Averages",
+    "difficulty": "Medium",
+    "question": "Q.74) Find the difference between the average number of male employees in B and D and the average number of female employees in C and E.",
+    "option": {
+      "A": "Not specified",
+      "B": "Not specified",
+      "C": "Not specified",
+      "D": "Not specified"
+    },
+    "answer": "A",
+    "explanation": "Female employees in companies D and E = $64 + 176 = 240$. Male employees in companies B and C = $68 + 152 = 220$. [Note: Text provided is fragmentary for this specific question logic].",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2989c26dcaede4d6f"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Quantitative Aptitude",
+    "topic": "Number Series",
+    "subtopic": "Pattern Recognition",
+    "difficulty": "Hard",
+    "question": "Q.77) Find the next number in the pattern.",
+    "option": {
+      "A": "Not specified",
+      "B": "Not specified",
+      "C": "Not specified",
+      "D": "Not specified"
+    },
+    "answer": "C",
+    "explanation": "The pattern is as follows:\n$5 \\times 2 + 1 = 11$\n$11 \\times 3 + 2 = 35$\n$35 \\times 4 + 3 = 143$\n$143 \\times 5 + 4 = 719$\n$719 \\times 6 + 5 = 4319$",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2ed8b33516e177158"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Quantitative Aptitude",
+    "topic": "Number Series",
+    "subtopic": "Pattern Recognition",
+    "difficulty": "Hard",
+    "question": "Q.78) Find the next number in the series.",
+    "option": {
+      "A": "Not specified",
+      "B": "Not specified",
+      "C": "Not specified",
+      "D": "Not specified"
+    },
+    "answer": "B",
+    "explanation": "The pattern is as follows:\n$423 \\times 8 + 4 = 3388$\n$3388 \\times 10 + 5 = 33885$",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2530f903e5d41e9cd"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Quantitative Aptitude",
+    "topic": "Quadratic Equations",
+    "subtopic": "Relation between x and y",
+    "difficulty": "Medium",
+    "question": "Q.80) Determine the relationship between x and y.",
+    "option": {
+      "A": "Not specified",
+      "B": "Not specified",
+      "C": "Not specified",
+      "D": "Not specified",
+      "E": "No relation"
+    },
+    "answer": "E",
+    "explanation": "Roots of equation I: $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a} = \\frac{-1 \\pm \\sqrt{1 + 288}}{12} = \\frac{-1 \\pm \\sqrt{289}}{12} = \\frac{-1 \\pm 17}{12} \\Rightarrow x = \\frac{16}{12}, \\frac{-18}{12} = \\frac{4}{3}, -\\frac{3}{2}$. Roots of equation II: $y = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a} = \\frac{7 \\pm \\sqrt{49 + 32}}{4} = \\frac{7 \\pm \\sqrt{81}}{4} = \\frac{7 \\pm 9}{4} \\Rightarrow y = 4, -\\frac{1}{2}$. So, there is no relation between x and y.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2fe42916c5b980cef"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Quantitative Aptitude",
+    "topic": "Partnership",
+    "subtopic": "Profit Sharing",
+    "difficulty": "Hard",
+    "question": "Q.84) Find the number of months Mitali invested her money.",
+    "option": {
+      "A": "Not specified",
+      "B": "Not specified",
+      "C": "Not specified",
+      "D": "20 months"
+    },
+    "answer": "D",
+    "explanation": "Let Nihal's investment be $Y$. Mitali's investment period is $N$. Mohan's investment = $(85000 - Y)$. Profit ratio = $Y \\times 4 : (85000 - Y) \\times 6 : 17000 \\times N = 2 : 3 : 4$. From $\\frac{4Y}{(85000 - Y)6} = \\frac{2}{3} \\Rightarrow 12Y = 12(85000 - Y) \\Rightarrow Y = 42500$. Mohan's investment = $85000 - 42500 = 42500$. Ratio between Mohan and Mitali is $3:4$: $\\frac{42500 \\times 6}{17000 \\times N} = \\frac{3}{4} \\Rightarrow \\frac{255000}{17000N} = \\frac{3}{4} \\Rightarrow \\frac{15}{N} = \\frac{3}{4} \\Rightarrow 3N = 60 \\Rightarrow N = 20$ months.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2eff6f89a2678a144"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Quantitative Aptitude",
+    "topic": "Ages",
+    "subtopic": "Average Age",
+    "difficulty": "Medium",
+    "question": "Q.85) Find the average age of A, B, and C.",
+    "option": {
+      "A": "Not specified",
+      "B": "Not specified",
+      "C": "Not specified",
+      "D": "34 years"
+    },
+    "answer": "D",
+    "explanation": "A's age: $A - 8 = \\frac{A}{2} + 10 \\Rightarrow \\frac{A}{2} = 18 \\Rightarrow A = 36$. B's age: $\\frac{36 - 6}{B - 3} = \\frac{5}{3} \\Rightarrow \\frac{30}{B - 3} = \\frac{5}{3} \\Rightarrow 90 = 5B - 15 \\Rightarrow 5B = 105 \\Rightarrow B = 21$. C's age: $\\frac{21 + 3}{C + 3} = \\frac{1}{2} \\Rightarrow \\frac{24}{C + 3} = \\frac{1}{2} \\Rightarrow 48 = C + 3 \\Rightarrow C = 45$. Average age = $\\frac{36 + 21 + 45}{3} = \\frac{102}{3} = 34$ years.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2afb4114b125330d0"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Quantitative Aptitude",
+    "topic": "Profit and Loss",
+    "subtopic": "Profit Percentage",
+    "difficulty": "Hard",
+    "question": "Q.86) What is the profit percentage?",
+    "option": {
+      "A": "Not specified",
+      "B": "Not specified",
+      "C": "Not specified",
+      "D": "21.875%"
+    },
+    "answer": "D",
+    "explanation": "Total cost price = $2400 \\times 280 = 672000$. $80\\%$ of $2400 = 1920$. Let marked price be $M$. $1920 \\times M = 672000 \\times 1.2 \\Rightarrow M = \\text{Rs } 420$. New selling price = $420 \\times 1950 = 819000$. Profit = $819000 - 672000 = 147000$. Profit% = $\\frac{147000}{672000} \\times 100 = 21.875\\%$.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd28beb95b8decd0cd5"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Quantitative Aptitude",
+    "topic": "Simple and Compound Interest",
+    "subtopic": "Compound Interest Comparison",
+    "difficulty": "Hard",
+    "question": "Q.87) Find the amount invested in scheme A.",
+    "option": {
+      "A": "Not specified",
+      "B": "Rs. 15000"
+    },
+    "answer": "B",
+    "explanation": "In 2 years, 8% compounded is equivalent to $8 + 8 + \\frac{8 \\times 8}{100} = 16.64\\%$. In 2 years, 10% compounded is equivalent to $10 + 10 + \\frac{10 \\times 10}{100} = 21\\%$. Let amount in A be $P$ and in B be $(33000 - P)$. $16.64\\%\\text{ of } P + 21\\%\\text{ of } (33000 - P) = 6276 \\Rightarrow 0.1664P + 6930 - 0.21P = 6276 \\Rightarrow 0.0436P = 654 \\Rightarrow P = 15000$.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd22054710aa95dc896"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Quantitative Aptitude",
+    "topic": "Mixtures and Alligations",
+    "subtopic": "Ratio of Milk and Water",
+    "difficulty": "Hard",
+    "question": "Q.88) Find the required ratio of milk in vessel A to water in vessel B.",
+    "option": {
+      "A": "Not specified",
+      "B": "4 : 3"
+    },
+    "answer": "B",
+    "explanation": "Quantity of mixture in vessel C before mixing 15L milk = $78 - 15 = 63$. Milk in C = $\\frac{63}{7} \\times 5 = 45$. Water in C = $\\frac{63}{7} \\times 2 = 18$. Milk in A ($X$) = $45 \\times \\frac{100}{75} = 60$. Water in B ($Y$) = $18 \\times \\frac{100}{40} = 45$. Ratio $X:Y = 60:45 = 4:3$.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2608acc18debd4fa1"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Quantitative Aptitude",
+    "topic": "Time and Work",
+    "subtopic": "Men and Days",
+    "difficulty": "Medium",
+    "question": "Q.89) Find the initial number of men employed.",
+    "option": {
+      "A": "Not specified",
+      "B": "Not specified",
+      "C": "Not specified",
+      "D": "40"
+    },
+    "answer": "D",
+    "explanation": "Let initial men be $N$. Half work in 30 days $\\Rightarrow$ total work in 60 days. Total work = $60N$. Given $(N+20) \\times \\frac{20}{60N} = \\frac{1}{2} \\Rightarrow 60N = 2 \\times 20 \\times (N + 20) \\Rightarrow 60N = 40N + 800 \\Rightarrow 20N = 800 \\Rightarrow N = 40$.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd276340ed2c0ec52bf"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Quantitative Aptitude",
+    "topic": "Time, Speed and Distance",
+    "subtopic": "Car and Train Speed",
+    "difficulty": "Medium",
+    "question": "Q.90) Find the required time for the train to travel 324 km.",
+    "option": {
+      "A": "4.5 hours"
+    },
+    "answer": "A",
+    "explanation": "Speed of car = $Y$. Speed of train = $\\frac{6Y}{5}$. Time for car = $\\frac{150}{Y}$. Time for train = $\\frac{150}{6Y/5} + \\frac{25}{60} = \\frac{125}{Y} + \\frac{5}{12}$. Given $\\frac{150}{Y} = \\frac{125}{Y} + \\frac{5}{12} \\Rightarrow \\frac{25}{Y} = \\frac{5}{12} \\Rightarrow Y = 60$. Train speed = $\\frac{6 \\times 60}{5} = 72$. Time for 324 km = $\\frac{324}{72} = 4.5$ hours.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2f0e784dcb27af254"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Management",
+    "topic": "Decision Making",
+    "subtopic": "Pareto Analysis",
+    "difficulty": "Easy",
+    "question": "Q.91) Which concept is described by Pareto analysis?",
+    "option": {},
+    "answer": "Pareto Analysis",
+    "explanation": "Pareto analysis helps to allocate resources to address the most critical issues by prioritizing resources to focus on the most important problems or opportunities.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2a7b5d666bf2bd3dd"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Management",
+    "topic": "Decision Making",
+    "subtopic": "Rational Decision-Making Model",
+    "difficulty": "Easy",
+    "question": "Q.92) What is the importance of establishing decision criteria?",
+    "option": {},
+    "answer": "Preventing Bias",
+    "explanation": "Establishing decision criteria before searching for alternatives helps prevent the bias of favouring a specific option and setting criteria to match that option.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd22330f00b7d9e1993"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Management",
+    "topic": "Decision Making",
+    "subtopic": "Anchoring Bias",
+    "difficulty": "Medium",
+    "question": "Q.93) What does 'Anchoring' refer to in decision making?",
+    "option": {},
+    "answer": "Reliance on a single piece of information",
+    "explanation": "Anchoring refers to the tendency for individuals to rely too heavily on a single piece of information when making decisions.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd26cf50e34f68229c8"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Management",
+    "topic": "Decision Making",
+    "subtopic": "Confirmation Bias",
+    "difficulty": "Medium",
+    "question": "Q.94) What is the effect of confirmation bias?",
+    "option": {},
+    "answer": "Limiting exposure to diverse viewpoints",
+    "explanation": "Confirmation bias can limit exposure to diverse viewpoints and hinder critical thinking by favouring information that supports pre-existing beliefs.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd282e7531590457972"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Management",
+    "topic": "Decision Making",
+    "subtopic": "Bounded Rationality Model",
+    "difficulty": "Medium",
+    "question": "Q.95) What is a key characteristic of the bounded rationality model?",
+    "option": {},
+    "answer": "Limiting options to a manageable set",
+    "explanation": "According to the bounded rationality model, individuals limit their options to a manageable set, recognizing the limitations of conducting an exhaustive search.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2f9314ed670f815bf"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "General Awareness",
+    "topic": "Government Schemes",
+    "subtopic": "Khadi and Village Industries",
+    "difficulty": "Easy",
+    "question": "Q.126) Which of the following statements is correct regarding Khadi and Village Industries (KVI)?",
+    "option": {
+      "A": "None",
+      "B": "None",
+      "C": "None",
+      "D": "All of the above"
+    },
+    "answer": "D",
+    "explanation": "Khadi and Village Industries (KVI): All loans to units in the KVI sector will be eligible for classification under the sub-target of $7.5\\%$ prescribed for Micro Enterprises under priority sector.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2002a3d278eee3883"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "General Awareness",
+    "topic": "Government Schemes",
+    "subtopic": "Self-Help Group Bank Linkage Programme",
+    "difficulty": "Easy",
+    "question": "Q.127) What is the Self-Help Group Bank Linkage Programme (SHG-BLP)?",
+    "option": {
+      "A": "None",
+      "B": "It was launched in 1992 by NABARD to provide financial services to SHGs through formal banking channels, promoting financial inclusion and empowering rural women.",
+      "C": "None",
+      "D": "None"
+    },
+    "answer": "B",
+    "explanation": "About Self-Help Group Bank Linkage Programme (SHG-BLP): It is an initiative in India that aims to provide financial services to self-help groups (SHGs) through formal banking channels. It was launched in 1992 by the NABARD with the objective of promoting financial inclusion and empowering women in rural areas.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2270605b35430ed93"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "General Awareness",
+    "topic": "Government Schemes",
+    "subtopic": "Forest Conservation Act",
+    "difficulty": "Hard",
+    "question": "Q.128) Which statement regarding the Van (Sanrakshan Evam Samvardhan) Adhiniyam, 1980 is correct?",
+    "option": {
+      "A": "None",
+      "B": "None",
+      "C": "None",
+      "D": "None",
+      "E": "It has broadened the scope by inserting a Preamble, changed its name to reflect its potential, and extended application from notified forest land to revenue forest land and government records, while proposing exemptions to encourage afforestation."
+    },
+    "answer": "E",
+    "explanation": "Key Features of Bill: It has broadened the scope of the Act by inserting a Preamble. It has changed the name of Act to Van (Sanrakshan Evam Samvardhan) Adhiniyam, 1980 to reflect the potential of its provisions. The Act, which was initially applied to notified forest land, was later extended to revenue forest land and lands recorded as forest in government records. The amendments seek to streamline the application of the Act to recorded forest lands, private forest lands, plantations, etc. It has proposed certain exemptions to encourage afforestation and plantation outside forests.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd231f39e852f37e9dd"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "General Awareness",
+    "topic": "Government Schemes",
+    "subtopic": "PM-DAKSH Scheme",
+    "difficulty": "Medium",
+    "question": "Q.129) Who are the beneficiaries of the PM-DAKSH Scheme based on income criteria?",
+    "option": {
+      "A": "None",
+      "B": "None",
+      "C": "Scheduled Castes, OBCs with annual family income below Rs. 3 Lakhs, EBCs with annual family income below Rs. 1 lakh, De-Notified/Nomadic Tribes, Transgender community, and Safai Karamcharis.",
+      "D": "None",
+      "E": "None"
+    },
+    "answer": "C",
+    "explanation": "Beneficiaries of PM-DAKSH Scheme with respective income criteria:\n- Persons belonging to the Scheduled Castes\n- Other Backward Classes having annual family income below Rs. 3 Lakhs\n- Economically Backward Classes having annual family income below Rs. 1 lakh\n- De-Notified, Nomadic, and Semi-Nomadic Tribe\n- Transgender community\n- Safai Karamcharis (including waste pickers) and their dependents",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2f77417a6532667e9"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "General Awareness",
+    "topic": "Government Schemes",
+    "subtopic": "PM-PRANAM",
+    "difficulty": "Medium",
+    "question": "Q.130) What is the objective of PM-PRANAM?",
+    "option": {
+      "A": "None",
+      "B": "To promote use of alternative fertilizers and balanced use of chemical fertilizers in States and UTs.",
+      "C": "None",
+      "D": "None",
+      "E": "None"
+    },
+    "answer": "B",
+    "explanation": "About PM-PRANAM: PRANAM stands for PM Programme for Restoration, Awareness, Nourishment and Amelioration of Mother Earth. Its objective is to incentivise the States and UTs to promote usage of alternative fertilizers and balanced use of chemical fertilizers.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd29354eae092842872"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "General Awareness",
+    "topic": "Government Schemes",
+    "subtopic": "PM-AASHA",
+    "difficulty": "Hard",
+    "question": "Q.131) Regarding the Pradhan Mantri Annadata Aay SanraksHan Abhiyan (PM-AASHA), which statement is correct?",
+    "option": {
+      "A": "None",
+      "B": "None",
+      "C": "None",
+      "D": "None",
+      "E": "It aims to ensure remunerative prices to farmers through components like Price Support Scheme (MSP), Price Deficiency Payment Scheme, and Pilot of Private Procurement and Stockist Scheme."
+    },
+    "answer": "E",
+    "explanation": "About Pradhan Mantri Annadata Aay SanraksHan Abhiyan (PM-AASHA):\\nObjective: To ensure remunerative prices to farmers for their produce and protect them from price fluctuations.\\nNodal Ministry: Ministry of Agriculture and Farmers Welfare.\\nComponents/Sub-Scheme:\n- Price Support Scheme: It aims to provide minimum support price (MSP) to farmers for selected crops.\n- Price Deficiency Payment Scheme: It ensures that farmers receive the MSP for their crops even if the market price falls below the MSP.\n- Pilot of Private Procurement and Stockist Scheme: It allows private companies to procure crops directly from farmers at the MSP.\\nIt also seeks to provide an additional marketing channel to farmers.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd239864f4fe9f58bf0"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "General Awareness",
+    "topic": "Government Schemes",
+    "subtopic": "PMAY-G",
+    "difficulty": "Medium",
+    "question": "Q.132) What is the financial assistance provided under the housing scheme for plain and hilly areas?",
+    "option": {
+      "A": "Plain: Rs. 1,20,000; Hilly: Rs. 1,30,000",
+      "B": "None",
+      "C": "None",
+      "D": "None",
+      "E": "None"
+    },
+    "answer": "A",
+    "explanation": "Objective: To provide a pucca house with basic amenities to all houseless households and households living in kutcha and dilapidated houses in rural areas by 2024.\\nFinancial Assistance:\n- Plain Areas: Rs. 1,20,000 per unit\n- Hilly areas, difficult areas, and IAP districts (Himalayan states, North-Eastern states, and Union Territories of Jammu & Kashmir): Rs. 1,30,000 per unit\\nBeneficiaries are identified using the 'Housing Deprivation Parameters' from the Socio-Economic and Caste Census (SECC) 2011, further verified by the Gram Sabhas.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd217d864c08582d6f1"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "General Awareness",
+    "topic": "Government Schemes",
+    "subtopic": "Credit Guarantee Scheme",
+    "difficulty": "Easy",
+    "question": "Q.133) What is the enhanced limit on ceiling for guarantees under the Credit Guarantee Scheme for Micro and Small Enterprises (CGS)?",
+    "option": {
+      "A": "Rs. 2 crores",
+      "B": "Rs. 5 crores",
+      "C": "None",
+      "D": "None",
+      "E": "None"
+    },
+    "answer": "B",
+    "explanation": "The limit on ceiling for guarantees under the Credit Guarantee Scheme for Micro and Small Enterprises (CGS) has been enhanced from Rs. 2 crores to Rs. 5 crores.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2edb58018b0c7478a"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "General Awareness",
+    "topic": "Government Schemes",
+    "subtopic": "DAY-NRLM",
+    "difficulty": "Medium",
+    "question": "Q.134) Which of the following is NOT a sub-scheme under DAY-NRLM?",
+    "option": {
+      "A": "Aajeevika Gramin Express Yojana",
+      "B": "Mahila Kisan Sashaktikaran Pariyojana",
+      "C": "Start-Up village entrepreneurship program",
+      "D": "National Rural Livelihood projects",
+      "E": "None of the above"
+    },
+    "answer": "D",
+    "explanation": "Sub-Schemes under DAY-NRLM include:\n- Aajeevika Gramin Express Yojana\n- Mahila Kisan Sashaktikaran Pariyojana\n- Start-Up village entrepreneurship program\n- National Rural Livelihood projects",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd202b1d0c35a77f815"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "General Awareness",
+    "topic": "Government Schemes",
+    "subtopic": "Gramodyog Vikas Yojana",
+    "difficulty": "Medium",
+    "question": "Q.135) What is the objective and launch year of Gramodyog Vikas Yojana?",
+    "option": {
+      "A": "None",
+      "B": "None",
+      "C": "None",
+      "D": "None",
+      "E": "To promote and develop village industries through common facilities, technological modernization, and training; launched in 2020."
+    },
+    "answer": "E",
+    "explanation": "About Gramodyog Vikas Yojana:\\nObjective: To promote and develop the village industries through common facilities, technological modernization, training etc.\\nLaunch Year: 2020\\nIt is one of the two components of the Khadi Gramodyog Vikas Yojana which is a Central Sector Scheme (CSS).\\nActivities included:\n- Agro-Based & Food Processing Industry\n- Mineral-Based Industry\n- Wellness & Cosmetics Industry\n- Handmade Paper, Leather & Plastic Industry\n- Rural Engineering & New Technology Industry\n- Service Industry",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd24667fa552917149d"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "General Awareness",
+    "topic": "Government Schemes",
+    "subtopic": "Swachh Bharat Mission",
+    "difficulty": "Easy",
+    "question": "Q.136) When was the Swachh Bharat Mission (SBM) launched and what was its primary goal?",
+    "option": {
+      "A": "2012, to clean rivers",
+      "B": "2015, for waste management",
+      "C": "2014, to achieve an open defecation free (ODF) India in five years.",
+      "D": "None",
+      "E": "None"
+    },
+    "answer": "C",
+    "explanation": "Swachh Bharat Mission (SBM): It was launched in 2014 to achieve an open defecation free (ODF) India in five years. This progressed the country towards SDG 6.2, which aims for adequate and equitable sanitation access for all, especially for women and girls.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2375c3182734ad681"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "General Awareness",
+    "topic": "Government Schemes",
+    "subtopic": "Aspirational Block Program",
+    "difficulty": "Hard",
+    "question": "Q.137) What is the Aspirational Block Program?",
+    "option": {
+      "A": "None",
+      "B": "None",
+      "C": "None",
+      "D": "None",
+      "E": "A program announced in Budget 2022-23 to improve performance of blocks lagging on development parameters, covering 500 blocks across 31 States/UTs initially."
+    },
+    "answer": "E",
+    "explanation": "About Aspirational Block Program:\\nObjective: To improve performance of blocks lagging on various development parameters.\\nBackground: It was announced by Finance Minister Nirmala Sitharaman during her Budget (2022-23) speech. It is on the lines of the Aspirational District Programme that was launched in 2018.\\nCoverage: It will cover 500 blocks across 31 States/UTs initially. Over half of these blocks are in 6 states—Uttar Pradesh (68), Bihar (61), Madhya Pradesh (42), Jharkhand (34), Odisha (29) and West Bengal (29).",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd29847b960c9f63b94"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "General Awareness",
+    "topic": "Economy",
+    "subtopic": "National Income",
+    "difficulty": "Medium",
+    "question": "Q.138) What is India's per capita net national income (at current prices) for 2022-23 according to NSO estimates?",
+    "option": {
+      "A": "Rs. 1,50,000",
+      "B": "Rs. 1,60,000",
+      "C": "Rs. 1,72,000",
+      "D": "Rs. 1,80,000",
+      "E": "None"
+    },
+    "answer": "C",
+    "explanation": "India's per capita net national income (at current prices) for 2022-23 stands at Rs. 1,72,000, according to estimates from the National Statistical Office (NSO).",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd26411459cb13ee47f"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "General Awareness",
+    "topic": "Government Schemes",
+    "subtopic": "PMMY",
+    "difficulty": "Medium",
+    "question": "Q.139) What is the main objective of Pradhan Mantri MUDRA Yojana (PMMY)?",
+    "option": {
+      "A": "None",
+      "B": "None",
+      "C": "None",
+      "D": "None",
+      "E": "To facilitate easy collateral-free micro credit of up to Rs. 10 lakhs to non-corporate, non-farm small and micro entrepreneurs."
+    },
+    "answer": "E",
+    "explanation": "About Pradhan Mantri MUDRA Yojana (PMMY):\\nObjective: To facilitate easy collateral-free micro credit of up to Rs. 10 lakhs to non-corporate, non-farm small and micro entrepreneurs for income generating activities.\\nLaunch Year: 2015\\nLoans are provided by Member Lending Institutions (Banks, NBFCs, MFIs, etc.).",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2d5493f96abb9ae49"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "General Awareness",
+    "topic": "Government Schemes",
+    "subtopic": "PMMSY",
+    "difficulty": "Hard",
+    "question": "Q.140) Which of the following is an objective of PMMSY?",
+    "option": {
+      "A": "None",
+      "B": "None",
+      "C": "None",
+      "D": "None",
+      "E": "Harnessing fisheries potential sustainably, enhancing production, modernizing value chains, doubling fishers' incomes, and enhancing contribution to Agricultural GVA."
+    },
+    "answer": "E",
+    "explanation": "Objectives of PMMSY:\n- Harness the potential of the fisheries sector in a sustainable, responsible, inclusive, and equitable manner.\n- Enhance fish production and productivity through expansion, intensification, diversification, and productive utilization of land and water.\n- Modernize and strengthen the value chain including post-harvest management and quality improvement.\n- Double fishers and fish farmers' incomes and generate meaningful employment.\n- Enhance the contribution of the fisheries sector to Agricultural GVA and exports.\n- Ensure social, physical, and economic security for fishers and fish farmers.\n- Build a robust fisheries management and regulatory framework.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd286b0b54017339bb4"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "General Awareness",
+    "topic": "Government Schemes",
+    "subtopic": "Swacchta Udyami Yojana",
+    "difficulty": "Hard",
+    "question": "Q.141) Under Swacchta Udyami Yojana, what is the interest rate for entrepreneurs and women beneficiaries?",
+    "option": {
+      "A": "4% for all",
+      "B": "3% for women",
+      "C": "4% per annum, with a 1% rebate for women beneficiaries.",
+      "D": "None",
+      "E": "None"
+    },
+    "answer": "C",
+    "explanation": "About Swacchta Udyami Yojana:\\nObjective: To provide concessional loan for viable community toilet projects and sanitation related vehicles.\\nLaunch Year: 2018\\nNodal Ministry: Ministry of Social Justice and Empowerment\\nEntrepreneurs among safai karmacharis and identified manual scavengers can avail loan at a concessional rate of interest @ $4\\%$ per annum. In case of women beneficiaries, there is a rebate of $1\\%$ in the rate of interest charged.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2281efd436eb0e214"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "General Awareness",
+    "topic": "Government Schemes",
+    "subtopic": "SFURTI Scheme",
+    "difficulty": "Medium",
+    "question": "Q.142) What is the objective of the SFURTI Scheme and which industries are covered?",
+    "option": {
+      "A": "To support artisans via clusters, covering Khadi, Village, and Coir industries.",
+      "B": "None",
+      "C": "None",
+      "D": "None",
+      "E": "None"
+    },
+    "answer": "A",
+    "explanation": "About SFURTI Scheme:\\nObjective: To establish traditional artisans and industries into clusters to support them towards competitive for long-term sustainability goals.\\nNodal Ministry: Ministry of MSME\\nImplementing Agency: KVIC\\nTraditional industries under it include: Khadi Industries, Village Industries, and Coir Industries.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd25ca3b9534cad653b"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "General Awareness",
+    "topic": "Government Schemes",
+    "subtopic": "PM-USHA",
+    "difficulty": "Hard",
+    "question": "Q.143) How has the RUSA scheme evolved in 2023?",
+    "option": {
+      "A": "None",
+      "B": "None",
+      "C": "None",
+      "D": "None",
+      "E": "It has been launched as Pradhan Mantri Uchchatar Shiksha Abhiyan (PM-USHA) in 2023, continuing the focus on strategic funding, equity, and digital infrastructure in higher education."
+    },
+    "answer": "E",
+    "explanation": "In the light of the National Education Policy, RUSA (Rashtriya Uchchatar Shiksha Abhiyan) Scheme has been launched as Pradhan Mantri Uchchatar Shiksha Abhiyan (PM-USHA) in 2023. RUSA was launched in 2013 as a Centrally Sponsored Scheme aiming at providing strategic funding to higher education institutions. It focuses on: Equity, Access and inclusion; Quality Teaching & Learning; Accreditation; ICT-based Digital Infrastructure; and Enhancing Employability.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2d964a17b816748be"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "General Awareness",
+    "topic": "Education",
+    "subtopic": "Higher Education Enrolment",
+    "difficulty": "Medium",
+    "question": "Q.144) According to AISHE 2020-21, what is the trend in higher education enrolment?",
+    "option": {
+      "A": "It has decreased to 3 crore.",
+      "B": "It has stayed constant at 4 crore.",
+      "C": "It has increased by 5% from 2019-20.",
+      "D": "It has increased to 4.14 crore, which is a 7.5% increase from 2019-20 (3.85 crores) and a 21% increase from 2014-15.",
+      "E": "None"
+    },
+    "answer": "D",
+    "explanation": "According to AISHE 2020-21, enrolment in higher education has increased to 4.14 crore, crossing the 4-crore mark for the first time; increase of $7.5\\%$ from 2019-20 (3.85 crores) and $21\\%$ from 2014-15.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd256ed1e36effc20c1"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "General Awareness",
+    "topic": "Demographics",
+    "subtopic": "Sex Ratio",
+    "difficulty": "Medium",
+    "question": "Q.145) What are the projections and historical trends for India's sex ratio?",
+    "option": {
+      "A": "It is expected to be 943 by 2036.",
+      "B": "None",
+      "C": "India's sex ratio (females per 1,000 males) is expected to improve to 952 by 2036, up from 943 in 2011. The sex ratio at birth was 907 in 2018-20.",
+      "D": "None",
+      "E": "None"
+    },
+    "answer": "C",
+    "explanation": "India's sex ratio (females per 1,000 males) is expected to improve to 952 by 2036, up significantly from 943 in 2011. The sex ratio at birth went up by three points to 907 in 2018-20 from 904 in 2017-19.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2033b1e8737e770c9"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "General Awareness",
+    "topic": "Government Schemes",
+    "subtopic": "eSARAS Mobile App",
+    "difficulty": "Medium",
+    "question": "Q.146) What is the eSARAS mobile App?",
+    "option": {
+      "A": "A government app for farmers to buy seeds.",
+      "B": "None",
+      "C": "An e-commerce mobile app launched by DAY-NRLM to market authentic handicrafts and hand-looms made by women of Self-help Groups.",
+      "D": "None",
+      "E": "None"
+    },
+    "answer": "C",
+    "explanation": "Deendayal Antyodaya Yojna- National Rural Livelihoods Mission (DAY-NRLM), Ministry of Rural Development launched eSARAS mobile App to market products made by women of Self-help Groups. It is an e-commerce mobile app for marketing of the products made by women of self-help groups. It has been conceptualized for marketing of the best, authentic handicrafts and hand-looms. It will process, package and ship products purchased through the eSARAS Portal and eSARAS mobile App.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd26dbc4f8c3c7a7fd7"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "General Awareness",
+    "topic": "Government Schemes",
+    "subtopic": "Amrit Dharohar Scheme",
+    "difficulty": "Medium",
+    "question": "Q.147) What is the aim of the Amrit Dharohar Scheme announced in the Union Budget 2023-24?",
+    "option": {
+      "A": "None",
+      "B": "None",
+      "C": "None",
+      "D": "None",
+      "E": "To promote conservation values of wetland ecosystems, enhance biodiversity, carbon stock, and eco-tourism over the next three years."
+    },
+    "answer": "E",
+    "explanation": "Amrit Dharohar Scheme was announced in the Union Budget 2023-24. It will promote conservation values of wetland ecosystem. It will be implemented over the next three years. It will encourage optimal use of wetlands, and enhance biodiversity, carbon stock, eco-tourism opportunities and income generation for local communities.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2e21d26884e625086"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "General Awareness",
+    "topic": "Government Schemes",
+    "subtopic": "Lakhpati Didis",
+    "difficulty": "Medium",
+    "question": "Q.148) What is the target for 'Lakhpati Didis' as announced by the Prime Minister?",
+    "option": {
+      "A": "1 Crore",
+      "B": "None",
+      "C": "2 Crore Self-Help Group Didis who earn a sustainable income of at least Rs. 1 Lakh per annum per household.",
+      "D": "None",
+      "E": "None"
+    },
+    "answer": "C",
+    "explanation": "About LAKHPATIDIDIs: Prime Minister Narendra Modi during his Independence Day speech 2023 has announced that Government is working with Women's SHGs with the aim of creating 2 Crore 'Lakhpati Didis' in villages. They are Self-Help Group Didis who earn sustainable income of at least Rs. 1 Lakh per annum per Household.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd248e4ebc0dc02f0ac"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "General Awareness",
+    "topic": "Government Schemes",
+    "subtopic": "PMKSY",
+    "difficulty": "Hard",
+    "question": "Q.149) Which of the following is true regarding the Pradhan Mantri Kisan Sampada Yojana (PMKSY)?",
+    "option": {
+      "A": "It is a state-funded scheme.",
+      "B": "None",
+      "C": "It is a Central Sector Umbrella Scheme launched in 2017 that provides grants-in-aid (35% to 75% of project cost) to modernize food processing units and reduce wastage.",
+      "D": "None",
+      "E": "None"
+    },
+    "answer": "C",
+    "explanation": "About Pradhan Mantri Kisan Sampada Yojana (PMKSY):\\nObjectives: To supplement agriculture, create processing capacities, modernize food processing units, and add value to reduce wastage.\\nIt is a Central Sector Umbrella Scheme. Launch Year: 2017. It provides mostly credit linked financial assistance (capital subsidy) in the form of grants-in-aid to entrepreneurs for setting up of food processing/preservation industries. It provides grants-in-aid ranging from $35\\%$ to $75\\%$ of the eligible project cost subject to a maximum specified limit.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd23c17264f304f57fb"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "General Awareness",
+    "topic": "Government Schemes",
+    "subtopic": "Janani Suraksha Yojana",
+    "difficulty": "Medium",
+    "question": "Q.150) What is the main objective of the Janani Suraksha Yojana?",
+    "option": {
+      "A": "None",
+      "B": "To provide free education to girls.",
+      "C": "To reduce maternal and infant mortality by promoting institutional delivery among pregnant women through cash assistance.",
+      "D": "None",
+      "E": "None"
+    },
+    "answer": "C",
+    "explanation": "About Janani Suraksha Yojana: It is a centrally sponsored scheme which is being implemented with the objective of reducing maternal and infant mortality by promoting institutional delivery among pregnant women. Under it, eligible pregnant women are entitled for cash assistance irrespective of the age of mother and number of children for giving birth in a government or accredited private health facility. It focuses on poor pregnant women with special dispensation for Low Performing States (LPS).",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd22e062aec486e5cbd"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Agriculture and Rural Development",
+    "topic": "Crops",
+    "subtopic": "Millets",
+    "difficulty": "Easy",
+    "question": "Which of the following is NOT a millet?",
+    "option": {
+      "A": "Sorghum",
+      "B": "Bajra",
+      "C": "Ragi",
+      "D": "Corn"
+    },
+    "answer": "D",
+    "explanation": "There are several millets types that you can find. Some of these are mentioned herein below:\\nSorghum Millet (Jowar)\\nProso Millet (Chena/ Bari)\\nPearl Millet (Bajra)\\nFoxtail Millet (Kangni)\\nFinger Millet (Ragi)\\nBrowntop Millet (Korle)\\nBarnyard Millet (Sanwa)\\nLittle Millet (Moraiyo)\\nBuckwheat Millet (Kuttu)\\nAmaranth Millet (Rajgira)\\nKodo Millet\\nSo, corn is not a millet.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2f5c07afc099525dc"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Agriculture and Rural Development",
+    "topic": "Post-Harvest Management",
+    "subtopic": "Fruit Handling",
+    "difficulty": "Easy",
+    "question": "Which of the following processes involves the application of a thin layer of edible wax to the outer surface of the product?",
+    "option": {
+      "A": "Precooling",
+      "B": "Waxing",
+      "C": "Fruit ripening",
+      "D": "Grading"
+    },
+    "answer": "B",
+    "explanation": "Precooling essentially refers to rapid heat transfer from commodity to cooling medium. Forced-air cooling is a preferred method in citrus and prompt precooling inhibits the growth of decay causing microorganisms, restricts enzymatic and respiratory activities, inhibits water loss, and reduces ethylene production.\\nWaxing is the process of applying a thin layer of edible wax to the outer surface of the product.\\nFruit ripening is the set of processes that occur from the later stages of growth and development until the fruit is ready to be consumed.\\nGenerally, the fruits are graded on the basis of size, weight, sp. gravity, colour, variety, etc.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd29d714d1b5fc7aa5a"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Agriculture and Rural Development",
+    "topic": "Agronomy",
+    "subtopic": "Field Management",
+    "difficulty": "Medium",
+    "question": "The process to inspect and clear the field of any rogue plants like noxious weeds, off-type varieties, volunteer crops, etc. is known as:",
+    "option": {
+      "A": "Thinning",
+      "B": "Tillage",
+      "C": "Rouging",
+      "D": "Sowing"
+    },
+    "answer": "C",
+    "explanation": "Rouging is the process to inspect and clear the field of any rogue plants like noxious weeds, off-type varieties, volunteer crops, etc. This not only ensures uniform fields and plots, but it ensures limited liability when it comes to seed law.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd22f27ea3dc3bf265c"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Agriculture and Rural Development",
+    "topic": "Soil Science",
+    "subtopic": "Soil Moisture",
+    "difficulty": "Easy",
+    "question": "What is the physical definition of field capacity ($\\theta_{fc}$)?",
+    "option": {
+      "A": "Bulk water content retained in soil at $-33$ J/kg (or $-0.33$ bar) of hydraulic head or suction pressure",
+      "B": "Amount of water held in soil after excess water has drained away",
+      "C": "Water tightly bound to soil by adhesion",
+      "D": "Point when no water is available to the plant"
+    },
+    "answer": "A",
+    "explanation": "The physical definition of field capacity ($\\theta_{fc}$) is the bulk water content retained in soil at $-33$ J/kg (or $-0.33$ bar) of hydraulic head or suction pressure. When irrigation is applied to the soil, all the soil pores get filled with water.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd28d410d125f95fec6"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Agriculture and Rural Development",
+    "topic": "Seed Technology",
+    "subtopic": "Seed Purity",
+    "difficulty": "Medium",
+    "question": "What is the required genetic purity of Foundation Seed?",
+    "option": {
+      "A": "100 per cent",
+      "B": "99 per cent",
+      "C": "99.5 per cent",
+      "D": "95 per cent"
+    },
+    "answer": "C",
+    "explanation": "The genetic purity of breeder seed crop should be maintained at 100 per cent. The genetic purity of foundation seed should be maintained at 99.5 per cent. Certified seed is the commercial seed which is available to the farmers and its genetic purity should be 99 per cent.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2c57e6e05ef783ff6"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Agriculture and Rural Development",
+    "topic": "Agronomy",
+    "subtopic": "Nursery Management",
+    "difficulty": "Easy",
+    "question": "The transfer of seedlings from the nursery to the main field is known as:",
+    "option": {
+      "A": "Hardening",
+      "B": "Thinning",
+      "C": "Tillage",
+      "D": "Transplantation"
+    },
+    "answer": "D",
+    "explanation": "Hardening is exposing your seedlings to the sun and other forces of nature in small amounts. This allows them to adapt to their surroundings. Thinning is the selective removal of plants from a crop in order to achieve the desired plant density. Tillage is the agricultural preparation of soil by mechanical agitation of various types, such as digging, stirring, and overturning. Sowing is a process of planting seeds into the soil. The transfer of seedlings from the nursery to the main field is known as transplantation.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd270f14c5b499b0bc4"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Agriculture and Rural Development",
+    "topic": "General Awareness",
+    "subtopic": "Agricultural Revolutions",
+    "difficulty": "Easy",
+    "question": "Match the following revolutions with their respective sectors:\n1. Fertilizer\n2. Oilseeds\n3. Milk\n4. Fish",
+    "option": {
+      "A": "1-Grey, 2-Yellow, 3-White, 4-Blue",
+      "B": "1-White, 2-Blue, 3-Grey, 4-Yellow",
+      "C": "1-Black, 2-Yellow, 3-White, 4-Blue",
+      "D": "1-Grey, 2-White, 3-Blue, 4-Yellow"
+    },
+    "answer": "A",
+    "explanation": "Revolutions related to:\\nFertilizers - Grey revolution\\nOilseeds - Yellow revolution\\nMilk - White revolution\\nFish - Blue revolution\\nPetroleum - Black revolution",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2e7cf709a6eccbae4"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Agriculture and Rural Development",
+    "topic": "Plant Physiology",
+    "subtopic": "Seed Dormancy",
+    "difficulty": "Medium",
+    "question": "Which hormone is known to induce and maintain seed dormancy?",
+    "option": {
+      "A": "Gibberellins",
+      "B": "Abscisic acid (ABA)",
+      "C": "Auxin",
+      "D": "Cytokinin"
+    },
+    "answer": "B",
+    "explanation": "Use of abscisic acid (ABA) is the hormone known to induce and maintain seed dormancy. Rest all, leaching of the inhibitors present in the seed, Seed scarification, Seed Stratification, Impaction are used to break seed dormancy.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2b3df43561f1eb48d"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Agriculture and Rural Development",
+    "topic": "Soil Science",
+    "subtopic": "Soil Moisture",
+    "difficulty": "Easy",
+    "question": "Identify the correct definitions:\n1. Capillary water\n2. Field capacity\n3. Hygroscopic water\n4. Permanent wilting point",
+    "option": {
+      "A": "All are correct",
+      "B": "Only 1 and 2 are correct",
+      "C": "Only 3 and 4 are correct",
+      "D": "None are correct"
+    },
+    "answer": "A",
+    "explanation": "Capillary water - The amount of water that is retained in minute interstitial spaces in the form of thin films surrounding the soil particles, is known as capillary water. Field capacity is the amount of soil moisture or water content held in soil after excess water has drained away and the rate of downward movement has materially decreased. Hygroscopic water is tightly bound to soil by adhesion properties, which causes some water only to be consumed by the roots of plants. The permanent wilting point is the point when there is no water available to the plant.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2c8d20078057bb9d1"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Agriculture and Rural Development",
+    "topic": "Food Products",
+    "subtopic": "Dairy and Confectionery",
+    "difficulty": "Hard",
+    "question": "Which of the following are considered dairy products, confectionery, biscuits, and bakery products? \n\n1. Dairy Products. \n2. Confectionery, Biscuits and Bakery Products. \n3. Honey, Jaggery and Sugar Products. \n4. Cocoa and its products, chocolates of all kinds. \n5. Alcoholic and Non-Alcoholic Beverages. \n6. Cereal and Cereal Products. \n7. Groundnuts, Peanuts and Walnuts. \n8. Pickles, Papads and Chutneys. \n9. Guar Gum. \n10. Floriculture and Floriculture Products. \n11. Herbal and Medicinal Plants. \n12. De-oiled rice bran. \n13. Green pepper in brine. \n14. Cashew Nuts and Its Products.",
+    "option": {
+      "A": "Not specified",
+      "B": "Not specified",
+      "C": "Not specified",
+      "D": "Not specified"
+    },
+    "answer": "C",
+    "explanation": "You can answer such technical questions only if you regularly go through Current Affairs as well. Even then, being able to read, remember and recall such facts is a remote possibility. Do not worry. Majority students don’t remember such facts. Yet it is difficult question. You DON’T HAVE TO try to answer what everyone else can also not answer. The game of clearing government exams is not reliant on you answering everything. It’s dependent on you answering ENOUGH NUMBER OF QUESTIONS CORRECTLY.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2001247ff2c6bba6e"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Agriculture and Rural Development",
+    "topic": "Soil Science",
+    "subtopic": "Erosion Control",
+    "difficulty": "Medium",
+    "question": "Regarding soil erosion control measures, consider the following description: The original bench terrace system consists of a series of flat shelf-like areas that convert a steep slope of 20 to 30 percent to a series of level, or nearly level benches. In other words, bench terracing consists of construction of series of platforms along contours cut into hill slope in a step like formation. These platforms are separated at regular intervals by vertical drop or by steep sided and protected by vegetation and sometimes packed by stone retaining walls.",
+    "option": {
+      "A": "Not specified",
+      "B": "Not specified",
+      "C": "Not specified",
+      "D": "Not specified"
+    },
+    "answer": "A",
+    "explanation": "The original bench terrace system consists of a series of flat shelf-like areas that convert a steep slope of 20 to 30 percent to a series of level, or nearly level benches. In other words, bench terracing consists of construction of series of platforms along contours cut into hill slope in a step like formation. These platforms are separated at regular intervals by vertical drop or by steep sided and protected by vegetation and sometimes packed by stone retaining walls. This question requires observation+ knowledge. If you are not versed with the types of erosion control measures at all, you might find this question difficult.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd28702f4081de908e0"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Agriculture and Rural Development",
+    "topic": "Animal Husbandry",
+    "subtopic": "Terminology",
+    "difficulty": "Hard",
+    "question": "Which of the following relates to animal husbandry terms and concepts?",
+    "option": {
+      "A": "Not specified",
+      "B": "Not specified",
+      "C": "Not specified",
+      "D": "Not specified"
+    },
+    "answer": "A",
+    "explanation": "This is a straight question that is again testing your conceptual clarity. This is a simple and technical question that demands your understanding of animal husbandry terms. Understanding deep meaning of animal husbandry concepts and terms makes ARD a HARD NUT to crack.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd28c71263f380d7a0f"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Agriculture and Rural Development",
+    "topic": "Post Harvest Management",
+    "subtopic": "Irrigation",
+    "difficulty": "Easy",
+    "question": "Identify the type of irrigation described: Border irrigation is a type of surface irrigation where the field is divided into strips separated by border ridges running down the gradient of the field. The area between the ridges is flooded during irrigation.",
+    "option": {
+      "A": "Not specified",
+      "B": "Not specified",
+      "C": "Not specified",
+      "D": "Not specified"
+    },
+    "answer": "D",
+    "explanation": "Border irrigation is a type of surface irrigation where the field is divided into strips separated by border ridges running down the gradient of the field. The area between the ridges is flooded during irrigation. Very simple conceptual question. It is from Post harvest management of food grains chapter.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd21f59d7bb5c90eb43"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Agriculture and Rural Development",
+    "topic": "General Awareness",
+    "subtopic": "Sustainable Development",
+    "difficulty": "Medium",
+    "question": "Regarding the Amrit Dharohar scheme, which of the following is true?",
+    "option": {
+      "A": "Not specified",
+      "B": "Not specified",
+      "C": "Not specified",
+      "D": "Not specified"
+    },
+    "answer": "E",
+    "explanation": "The scheme will aim to conserve wetlands by promoting their optimal use. The scheme will increase eco-tourism, and carbon stock, and also will help the local communities in their income generations. The scheme aims to achieve 2030 sustainable development goals (SDGs). These goals were adopted by India along with other UN Members in 2015. The SDG aims to provide peace and prosperity. The Amrit Dharohar scheme will help India achieve the SDG goals.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd28fd03a34196ad1b7"
+    }
+  },
+  {
+    "exam_type": "NABARD Grade A",
+    "department": "NABARD",
+    "subject": "Agriculture and Rural Development",
+    "topic": "Horticulture",
+    "subtopic": "Plant Disorders",
+    "difficulty": "Medium",
+    "question": "Which disorder is characterized by the following: It is a serious disorder, particularly in the cultivar Dasheri. The damage to the fruit gets initiated right at the marble stage with a characteristic yellowing of tissues at the distal end. Gradually, the colour intensifies into brown and finally black. At this stage, further growth and development of the fruit is retarded and a black ring at the tip extends towards the upper part of the fruit. This disorder has generally been detected in orchards located in the vicinity of brick kilns.",
+    "option": {
+      "A": "Not specified",
+      "B": "Not specified",
+      "C": "Not specified",
+      "D": "Not specified"
+    },
+    "answer": "E",
+    "explanation": "Black tip is a serious disorder, particularly in the cultivar Dasheri. The damage to the fruit gets initiated right at the marble stage with a characteristic yellowing of tissues at distal end. Gradually, the colour intensifies into brown and finally black. At this stage, further growth and development of the fruit is retarded and black ring at the tip extends towards the upper part of the fruit. Black tip disorder has generally been detected in orchards located in the vicinity of brick kilns.",
+    "level": "National",
+    "eligibility": "graduate",
+    "year": "2023",
+    "pdf_name": "NABARD-PYP-Answers-Phase-I-Evening-Shift-2023-1.pdf",
+    "_id": {
+      "$oid": "69ec4cd2bd663db6253b5f59"
+    }
+  }
+]

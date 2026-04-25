@@ -43,7 +43,7 @@ from pathlib import Path
 
 from config import Config
 from utils.logger import setup_logger
-from utils.helpers import call_llm
+from utils.helpers import call_llm, LLMTracker
 
 logger = setup_logger(__name__)
 
@@ -53,7 +53,7 @@ pytesseract.pytesseract.tesseract_cmd = Config.TESSERACT_CMD_PATH
 # -- tuneable constants --------------------------------------------------------
 OCR_DPI         = 250      # higher DPI -> better accuracy for old scans
 MAX_TEXT_CHARS  = 12_000   # max chars per LLM call (reduced for context window)
-PAGES_PER_CHUNK = 1        # process 1 page at a time to prevent LLM laziness/truncation
+PAGES_PER_CHUNK = 3        # process 3 pages at a time to speed up extraction
 
 # Keywords that indicate a reading-comprehension / passage-based paper
 _PASSAGE_KEYWORDS = [
@@ -806,8 +806,18 @@ class ExamExtractor:
                 elif qnum is None:
                     merged["questions"].append(q)   # no number - keep all
 
-        # Sort questions by number
-        merged["questions"].sort(key=lambda q: q.get("question_number") or 0)
+        # Sort questions by number safely
+        def safe_int(val):
+            if val is None: return 0
+            if isinstance(val, int): return val
+            try:
+                # Try to extract digits: "Q.12" -> 12
+                nums = re.findall(r'\d+', str(val))
+                return int(nums[0]) if nums else 0
+            except:
+                return 0
+
+        merged["questions"].sort(key=lambda q: safe_int(q.get("question_number")))
         return merged
 
     # ------------------------------------------------------------------
@@ -868,12 +878,13 @@ class ExamExtractor:
                 logger.info(f"Processing {label} ({len(text_block):,} chars)")
 
                 raw     = self._call_llm(mode, text_block, label, passage_mode=True, pdf_name=pdf_name)
-                results = self._parse_response_simple(raw)
-                logger.info(f"  >> {len(results)} question(s) in {label}")
-                all_results.extend(results)
+                chunk   = self._parse_response_passage(raw)
+                if chunk and "questions" in chunk:
+                    LLMTracker.update_questions(len(chunk["questions"]))
+                    all_results.extend(chunk["questions"])
 
                 # Free chunk data after processing
-                del text_block, raw, results
+                del text_block, raw
                 gc.collect()
 
             # Free pages data
@@ -914,12 +925,13 @@ class ExamExtractor:
                 logger.info(f"Processing {label} ({len(text_block):,} chars)")
 
                 raw     = self._call_llm(mode, text_block, label, passage_mode=False, pdf_name=pdf_name)
-                results = self._parse_response_simple(raw)
-                logger.info(f"  >> {len(results)} question(s) in {label}")
-                all_results.extend(results)
+                chunk_qs = self._parse_response_simple(raw)
+                if chunk_qs:
+                    LLMTracker.update_questions(len(chunk_qs))
+                    all_results.extend(chunk_qs)
 
                 # Free chunk data after processing
-                del text_block, raw, results
+                del text_block, raw
                 gc.collect()
 
             # Free pages data

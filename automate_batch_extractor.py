@@ -5,14 +5,17 @@ import time
 import argparse
 import re
 from pathlib import Path
-from utils.logger import setup_logger
 from rag.exam_extractor import ExamExtractor
 from utils.question_store import (
     detect_category, append_questions_to_file, append_passage_exam_to_file, 
     EXAM_CATEGORIES, SLUG_ORDER, DOCS_DIR
 )
 
-# Setup logger
+import subprocess
+from config import Config
+from utils.logger import setup_logger
+from utils.helpers import LLMTracker
+
 logger = setup_logger(__name__)
 
 def extract_year(text: str) -> int:
@@ -103,6 +106,7 @@ def process_folder_structure(root_path: str, mode: str = "extract", fallback_cat
                 "current_pdf": pdf_name,
                 "processed_count": newly_processed,
                 "questions_added": total_q,
+                "llm_stats": LLMTracker.get_report(),
                 "folders": [
                     {
                         "name": get_display_name(f),
@@ -228,6 +232,20 @@ def process_folder_structure(root_path: str, mode: str = "extract", fallback_cat
     logger.info(f"\n✨ DONE! Total new questions in bank: {total_questions}")
     # Final cleanup update for UI
     update_global_status(None, "✅ All tasks completed!", newly_processed, total_questions, flat_folders, processed_files)
+    
+    # Step 5: Trigger the Refining & Validation Agent
+    trigger_validation_agent()
+
+def trigger_validation_agent():
+    """Kick off the refining and validation agent after extraction."""
+    logger.info("🔍 Starting Refining & Validation Agent...")
+    try:
+        agent_script = os.path.join(Config.BASE_DIR, "agent", "refining_agent.py")
+        env = os.environ.copy()
+        env["PYTHONPATH"] = Config.BASE_DIR
+        subprocess.Popen(["python", agent_script], env=env)
+    except Exception as e:
+        logger.error(f"Failed to trigger validation agent: {e}")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Year-by-year batch PDF extractor.")
